@@ -33,7 +33,11 @@
             "slide": {
                 "one": 2,
                 "two": 2,
-                "three": 2
+                "three": 2,
+                "four": 1,
+                "five": 1,
+                "six": 1,
+                "seven": 1
             }
         },
         "fonts": {
@@ -47,6 +51,6 @@
         "style:start": "<style>",
         "style:end": "</style>",
         "cdataStart": "/*<![CDATA[*/",
-		"cdataEnd": "/*]]>*/"
+        "cdataEnd": "/*]]>*/"
     }
 }
