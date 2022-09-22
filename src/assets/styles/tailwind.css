@@ -48,6 +48,27 @@ html {
     animation-duration: calc(var(--animate-duration) * 3);
 }
 
+.animate__animated.animate__delay-005s {
+    animation-delay: 0.05s;
+    animation-delay: calc(var(--animate-delay) * 0.05);
+}
+.animate__animated.animate__delay-010s {
+    animation-delay: 0.1s;
+    animation-delay: calc(var(--animate-delay) * 0.1);
+}
+.animate__animated.animate__delay-015s {
+    animation-delay: 0.15s;
+    animation-delay: calc(var(--animate-delay) * 0.15);
+}
+.animate__animated.animate__delay-020s {
+    animation-delay: 0.2s;
+    animation-delay: calc(var(--animate-delay) * 0.2);
+}
+.animate__animated.animate__delay-025s {
+    animation-delay: 0.25s;
+    animation-delay: calc(var(--animate-delay) * 0.25);
+}
+
 .glide__slide--active .animate__fadeIn {
     animation-name: fadeIn;
 }
@@ -237,9 +258,6 @@ html {
     }
 }
 
-
-
-
 .glide {
     position: relative;
     width: 100%;
@@ -282,6 +300,10 @@ html {
     user-select: none;
     -webkit-touch-callout: none;
     -webkit-tap-highlight-color: transparent;
+}
+.glide__slide.love_story .timeline:last-child div:nth-child(2):before,
+.glide__slide.rundown .timeline:last-child div:nth-child(2):before {
+    display: none;
 }
 .glide__slide a {
     user-select: none;
@@ -370,4 +392,4 @@ html {
     cursor: grabbing;
     cursor: -moz-grabbing;
     cursor: -webkit-grabbing;
-} 
+}

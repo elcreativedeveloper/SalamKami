@@ -29,21 +29,22 @@
     },
     "assets": {
         "theme": {
-            "style": 2,
+            "style": 3,
             "slide": {
                 "cover": 2,
                 "opening": 2,
                 "bride": 2,
                 "date": 1,
                 "maps": 1,
+                "rundown": 1,
                 "loveStory": 1,
                 "gift": 1,
                 "closing": 1
             }
         },
         "fonts": {
-            "primary": "montserrat",
-            "secondary": "great-vibes"
+            "primary": "playfair-display",
+            "secondary": "cookie"
         }
     },
     "config": {
