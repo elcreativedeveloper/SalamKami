@@ -367,7 +367,7 @@ html {
     position: absolute;
     bottom: 0;
     height: 100%;
-    animation: glideWidth 8s ease-in-out;
+    animation: glideWidth 8.5s ease-in-out;
     background-color: var(--colorMain);
     content: '';
     left: 0;

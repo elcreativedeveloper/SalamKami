@@ -20,6 +20,7 @@ module.exports = {
             },
             colors: {
                 colorMain: 'var(--colorMain)',
+                colorText: 'var(--colorText)',
 
 
 
