@@ -1,0 +1,45 @@
+{
+    "name": {
+        "male": "Dwi Agung Cahyadi, S.Kom",
+        "maleInitial": "Agung",
+        "maleDad": "Witriono, S.E",
+        "maleMom": "Tri Yuliati",
+        "female": "Puspa Sari, S.Kom",
+        "femaleInitial": "Puspa",
+        "femaleDad": "Turiman (Alm)",
+        "femaleMom": "Mariyem"
+    },
+    "date": {
+        "contract": "Senin, 26 Septemper 2022",
+        "contractTime": "08:00",
+        "contractLocation": "Pekon Bumi Arum, RT/RW 001/004, Kec. Pringsewu, Kab. Pringsewu, Prov. Lampung",
+        "reception": "Senin, 26 Septemper 2022",
+        "receptionTime": "10:00",
+        "receptionToDate": "2022-09-26",
+        "receptionToDate1": "20220929T0800"
+    },
+    "location": {
+        "contract": "Pekon Bumi Arum, RT/RW 001/004, Kec. Pringsewu, Kab. Pringsewu, Prov. Lampung",
+        "reception": "Di Kediaman Mempelai Wanita.",
+        "maps": "-5.34700076388259, 104.95010598444547"
+    },
+    "gift": {
+        "bankNumber": "1140 0248 10445",
+        "bankAccount": "Bank Mandiri - Dwi Agung Cahyadi"
+    },
+    "assets": {
+        "theme": 2,
+        "fonts": {
+            "primary": "playfair-display",
+            "secondary": "great-vibes"
+        }
+    },
+    "config": {
+        "script:start": "<script>",
+        "script:end": "</script>",
+        "style:start": "<style>",
+        "style:end": "</style>",
+        "cdataStart": "/*<![CDATA[*/",
+		"cdataEnd": "/*]]>*/"
+    }
+}

@@ -1,0 +1,320 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html>
+<html b:css="false" b:defaultwidgetversion="2" b:js="false" b:layoutsVersion="3" b:responsive="true" expr:class='data:blog.languageDirection + " " + data:blog.pageType' expr:dir="data:blog.languageDirection" expr:lang="data:blog.locale">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <meta name="format-detection" content="telephone=no" />
+        @@include('../src/partials/head.html')
+        <!-- prettier-ignore -->
+        {{config.style:start}}@@include('../build/styles/styles.min.css'){{config.style:end}}
+        {{config.script:start}}{{config.cdataStart}}@@include("../build/scripts/defer.js"){{config.cdataEnd}}@@include("../build/scripts/script-head.js"){{config.script:end}}
+    </head>
+    <body class="glide_first font-fontPrimary">
+        <div id="loaders" class="fixed top-0 z-30 flex h-screen w-full items-center justify-center bg-white">
+            <div class="loader mx-auto h-[42px] w-[42px]">
+                <svg class="circular" viewBox="25 25 50 50" width="42" height="42"><circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"></circle></svg>
+            </div>
+        </div>
+
+        @@include('../src/partials/main.html')
+
+        <div>
+            <!-- prettier-ignore -->
+            {{config.style:start}}
+                @@include('../build/styles/{{assets.fonts.primary}}.css')@@include('../build/styles/{{assets.fonts.secondary}}.css')
+
+                :root {
+                    --fontPrimary: '{{assets.fonts.primary}}', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+                    --fontSecondary: '{{assets.fonts.secondary}}', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+                    @@include('../src/assets/styles/images/{{assets.theme}}/colors.txt')
+
+                    --imageBackground: @@include('../src/assets/styles/images/{{assets.theme}}/imageBackground.txt');
+                    --imageOrnamentTop: @@include('../src/assets/styles/images/{{assets.theme}}/imageOrnamentTop.txt');
+                    --imageOrnamentBottom: @@include('../src/assets/styles/images/{{assets.theme}}/imageOrnamentBottom.txt');
+                    --imageOrnamentAltTop: @@include('../src/assets/styles/images/{{assets.theme}}/imageOrnamentAltTop.txt');
+                    --imageOrnamentAltBottom: @@include('../src/assets/styles/images/{{assets.theme}}/imageOrnamentAltBottom.txt');
+                }
+            {{config.style:end}}
+            <div class="glide">
+                <div class="glide__bullets invisible fixed top-0 z-20 flex w-full flex-row items-center justify-center p-3 xl:p-6" data-glide-el="controls[nav]">
+                    <div class="glide__bullet relative mx-1 hidden h-1 w-full cursor-pointer overflow-hidden rounded-lg first:ml-0 last:mr-0" data-glide-dir="=0"></div>
+                    <div class="glide__bullet relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-lg first:ml-0 last:mr-0" data-glide-dir="=1"></div>
+                    <div class="glide__bullet relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-lg first:ml-0 last:mr-0" data-glide-dir="=2"></div>
+                    <div class="glide__bullet relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-lg first:ml-0 last:mr-0" data-glide-dir="=3"></div>
+                    <div class="glide__bullet relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-lg first:ml-0 last:mr-0" data-glide-dir="=4"></div>
+                    <div class="glide__bullet relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-lg first:ml-0 last:mr-0" data-glide-dir="=5"></div>
+                    <div class="glide__bullet relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-lg first:ml-0 last:mr-0" data-glide-dir="=6"></div>
+                </div>
+
+                <div class="glide__track" data-glide-el="track">
+                    <div class="glide__slides">
+                        <div class="glide__slide">
+                            <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
+                                <div class="flex h-full w-full flex-col items-center justify-center p-5">
+                                    <div class="mb-6 flex flex-col items-center justify-center">
+                                        <div class="flex w-full items-center justify-between">
+                                            <div class="animate__animated animate__fadeInLeft animate__slower mr-4 mb-4 flex flex-col items-center justify-center">
+                                                <div class="mb-2 font-fontSecondary text-[36px] text-colorMain">{{name.femaleInitial}}</div>
+                                                <div class="text-sm">{{name.female}}</div>
+                                            </div>
+                                            <div class="animate__animated animate__fadeInDown animate__slower h-20 w-[50px] border-t-[3px] border-r-[3px] border-colorMain"></div>
+                                        </div>
+                                        <div class="flex w-full items-center justify-between">
+                                            <div class="animate__animated animate__fadeInUp animate__slower h-20 w-[50px] border-b-[3px] border-l-[3px] border-colorMain"></div>
+                                            <div class="animate__animated animate__fadeInRight animate__slower mt-4 ml-4 flex flex-col items-center justify-center">
+                                                <div class="mb-2 text-sm">{{name.male}}</div>
+                                                <div class="font-fontSecondary text-[36px] text-colorMain">{{name.maleInitial}}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="animate__animated animate__fadeInUp animate__slower item-center mb-4 flex flex-col items-center justify-center text-sm">
+                                        <span>Kepada Yth,</span>
+                                        <span>Bapak/Ibu/Saudara/Saudari</span>
+                                    </div>
+                                    <!-- Invitee -->
+                                    <div id="text_kepada" class="animate__animated animate__fadeInUp animate__slower mb-4 text-lg font-bold text-colorMain">Tamu Undangan</div>
+                                    <div class="animate__animated animate__fadeInUp animate__slower mb-6 text-sm">di Tempat</div>
+                                    <button id="button_swipe" type="button" class="animate__animated animate__fadeInUp animate__slower rounded-full border-colorMain bg-colorMain py-2 px-4 text-white shadow-sm transition-shadow hover:shadow-lg" aria-label="Buka Undangan">Buka Undangan</button>
+                                </div>
+                            </div>
+
+                            <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
+                                <span class="animate__animated animate__fadeInDown animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltTop bg-contain bg-top bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInUp animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltBottom bg-contain bg-bottom bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 h-full w-1/2 bg-imageOrnamentTop bg-contain bg-left-top bg-no-repeat sm:w-[20%]"></span>
+                                <span class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 h-full w-1/2 bg-imageOrnamentBottom bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]"></span>
+                            </div>
+                        </div>
+
+                        <div class="glide__slide">
+                            <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
+                                <div class="flex h-full w-full flex-col items-center justify-center p-5">
+                                    <div class="animate__animated animate__fadeInDown animate__slower mb-5 flex flex-col items-center justify-center">
+                                        <img class="h-full max-h-[3rem]" src="@@include('../src/assets/styles/images/imageAssalam.txt')" />
+                                    </div>
+                                    <div class="animate__animated animate__fadeInUp animate__slow mb-5 h-[230px] w-full overflow-hidden rounded-xl border-[4px] border-colorMain shadow-md">
+                                        <img class="h-full w-full object-cover" src="@@include('../src/assets/styles/images/imageSlide1.txt')" />
+                                    </div>
+                                    <div class="animate__animated animate__fadeInUp animate__slower text-center">Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/Saudari pada acara resepsi pernikahan kami.</div>
+                                </div>
+                            </div>
+
+                            <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
+                                <span class="animate__animated animate__fadeInDown animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltTop bg-contain bg-top bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInUp animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltBottom bg-contain bg-bottom bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 h-full w-1/2 bg-imageOrnamentTop bg-contain bg-left-top bg-no-repeat sm:w-[20%]"></span>
+                                <span class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 h-full w-1/2 bg-imageOrnamentBottom bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]"></span>
+                            </div>
+                        </div>
+
+                        <div class="glide__slide">
+                            <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
+                                <div class="flex h-full w-full flex-col items-center justify-center p-5">
+                                    <div class="text-center">
+                                        <div class="animate__animated animate__fadeInDown animate__slow mb-2 font-fontSecondary text-3xl text-colorMain">{{name.female}}</div>
+                                        <div class="animate__animated animate__fadeInUp animate__slower flex flex-col items-center justify-center">
+                                            <span>Putri dari Bapak {{name.femaleDad}}</span>
+                                            <span>&amp;</span>
+                                            <span>Ibu {{name.femaleMom}}</span>
+                                        </div>
+                                    </div>
+                                    <div class="my-6 flex gap-3">
+                                        <div class="animate__animated animate__fadeInLeft animate__slower m-auto h-[200px] w-[150px] overflow-hidden rounded-lg shadow-md">
+                                            <img class="h-full w-full object-cover" src="@@include('../src/assets/styles/images/imageMale.txt')" />
+                                        </div>
+                                        <div class="animate__animated animate__fadeInRight animate__slower m-auto h-[200px] w-[150px] overflow-hidden rounded-lg shadow-md">
+                                            <img class="h-full w-full object-cover" src="@@include('../src/assets/styles/images/imageFemale.txt')" />
+                                        </div>
+                                    </div>
+                                    <div class="text-center">
+                                        <div class="animate__animated animate__fadeInUp animate__slow mb-2 font-fontSecondary text-3xl text-colorMain">{{name.male}}</div>
+                                        <div class="animate__animated animate__fadeInUp animate__slower flex flex-col items-center justify-center">
+                                            <span>Putra dari Bapak {{name.maleDad}}</span>
+                                            <span>&amp;</span>
+                                            <span>Ibu {{name.maleMom}}</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
+                                <span class="animate__animated animate__fadeInDown animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltTop bg-contain bg-top bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInUp animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltBottom bg-contain bg-bottom bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 h-full w-1/2 bg-imageOrnamentTop bg-contain bg-left-top bg-no-repeat sm:w-[20%]"></span>
+                                <span class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 h-full w-1/2 bg-imageOrnamentBottom bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]"></span>
+                            </div>
+                        </div>
+
+                        <div class="glide__slide">
+                            <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
+                                <div class="flex h-full w-full flex-col items-center justify-center p-5">
+                                    <div class="flex h-full flex-col items-center justify-center">
+                                        <div class="animate__animated animate__fadeInLeft animate__slower mb-6 text-center">
+                                            <div class="mb-2 font-fontSecondary text-3xl text-colorMain">Akad Nikah</div>
+                                            <div>{{date.contract}} - Pukul {{date.contractTime}} WIB s/d Selesai</div>
+                                            <div>{{location.contract}}</div>
+                                        </div>
+                                        <div class="animate__animated animate__fadeInRight animate__slower mb-8 text-center">
+                                            <div class="mb-2 font-fontSecondary text-3xl text-colorMain">Resepsi</div>
+                                            <div>{{date.reception}} - Pukul {{date.receptionTime}} WIB s/d Selesai</div>
+                                            <div>{{location.reception}}</div>
+                                        </div>
+                                        <div class="animate__animated animate__fadeInUp animate__slower countdown_wrapper flex w-full flex-col" data-datetime="{{date.receptionToDate}}">
+                                            <div class="countdown flex gap-2 text-center">
+                                                <div class="countdown-item day w-full rounded-lg border border-colorMain p-1 text-colorMain">
+                                                    <div class="number text-2xl font-bold">00</div>
+                                                    <div class="text">Hari</div>
+                                                </div>
+                                                <div class="countdown-item hour w-full rounded-lg border border-colorMain p-1 text-colorMain">
+                                                    <div class="number text-2xl font-bold">00</div>
+                                                    <div class="text">Jam</div>
+                                                </div>
+                                                <div class="countdown-item minute w-full rounded-lg border border-colorMain p-1 text-colorMain">
+                                                    <div class="number text-2xl font-bold">00</div>
+                                                    <div class="text">Menit</div>
+                                                </div>
+                                                <div class="countdown-item second w-full rounded-lg border border-colorMain p-1 text-colorMain">
+                                                    <div class="number text-2xl font-bold">00</div>
+                                                    <div class="text">Detik</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;dates={{date.receptionToDate1}}00ID/{{date.receptionToDate1}}00ID&amp;text=Pernikahan {{name.male}} dan {{name.female}}&amp;details=Pernikahan {{name.male}} dan {{name.female}}&amp;location={{location.reception}}&amp;recur=RRULE:FREQ%3DWEEKLY;INTERVAL%3D3" target="_blank" class="animate__animated animate__fadeInUp animate__slower mt-5 rounded-full bg-colorMain py-2 px-4 text-white transition-shadow hover:shadow-lg" rel="nofollow noopener noreferer">Tambahkan Pengingat di Kalender</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
+                                <span class="animate__animated animate__fadeInDown animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltTop bg-contain bg-top bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInUp animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltBottom bg-contain bg-bottom bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 h-full w-1/2 bg-imageOrnamentTop bg-contain bg-left-top bg-no-repeat sm:w-[20%]"></span>
+                                <span class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 h-full w-1/2 bg-imageOrnamentBottom bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]"></span>
+                            </div>
+                        </div>
+
+                        <div class="glide__slide">
+                            <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
+                                <div class="flex h-full w-full flex-col items-center justify-center p-5">
+                                    <div class="flex h-full w-full flex-col items-center justify-center">
+                                        <div class="animate__animated animate__fadeInDown animate__slower mb-6 text-center">
+                                            <div class="mb-2 font-fontSecondary text-3xl text-colorMain">Lokasi Resepsi</div>
+                                        </div>
+                                        <div class="animate__animated animate__fadeInDown animate__slow relative mb-6 w-full overflow-hidden rounded-xl pb-[100%] shadow-lg">
+                                            <iframe width="100%" loading="lazy" height="100%" allowfullscreen="" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCoDckKi8TfOgUzbns6gt5alsAJ-5HfpuE&amp;zoom=17&amp;q={{location.maps}}" class="absolute"></iframe>
+                                        </div>
+                                        <div class="text-center">
+                                            <div class="animate__animated animate__fadeInUp animate__slower mb-6">{{location.reception}}</div>
+                                            <a class="animate__animated animate__fadeInUp animate__slower rounded-full bg-colorMain py-2 px-4 text-white transition-shadow hover:shadow-lg" href="https://www.google.com/maps/place/?q={{location.maps}}" target="_blank" rel="nofollow noopener noreferer">Lihat Petunjuk Ke Lokasi</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
+                                <span class="animate__animated animate__fadeInDown animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltTop bg-contain bg-top bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInUp animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltBottom bg-contain bg-bottom bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 h-full w-1/2 bg-imageOrnamentTop bg-contain bg-left-top bg-no-repeat sm:w-[20%]"></span>
+                                <span class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 h-full w-1/2 bg-imageOrnamentBottom bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]"></span>
+                            </div>
+                        </div>
+
+                        <div class="glide__slide">
+                            <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
+                                <div class="flex h-full w-full flex-col items-center justify-center p-5">
+                                    <div class="flex h-full flex-col items-center justify-center">
+                                        <div class="animate__animated animate__fadeInDown animate__slower mb-4 font-fontSecondary text-3xl text-colorMain">Kirim Hadiah</div>
+                                        <div class="animate__animated animate__fadeInDown animate__slow mb-6 text-center">Do'a Restu Anda merupakan karunia yang sangat berarti bagi kami. Namun jika Anda ingin memberi hadiah kami menyediakan fitur berikut:</div>
+                                        <div class="flex flex-row items-center justify-between gap-2">
+                                            <button id="button_hadiah" type="button" class="animate__animated animate__fadeInLeft animate__slower mx-auto rounded-full bg-colorMain py-2 px-4 text-white transition-shadow hover:shadow-lg">Kirim Hadiah</button>
+                                            <button id="button_kado" type="button" class="animate__animated animate__fadeInRight animate__slower mx-auto rounded-full bg-colorMain py-2 px-4 text-white transition-shadow hover:shadow-lg">Kirim Kado</button>
+                                        </div>
+                                        <div class="container_hadiah animate__animated animate__fadeIn mt-6 hidden w-full rounded border border-colorMain p-4">
+                                            <div class="mb-2 text-center">
+                                                <div><em>Anda dapat mengirim hadiah ke:</em></div>
+                                                <div class="font-mono text-lg font-bold">{{gift.bankNumber}}</div>
+                                                <div>{{gift.bankAccount}}</div>
+                                            </div>
+                                        </div>
+                                        <div class="container_kado animate__animated animate__fadeIn animate__slow mt-6 hidden w-full rounded border border-colorMain p-4">
+                                            <div class="mb-2 text-center">
+                                                <div><em>Anda dapat mengirim kado ke:</em></div>
+                                                <div class="font-bold">{{location.reception}}</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
+                                <span class="animate__animated animate__fadeInDown animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltTop bg-contain bg-top bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInUp animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltBottom bg-contain bg-bottom bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 h-full w-1/2 bg-imageOrnamentTop bg-contain bg-left-top bg-no-repeat sm:w-[20%]"></span>
+                                <span class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 h-full w-1/2 bg-imageOrnamentBottom bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]"></span>
+                            </div>
+                        </div>
+
+                        <div class="glide__slide">
+                            <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
+                                <div class="flex h-full w-full flex-col items-center justify-center p-5">
+                                    <div class="flex h-full flex-col items-center justify-center">
+                                        <div class="animate__animated animate__fadeInDown animate__slower mb-4 font-fontSecondary text-3xl text-colorMain">Terimakasih</div>
+                                        <div class="animate__animated animate__fadeInDown animate__slower mb-3 text-center">Merupakan suatu kebahagiaan dan kehormatan apabila Bapak/Ibu/Saudara/Saudari berkenan hadir dan memberikan do'a restu kepada kami.</div>
+                                        <div class="animate__animated animate__fadeInDown animate__slow"><em>Hormat Kami Yang Mengundang:</em></div>
+
+                                        <div class="animate__animated animate__fadeInUp animate__slower mt-3 flex flex-col items-center justify-center font-fontSecondary text-3xl text-colorMain">
+                                            <span>{{name.female}}</span>
+                                            <span>&amp;</span>
+                                            <span>{{name.male}}</span>
+                                        </div>
+
+                                        <div class="animate__animated animate__fadeInUp animate__slower mt-6 flex flex-col items-center justify-center">
+                                            <img class="h-full max-h-[3rem]" src="@@include('../src/assets/styles/images/imageAssalamEnd.txt')" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
+                                <span class="animate__animated animate__fadeInDown animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltTop bg-contain bg-top bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInUp animate__slow absolute bottom-0 left-0 h-full w-full bg-imageOrnamentAltBottom bg-contain bg-bottom bg-no-repeat sm:invisible"></span>
+                                <span class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 h-full w-1/2 bg-imageOrnamentTop bg-contain bg-left-top bg-no-repeat sm:w-[20%]"></span>
+                                <span class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 h-full w-1/2 bg-imageOrnamentBottom bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="fab" class="fab fixed right-6 bottom-6 z-20 flex flex-col items-center justify-center gap-2">
+                    <button id="button_toggle_fullscreen" class="box-content flex items-center justify-center rounded-full bg-colorMain p-2 text-white shadow-md" aria-label="Keluar dari Layar Penuh">
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="fullscreen_on h-6 w-6 fill-current"><path d="M14,14H19V16H16V19H14V14M5,14H10V19H8V16H5V14M8,5H10V10H5V8H8V5M19,8V10H14V5H16V8H19Z" /></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="fullscreen_off hidden h-6 w-6 fill-current"><path d="M5,5H10V7H7V10H5V5M14,5H19V10H17V7H14V5M17,14H19V19H14V17H17V14M10,17V19H5V14H7V17H10Z" /></svg>
+                    </button>
+
+                    <button id="button_toggle_audio" class="box-content flex items-center justify-center rounded-full bg-colorMain p-2 text-white shadow-md" aria-label="Audio">
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="audio_on h-6 w-6 fill-current"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="audio_off hidden h-6 w-6 fill-current"><path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" /></svg>
+                    </button>
+
+                    <div class="flex flex-col items-center justify-center rounded-full bg-colorMain text-white shadow-md" data-glide-el="controls">
+                        <button class="box-content flex items-center justify-center p-2" aria-label="Halaman Selanjutnya" data-glide-dir=">">
+                            <svg width="24" height="24" viewBox="0 0 24 24" class="h-6 w-6 fill-current"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+                        </button>
+                        <button class="box-content flex items-center justify-center p-2" aria-label="Halaman Sebelumnya" data-glide-dir="<">
+                            <svg width="24" height="24" viewBox="0 0 24 24" class="h-6 w-6 fill-current"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" /></svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="animate_kenburns fixed top-0 -z-10 h-full w-full bg-imageBackground bg-cover bg-center bg-no-repeat"></div>
+            <audio id="music" loop="true" autoplay="true">
+                <source src="https://cdn.jsdelivr.net/gh/elhakimyasya/x2mju/audio.mp3" />
+            </audio>
+        </div>
+        <div id="app" class="app"></div>
+        {{config.script:start}}{{config.cdataStart}}@@include("../build/scripts/script.js"){{config.cdataEnd}}{{config.script:end}}
+    </body>
+</html>

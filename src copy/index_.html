@@ -1,0 +1,652 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<html b:css="false" b:defaultwidgetversion="2" b:js="false" b:layoutsVersion="3" b:responsive="true" b:templateVersion="1.0.0" expr:class='data:blog.languageDirection + " " + data:blog.pageType' expr:dir="data:blog.languageDirection" expr:lang="data:blog.locale">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <meta name="format-detection" content="telephone=no" />
+        <b:with value="data:blog.pageName" var="blogTitle">
+            <title>Undangan <data:blogTitle /></title>
+            <meta name="title" expr:content='"Undangan Pernikahan " + data:blogTitle' />
+            <meta name="description" content='"Tanpa Mengurangi Rasa Hormat. Kami Bermaksud Mengundang Bapak/Ibu/Saudara/i, Pada Acara " + data:blogTitle' />
+
+            <meta property="og:title" expr:content='"Undangan " + data:blogTitle' />
+            <meta property="og:description" content='"Tanpa Mengurangi Rasa Hormat. Kami Bermaksud Mengundang Bapak/Ibu/Saudara/i, Pada Acara " + data:blogTitle' />
+        </b:with>
+
+        <meta property="og:type" content="website" />
+        <meta property="og:url" expr:content="data:post.url" />
+        <meta property="og:image" content="" />
+
+        <meta name="robots" content="noindex, nofollow" />
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&amp;display=swap');
+
+            :root {
+                --fontPrimary: 'Great Vibes', cursive;
+                --fontSecondary: 'Playfair Display', cursive;
+                --mainBackground: #f8fafc;
+                --mainPrimary: #977279;
+                --mainSecondary: #f3efe4;
+                --mainBorder: #d7beb7;
+            }
+        </style>
+        <b:skin>@@include("../build/styles/animate.min.css")@@include("../build/styles/splide.min.css")@@include("../build/styles/styles.min.css")</b:skin>
+    </head>
+
+    <body>
+        <main id="app">
+            <div id="modalOverlay" class="modal-backdrop fade"></div>
+            <div id="loader" class="fixed top-0 left-0 right-0 bottom-0 z-50 flex h-full w-full items-center justify-center bg-mainBackground text-center">
+                <span class="relative inline-block h-8 w-8 animate-[loader_2s_infinite_ease] border-[4px] border-mainPrimary"><span class="loader-inner inline-block w-full animate-[loader-inner_2s_infinite_ease-in] bg-mainPrimary align-top"></span></span>
+            </div>
+            <!-- music -->
+            <audio id="music" loop="true" autoplay="true">
+                <source src="https://satumomen.com/musics/a-thousand-years-christina-perri.mp3" />
+            </audio>
+            <!-- end music -->
+            <!-- invitation -->
+            <div id="elcreativeDev" class="splide not-open fixed top-0 bottom-0 left-0 right-0 h-full font-fontSecondary" data-guest="Nama Tamu" data-group="Nama Grup">
+                <div class="splide__track invitation__track">
+                    <ul class="splide__list invitation__list">
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="flex h-full items-center justify-center">
+                                    <div class="w-full">
+                                        <div>
+                                            <div class="mb-12 text-center">
+                                                <!-- Initial and Name -->
+                                                <div class="flex items-center justify-center">
+                                                    <div class="animate__animated animate__fadeInLeft animate__slower mr-4 mb-4 flex flex-col items-center justify-center">
+                                                        <div class="editable mb-2 font-fontPrimary text-[36px] text-mainPrimary">{{name.femaleInitial}}</div>
+                                                        <div class="editabletext-sm">{{name.female}}</div>
+                                                    </div>
+                                                    <div class="animate__animated animate__fadeInDown animate__slower h-20 w-[50px] border-t-[3px] border-r-[3px] border-[#c1b289]"></div>
+                                                </div>
+                                                <div class="flex items-center justify-center"></div>
+                                                <div class="flex items-center justify-center">
+                                                    <div class="animate__animated animate__fadeInUp animate__slower h-20 w-[50px] border-b-[3px] border-l-[3px] border-[#c1b289]"></div>
+                                                    <div class="animate__animated animate__fadeInRight animate__slower mt-4 ml-4 flex flex-col items-center justify-center">
+                                                        <div class="editable mb-2 text-sm">{{name.male}}</div>
+                                                        <div class="editable font-fontPrimary text-[36px] text-mainPrimary">{{name.maleInitial}}</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <div class="editable animate__animated animate__fadeInUp animate__slower item-center mb-4 flex flex-col justify-center text-sm">
+                                                    <span>Kepada Yth,</span>
+                                                    <span>Bapak/Ibu/Saudara/i</span>
+                                                </div>
+                                                <!-- Invitee -->
+                                                <div id="guestNameSlot" class="editable animate__animated animate__fadeInUp animate__slower mb-4 text-lg font-bold text-mainPrimary">Tamu Undangan</div>
+                                                <div class="editable animate__animated animate__fadeInUp animate__slower mb-6 text-sm">di Tempat</div>
+                                                <button type="button" class="btn-open-invitation animate__animated animate__fadeInUp animate__slow rounded-full border-mainPrimary bg-mainPrimary py-2 px-4 text-white">Buka Undangan</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="flex h-full items-center justify-center">
+                                    <div class="w-full">
+                                        <!-- Image -->
+                                        <div class="image-editable animate__animated animate__fadeInDown animate__slower m-auto mb-5 h-[230px] w-full overflow-hidden rounded-xl border-[4px] border-mainBorder">
+                                            <img class="h-full w-full object-cover" src="https://images.unsplash.com/photo-1520854221256-17451cc331bf" />
+                                        </div>
+                                        <div class="animate__animated animate__fadeInUp animate__slower text-center">
+                                            <div class="editable mb-4 flex flex-col items-center justify-center italic">
+                                                <span>Bismillahirrohmanirrohim</span>
+                                                <span>Assalamu'alaikum Warahmatullahi Wabarakatuh</span>
+                                            </div>
+                                            <div class="editable quotes">Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/i pada acara resepsi pernikahan anak kami.</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="flex h-full items-center justify-center">
+                                    <div>
+                                        <div class="animate__animated animate__fadeInDown animate__slower text-center">
+                                            <div class="editable mb-2 font-fontPrimary text-3xl text-mainPrimary">{{name.female}}</div>
+                                            <div class="editable flex flex-col items-center justify-center">
+                                                <span>Putri dari Bapak {{name.femaleDad}}</span>
+                                                <span>&amp;</span>
+                                                <span>Ibu {{name.femaleMom}}</span>
+                                            </div>
+                                        </div>
+                                        <div class="my-6 flex gap-3">
+                                            <div class="image-editable animate__animated animate__fadeInLeft animate__slower m-auto h-[200px] w-[150px] overflow-hidden rounded-lg">
+                                                <img class="h-full w-full object-cover" src="https://weddingmarket.com/storage/images/artikelidea/719c38dc6bdcd6ca471d19c1b1ee1223edcdf245.webp" />
+                                            </div>
+                                            <div class="image-editable animate__animated animate__fadeInRight animate__slower m-auto h-[200px] w-[150px] overflow-hidden rounded-lg">
+                                                <img class="h-full w-full object-cover" src="https://the-wedding.ru/upload/photo/CompanyPhoto/2661/nevesta_010.jpg" />
+                                            </div>
+                                        </div>
+                                        <div class="animate__animated animate__fadeInUp animate__slower text-center">
+                                            <div class="editable mb-2 font-fontPrimary text-3xl text-mainPrimary">{{name.male}}</div>
+                                            <div class="editable flex flex-col items-center justify-center">
+                                                <span>Putra dari {{name.maleDad}}</span>
+                                                <span>&amp;</span>
+                                                <span>Ibu {{name.maleMom}}</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="flex h-full flex-col items-center justify-center">
+                                    <div class="animate__animated animate__fadeInLeft animate__slower mb-6 text-center">
+                                        <div class="editable mb-2 font-fontPrimary text-3xl text-mainPrimary">Akad Nikah</div>
+                                        <div class="editable">{{date.contract}} - Pukul {{date.contractTime}}</div>
+                                        <div class="editable">{{location.contract}}</div>
+                                    </div>
+                                    <div class="animate__animated animate__fadeInRight animate__slower mb-8 text-center">
+                                        <div class="editable mb-2 font-fontPrimary text-3xl text-mainPrimary">Resepsi</div>
+                                        <div class="editable">{{date.reception}} - Pukul {{date.receptionTime}}</div>
+                                        <div class="editable">{{location.reception}}</div>
+                                    </div>
+                                    <div class="countdown-wrapper flex w-full flex-col" data-datetime="{{date.receptionToDate}}">
+                                        <div class="countdown flex gap-2 text-center">
+                                            <div class="animate__animated animate__fadeInUp animate__slower countdown-item day w-full rounded-lg bg-mainPrimary p-1 text-mainBackground">
+                                                <div class="number text-xl font-bold">00</div>
+                                                <div class="text editable">Hari</div>
+                                            </div>
+                                            <div class="animate__animated animate__fadeInUp animate__slower countdown-item hour w-full rounded-lg bg-mainPrimary p-1 text-mainBackground duration-100">
+                                                <div class="number text-xl font-bold">00</div>
+                                                <div class="text editable">Jam</div>
+                                            </div>
+                                            <div class="animate__animated animate__fadeInUp animate__slower countdown-item minute w-full rounded-lg bg-mainPrimary p-1 text-mainBackground duration-200">
+                                                <div class="number text-xl font-bold">00</div>
+                                                <div class="text editable">Menit</div>
+                                            </div>
+                                            <div class="animate__animated animate__fadeInUp animate__slower countdown-item second w-full rounded-lg bg-mainPrimary p-1 text-mainBackground duration-300">
+                                                <div class="number text-xl font-bold">00</div>
+                                                <div class="text editable">Detik</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <a href="https://calendar.google.com/calendar/u/0/r/eventedit?text=Pernikahan {{name.male}} dan {{name.female}}&amp;dates={{date.receptionToDate1}}%2F={{date.receptionToDate1}}&amp;details=Pernikahan {{name.male}} dan {{name.female}}&amp;location={{location.reception}}" target="_blank" class="btn-reminder animate__animated animate__fadeInUp animate__slower my-5 rounded-full border-mainPrimary bg-mainPrimary py-2 px-4 text-white" rel="nofollow noopener noreferer">Tambahkan Pengingat di Kalender</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="flex h-full items-center justify-center">
+                                    <div class="w-full">
+                                        <div>
+                                            <div class="animate__animated animate__fadeInDown animate__slow relative m-auto mb-6 w-full overflow-hidden rounded-xl pb-[100%]">
+                                                <iframe width="100%" loading="lazy" height="100%" allowfullscreen="" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCpV55KNPo55TuxnDFd_dR3MD0luBrN1Gc&amp;zoom=17&amp;q={{location.maps}}" class="maps-embed absolute"></iframe>
+                                            </div>
+                                            <div class="animate__animated animate__fadeInUp animate__slow text-center">
+                                                <div class="editable mb-5">{{location.reception}}</div>
+                                                <a href="https://www.google.com/maps/place/?q={{location.maps}}" class="btn-maps-link animate__animated animate__fadeInUp animate__slower my-5 rounded-full border-mainPrimary bg-mainPrimary py-2 px-4 text-white" target="_blank">Lihat Petunjuk Ke Lokasi</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="flex h-full items-center justify-center">
+                                    <div class="w-full">
+                                        <div class="animate__animated animate__fadeInDown animate__slower mb-6 text-center">
+                                            <div class="editable mb-4 font-fontPrimary text-3xl text-mainPrimary">Galeri Foto Mempelai</div>
+                                        </div>
+                                        <div class="image-editable flex flex-wrap">
+                                            <div class="animate__animated animate__zoomIn animate__slower w-[50%] overflow-hidden p-1">
+                                                <div class="light h-[200px] w-full overflow-hidden">
+                                                    <img src="https://images.unsplash.com/photo-1507829770566-e67a7bc03394" class="lightbox h-full w-full cursor-pointer object-cover" />
+                                                </div>
+                                            </div>
+                                            <div class="animate__animated animate__zoomIn animate__slower w-[50%] overflow-hidden p-1">
+                                                <div class="h-[200px] w-full overflow-hidden">
+                                                    <img src="https://images.unsplash.com/photo-1560252085-1924fff5fc27" class="lightbox h-full w-full cursor-pointer object-cover" />
+                                                </div>
+                                            </div>
+                                            <div class="animate__animated animate__zoomIn animate__slower w-full overflow-hidden p-1">
+                                                <div class="h-[150px] w-full overflow-hidden">
+                                                    <img src="https://images.unsplash.com/photo-1554390174-68e88a1ea1af" class="lightbox h-full w-full cursor-pointer object-cover" />
+                                                </div>
+                                            </div>
+                                            <div class="animate__animated animate__zoomIn animate__slower w-[33.333%] overflow-hidden p-1">
+                                                <div class="h-[100px] w-full overflow-hidden">
+                                                    <img src="https://images.unsplash.com/photo-1636725518015-9450c7b61055MnwxMjA3fDB8MHxzZWFyY2h8NHx8cHJld2VkZGluZ3xlbnwwfHwwfHw" class="lightbox h-full w-full cursor-pointer object-cover" />
+                                                </div>
+                                            </div>
+                                            <div class="animate__animated animate__zoomIn animate__slower w-[33.333%] overflow-hidden p-1">
+                                                <div class="h-[100px] w-full overflow-hidden">
+                                                    <img src="https://images.unsplash.com/photo-1525584681959-6689239c35bbMnwxMjA3fDB8MHxzZWFyY2h8NXx8cHJld2VkZGluZ3xlbnwwfHwwfHw" class="lightbox h-full w-full cursor-pointer object-cover" />
+                                                </div>
+                                            </div>
+                                            <div class="animate__animated animate__zoomIn animate__slower w-[33.333%] overflow-hidden p-1">
+                                                <div class="h-[100px] w-full overflow-hidden">
+                                                    <img src="https://images.unsplash.com/photo-1535453841265-4f28152b6441" class="lightbox h-full w-full cursor-pointer object-cover" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="flex h-full items-center justify-center">
+                                    <div class="w-full text-center">
+                                        <div class="editable animate__animated animate__fadeInDown animate__slower mb-4 font-fontPrimary text-3xl text-mainPrimary">Kirim Hadiah</div>
+                                        <div class="editable animate__animated animate__fadeInDown animate__slower mb-6">Do'a Restu Anda merupakan karunia yang sangat berarti bagi kami. Namun jika Anda ingin memberi hadiah kami menyediakan fitur berikut:</div>
+                                        <div class="flex flex-row items-center justify-between">
+                                            <button type="button" class="btn-gift btn animate__animated animate__fadeInLeft animate__slower mx-auto rounded-full border-mainPrimary bg-mainPrimary py-2 px-4 text-white">🎁 Kirim Hadiah</button>
+                                            <button type="button" class="btn-gift animate__animated animate__fadeInRight animate__slower mx-auto rounded-full border-mainPrimary bg-mainPrimary py-2 px-4 text-white">🎁 Kirim Kado</button>
+                                        </div>
+                                        <div class="gift-container animate__animated animate__zoomIn animate__slow mt-3 rounded p-4">
+                                            <div class="image-editable m-auto mb-5 h-[150px] w-[150px] overflow-hidden rounded-lg">
+                                                <img class="lightbox mb-4 h-full w-full cursor-pointer object-cover" src="https://satumomen.com/images/galleries/9100-gallery-1653115727.jpg" />
+                                            </div>
+                                            <div class="mb-2 text-center">
+                                                <div class="editable font-bold">12345678</div>
+                                                <div class="editable">Nama Bank - Atas Nama Rekening</div>
+                                            </div>
+                                            <div class="text-center">
+                                                <div class="editable font-bold">12345678</div>
+                                                <div class="editable">Nama Bank - Atas Nama Rekening</div>
+                                            </div>
+                                        </div>
+                                        <div class="gift-container animate__animated animate__zoomIn animate__slow mt-3 rounded p-4">
+                                            <div class="mb-2 text-center">
+                                                <div class="editable mb-2 font-bold text-mainPrimary">Kirim Kado</div>
+                                                <div class="editable mb-0 flex flex-col items-center justify-start">
+                                                    <span>Anda dapat mengirim kado ke:</span>
+                                                    <span>{{location.reception}}</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="flex items-center justify-center" style="height: 100%; width: 100%">
+                                    <div>
+                                        <div class="text-center">
+                                            <div class="editable animate__animated animate__fadeInDown animate__slow mb-2 font-fontPrimary text-3xl text-mainPrimary">Protokol Kesehatan</div>
+                                            <div class="editable animate__animated animate__fadeInUp animate__slower mb-4">Mengingat kondisi pandemi saat ini, kami menghimbau Bapak/Ibu/Saudara/i tamu undangan agar tetap memperhatikan protokol kesehatan dalam rangka upaya pencegahan penyebaran Covid-19.</div>
+                                        </div>
+                                        <div class="flex justify-center text-center">
+                                            <div style="width: 50%" class="animate__animated animate__fadeInLeft animate__slow delay-4 flex flex-col items-center justify-center p-4">
+                                                <div class="mb-2 text-mainPrimary">
+                                                    <svg width="80" height="80" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M12.5 30v1.25a8.75 8.75 0 0 0 0 17.5V50a27.504 27.504 0 0 0 54.502 5.237l-2.455-.474a24.9 24.9 0 0 1-3.297 8.405V48.982l3.75-9.75V47.5s-.038 4.096-.112 4.883l2.489.234c.082-.863.123-3.867.123-3.867a8.75 8.75 0 0 0 0-17.5V22.5a20.023 20.023 0 0 0-20-20H10a1.25 1.25 0 0 0-1.25 1.25v5h2.5V5H47.5A17.52 17.52 0 0 1 65 22.5v6.357l-6.513-8.375A1.249 1.249 0 0 0 57.5 20h-35a11.28 11.28 0 0 1-11.025-8.999l-2.45.498a13.678 13.678 0 0 0 4.051 7.249A12.476 12.476 0 0 0 12.5 22.5V30Zm0 16.25a6.25 6.25 0 0 1 0-12.5v12.5Zm55-12.5a6.25 6.25 0 0 1 0 12.5v-12.5ZM40 75a24.843 24.843 0 0 1-10.915-2.5h21.83A24.842 24.842 0 0 1 40 75Zm18.75-8.469A25.078 25.078 0 0 1 54.997 70H25.003a25.073 25.073 0 0 1-3.753-3.469V65h37.5v1.531Zm0-11.531h-25v2.5h25v5h-37.5v-5h10V55h-10v-5h37.5v5ZM25.518 22.5h31.37l7.942 10.21L59.14 47.5H37.775l.95-4.755-2.45-.49-1.05 5.245H20.86l-5.65-14.69L25.517 22.5ZM15 22.5c0-.704.075-1.406.222-2.095a13.708 13.708 0 0 0 6.771 2.084L15 29.482V22.5Zm0 16.732 3.75 9.75V63.17A25.017 25.017 0 0 1 15 50V39.232Zm4.357-7.804a13.373 13.373 0 0 1 13.786 0l-1.286 2.144a10.878 10.878 0 0 0-11.214 0l-1.286-2.144Zm28.786 2.144-1.286-2.144a13.373 13.373 0 0 1 13.786 0l-1.286 2.144a10.878 10.878 0 0 0-11.214 0ZM26.25 36.25a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5Zm0 5a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5Zm27.5-5a3.75 3.75 0 1 0 0 7.5 3.75 3.75 0 0 0 0-7.5Zm0 5a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5Z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="editable">Memakai Masker</div>
+                                            </div>
+                                            <div style="width: 50%" class="animate__animated animate__fadeInRight animate__slow delay-4 flex flex-col items-center justify-center p-4">
+                                                <div class="mb2 text-mainPrimary">
+                                                    <svg width="80" height="80" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M73.272 25h3.271v2.5H72.84c-.28 0-.552-.096-.771-.273l-.7-.566a51.79 51.79 0 0 0-11.6-7.102l-10.857-4.36-.039-.015a2.123 2.123 0 0 0-1.538-.071c-.504.17-.928.523-1.19.99a2.197 2.197 0 0 0-.229 1.542c.115.525.418.989.85 1.3l9.465 6.259a1.24 1.24 0 0 1 .534.799 16.127 16.127 0 0 0 2.61 5.667c2.589 3.512 6.247 5.055 10.872 4.587l.246 2.487c-.63.064-1.235.095-1.817.094-5.854 0-9.371-3.051-11.337-5.752a18.798 18.798 0 0 1-2.735-5.586H33.796V25h17.611l-6.01-3.974a4.65 4.65 0 0 1-1.299-1.372 4.71 4.71 0 0 1-.566-3.603 4.7 4.7 0 0 1 .788-1.681 4.611 4.611 0 0 1 2.505-1.713 4.56 4.56 0 0 1 3.016.226l10.858 4.36.04.016a54.243 54.243 0 0 1 12.173 7.449l.36.292Zm-45.88-7.5 5.197 25.255 2.417-.51-5.378-26.132a13.85 13.85 0 0 0-4.029-9.63 13.51 13.51 0 0 0-9.55-3.983H2.47V5h13.58a11.05 11.05 0 0 1 7.405 2.869A11.314 11.314 0 0 1 27.093 15h-7.496a5.014 5.014 0 0 0-1.76-2.701 4.908 4.908 0 0 0-3.022-1.049H2.469v2.5h12.346c.637.001 1.25.251 1.709.699.459.447.73 1.057.755 1.702l-6.144 31.104 2.421.49L19.531 17.5h7.861Zm35.643 27.208a54.273 54.273 0 0 0-12.172-7.448l-.028-.012L45.411 35h2.737v-2.5H36.163V35h1.042a4.699 4.699 0 0 0-1.013 1.955 4.73 4.73 0 0 0 .556 3.592c.324.53.751.99 1.254 1.351L42.022 45H19.753c-.94 0-1.861.271-2.654.783a4.978 4.978 0 0 0-1.823 2.105 5.053 5.053 0 0 0 .699 5.328 4.983 4.983 0 0 0-2.043 2.433 5.058 5.058 0 0 0-.172 3.188 5.002 5.002 0 0 0 1.77 2.643c.86.662 1.909 1.02 2.989 1.02h19.753V60H18.519a2.454 2.454 0 0 1-1.746-.732 2.516 2.516 0 0 1-.724-1.768c0-.663.26-1.299.724-1.768A2.454 2.454 0 0 1 18.519 55h19.753v-2.5H19.753a2.454 2.454 0 0 1-1.746-.732A2.516 2.516 0 0 1 17.284 50c0-.663.26-1.299.723-1.768a2.454 2.454 0 0 1 1.746-.732H45.68c.258 0 .51-.082.72-.234a1.264 1.264 0 0 0 .028-2.01l-6.947-5.36a2.175 2.175 0 0 1-.9-1.327 2.198 2.198 0 0 1 .222-1.547c.26-.47.684-.824 1.188-.996a2.122 2.122 0 0 1 1.542.068l.027.011 8.328 3.452a51.812 51.812 0 0 1 11.606 7.104c.437.353.868.839 1.47.839h13.58V45H63.396l-.36-.292Zm.61 25.424C60.755 71.596 53.371 75 47.275 75H24.692a2.454 2.454 0 0 1-1.747-.732 2.516 2.516 0 0 1-.723-1.768c0-.663.26-1.299.723-1.768A2.454 2.454 0 0 1 24.692 70h13.58v-2.5H20.988a2.457 2.457 0 0 1-1.745-.733A2.519 2.519 0 0 1 18.519 65h-2.47a5.042 5.042 0 0 0 1.258 3.33 4.925 4.925 0 0 0 3.127 1.639 5.046 5.046 0 0 0-.029 5.016 4.97 4.97 0 0 0 1.81 1.841 4.89 4.89 0 0 0 2.477.674h22.582c2.713 0 8.538-.654 17.214-5h12.055V70H64.198c-.192 0-.381.045-.552.132Zm-41.27-30.844.926-16.875-2.466-.138-.925 16.875 2.465.138Zm2.475-10.281 1.08 13.594 2.461-.2-1.08-13.595-2.461.201ZM11.11 52.5c0 .742-.217 1.467-.624 2.083a3.713 3.713 0 0 1-1.662 1.382 3.66 3.66 0 0 1-2.14.213 3.689 3.689 0 0 1-1.896-1.026 3.764 3.764 0 0 1-1.014-1.92 3.794 3.794 0 0 1 .21-2.167 3.74 3.74 0 0 1 1.365-1.683 3.67 3.67 0 0 1 2.058-.632 3.685 3.685 0 0 1 2.617 1.1 3.778 3.778 0 0 1 1.086 2.65Zm-2.469 0c0-.247-.072-.489-.208-.694a1.238 1.238 0 0 0-.554-.46 1.22 1.22 0 0 0-1.345.27 1.255 1.255 0 0 0-.268 1.362c.093.229.252.424.455.561a1.223 1.223 0 0 0 1.558-.156 1.26 1.26 0 0 0 .362-.883Zm27.16-30a3.67 3.67 0 0 1-2.057-.632 3.74 3.74 0 0 1-1.364-1.683 3.794 3.794 0 0 1-.211-2.167 3.765 3.765 0 0 1 1.014-1.92 3.689 3.689 0 0 1 1.896-1.026 3.66 3.66 0 0 1 2.14.214 3.714 3.714 0 0 1 1.662 1.38 3.783 3.783 0 0 1-.462 4.734 3.685 3.685 0 0 1-2.617 1.1Zm0-2.5c.245 0 .483-.073.687-.21a1.266 1.266 0 0 0 .187-1.923 1.23 1.23 0 0 0-1.346-.272 1.238 1.238 0 0 0-.554.46 1.261 1.261 0 0 0 .154 1.579c.231.234.545.366.873.366Zm12.346 45a3.67 3.67 0 0 1-2.057-.632 3.74 3.74 0 0 1-1.364-1.683 3.793 3.793 0 0 1-.211-2.167 3.765 3.765 0 0 1 1.013-1.92 3.689 3.689 0 0 1 1.897-1.026 3.66 3.66 0 0 1 2.14.213 3.714 3.714 0 0 1 1.662 1.382 3.784 3.784 0 0 1-.462 4.733 3.685 3.685 0 0 1-2.618 1.1Zm0-2.5c.244 0 .483-.073.686-.21a1.265 1.265 0 0 0 .187-1.923 1.23 1.23 0 0 0-1.345-.272 1.238 1.238 0 0 0-.554.46 1.262 1.262 0 0 0 .154 1.578c.231.235.545.367.872.367Z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="editable">Mencuci Tangan</div>
+                                            </div>
+                                        </div>
+                                        <div class="flex justify-center text-center">
+                                            <div style="width: 50%" class="animate__animated animate__fadeInLeft animate__slow delay-8 flex flex-col items-center justify-center p-4">
+                                                <div class="text-mainPrimary">
+                                                    <svg width="80" height="80" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M45.568 33.312a1.172 1.172 0 1 0-1.657 1.657l1.515 1.515H34.574l1.515-1.515a1.172 1.172 0 1 0-1.657-1.657l-3.516 3.516a1.172 1.172 0 0 0 0 1.657L34.432 42a1.17 1.17 0 0 0 1.657 0c.458-.458.458-1.2 0-1.658l-1.515-1.515h10.852l-1.515 1.515A1.172 1.172 0 1 0 45.57 42l3.515-3.515c.458-.458.458-1.2 0-1.657l-3.516-3.516ZM22.37 23.516H5.86A5.866 5.866 0 0 0 0 29.375a1.172 1.172 0 1 0 2.344 0 3.52 3.52 0 0 1 3.515-3.516h16.51a3.52 3.52 0 0 1 3.517 3.516v18.984c0 .624-.505 1.094-1.173 1.094s-1.171-.47-1.171-1.094V29.453a1.172 1.172 0 1 0-2.344 0v41.732c0 .924-.817 1.706-1.784 1.706-.984 0-1.784-.8-1.784-1.784V48.28c0-.647-.524-1.172-1.172-1.172h-4.687c-.648 0-1.172.525-1.172 1.172v22.826c0 .983-.8 1.784-1.784 1.784-.967 0-1.784-.782-1.784-1.706V29.453a1.172 1.172 0 1 0-2.343 0v18.828a1.173 1.173 0 0 1-2.344 0V34.063a1.172 1.172 0 1 0-2.344 0V48.28a3.52 3.52 0 0 0 4.688 3.314v19.59c0 2.233 1.851 4.05 4.127 4.05a4.132 4.132 0 0 0 4.128-4.128V49.453h2.343v21.654a4.132 4.132 0 0 0 4.128 4.127c2.276 0 4.128-1.816 4.128-4.05V51.608c.365.123.758.19 1.171.19 1.972 0 3.516-1.51 3.516-3.438V29.375c0-3.23-2.628-5.86-5.86-5.86ZM14.063 21.172c4.523 0 8.203-3.68 8.203-8.203 0-4.524-3.68-8.203-8.203-8.203S5.86 8.446 5.86 12.969s3.68 8.203 8.203 8.203Zm0-14.063a5.866 5.866 0 0 1 5.86 5.86c0 3.23-2.629 5.86-5.86 5.86a5.866 5.866 0 0 1-5.86-5.86 5.866 5.866 0 0 1 5.86-5.86ZM74.14 23.516H57.63a5.866 5.866 0 0 0-5.86 5.859v18.906a3.52 3.52 0 0 0 4.688 3.314v19.59c0 2.233 1.852 4.05 4.128 4.05a4.132 4.132 0 0 0 4.127-4.128V49.453h2.344v21.654a4.132 4.132 0 0 0 4.128 4.127c2.276 0 4.127-1.816 4.127-4.05V51.608c.366.123.76.19 1.172.19 1.972 0 3.516-1.51 3.516-3.438V29.375c0-3.23-2.629-5.86-5.86-5.86Zm3.516 24.843c0 .624-.504 1.094-1.172 1.094-.668 0-1.171-.47-1.171-1.094V29.453a1.172 1.172 0 1 0-2.344 0v41.732c0 .924-.817 1.706-1.784 1.706-.984 0-1.784-.8-1.784-1.784V48.28c0-.647-.525-1.172-1.172-1.172h-4.688a1.172 1.172 0 0 0-1.171 1.172v22.826c0 .983-.8 1.784-1.784 1.784-.967 0-1.784-.782-1.784-1.706V29.453a1.172 1.172 0 1 0-2.344 0V48.28a1.173 1.173 0 0 1-2.344.002V29.374a3.52 3.52 0 0 1 3.516-3.516h16.51a3.52 3.52 0 0 1 3.516 3.516v18.984ZM65.834 21.172c4.523 0 8.203-3.68 8.203-8.203 0-4.524-3.68-8.203-8.203-8.203s-8.203 3.68-8.203 8.203 3.68 8.203 8.203 8.203Zm0-14.063a5.866 5.866 0 0 1 5.86 5.86c0 3.23-2.629 5.86-5.86 5.86a5.866 5.866 0 0 1-5.86-5.86 5.866 5.866 0 0 1 5.86-5.86Z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="editable">Menjaga Jarak</div>
+                                            </div>
+                                            <div style="width: 50%" class="animate__animated animate__fadeInRight animate__slow delay-8 flex flex-col items-center justify-center p-4">
+                                                <div class="text-mainPrimary">
+                                                    <svg width="80" height="80" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="m49.42 37.347.214-.213a1.25 1.25 0 0 0-1.768-1.768l-.213.214a3.748 3.748 0 0 1-5.306 0l-.213-.214a1.25 1.25 0 0 0-1.768 1.768l.214.213a6.25 6.25 0 0 0 8.84 0ZM27.5 30H5a1.25 1.25 0 0 0-1.237 1.075l-1.25 8.75a1.257 1.257 0 0 0 .287 1 1.296 1.296 0 0 0 .95.425h2.063l-2.05 12.3c-.048.336.037.676.237.95l3.75 5a1.267 1.267 0 0 0 1 .5h5A1.25 1.25 0 0 0 15 58.75v-4.9l1.262-7.6H20A1.25 1.25 0 0 0 21.25 45v-5h6.25a1.25 1.25 0 0 0 1.25-1.25v-7.5A1.25 1.25 0 0 0 27.5 30ZM5.188 38.75l.9-6.25h1.187l-1.037 6.25h-1.05Zm13.562 5h-2.063l.625-3.75h1.438v3.75Zm2.5-6.25h-5a1.25 1.25 0 0 0-1.238 1.05l-2.5 15c-.01.066-.014.133-.012.2v3.75H9.375l-3.05-4.075L9.813 32.5H21.25v5Zm5 0h-2.5v-5h2.5v5Z" />
+                                                        <path d="M77.5 13.75a11.25 11.25 0 0 0-22.425-1.25H31.25A1.25 1.25 0 0 0 30 13.75v2.5a11.269 11.269 0 0 0 7.025 10.425A6.201 6.201 0 0 0 35 31.25v4.7l-3.95 7.8h-2.3a1.276 1.276 0 0 0-.938.413 1.21 1.21 0 0 0-.3.975l2.5 22.5a1.236 1.236 0 0 0 1.238 1.112h7.5a13.779 13.779 0 0 0 2.5-.237v7.737a1.25 1.25 0 0 0 1.25 1.25H65a1.25 1.25 0 0 0 1.25-1.25v-9.325l4.013-2.688A16.173 16.173 0 0 0 77.5 50.725V31.25c.006-3.538-1-7.003-2.9-9.988a11.186 11.186 0 0 0 2.9-7.512ZM66.25 5a8.75 8.75 0 1 1-8.75 8.75A8.76 8.76 0 0 1 66.25 5ZM37.362 36.813a1.25 1.25 0 0 0 .138-.563v-5a3.761 3.761 0 0 1 3.75-3.75H55a6.25 6.25 0 0 1 6.25 6.25v6.462l-18.975 3.563v.025c-.337-.025-.675-.05-1.025-.05h-7.4l3.512-6.938ZM38.75 66.25h-6.375l-2.225-20h11.1A8.76 8.76 0 0 1 50 55a11.267 11.267 0 0 1-11.25 11.25Zm25 8.75h-20v-7.2a14.47 14.47 0 0 0 3.138-1.737v.012L63.75 55.962V75ZM65 52.5c-.22.026-.435.084-.638.175l-13.012 7.8A13.547 13.547 0 0 0 52.5 55a11.216 11.216 0 0 0-5.4-9.587L62.612 42.5h6.138A1.25 1.25 0 0 1 70 43.75v5a3.762 3.762 0 0 1-3.75 3.75H65Zm10-21.25v19.475a13.715 13.715 0 0 1-6.112 11.438l-2.638 1.75V55a6.25 6.25 0 0 0 6.25-6.25v-5A3.761 3.761 0 0 0 68.75 40h-5v-6.25A8.76 8.76 0 0 0 55 25H41.25a8.76 8.76 0 0 1-8.75-8.75V15h22.575A11.27 11.27 0 0 0 66.25 25a11.117 11.117 0 0 0 6.463-2.063A16.151 16.151 0 0 1 75 31.25ZM14.734 27.32c.496.12 1.005.18 1.516.18A6.25 6.25 0 0 0 20 16.25v-10a3.75 3.75 0 0 0-7.5 0v10a6.261 6.261 0 0 0-2.311 6.554 6.182 6.182 0 0 0 4.545 4.516Zm-.359-9.311A1.25 1.25 0 0 0 15 16.925V6.25a1.25 1.25 0 0 1 2.5 0h-1.25v2.5h1.25V10h-1.25v2.5h1.25v1.25h-1.25v2.5h1.25v.675a1.25 1.25 0 0 0 .625 1.084 3.75 3.75 0 1 1-3.75 0Z" />
+                                                        <path d="M16.25 23.75a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5ZM63.965 18.535a1.25 1.25 0 0 0 1.767 0l7.072-7.071a1.25 1.25 0 1 0-1.768-1.768l-6.187 6.188-2.653-2.651A1.25 1.25 0 1 0 60.43 15l3.536 3.535Z" />
+                                                    </svg>
+                                                </div>
+                                                <div class="editable">Cek Suhu Tubuh</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="flex h-full items-center justify-center">
+                                    <div class="w-full">
+                                        <div>
+                                            <div class="embed-video animate__animated animate__fadeInDown animate__slower relative m-auto mb-5 w-full overflow-hidden pb-[57%]">
+                                                <iframe width="560" height="315" src="https://www.youtube.com/embed/uAbwbHtQ8S4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" class="absolute top-0 right-0 bottom-0 left-0 h-full w-full"></iframe>
+                                            </div>
+                                            <button class="btn-video btn btn-sm btn-pilled btn-block btn-mainPrimary mt-1 mb-4">Edit Video</button>
+                                            <div class="animate__animated animate__fadeInUp animate__slower text-center">
+                                                <div class="editable quotes mb-3">Jika melangkah tingkat tertinggi beruntunglah yang tetap bertahan dan menjadikan cinta hanya ujian dan kesabaran sebagai penjaganya.</div>
+                                                <div class="editable italic">By Anonim</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="flex h-full items-center justify-center">
+                                    <div class="w-full">
+                                        <div>
+                                            <div class="animate__animated animate__fadeInRight animate__slower">
+                                                <div class="image-editable m-auto h-[195px] w-[248px] overflow-hidden border-[4px] border-mainBorder" style="transform: translate(15px, 24px) rotate(356deg)">
+                                                    <img src="https://satumomen.com/images/galleries/50-gallery-1631978720.jpg" class="h-full w-full object-cover" />
+                                                </div>
+                                            </div>
+                                            <div class="animate__animated animate__fadeInLeft animate__slower">
+                                                <div class="image-editable m-auto mb-5 h-[195px] w-[248px] overflow-hidden border-[4px] border-mainBorder" style="transform: translate(-7px, 0px) rotate(2deg)">
+                                                    <img src="https://satumomen.com/images/galleries/2797-gallery-1643189542.jpg" class="h-full w-full object-cover" />
+                                                </div>
+                                            </div>
+                                            <div class="text-center">
+                                                <div class="editable animate__animated animate__fadeInUp animate__slower mb-4">Kirim ucapan untuk mempelai serta konfirmasi kehadiran</div>
+
+                                                <button type="button" class="btn-rsvp animate__animated animate__fadeInUp animate__slower mt-5 rounded-full border-mainPrimary bg-mainPrimary py-2 px-4 text-white">Kirim Ucapan RSVP</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide invitation__slide hidden">
+                            <div class="relative mx-auto h-full w-full max-w-[500px] overflow-hidden bg-mainBackground bg-[url(https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEghKVqJ5LT1__W6-JBIGHPLJEGwK8kO1jjwM2gMBuzAP4hGvn6i08kufkv_FOz9f5sVbcRH_3I35AYbVk2V2dSDfr2_Z7ciJZGRYx1ZS7-JNakYqNxmB70tQSEseogSRr0hPjsCqtARaV4LCKfC3PClI0xkMLCnJNhiLzxehqwchvUY8Y22i2xUhdUD/s1600/index.jpg)] bg-cover bg-center bg-no-repeat px-[30px]">
+                                <div class="absolute top-0 left-0 right-0 bottom-0">
+                                    <img class="animate__animated animate__fadeInDown animate__slower absolute top-0 right-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjK9f_ImSwDUljZaVGON6aCTZuxl0tmCykVLrGiyFqqS4jAk53JcZwSRo4gc92xA2xK-tPW2SKBYfm7vfvaJuWQTeNHbZE9NQAq4-Gycjsjldb9tkERxLghZchAISsvBncrMWlyuAeYHGRGDS6KvlKu3LDdaQOszrP5Dx-camdCEDtjKvE2wzq4peHE/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInTopLeft animate__slower absolute top-0 left-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgnXNkpK-yHZCRRTBtdTLeZXz_lnPd8Jqdp7Khs384ubZtzrJrHNpoxvTt1XefdO52DP3afRLqf6X3mEeyRfjEj712vZmSiNjmazG4JpuMVGZRgCobywB3K6P6aE4KWCPextT92f8zX5E48rt16CCdt7_DrS1D5Q71vEjoeoso7KcHKqA9CWIeEQ__v/s1600/frame-tm.webp" alt="flowers" />
+                                    <img class="animate__animated animate__fadeInUp animate__slower absolute bottom-0 left-0 w-full" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAnetGLIeCU1CsTM9D77DG_dKodDFzj7YPUaXLzZS3RDRHTRYY7-_Fs_U_GJpPxQz7jNiWOsFLAYBHctOHEEK7WHpE-B_QzQKVTznBV8Q78wZfLFc7YGK0Qdo39j4MaiGPbVRTzJ8JW5A-9GLf1F-_6mwGHjgCRa9W2qLdVhDihWE_UKQqp6aN1HvU/s1600/frame-tm.webp" alt="flowers" style="width: 100%" />
+                                    <img class="animate__animated animate__fadeInBottomRight animate__slower absolute bottom-0 right-0 w-[50%]" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgMNkjM-TxYCTrfSibqjIzYtPmGWRmtnWeLyHp-T95pOQapL-4Pg-u0uC6BgkWE98rx38f8zl90v-grmdz8JhBE2w4cT2BntfVbLnjMR7HDySEcQR17bBtRT-21H-OSjUg15JE8Nvs_66bL-vNjhn6qbHiwkHzkF4bAsqJovJ0-fFcKba-BfhXTKOuN/s1600/frame-tm.webp" alt="flowers" />
+                                </div>
+                                <div class="watermark flex h-full items-center justify-center">
+                                    <div swtyle="width: 100%">
+                                        <div class="text-center">
+                                            <div class="editable quotes animate__animated animate__fadeInDown animate__slower mb-3">Merupakan suatu kebahagiaan dan kehormatan bagi kami, apabila Bapak/Ibu/Saudara/i, berkenan hadir dan memberikan do'a restu kepada kedua mempelai.</div>
+                                            <div class="editable animate__animated animate__fadeInDown animate__slow italic">Hormat Kami Yang Mengundang</div>
+
+                                            <div class="editable animate__animated animate__fadeInDown animate__slow font-fontPrimary text-3xl text-mainPrimary">Jane &amp; John</div>
+                                            <div class="watermark-placeholder mt-5"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="menuSlider" class="splide fixed bottom-0 w-full">
+                <div class="splide__track menu-track mx-auto w-full max-w-[500px] bg-mainSecondary">
+                    <ul class="splide__list menu-list flex items-center justify-between">
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48">
+                                <g fill="none" stroke="currentColor" stroke-width="4">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 18v24h30V18L24 6L9 18Z" />
+                                    <path stroke-linejoin="round" d="M19 29v13h10V29H19Z" />
+                                    <path stroke-linecap="round" d="M9 42h30" />
+                                </g>
+                            </svg>
+                            <span class="text-xs">Beranda</span>
+                        </li>
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4" d="M5 7h11a8 8 0 0 1 8 8v27a6 6 0 0 0-6-6H5V7Zm38 0H32a8 8 0 0 0-8 8v27a6 6 0 0 1 6-6h13V7Z" /></svg>
+                            <span class="text-xs">Pembukaan</span>
+                        </li>
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M15 8C8.925 8 4 12.925 4 19c0 11 13 21 20 23.326C31 40 44 30 44 19c0-6.075-4.925-11-11-11c-3.72 0-7.01 1.847-9 4.674A10.987 10.987 0 0 0 15 8Z" /></svg>
+                            <span class="text-xs">Mempelai</span>
+                        </li>
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48">
+                                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
+                                    <path d="M5 19h38v21a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V19ZM5 9a2 2 0 0 1 2-2h34a2 2 0 0 1 2 2v10H5V9Z" />
+                                    <path stroke-linecap="round" d="M16 4v8m16-8v8m-4 22h6m-20 0h6m8-8h6m-20 0h6" />
+                                </g>
+                            </svg>
+                            <span class="text-xs">Acara</span>
+                        </li>
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48">
+                                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
+                                    <path stroke-linecap="round" d="M9.858 32.757C6.238 33.843 4 35.343 4 37c0 3.314 8.954 6 20 6s20-2.686 20-6c0-1.657-2.239-3.157-5.858-4.243" />
+                                    <path d="M24 35s13-8.496 13-18.318C37 9.678 31.18 4 24 4S11 9.678 11 16.682C11 26.504 24 35 24 35Z" />
+                                    <path d="M24 22a5 5 0 1 0 0-10a5 5 0 0 0 0 10Z" />
+                                </g>
+                            </svg>
+                            <span class="text-xs">Lokasi</span>
+                        </li>
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48">
+                                <g fill="none">
+                                    <path fill="currentColor" d="M44 21a2 2 0 1 0-4 0h4ZM23 8a2 2 0 1 0 0-4v4Zm16 32H9v4h30v-4ZM8 39V9H4v30h4Zm32-18v18h4V21h-4ZM9 8h14V4H9v4Zm0 32a1 1 0 0 1-1-1H4a5 5 0 0 0 5 5v-4Zm30 4a5 5 0 0 0 5-5h-4a1 1 0 0 1-1 1v4ZM8 9a1 1 0 0 1 1-1V4a5 5 0 0 0-5 5h4Z" />
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m6 35l10.693-9.802a2 2 0 0 1 2.653-.044L32 36m-4-5l4.773-4.773a2 2 0 0 1 2.615-.186L42 31M33.3 6C31.478 6 30 7.435 30 9.205c0 3.204 3.9 6.117 6 6.795c2.1-.678 6-3.59 6-6.795C42 7.435 40.523 6 38.7 6A3.326 3.326 0 0 0 36 7.362A3.326 3.326 0 0 0 33.3 6Z" />
+                                </g>
+                            </svg>
+                            <span class="text-xs">Galeri</span>
+                        </li>
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48">
+                                <g fill="none" stroke="currentColor" stroke-width="4">
+                                    <rect width="36" height="28" x="6" y="14" stroke-linejoin="round" rx="3"></rect>
+                                    <path stroke-linejoin="round" d="M6 32h36v7a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3v-7Z" />
+                                    <circle cx="19" cy="9" r="5"></circle>
+                                    <circle cx="28" cy="10" r="4"></circle>
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="m17 20l7-6l7 6" />
+                                </g>
+                            </svg>
+                            <span class="text-xs">Gift</span>
+                        </li>
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48">
+                                <g fill="none">
+                                    <g stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" clip-path="url(#footer-sample-full-0)">
+                                        <path d="M42 20v19a3 3 0 0 1-3 3H9a3 3 0 0 1-3-3V9a3 3 0 0 1 3-3h21" />
+                                        <path d="m16 20l10 8L41 7" />
+                                    </g>
+                                    <defs>
+                                        <clipPath id="footer-sample-full-0"><path fill="currentColor" d="M0 0h48v48H0z" /></clipPath>
+                                    </defs>
+                                </g>
+                            </svg>
+                            <span class="text-xs">Protokol</span>
+                        </li>
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48">
+                                <g fill="none" stroke="currentColor" stroke-width="4">
+                                    <path stroke-linejoin="round" d="M24 44c11.046 0 20-8.954 20-20S35.046 4 24 4S4 12.954 4 24s8.954 20 20 20Z" />
+                                    <path stroke-linejoin="round" d="M24 18a3 3 0 1 0 0-6a3 3 0 0 0 0 6Zm0 18a3 3 0 1 0 0-6a3 3 0 0 0 0 6Zm-9-9a3 3 0 1 0 0-6a3 3 0 0 0 0 6Zm18 0a3 3 0 1 0 0-6a3 3 0 0 0 0 6Z" />
+                                    <path stroke-linecap="round" d="M24 44h20" />
+                                </g>
+                            </svg>
+                            <span class="text-xs">Video</span>
+                        </li>
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48"><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="m5 10l3 3l6-6M5 24l3 3l6-6M5 38l3 3l6-6m7-11h22M21 38h22M21 10h22" /></svg>
+                            <span class="text-xs">RSVP</span>
+                        </li>
+                        <li class="splide__slide menu-item flex flex-col items-center justify-center py-2 text-center text-mainBorder">
+                            <svg aria-hidden="true" role="img" width="24" height="24" viewBox="0 0 48 48">
+                                <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
+                                    <path d="M7 37V11a6 6 0 0 1 6-6h22v26H13c-3.3 0-6 2.684-6 6Z" />
+                                    <path stroke-linecap="round" d="M35 31H13a6 6 0 0 0 0 12h28V7M14 37h20" />
+                                </g>
+                            </svg>
+                            <span class="text-xs">Penutup</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- end invitation -->
+            <div class="fixed left-0 right-0 bottom-0 m-auto max-w-[500px]">
+                <button id="btnMusic" onclick="playMusic()" class="btn-music absolute bottom-24 right-8 flex h-8 w-8 items-center justify-center rounded-full bg-mainPrimary text-white outline-none">
+                    <svg aria-hidden="true" role="img" width="20" height="20" viewBox="0 0 48 48">
+                        <g fill="none" stroke="currentColor" stroke-linejoin="round" stroke-width="4">
+                            <path d="M30 34.5a3.5 3.5 0 0 1 3.5-3.5H41v3.4a3.6 3.6 0 0 1-3.6 3.6h-3.9a3.5 3.5 0 0 1-3.5-3.5Zm-24 4A3.5 3.5 0 0 1 9.5 35H16v3.4a3.6 3.6 0 0 1-3.6 3.6H9.5A3.5 3.5 0 0 1 6 38.5Z"></path>
+                            <path stroke-linecap="round" d="M16 18.044v0l25-5.919M16 38V10l25-6v29.692"></path>
+                        </g>
+                    </svg>
+                </button>
+            </div>
+            <!-- lightbox -->
+            <div id="lightboxWrapper" class="lightbox-wrapper m-auto hidden max-w-[500px]">
+                <div class="lightbox-list h-full w-full"></div>
+                <a href="#" id="lightboxCloseBtn" class="btn-lightbox fixed bottom-16 flex h-10 w-10 items-center justify-center rounded-full bg-[rgba(255,0,0,0.281)] text-white no-underline">
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 0 1 1.414 0L10 8.586l4.293-4.293a1 1 0 1 1 1.414 1.414L11.414 10l4.293 4.293a1 1 0 0 1-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 0 1-1.414-1.414L8.586 10 4.293 5.707a1 1 0 0 1 0-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <div class="lightbox-navigation fixed top-[calc(50%-60px)] w-full max-w-[500px] justify-between p-8">
+                    <a href="#" id="lightboxPrevBtn" class="lightbox-arrow flex h-12 w-12 items-center justify-center rounded-full bg-[rgba(255,255,255,0.281)] text-black no-underline" data-index="0">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m15 19-7-7 7-7" />
+                        </svg>
+                    </a>
+                    <a href="#" id="lightboxNextBtn" class="lightbox-arrow flex h-12 w-12 items-center justify-center rounded-full bg-[rgba(255,255,255,0.281)] text-black no-underline" data-index="0">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m9 5 7 7-7 7" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="modal fade" id="rsvpModal" tabindex="-1" role="dialog" aria-labelledby="rsvpModal" aria-hidden="true" style="display: none">
+                <div class="modal-dialog modal-dialog-centered m-auto w-full max-w-[500px] p-2">
+                    <div class="modal-content h-full overflow-auto">
+                        <!-- rsvp form -->
+                        <div class="rsvp-form flex h-full flex-col items-center justify-center p-3">
+                            <div class="mb-3 text-center">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="90" width="90" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 0 0 5.636 5.636m12.728 12.728A9 9 0 0 1 5.636 5.636m12.728 12.728L5.636 5.636" /></svg>
+                                <h2 class="h3 mb-3 font-bold">Fitur RSVP Belum Diaktifkan</h2>
+                                <p>Aktifkan terlebih dahulu agar dapat menampilkan form RSVP. Klik menu RSVP di halaman edit undangan lalu pada bagian pengaturan klik Aktifkan.</p>
+                            </div>
+                        </div>
+                        <!-- rsvp form -->
+                        <button onclick="closeModal(rsvpModal)" type="button" class="btn btn-close no-decoration fixed bottom-[20px] flex h-12 w-12 items-center justify-center rounded-full bg-[rgba(255,0,0,0.281)] text-white">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="42px" width="42px" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18 18 6M6 6l12 12" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="modal fade" id="notSupport" tabindex="-1" role="dialog" aria-labelledby="notSupport" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered m-auto w-full max-w-[500px] p-2">
+                <div class="modal-content overflow-auto rounded-xl" style="border-radius: 0.8rem">
+                    <div class="modal-body items-center justify-center text-center">
+                        <svg width="90" height="90" fill="none">
+                            <path d="M36 28.024A18.05 18.05 0 0025.022 39M59.999 28.024A18.05 18.05 0 0170.975 39" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <ellipse cx="37.5" cy="43.5" rx="4.5" ry="7.5" fill="currentColor"></ellipse>
+                            <ellipse cx="58.5" cy="43.5" rx="4.5" ry="7.5" fill="currentColor"></ellipse>
+                            <path d="M24.673 75.42a9.003 9.003 0 008.879 5.563m-8.88-5.562A8.973 8.973 0 0124 72c0-7.97 9-18 9-18s9 10.03 9 18a9 9 0 01-8.448 8.983m-8.88-5.562C16.919 68.817 12 58.983 12 48c0-19.882 16.118-36 36-36s36 16.118 36 36-16.118 36-36 36a35.877 35.877 0 01-14.448-3.017" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M41.997 71.75A14.94 14.94 0 0148 70.5c2.399 0 4.658.56 6.661 1.556a3 3 0 003.999-4.066 12 12 0 00-10.662-6.49 11.955 11.955 0 00-7.974 3.032c1.11 2.37 1.917 4.876 1.972 7.217z" fill="currentColor" />
+                        </svg>
+                        <h2>Oops!</h2>
+                        <h5 class="mb-4">Browser yang kamu gunakan tidak kompatibel.</h5>
+                        <p>Beberapa fungsi undangan ini mungkin tidak dapat berjalan dengan baik. Kami merekomendasikan Chrome. Klik tombol dibawah ini untuk mendownload.</p>
+                        <div class="flex justify-center">
+                            <a href="https://apps.apple.com/id/app/google-chrome/id535886823" class="btn p-1" target="_BLANK">
+                                <img src="/images/btn_app_store.png" alt="AppStore" height="40px" />
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.android.chrome" class="btn p-1" target="_BLANK">
+                                <img src="/images/btn_play_store.png" alt="PlayStore" height="40px" />
+                            </a>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-outline-secondary btn-block rounded-full" onclick="closeModal(notSupport)">Tetap Akses</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <b:section id="app" class="app">
+            <b:widget id="Blog1" locked="false" title="Blog Posts" type="Blog" version="2" visible="true">
+                <b:includable id="main" var="this">
+                    <b:loop index="i" values="data:posts" var="post">
+                        <b:include data="post" name="postBody" />
+                    </b:loop>
+                </b:includable>
+                <b:includable id="postBody" var="post">
+                    <data:post.body />
+                </b:includable>
+            </b:widget>
+        </b:section>
+        <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+        <b:tag name="script">/*<![CDATA[*/@@include("../build/scripts/script.js")/*]]>*/</b:tag>
+    </body>
+</html>
