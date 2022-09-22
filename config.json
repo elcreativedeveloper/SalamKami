@@ -29,11 +29,11 @@
     },
     "assets": {
         "theme": {
-            "style": 6,
+            "style": 8,
             "slide": {
                 "cover": 4,
                 "opening": 1,
-                "bride": 1,
+                "bride": 3,
                 "date": 1,
                 "maps": 1,
                 "rundown": 1,
@@ -44,7 +44,7 @@
         },
         "fonts": {
             "primary": "playfair-display",
-            "secondary": "philosopher"
+            "secondary": "great-vibes"
         }
     },
     "config": {
