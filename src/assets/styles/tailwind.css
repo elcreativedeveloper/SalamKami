@@ -301,8 +301,8 @@ html {
     -webkit-touch-callout: none;
     -webkit-tap-highlight-color: transparent;
 }
-.glide__slide.love_story .timeline:last-child div:nth-child(2):before,
-.glide__slide.rundown .timeline:last-child div:nth-child(2):before {
+.glide__slide.layout_love_story .timeline:last-child div:nth-child(2):before,
+.glide__slide.layout_rundown .timeline:last-child div:nth-child(2):before {
     display: none;
 }
 .glide__slide a {
