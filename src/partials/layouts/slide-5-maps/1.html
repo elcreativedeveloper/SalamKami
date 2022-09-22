@@ -1,19 +1,16 @@
 <div class="glide__slide">
     <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
         <div class="flex h-full w-full flex-col items-center justify-center p-5">
-            <div class="flex h-full flex-col items-center justify-center">
-                <div class="animate__animated animate__fadeInDown animate__slower mb-4 font-fontSecondary text-3xl text-colorMain">Terimakasih</div>
-                <div class="animate__animated animate__fadeInDown animate__slower mb-3 text-center">Merupakan suatu kebahagiaan dan kehormatan apabila Bapak/Ibu/Saudara/Saudari berkenan hadir dan memberikan do'a restu kepada kami.</div>
-                <div class="animate__animated animate__fadeInDown animate__slow"><em>Hormat Kami Yang Mengundang:</em></div>
-
-                <div class="animate__animated animate__fadeInUp animate__slower mt-3 flex flex-col items-center justify-center font-fontSecondary text-3xl text-colorMain">
-                    <span>{{name.female}}</span>
-                    <span>&amp;</span>
-                    <span>{{name.male}}</span>
+            <div class="flex h-full w-full flex-col items-center justify-center">
+                <div class="animate__animated animate__fadeInDown animate__slower mb-6 text-center">
+                    <div class="mb-2 font-fontSecondary text-3xl text-colorMain">Lokasi Resepsi</div>
                 </div>
-
-                <div class="animate__animated animate__fadeInUp animate__slower mt-6 flex flex-col items-center justify-center">
-                    <img class="h-full max-h-[3rem]" src="@@include('../src/assets/styles/images/imageAssalamEnd.txt')" />
+                <div class="animate__animated animate__fadeInDown animate__slow relative mb-6 w-full overflow-hidden rounded-xl pb-[50vh] shadow-lg">
+                    <iframe width="100%" loading="lazy" height="100%" allowfullscreen="" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCoDckKi8TfOgUzbns6gt5alsAJ-5HfpuE&amp;zoom=17&amp;q={{location.maps}}" class="absolute"></iframe>
+                </div>
+                <div class="text-center">
+                    <div class="animate__animated animate__fadeIn animate__slow mb-6">{{location.reception}}</div>
+                    <a class="animate__animated animate__fadeInUp animate__slower rounded-full bg-colorMain py-2 px-4 text-white hover:shadow-lg" href="https://www.google.com/maps/place/?q={{location.maps}}" target="_blank" rel="nofollow noopener noreferer">Lihat Petunjuk Ke Lokasi</a>
                 </div>
             </div>
         </div>
