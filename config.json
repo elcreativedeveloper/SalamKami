@@ -31,9 +31,13 @@
         "theme": {
             "style": 2,
             "slide": {
-                "one": 2,
-                "two": 2,
-                "three": 2
+                "cover": 2,
+                "opening": 2,
+                "bride": 2,
+                "date": 1,
+                "maps": 1,
+                "gift": 1,
+                "closing": 1
             }
         },
         "fonts": {
@@ -47,6 +51,6 @@
         "style:start": "<style>",
         "style:end": "</style>",
         "cdataStart": "/*<![CDATA[*/",
-		"cdataEnd": "/*]]>*/"
+        "cdataEnd": "/*]]>*/"
     }
 }
