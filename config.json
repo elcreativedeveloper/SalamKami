@@ -11,10 +11,10 @@
     },
     "date": {
         "contract": "Senin, 26 Septemper 2022",
-        "contractTime": "08:00",
+        "contractTime": "08:00 WIB",
         "contractLocation": "Pekon Bumi Arum, RT/RW 001/004, Kec. Pringsewu, Kab. Pringsewu, Prov. Lampung",
         "reception": "Senin, 26 Septemper 2022",
-        "receptionTime": "10:00",
+        "receptionTime": "10:00 WIB",
         "receptionToDate": "2022-09-26",
         "receptionToDate1": "20220929T0800"
     },
@@ -36,6 +36,7 @@
                 "bride": 2,
                 "date": 1,
                 "maps": 1,
+                "loveStory": 1,
                 "gift": 1,
                 "closing": 1
             }
