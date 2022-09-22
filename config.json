@@ -31,7 +31,9 @@
         "theme": {
             "style": 2,
             "slide": {
-                "one": 2
+                "one": 2,
+                "two": 2,
+                "three": 2
             }
         },
         "fonts": {
