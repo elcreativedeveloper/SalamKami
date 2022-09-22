@@ -107,6 +107,11 @@ gulp.task('start', function () {
         .pipe(gulpReplace('<div id="app" class="app"></div>', ''))
         .pipe(gulpReplace('-tw', '-elcreative'))
         .pipe(
+            gulpTokenReplace({
+                global: tokenData,
+            })
+        )
+        .pipe(
             gulpRename({
                 basename: 'index',
                 extname: '.html',
@@ -140,6 +145,11 @@ gulp.task('preview', function () {
         )
         .pipe(gulpReplace("<data:view.isPage />", "true"))
         .pipe(gulpReplace('-tw', '-elcreative'))
+        .pipe(
+            gulpTokenReplace({
+                global: tokenData,
+            })
+        )
         .pipe(
             gulpRename({
                 basename: 'index',

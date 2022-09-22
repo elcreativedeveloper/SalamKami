@@ -28,9 +28,14 @@
         "bankAccount": "Bank Mandiri - Dwi Agung Cahyadi"
     },
     "assets": {
-        "theme": 2,
+        "theme": {
+            "style": 2,
+            "slide": {
+                "one": 1
+            }
+        },
         "fonts": {
-            "primary": "playfair-display",
+            "primary": "montserrat",
             "secondary": "great-vibes"
         }
     },
