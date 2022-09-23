@@ -1,47 +1,49 @@
 {
     "name": {
-        "male": "Dwi Agung Cahyadi, S.Kom",
-        "maleInitial": "Agung",
-        "maleDad": "Witriono, S.E",
-        "maleMom": "Tri Yuliati",
-        "female": "Puspa Sari, S.Kom",
-        "femaleInitial": "Puspa",
-        "femaleDad": "Turiman (Alm)",
-        "femaleMom": "Mariyem"
+        "male": "Nama Mempelai Pria",
+        "maleInitial": "Nama Pria",
+        "maleDad": "Nama Ayah Mempelai Pria",
+        "maleMom": "Nama Ibu Mempelai Pria",
+        "female": "Nama Mempelai Wanita",
+        "femaleInitial": "Nama Wanita",
+        "femaleDad": "Nama Ayah Mempelai Wanita",
+        "femaleMom": "Nama Ibu Mempelai Wanita"
     },
     "date": {
-        "contract": "Senin, 26 Septemper 2022",
-        "contractTime": "08:00",
-        "contractLocation": "Pekon Bumi Arum, RT/RW 001/004, Kec. Pringsewu, Kab. Pringsewu, Prov. Lampung",
-        "reception": "Senin, 26 Septemper 2022",
-        "receptionTime": "10:00",
-        "receptionToDate": "2022-09-26",
-        "receptionToDate1": "20220929T0800"
+        "contract": "Sabtu, 01 November 2025",
+        "contractTime": "08:00 WIB",
+        "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
+        "reception": "Sabtu, 01 November 2025",
+        "receptionTime": "10:00 WIB",
+        "receptionToDate": "2025-11-01",
+        "receptionToDate1": "20251101T0800"
     },
     "location": {
-        "contract": "Pekon Bumi Arum, RT/RW 001/004, Kec. Pringsewu, Kab. Pringsewu, Prov. Lampung",
-        "reception": "Di Kediaman Mempelai Wanita.",
+        "contract": "Alamat Lengkap Lokasi Akad Nikah",
+        "reception": "Alamat Lengkap Lokasi Resepsi Penikahan",
         "maps": "-5.34700076388259, 104.95010598444547"
     },
     "gift": {
-        "bankNumber": "1140 0248 10445",
-        "bankAccount": "Bank Mandiri - Dwi Agung Cahyadi"
+        "bankNumber": "1234 5678 9123",
+        "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "assets": {
         "theme": {
-            "style": 2,
+            "style": 1,
             "slide": {
-                "cover": 2,
-                "opening": 2,
-                "bride": 2,
+                "cover": 4,
+                "opening": 1,
+                "bride": 3,
                 "date": 1,
                 "maps": 1,
+                "rundown": 1,
+                "loveStory": 1,
                 "gift": 1,
                 "closing": 1
             }
         },
         "fonts": {
-            "primary": "montserrat",
+            "primary": "playfair-display",
             "secondary": "great-vibes"
         }
     },
