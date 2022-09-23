@@ -1,13 +1,13 @@
 {
     "name": {
-        "male": "Nama Mempelai Pria",
-        "maleInitial": "Nama Pria",
-        "maleDad": "Nama Ayah Mempelai Pria",
-        "maleMom": "Nama Ibu Mempelai Pria",
-        "female": "Nama Mempelai Wanita",
-        "femaleInitial": "Nama Wanita",
-        "femaleDad": "Nama Ayah Mempelai Wanita",
-        "femaleMom": "Nama Ibu Mempelai Wanita"
+        "male": "Faris Advaita Alhasan",
+        "maleInitial": "Faris",
+        "maleDad": "Adzriel Fairuz",
+        "maleMom": "Areta Mahveen",
+        "female": "Haisha Azrina",
+        "femaleInitial": "Azrina",
+        "femaleDad": "Farhan Alfarezi",
+        "femaleMom": "Shafiyyah Sammira"
     },
     "date": {
         "contract": "Sabtu, 01 November 2025",
@@ -31,8 +31,8 @@
         "theme": {
             "style": 9,
             "slide": {
-                "cover": 1,
-                "opening": 1,
+                "cover": 4,
+                "opening": 2,
                 "bride": 3,
                 "date": 1,
                 "maps": 1,
@@ -43,8 +43,8 @@
             }
         },
         "fonts": {
-            "primary": "open-sans",
-            "secondary": "great-vibes"
+            "primary": "playfair-display",
+            "secondary": "ms-madi"
         }
     },
     "config": {
