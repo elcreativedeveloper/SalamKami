@@ -183,6 +183,11 @@ function functionRunInvitation() {
         }, 1000);
     };
 
+    let glideControl = '';
+    document.querySelectorAll('.glide__slide').forEach(function (value, index) {
+        glideControl += `<div class="glide__bullet ${index == 0 ? 'hidden' : ''} relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-lg first:ml-0 last:mr-0" data-glide-dir="=${index}"></div>`
+    });
+
     functionLoadScript('https://cdn.jsdelivr.net/npm/@glidejs/glide').then(function () {
         const glide = new Glide('.glide', {
             autoplay: 8000,
@@ -202,10 +207,7 @@ function functionRunInvitation() {
             }
         });
 
-        let glideControl = '';
-        document.querySelectorAll('.glide__slide').forEach(function (value, index) {
-            glideControl += `<div class="glide__bullet ${index == 0 ? 'hidden' : ''} relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-lg first:ml-0 last:mr-0" data-glide-dir="=${index}"></div>`
-        });
+
         document.getElementById('glide__bullets').innerHTML = glideControl;
 
         document.getElementById('button_swipe').addEventListener('click', function (event) {

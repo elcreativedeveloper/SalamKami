@@ -29,9 +29,9 @@
     },
     "assets": {
         "theme": {
-            "style": 2,
+            "style": 9,
             "slide": {
-                "cover": 4,
+                "cover": 1,
                 "opening": 1,
                 "bride": 3,
                 "date": 1,
@@ -43,7 +43,7 @@
             }
         },
         "fonts": {
-            "primary": "playfair-display",
+            "primary": "open-sans",
             "secondary": "great-vibes"
         }
     },
