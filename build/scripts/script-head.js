@@ -1,0 +1,1 @@
+var elcreativeConfig={dataView:{isPage:"<data:view.isPage />"}};
