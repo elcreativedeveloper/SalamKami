@@ -49,24 +49,24 @@ html {
 }
 
 .animate__animated.animate__delay-005s {
-    animation-delay: 0.05s;
-    animation-delay: calc(var(--animate-delay) * 0.05);
+    animation-delay: 0.5;
+    animation-delay: calc(var(--animate-delay) * 0.5);
 }
 .animate__animated.animate__delay-010s {
-    animation-delay: 0.1s;
-    animation-delay: calc(var(--animate-delay) * 0.1);
+    animation-delay: 1s;
+    animation-delay: calc(var(--animate-delay) * 1);
 }
 .animate__animated.animate__delay-015s {
-    animation-delay: 0.15s;
-    animation-delay: calc(var(--animate-delay) * 0.15);
+    animation-delay: 1.5s;
+    animation-delay: calc(var(--animate-delay) * 1.5);
 }
 .animate__animated.animate__delay-020s {
-    animation-delay: 0.2s;
-    animation-delay: calc(var(--animate-delay) * 0.2);
+    animation-delay: 2s;
+    animation-delay: calc(var(--animate-delay) * 2);
 }
 .animate__animated.animate__delay-025s {
-    animation-delay: 0.25s;
-    animation-delay: calc(var(--animate-delay) * 0.25);
+    animation-delay: 2.5s;
+    animation-delay: calc(var(--animate-delay) * 2.5);
 }
 
 .glide__slide--active .animate__fadeIn {

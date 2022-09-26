@@ -6,7 +6,9 @@
             </b:loop>
         </b:includable>
         <b:includable id="postBody" var="post">
-            <data:post.body />
+            <b:if cond="!data:view.isMultipleItems">
+                <data:post.body />
+            </b:if>
         </b:includable>
     </b:widget>
 </b:section>
