@@ -25,7 +25,7 @@ gulp.task('clean', function () {
 
 // Generate Styles
 gulp.task('styles', function () {
-    return gulp.src(['./src/assets/styles/*.{css,scss}', './src/assets/styles/fonts/*.{css,scss}']).pipe(gulpSass()).pipe(gulp.dest('./build/styles'));
+    return gulp.src(['./src/assets/styles/*.{css,scss}', './src/assets/styles/fonts/*.{css,scss}', './src/assets/styles/fonts/secondary/*.{css,scss}']).pipe(gulpSass()).pipe(gulp.dest('./build/styles'));
 });
 // Generate Prefixed Styles
 gulp.task('styles:prefixed', function () {
