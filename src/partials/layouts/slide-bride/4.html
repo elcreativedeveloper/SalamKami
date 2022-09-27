@@ -1,18 +1,22 @@
 <div class="glide__slide layout_bride">
     <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
         <div class="flex h-full w-full flex-col items-center justify-center p-5">
-            <div class="animate__animated animate__fadeInLeft animate__slow mb-3 h-[100px] w-[100px] flex-shrink-0 flex-grow-0 overflow-hidden rounded-full border-[4px] border-colorMain p-1 shadow-md">
-                <img class="h-full w-full rounded-full bg-white object-cover" src="@@include('../src/assets/styles/images/imageFemale.txt')" />
+            <div class="my-6 flex items-center justify-center">
+                <div class="animate__animated animate__fadeInLeft animate__slow mr-2 h-[100px] w-[100px] flex-shrink-0 flex-grow-0 overflow-hidden rounded-full border-[4px] border-colorMain p-1 shadow-md">
+                    <img class="h-full w-full rounded-full bg-white object-cover" src="@@include('../src/assets/styles/images/imageFemale.txt')" />
+                </div>
+                <div class="animate__animated animate__fadeInRight animate__slow ml-2 h-[100px] w-[100px] flex-shrink-0 flex-grow-0 overflow-hidden rounded-full border-[4px] border-colorMain p-1 shadow-md">
+                    <img class="h-full w-full rounded-full bg-white object-cover" src="@@include('../src/assets/styles/images/imageMale.txt')" />
+                </div>
             </div>
+
             <div class="animate__animated animate__fadeInRight animate__slow mb-2 font-fontSecondary text-3xl text-colorMain">{{name.female}}</div>
             <div class="animate__animated animate__fadeInUp animate__slower mb-6 flex flex-col items-center justify-center">
                 <span>Putri dari Bapak {{name.femaleDad}}</span>
                 <span>&amp;</span>
                 <span>Ibu {{name.femaleMom}}</span>
             </div>
-            <div class="animate__animated animate__fadeInRight animate__slow mb-3 h-[100px] w-[100px] flex-shrink-0 flex-grow-0 overflow-hidden rounded-full border-[4px] border-colorMain p-1 shadow-md">
-                <img class="h-full w-full rounded-full bg-white object-cover" src="@@include('../src/assets/styles/images/imageMale.txt')" />
-            </div>
+
             <div class="animate__animated animate__fadeInLeft animate__slow mb-2 font-fontSecondary text-3xl text-colorMain">{{name.male}}</div>
             <div class="animate__animated animate__fadeInUp animate__slower flex flex-col items-center justify-center">
                 <span>Putra dari Bapak {{name.maleDad}}</span>
