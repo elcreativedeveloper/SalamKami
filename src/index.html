@@ -22,19 +22,19 @@
 
         <!-- prettier-ignore -->
         {{config.style:start}}
-            @@include('../build/styles/{{assets.fonts.primary}}.css')@@include('../build/styles/{{assets.fonts.secondary}}.css')
+            @@include('../build/styles/{{fonts.primary}}.css')@@include('../build/styles/{{fonts.secondary}}.css')
 
             :root {
-                --fontPrimary: '{{assets.fonts.primary}}', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-                --fontSecondary: '{{assets.fonts.secondary}}', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+                --fontPrimary: '{{fonts.primary}}', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+                --fontSecondary: '{{fonts.secondary}}', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 
-                @@include('../src/assets/styles/images/{{assets.theme.style}}/colors.txt')
+                @@include('../src/assets/styles/images/{{theme.style}}/colors.txt')
 
-                --imageBackground: @@include('../src/assets/styles/images/{{assets.theme.style}}/imageBackground.txt');
-                --imageOrnamentTop: @@include('../src/assets/styles/images/{{assets.theme.style}}/imageOrnamentTop.txt');
-                --imageOrnamentBottom: @@include('../src/assets/styles/images/{{assets.theme.style}}/imageOrnamentBottom.txt');
-                --imageOrnamentAltTop: @@include('../src/assets/styles/images/{{assets.theme.style}}/imageOrnamentAltTop.txt');
-                --imageOrnamentAltBottom: @@include('../src/assets/styles/images/{{assets.theme.style}}/imageOrnamentAltBottom.txt');
+                --imageBackground: @@include('../src/assets/styles/images/{{theme.style}}/imageBackground.txt');
+                --imageOrnamentTop: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentTop.txt');
+                --imageOrnamentBottom: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentBottom.txt');
+                --imageOrnamentAltTop: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentAltTop.txt');
+                --imageOrnamentAltBottom: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentAltBottom.txt');
             }
         {{config.style:end}}
         <div class="glide">
@@ -43,15 +43,15 @@
             <div class="glide__track" data-glide-el="track">
                 <!-- prettier-ignore -->
                 <div class="glide__slides">
-                    @@include('../src/partials/layouts/slide-cover/{{assets.theme.slide.cover}}.html')
-                    @@include('../src/partials/layouts/slide-opening/{{assets.theme.slide.opening}}.html')
-                    @@include('../src/partials/layouts/slide-bride/{{assets.theme.slide.bride}}.html')
-                    @@include('../src/partials/layouts/slide-love-story/{{assets.theme.slide.loveStory}}.html')
-                    @@include('../src/partials/layouts/slide-date/{{assets.theme.slide.date}}.html')
-                    @@include('../src/partials/layouts/slide-maps/{{assets.theme.slide.maps}}.html')
-                    @@include('../src/partials/layouts/slide-gift/{{assets.theme.slide.gift}}.html')
-                    @@include('../src/partials/layouts/slide-rundown/{{assets.theme.slide.rundown}}.html')
-                    @@include('../src/partials/layouts/slide-closing/{{assets.theme.slide.closing}}.html')
+                    @@include('../src/partials/layouts/slide-cover/{{theme.slide.cover}}.html')
+                    @@include('../src/partials/layouts/slide-opening/{{theme.slide.opening}}.html')
+                    @@include('../src/partials/layouts/slide-bride/{{theme.slide.bride}}.html')
+                    @@include('../src/partials/layouts/slide-love-story/{{theme.slide.loveStory}}.html')
+                    @@include('../src/partials/layouts/slide-date/{{theme.slide.date}}.html')
+                    @@include('../src/partials/layouts/slide-maps/{{theme.slide.maps}}.html')
+                    @@include('../src/partials/layouts/slide-gift/{{theme.slide.gift}}.html')
+                    @@include('../src/partials/layouts/slide-rundown/{{theme.slide.rundown}}.html')
+                    @@include('../src/partials/layouts/slide-closing/{{theme.slide.closing}}.html')
                 </div>
             </div>
 

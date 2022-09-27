@@ -27,25 +27,23 @@
         "bankNumber": "1234 5678 9123",
         "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
-    "assets": {
-        "theme": {
-            "style": 9,
-            "slide": {
-                "cover": 1,
-                "opening": 1,
-                "bride": 1,
-                "date": 1,
-                "maps": 1,
-                "rundown": 1,
-                "loveStory": 1,
-                "gift": 1,
-                "closing": 1
-            }
-        },
-        "fonts": {
-            "primary": "montserrat",
-            "secondary": "ms-madi"
+    "theme": {
+        "style": 1,
+        "slide": {
+            "cover": 1,
+            "opening": 1,
+            "bride": 1,
+            "date": 1,
+            "maps": 1,
+            "rundown": 1,
+            "loveStory": 1,
+            "gift": 1,
+            "closing": 1
         }
+    },
+    "fonts": {
+        "primary": "montserrat",
+        "secondary": "alex-brush"
     },
     "config": {
         "script:start": "<script>",
