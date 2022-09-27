@@ -48,10 +48,6 @@ Defer(function () {
     const elementLoaders = document.getElementById('loaders');
     elementLoaders.remove();
     elementApp.classList.remove('invisible');
-
-    if (elcreativeConfig.dataView.isPage == 'true') {
-        functionRunInvitation();
-    }
 }, 2000);
 
 function functionRunInvitation() {
@@ -95,52 +91,52 @@ function functionRunInvitation() {
             if (document.documentElement.requestFullscreen) {
                 document.documentElement.requestFullscreen();
                 if (toggleButton != null) {
-                    toggleButton.querySelector('.fullscreen_on').classList.remove('hidden');
-                    toggleButton.querySelector('.fullscreen_off').classList.add('hidden');
+                    toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
+                    toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
                 }
             } else if (document.documentElement.mozRequestFullScreen) {
                 document.documentElement.mozRequestFullScreen();
                 if (toggleButton != null) {
-                    toggleButton.querySelector('.fullscreen_on').classList.remove('hidden');
-                    toggleButton.querySelector('.fullscreen_off').classList.add('hidden');
+                    toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
+                    toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
                 }
             } else if (document.documentElement.webkitRequestFullScreen) {
                 document.documentElement.webkitRequestFullScreen();
                 if (toggleButton != null) {
-                    toggleButton.querySelector('.fullscreen_on').classList.remove('hidden');
-                    toggleButton.querySelector('.fullscreen_off').classList.add('hidden');
+                    toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
+                    toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
                 }
             } else if (document.documentElement.msRequestFullscreen) {
                 document.documentElement.msRequestFullscreen();
                 if (toggleButton != null) {
-                    toggleButton.querySelector('.fullscreen_on').classList.remove('hidden');
-                    toggleButton.querySelector('.fullscreen_off').classList.add('hidden');
+                    toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
+                    toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
                 }
             }
         } else {
             if (document.exitFullscreen) {
                 document.exitFullscreen();
                 if (toggleButton != null) {
-                    toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
-                    toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
+                    toggleButton.querySelector('.fullscreen_off').classList.add('hidden');
+                    toggleButton.querySelector('.fullscreen_on').classList.remove('hidden');
                 }
             } else if (document.webkitExitFullscreen) {
                 document.webkitExitFullscreen();
                 if (toggleButton != null) {
-                    toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
-                    toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
+                    toggleButton.querySelector('.fullscreen_off').classList.add('hidden');
+                    toggleButton.querySelector('.fullscreen_on').classList.remove('hidden');
                 }
             } else if (document.mozCancelFullScreen) {
                 document.mozCancelFullScreen();
                 if (toggleButton != null) {
-                    toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
-                    toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
+                    toggleButton.querySelector('.fullscreen_off').classList.add('hidden');
+                    toggleButton.querySelector('.fullscreen_on').classList.remove('hidden');
                 }
             } else if (document.msExitFullscreen) {
                 document.msExitFullscreen();
                 if (toggleButton != null) {
-                    toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
-                    toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
+                    toggleButton.querySelector('.fullscreen_off').classList.add('hidden');
+                    toggleButton.querySelector('.fullscreen_on').classList.remove('hidden');
                 }
             }
         }
@@ -221,7 +217,7 @@ function functionRunInvitation() {
             functionPlayMusic(document.getElementById('music') ? document.getElementById('music') : null, {
                 playMusic: true,
             });
-            functionFullScreen(null);
+            // functionFullScreen(null);
         });
 
         document.getElementById('button_toggle_audio').addEventListener('click', function (event) {

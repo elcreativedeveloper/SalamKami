@@ -58,8 +58,8 @@
 
                 <div id="fab" class="fab fixed right-6 bottom-6 z-20 flex flex-col items-center justify-center gap-2">
                     <button id="button_toggle_fullscreen" class="box-content flex items-center justify-center rounded-full bg-colorMain p-2 text-white opacity-50 shadow-md transition-opacity hover:opacity-80" aria-label="Keluar dari Layar Penuh">
-                        <svg width="24" height="24" viewBox="0 0 24 24" class="fullscreen_on h-6 w-6 fill-current"><path d="M14,14H19V16H16V19H14V14M5,14H10V19H8V16H5V14M8,5H10V10H5V8H8V5M19,8V10H14V5H16V8H19Z" /></svg>
-                        <svg width="24" height="24" viewBox="0 0 24 24" class="fullscreen_off hidden h-6 w-6 fill-current"><path d="M5,5H10V7H7V10H5V5M14,5H19V10H17V7H14V5M17,14H19V19H14V17H17V14M10,17V19H5V14H7V17H10Z" /></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="fullscreen_on h-6 w-6 fill-current"><path d="M5,5H10V7H7V10H5V5M14,5H19V10H17V7H14V5M17,14H19V19H14V17H17V14M10,17V19H5V14H7V17H10Z" /></svg>
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="fullscreen_off hidden h-6 w-6 fill-current"><path d="M14,14H19V16H16V19H14V14M5,14H10V19H8V16H5V14M8,5H10V10H5V8H8V5M19,8V10H14V5H16V8H19Z" /></svg>
                     </button>
 
                     <button id="button_toggle_audio" class="box-content flex items-center justify-center rounded-full bg-colorMain p-2 text-white opacity-50 shadow-md transition-opacity hover:opacity-80" aria-label="Audio">
@@ -81,6 +81,11 @@
             <audio id="music" loop="true" autoplay="true">
                 <source src="https://cdn.jsdelivr.net/gh/elcreativedeveloper/SalamKami/src/assets/audio/Keisya Levronka - Tak Ingin Usai.mp3" />
             </audio>
+            <script>
+                Defer(function () {
+                    functionRunInvitation();
+                }, 2000);
+            </script>
         </div>
         <div id="app" class="app"></div>
         {{config.script:start}}{{config.cdataStart}}@@include("../build/scripts/script.js"){{config.cdataEnd}}{{config.script:end}}

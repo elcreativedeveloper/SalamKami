@@ -43,7 +43,7 @@
             }
         },
         "fonts": {
-            "primary": "playfair-display",
+            "primary": "montserrat",
             "secondary": "ms-madi"
         }
     },
