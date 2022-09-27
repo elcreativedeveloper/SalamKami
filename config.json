@@ -43,7 +43,7 @@
     },
     "fonts": {
         "primary": "montserrat",
-        "secondary": "ms-madi"
+        "secondary": "philosopher"
     },
     "config": {
         "script:start": "<script>",
