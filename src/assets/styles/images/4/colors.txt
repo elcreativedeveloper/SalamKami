@@ -1,2 +1,2 @@
---colorMain: #66a1cb;
+--colorMain: #42615a;
 --colorText: #202124;
