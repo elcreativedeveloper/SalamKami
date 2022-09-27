@@ -28,7 +28,7 @@
         "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 3,
+        "style": 4,
         "slide": {
             "cover": 1,
             "opening": 1,
@@ -43,7 +43,7 @@
     },
     "fonts": {
         "primary": "montserrat",
-        "secondary": "great-vibes"
+        "secondary": "ms-madi"
     },
     "config": {
         "script:start": "<script>",
