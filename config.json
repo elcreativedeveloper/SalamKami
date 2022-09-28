@@ -28,7 +28,7 @@
         "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 1,
+        "style": 2,
         "slide": {
             "cover": 1,
             "opening": 1,
@@ -41,7 +41,7 @@
             "closing": 1
         }
     },
-    "audio": "daniel_jang-all_of_me",
+    "audio": "stringspace-im_yours_string_quartet",
     "images": {
         "both": "../assets/images/placeholder.png",
         "male": "../assets/images/placeholder.png",
@@ -49,7 +49,7 @@
     },
     "fonts": {
         "primary": "Montserrat",
-        "secondary": "Allison"
+        "secondary": "Amatic SC"
     },
     "config": {
         "script:start": "<script>",
