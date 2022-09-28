@@ -50,9 +50,9 @@
 
                 @@include('../assets/images/layouts/{{theme.style}}/colors.txt')
 
-                --imageBackground: url('./assets/images/layouts/{{theme.style}}/imageBackground.jpg');
-                --imageOrnamentTop: url('./assets/images/layouts/{{theme.style}}/imageOrnamentTop.png');
-                --imageOrnamentBottom: url('./assets/images/layouts/{{theme.style}}/imageOrnamentBottom.png');
+                --imageBackground: url("../assets/images/layouts/{{theme.style}}/imageBackground.jpg");
+                --imageOrnamentTop: url("../assets/images/layouts/{{theme.style}}/imageOrnamentTop.png");
+                --imageOrnamentBottom: url("../assets/images/layouts/{{theme.style}}/imageOrnamentBottom.png");
             }
         {{config.style:end}}
         <script src="../assets/scripts/defer.js"></script>
@@ -104,7 +104,7 @@
                     </div>
                 </div>
             </div>
-            <div class="animate_kenburns fixed top-0 -z-10 h-full w-full bg-imageBackground bg-cover bg-center bg-no-repeat"></div>
+            <div class="animate_kenburns fixed top-0 -z-10 h-full w-full bg-cover bg-center bg-no-repeat" style='background-image: url("../assets/images/layouts/{{theme.style}}/imageBackground.jpg")'></div>
             <audio id="music" loop="true" autoplay="true">
                 <source src="../assets/audio/{{audio}}.mp3" />
             </audio>
