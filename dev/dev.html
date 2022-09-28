@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html class="rtl" dir="ltr" lang="id">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+        <meta name="format-detection" content="telephone=no" />
+        <title>Undangan Pernikahan {{name.female}} & {{name.male}}</title>
+        <meta name="title" content="Undangan Pernikahan {{name.female}} & {{name.male}}" />
+        <meta name="description" content="{{date.reception}}" />
+
+        <meta name="keywords" content="Undangan Pernikahan {{name.female}} & {{name.male}}" />
+        <meta name="news_keywords" content="Undangan Pernikahan {{name.female}} & {{name.male}}" />
+        <meta name="author" content="SalamKami | EL Creative Developer" />
+        <meta name="copyright" content="SalamKami | EL Creative Developer" />
+        <meta name="url" content="https://www.salamkami.com/" />
+        <meta name="distribution" content="Global" />
+        <meta name="target" content="all" />
+        <meta name="rating" content="general" />
+        <meta name="theme-color" content="#ffffff" />
+
+        <meta property="og:title" content="Undangan Pernikahan {{name.female}} & {{name.male}}" />
+        <meta property="og:description" content="{{date.reception}}" />
+        <meta property="og:site_name" content="Undangan Pernikahan {{name.female}} & {{name.male}}" />
+        <meta property="og:url" content="https://www.salamkami.com/" />
+        <meta property="og:locale" content="id" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="@@include('../src/assets/styles/images/imageSlide1.txt')" />
+
+        <meta name="twitter:title" content="Undangan Pernikahan {{name.female}} & {{name.male}}" />
+        <meta name="twitter:description" content="{{date.reception}}" />
+        <meta name="twitter:url" expr:content="https://www.salamkami.com/" />
+        <meta name="twitter:image" expr:content="@@include('../src/assets/styles/images/imageSlide1.txt')" />
+        <meta name="twitter:card" content="summary_large_image" />
+
+        <meta name="robots" content="noindex, nofollow" />
+
+        <link rel="stylesheet" href="../build/styles/styles.min.css" />
+        <link href="../assets/images//favicon.ico" rel="icon" type="image/x-icon" />
+        <link href="../assets/images//favicon.ico" rel="shortcut" type="image/icon" />
+        <link href="../assets/images//favicon.ico" rel="apple-touch-startup-image" />
+        <link href="../assets/images//favicon.ico" rel="apple-touch-icon" />
+
+        <script src="../build/scripts/defer.js"></script>
+    </head>
+    <body class="glide_first bg-colorBackground font-fontPrimary text-colorText text-sm">
+        <div id="loaders" class="fixed top-0 z-30 flex h-screen w-full items-center justify-center bg-white">
+            <div class="loader mx-auto h-[42px] w-[42px]">
+                <svg class="circular" viewBox="25 25 50 50" width="42" height="42"><circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"></circle></svg>
+            </div>
+        </div>
+
+        @@include('../src/partials/main.html')
+
+        <!-- prettier-ignore -->
+        {{config.style:start}}
+            @@include('../build/styles/{{fonts.primary}}.css')@@include('../build/styles/{{fonts.secondary}}.css')
+
+            :root {
+                --fontPrimary: '{{fonts.primary}}', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+                --fontSecondary: '{{fonts.secondary}}', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+
+                @@include('../src/assets/styles/images/{{theme.style}}/colors.txt')
+
+                --imageBackground: @@include('../src/assets/styles/images/{{theme.style}}/imageBackground.txt');
+                --imageOrnamentTop: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentTop.txt');
+                --imageOrnamentBottom: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentBottom.txt');
+                --imageOrnamentAltTop: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentAltTop.txt');
+                --imageOrnamentAltBottom: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentAltBottom.txt');
+            }
+        {{config.style:end}}
+
+        <div class="glide">
+            <div id="glide__bullets" class="glide__bullets invisible fixed top-0 z-20 flex w-full flex-row items-center justify-center p-3 opacity-80" data-glide-el="controls[nav]"></div>
+
+            <div class="glide__track" data-glide-el="track">
+                <!-- prettier-ignore -->
+                <div class="glide__slides">
+                    @@include('../src/partials/layouts/slide-cover/{{theme.slide.cover}}.html')
+                    @@include('../src/partials/layouts/slide-opening/{{theme.slide.opening}}.html')
+                    @@include('../src/partials/layouts/slide-bride/{{theme.slide.bride}}.html')
+                    @@include('../src/partials/layouts/slide-love-story/{{theme.slide.loveStory}}.html')
+                    @@include('../src/partials/layouts/slide-date/{{theme.slide.date}}.html')
+                    @@include('../src/partials/layouts/slide-maps/{{theme.slide.maps}}.html')
+                    @@include('../src/partials/layouts/slide-gift/{{theme.slide.gift}}.html')
+                    @@include('../src/partials/layouts/slide-rundown/{{theme.slide.rundown}}.html')
+                    @@include('../src/partials/layouts/slide-closing/{{theme.slide.closing}}.html')
+                </div>
+            </div>
+
+            <div id="fab" class="fab fixed right-6 bottom-6 z-20 flex flex-col items-center justify-center gap-2">
+                <button id="button_toggle_fullscreen" class="bg-colorMain text-colorBackground box-content flex items-center justify-center rounded-full p-2 opacity-50 shadow-md transition-opacity hover:opacity-80" aria-label="Keluar dari Layar Penuh">
+                    <svg width="24" height="24" viewBox="0 0 24 24" class="fullscreen_on h-6 w-6 fill-current"><path d="M5,5H10V7H7V10H5V5M14,5H19V10H17V7H14V5M17,14H19V19H14V17H17V14M10,17V19H5V14H7V17H10Z" /></svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" class="fullscreen_off hidden h-6 w-6 fill-current"><path d="M14,14H19V16H16V19H14V14M5,14H10V19H8V16H5V14M8,5H10V10H5V8H8V5M19,8V10H14V5H16V8H19Z" /></svg>
+                </button>
+
+                <button id="button_toggle_audio" class="bg-colorMain text-colorBackground box-content flex items-center justify-center rounded-full p-2 opacity-50 shadow-md transition-opacity hover:opacity-80" aria-label="Audio">
+                    <svg width="24" height="24" viewBox="0 0 24 24" class="audio_on h-6 w-6 fill-current"><path d="M14,3.23V5.29C16.89,6.15 19,8.83 19,12C19,15.17 16.89,17.84 14,18.7V20.77C18,19.86 21,16.28 21,12C21,7.72 18,4.14 14,3.23M16.5,12C16.5,10.23 15.5,8.71 14,7.97V16C15.5,15.29 16.5,13.76 16.5,12M3,9V15H7L12,20V4L7,9H3Z" /></svg>
+                    <svg width="24" height="24" viewBox="0 0 24 24" class="audio_off hidden h-6 w-6 fill-current"><path d="M12,4L9.91,6.09L12,8.18M4.27,3L3,4.27L7.73,9H3V15H7L12,20V13.27L16.25,17.53C15.58,18.04 14.83,18.46 14,18.7V20.77C15.38,20.45 16.63,19.82 17.68,18.96L19.73,21L21,19.73L12,10.73M19,12C19,12.94 18.8,13.82 18.46,14.64L19.97,16.15C20.62,14.91 21,13.5 21,12C21,7.72 18,4.14 14,3.23V5.29C16.89,6.15 19,8.83 19,12M16.5,12C16.5,10.23 15.5,8.71 14,7.97V10.18L16.45,12.63C16.5,12.43 16.5,12.21 16.5,12Z" /></svg>
+                </button>
+
+                <div class="bg-colorMain text-colorBackground flex flex-col items-center justify-center rounded-full opacity-50 shadow-md transition-opacity hover:opacity-80" data-glide-el="controls">
+                    <button class="box-content flex items-center justify-center p-2" aria-label="Halaman Selanjutnya" data-glide-dir=">">
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="h-6 w-6 fill-current"><path d="M8.59,16.58L13.17,12L8.59,7.41L10,6L16,12L10,18L8.59,16.58Z" /></svg>
+                    </button>
+                    <button class="box-content flex items-center justify-center p-2" aria-label="Halaman Sebelumnya" data-glide-dir="<">
+                        <svg width="24" height="24" viewBox="0 0 24 24" class="h-6 w-6 fill-current"><path d="M15.41,16.58L10.83,12L15.41,7.41L14,6L8,12L14,18L15.41,16.58Z" /></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="animate_kenburns bg-imageBackground fixed top-0 -z-10 h-full w-full bg-cover bg-center bg-no-repeat"></div>
+        <audio id="music" loop="true" autoplay="true">
+            <source src="../assets/audio/{{audio}}.mp3" />
+        </audio>
+        <script>
+            Defer(function () {
+                functionRunInvitation();
+            }, 2000);
+        </script>
+        <script src="../build/scripts/script.js"></script>
+    </body>
+</html>
