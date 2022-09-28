@@ -15,19 +15,19 @@ const config = './config.json';
 // Generate Styles
 gulp.task('styles', function () {
     return gulp.src([
-        './assets/styles/*.{css,scss}'
-    ]).pipe(gulpSass()).pipe(gulp.dest('./assets/styles'));
+        './docs/assets/styles/*.{css,scss}'
+    ]).pipe(gulpSass()).pipe(gulp.dest('./docs/assets/styles'));
 });
 // Generate Prefixed Styles
 gulp.task('styles:prefixed', function () {
-    return gulp.src('./assets/styles/*.css')
+    return gulp.src('./docs/assets/styles/*.css')
         .pipe(gulpAutoPrefixer({
             cascade: false,
-        })).pipe(gulp.dest('./assets/styles'));
+        })).pipe(gulp.dest('./docs/assets/styles'));
 });
 // Generate Minified Styles
 gulp.task('styles:minify', function () {
-    return gulp.src('./assets/styles/*.{css,scss}')
+    return gulp.src('./docs/assets/styles/*.{css,scss}')
         .pipe(gulpCleanCSS({
             level: {
                 1: {
@@ -36,18 +36,18 @@ gulp.task('styles:minify', function () {
             },
         }))
         .pipe(gulpReplace('-tw', '-elcreative'))
-        .pipe(gulp.dest('./assets/styles'));
+        .pipe(gulp.dest('./docs/assets/styles'));
 });
 
 // Generate Scripts
 gulp.task('script', function () {
     return gulp.src([
         './dev/scripts/*.js'
-    ]).pipe(gulpBabel()).pipe(gulp.dest('./assets/scripts'));
+    ]).pipe(gulpBabel()).pipe(gulp.dest('./docs/assets/scripts'));
 });
 // Generate Minified Script
 gulp.task('script:minify', function () {
-    return gulp.src('./assets/scripts/*.js')
+    return gulp.src('./docs/assets/scripts/*.js')
         .pipe(gulpBabelMinify({
             mangle: {
                 keepClassName: false,
@@ -56,7 +56,7 @@ gulp.task('script:minify', function () {
             builtIns: false,
             removeDebugger: true,
             removeConsole: true,
-        })).pipe(gulp.dest('./assets/scripts'));
+        })).pipe(gulp.dest('./docs/assets/scripts'));
 });
 
 // Final Tasks
