@@ -91,7 +91,7 @@ gulp.task('start', function () {
     const tokenData = require(config);
 
     return gulp
-        .src('src/index.html')
+        .src('src/github.html')
         .pipe(
             gulpTokenReplace({
                 global: tokenData,
