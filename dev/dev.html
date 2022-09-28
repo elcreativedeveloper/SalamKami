@@ -59,13 +59,11 @@
                 --fontPrimary: '{{fonts.primary}}', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
                 --fontSecondary: '{{fonts.secondary}}', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 
-                @@include('../src/assets/styles/images/{{theme.style}}/colors.txt')
+                @@include('../assets/images/layouts/{{theme.style}}/colors.txt')
 
-                --imageBackground: @@include('../src/assets/styles/images/{{theme.style}}/imageBackground.txt');
-                --imageOrnamentTop: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentTop.txt');
-                --imageOrnamentBottom: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentBottom.txt');
-                --imageOrnamentAltTop: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentAltTop.txt');
-                --imageOrnamentAltBottom: @@include('../src/assets/styles/images/{{theme.style}}/imageOrnamentAltBottom.txt');
+                --imageBackground: @@include('../assets/images/layouts/{{theme.style}}/imageBackground.jpg');
+                --imageOrnamentTop: @@include('../assets/images/layouts/{{theme.style}}/imageOrnamentTop.png');
+                --imageOrnamentBottom: @@include('../assets/images/layouts/{{theme.style}}/imageOrnamentBottom.png');
             }
         {{config.style:end}}
 
