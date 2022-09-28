@@ -1,5 +1,0 @@
-# SalamKami
- 
-````
-npm install
-````
