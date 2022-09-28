@@ -77,9 +77,9 @@ gulp.task('start', function () {
             global: tokenData,
         }))
         .pipe(gulpRename({
-            basename: 'index',
+            basename: 'root',
             extname: '.html',
-        })).pipe(gulp.dest('./dist'));
+        })).pipe(gulp.dest('./docs'));
 });
 
 // Production Mode
