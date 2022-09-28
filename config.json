@@ -42,9 +42,12 @@
         }
     },
     "audio": "brooklyn_duo-love_me_like_you_do",
+    "images": {
+        "1": ""
+    },
     "fonts": {
-        "primary": "montserrat",
-        "secondary": "allison"
+        "primary": "Montserrat",
+        "secondary": "Allison"
     },
     "config": {
         "script:start": "<script>",
