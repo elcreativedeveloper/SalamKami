@@ -28,7 +28,7 @@
         "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 8,
+        "style": 9,
         "slide": {
             "cover": 1,
             "opening": 1,
@@ -41,7 +41,7 @@
             "closing": 1
         }
     },
-    "audio": "stringspace-im_yours_string_quartet",
+    "audio": "the_piano_guys-just_the_way_you_are",
     "images": {
         "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
         "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
@@ -49,7 +49,7 @@
     },
     "fonts": {
         "primary": "Montserrat",
-        "secondary": "Amatic SC"
+        "secondary": "Corinthia"
     },
     "config": {
         "script:start": "<script>",
