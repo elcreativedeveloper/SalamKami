@@ -43,7 +43,9 @@
     },
     "audio": "brooklyn_duo-love_me_like_you_do",
     "images": {
-        "1": ""
+        "both": "",
+        "male": "",
+        "female": ""
     },
     "fonts": {
         "primary": "Montserrat",

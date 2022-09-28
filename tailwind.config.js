@@ -2,7 +2,7 @@
 module.exports = {
     darkMode: 'class',
     content: [
-        '../dev/partials/layouts/**/*.{xml,html,js}',
+        './dev/**/*.{html,js}',
     ],
     theme: {
         extend: {
@@ -14,8 +14,6 @@ module.exports = {
                 imageBackground: 'var(--imageBackground)',
                 imageOrnamentTop: 'var(--imageOrnamentTop)',
                 imageOrnamentBottom: 'var(--imageOrnamentBottom)',
-                imageOrnamentAltTop: 'var(--imageOrnamentAltTop)',
-                imageOrnamentAltBottom: 'var(--imageOrnamentAltBottom)',
             },
             colors: {
                 colorMain: 'var(--colorMain)',

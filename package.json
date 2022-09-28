@@ -28,7 +28,7 @@
     "webpack-cli": "^4.10.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "npx tailwindcss -i ./dev/styles/tailwind.css -o ./assets/styles/styles.min.css --minify && gulp build"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,3 @@
+--colorMain: #42615a;
+--colorText: #202124;
+--colorBackground: #ffffff;
