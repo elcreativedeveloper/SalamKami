@@ -43,9 +43,9 @@
     },
     "audio": "stringspace-im_yours_string_quartet",
     "images": {
-        "both": "https://github.com/elcreativedeveloper/SalamKami/blob/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
-        "male": "https://github.com/elcreativedeveloper/SalamKami/blob/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
-        "female": "https://github.com/elcreativedeveloper/SalamKami/blob/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png"
+        "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
+        "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/blob/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
+        "female": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/blob/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png"
     },
     "fonts": {
         "primary": "Montserrat",
