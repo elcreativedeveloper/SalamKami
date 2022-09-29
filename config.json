@@ -31,14 +31,14 @@
         "style": 2,
         "slide": {
             "cover": 1,
-            "opening": 0,
-            "bride": 0,
-            "date": 0,
-            "maps": 0,
-            "rundown": 0,
-            "loveStory": 0,
-            "gift": 0,
             "quotes": 1,
+            "opening": 1,
+            "bride": 1,
+            "date": 1,
+            "maps": 1,
+            "rundown": 1,
+            "loveStory": 1,
+            "gift": 1,
             "closing": 1
         }
     },
