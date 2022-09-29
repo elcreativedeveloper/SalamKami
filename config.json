@@ -28,7 +28,7 @@
         "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 14,
+        "style": 1,
         "slide": {
             "cover": 1,
             "quotes": 1,
@@ -49,8 +49,8 @@
         "female": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png"
     },
     "fonts": {
-        "primary": "Montserrat",
-        "secondary": "Gwendolyn"
+        "primary": "Google Sans Text",
+        "secondary": "Sacramento"
     },
     "config": {
         "script:start": "<script>",
