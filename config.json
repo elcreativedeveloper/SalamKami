@@ -31,17 +31,18 @@
         "style": 2,
         "slide": {
             "cover": 1,
-            "opening": 1,
-            "bride": 1,
-            "date": 1,
-            "maps": 1,
+            "opening": 0,
+            "bride": 0,
+            "date": 0,
+            "maps": 0,
             "rundown": 0,
             "loveStory": 0,
             "gift": 0,
+            "quotes": 1,
             "closing": 1
         }
     },
-    "audio": "brooklyn_duo-perfect",
+    "audio": "",
     "images": {
         "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj95xsC8p8NGnjW9i9X0I9nSOf8VUgguksZkDT2ESvFkG2DHdIyJoeLGaEHJPtoTlpdcqj6VgMFva5kBn348B9xqwaOuk1e4qdT7tCiMtNSuQO3Q1K--idl42TFtGbcZbRg_IQJOxPWID-F3zjMps83rvQAx9rYrwOL3UdYlbTHK6S7krsnWn2YQ-2-/s1600/BG.jpg",
         "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhXFicAKekyZF78GgSO-vJl2snoj2fUR6Hge_52CIR-jbQMLdevIokfwZKK99pKk-wX6WSe8_1WwoGzHNan4AZcj6FF8-LbzFho3L9MJFzFtqd-Yg6WP2jsATkPUEgsczOIyN3aGvZO3PFgHpwrb-w3ZhrrZdhA7K5_neGGBMa-e-3NaFz5VQAMnqjJ/s1600/BG.jpg",

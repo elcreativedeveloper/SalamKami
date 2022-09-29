@@ -33,67 +33,67 @@ html {
     @apply invisible;
 }
 
-.animate__animated {
+.animate_animated {
     animation-duration: 1s;
     animation-duration: var(--animate-duration);
     animation-fill-mode: both;
     opacity: 0;
 }
-.animate__animated.animate__slow {
+.animate_animated.animate__slow {
     animation-duration: 2s;
     animation-duration: calc(var(--animate-duration) * 2);
 }
-.animate__animated.animate__slower {
+.animate_animated.animate_slower {
     animation-duration: 3s;
     animation-duration: calc(var(--animate-duration) * 3);
 }
 
-.animate__animated.animate__delay-005s {
+.animate_animated.animate__delay-005s {
     animation-delay: 0.5;
     animation-delay: calc(var(--animate-delay) * 0.5);
 }
-.animate__animated.animate__delay-010s {
+.animate_animated.animate__delay-010s {
     animation-delay: 1s;
     animation-delay: calc(var(--animate-delay) * 1);
 }
-.animate__animated.animate__delay-015s {
+.animate_animated.animate__delay-015s {
     animation-delay: 1.5s;
     animation-delay: calc(var(--animate-delay) * 1.5);
 }
-.animate__animated.animate__delay-020s {
+.animate_animated.animate__delay-020s {
     animation-delay: 2s;
     animation-delay: calc(var(--animate-delay) * 2);
 }
-.animate__animated.animate__delay-025s {
+.animate_animated.animate__delay-025s {
     animation-delay: 2.5s;
     animation-delay: calc(var(--animate-delay) * 2.5);
 }
 
-.glide__slide--active .animate__fadeIn {
+.glide__slide--active .animate_fadeIn {
     animation-name: fadeIn;
 }
-.glide__slide--active .animate__fadeInUp {
+.glide__slide--active .animate_fadeInUp {
     animation-name: fadeInUp;
 }
-.glide__slide--active .animate__fadeInRight {
+.glide__slide--active .animate_fadeInRight {
     animation-name: fadeInRight;
 }
-.glide__slide--active .animate__fadeInLeft {
+.glide__slide--active .animate_fadeInLeft {
     animation-name: fadeInLeft;
 }
-.glide__slide--active .animate__fadeInTopLeft {
+.glide__slide--active .animate_fadeInTopLeft {
     animation-name: fadeInTopLeft;
 }
-.glide__slide--active .animate__fadeInBottomRight {
+.glide__slide--active .animate_fadeInBottomRight {
     animation-name: fadeInBottomRight;
 }
-.glide__slide--active .animate__fadeInDown {
+.glide__slide--active .animate_fadeInDown {
     animation-name: fadeInDown;
 }
-.glide__slide--active .animate__fadeInLeft {
+.glide__slide--active .animate_fadeInLeft {
     animation-name: fadeInLeft;
 }
-.glide__slide--active .animate__fadeInRight {
+.glide__slide--active .animate_fadeInRight {
     animation-name: fadeInRight;
 }
 
@@ -187,12 +187,12 @@ html {
 }
 
 @media (prefers-reduced-motion: reduce), print {
-    .animate__animated {
+    .animate_animated {
         animation-duration: 1ms !important;
         transition-duration: 1ms !important;
         animation-iteration-count: 1 !important;
     }
-    .animate__animated[class*='Out'] {
+    .animate_animated[class*='Out'] {
         opacity: 0;
     }
 }
