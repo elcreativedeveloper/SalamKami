@@ -35,8 +35,8 @@
             "bride": 1,
             "date": 1,
             "maps": 1,
-            "rundown": 1,
-            "loveStory": 1,
+            "rundown": 0,
+            "loveStory": 0,
             "gift": 0,
             "closing": 1
         }
