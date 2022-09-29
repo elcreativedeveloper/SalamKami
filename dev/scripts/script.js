@@ -208,7 +208,7 @@ function functionRunInvitation() {
 
         document.getElementById('glide__bullets').innerHTML = glideControl;
 
-        document.getElementById('button_swipe').addEventListener('click', function (event) {
+        document.getElementById('button_swipe') && document.getElementById('button_swipe').addEventListener('click', function (event) {
             event.preventDefault();
 
             glide.enable();
@@ -222,7 +222,7 @@ function functionRunInvitation() {
             // functionFullScreen(null);
         });
 
-        document.getElementById('button_toggle_audio').addEventListener('click', function (event) {
+        document.getElementById('button_toggle_audio') && document.getElementById('button_toggle_audio').addEventListener('click', function (event) {
             if (musicIsPlaying) {
                 this.querySelector('.audio_on').classList.add('hidden');
                 this.querySelector('.audio_off').classList.remove('hidden');
@@ -240,21 +240,21 @@ function functionRunInvitation() {
             }
         });
 
-        document.getElementById('button_hadiah').addEventListener('click', function (event) {
+        document.getElementById('button_hadiah') && document.getElementById('button_hadiah').addEventListener('click', function (event) {
             event.preventDefault();
 
             document.querySelector('.container_hadiah').classList.remove('hidden');
             document.querySelector('.container_kado').classList.add('hidden');
         });
 
-        document.getElementById('button_kado').addEventListener('click', function (event) {
+        document.getElementById('button_kado') && document.getElementById('button_kado').addEventListener('click', function (event) {
             event.preventDefault();
 
             document.querySelector('.container_kado').classList.remove('hidden');
             document.querySelector('.container_hadiah').classList.add('hidden');
         });
 
-        document.getElementById('button_toggle_fullscreen').addEventListener('click', function (event) {
+        document.getElementById('button_toggle_fullscreen') && document.getElementById('button_toggle_fullscreen').addEventListener('click', function (event) {
             event.preventDefault();
             this.querySelector('.fullscreen_off').classList.remove('hidden');
             functionFullScreen(this);
