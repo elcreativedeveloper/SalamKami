@@ -1,0 +1,62 @@
+{
+    "name": {
+        "male": "Faris Advaita Alhasan",
+        "maleInitial": "Faris",
+        "maleDad": "Adzriel Fairuz",
+        "maleMom": "Areta Mahveen",
+        "female": "Haisha Azrina",
+        "femaleInitial": "Azrina",
+        "femaleDad": "Farhan Alfarezi",
+        "femaleMom": "Shafiyyah Sammira"
+    },
+    "date": {
+        "contract": "Sabtu, 01 November 2025",
+        "contractTime": "08:00 WIB",
+        "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
+        "reception": "Sabtu, 01 November 2025",
+        "receptionTime": "10:00 WIB",
+        "receptionToDate": "2025-11-01",
+        "receptionToDate1": "20251101T0800"
+    },
+    "location": {
+        "contract": "Alamat Lengkap Lokasi Akad Nikah",
+        "reception": "Alamat Lengkap Lokasi Resepsi Penikahan",
+        "maps": "-5.34700076388259, 104.95010598444547"
+    },
+    "gift": {
+        "bankNumber": "1234 5678 9123",
+        "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
+    },
+    "theme": {
+        "style": 10,
+        "slide": {
+            "cover": 1,
+            "opening": 1,
+            "bride": 1,
+            "date": 1,
+            "maps": 1,
+            "rundown": 1,
+            "loveStory": 1,
+            "gift": 1,
+            "closing": 1
+        }
+    },
+    "audio": "vitamin_string_quartet-dont_stop_believin",
+    "images": {
+        "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
+        "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
+        "female": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png"
+    },
+    "fonts": {
+        "primary": "Montserrat",
+        "secondary": "Gwendolyn"
+    },
+    "config": {
+        "script:start": "<script>",
+        "script:end": "</script>",
+        "style:start": "<style>",
+        "style:end": "</style>",
+        "cdataStart": "/*<![CDATA[*/",
+        "cdataEnd": "/*]]>*/"
+    }
+}
