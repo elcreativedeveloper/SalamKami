@@ -267,3 +267,5 @@ function functionRunInvitation() {
         }
     });
 }
+
+const pathName = window.location.pathname.split('/').pop();

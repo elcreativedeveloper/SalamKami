@@ -82,5 +82,13 @@ gulp.task('start', function () {
         })).pipe(gulp.dest('./docs'));
 });
 
+// Preview
+gulp.task('preview', function () {
+    return gulp.src('./docs/root.html')
+        .pipe(gulpReplace('../', ''))
+        .pipe(gulp.dest('./docs'));
+});
+
 // Production Mode
 gulp.task('build', gulp.series('styles', 'styles:prefixed', 'styles:minify', 'script', 'script:minify', 'start'));
+gulp.task('preview', gulp.series('styles', 'styles:prefixed', 'styles:minify', 'script', 'script:minify', 'start', 'preview'));

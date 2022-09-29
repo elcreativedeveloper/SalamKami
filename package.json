@@ -28,7 +28,8 @@
     "webpack-cli": "^4.10.0"
   },
   "scripts": {
-    "build": "npx tailwindcss -i ./dev/styles/tailwind.css -o ./docs/assets/styles/styles.min.css --minify && gulp build"
+    "build": "npx tailwindcss -i ./dev/styles/tailwind.css -o ./docs/assets/styles/styles.min.css --minify && gulp build",
+    "preview": "npx tailwindcss -i ./dev/styles/tailwind.css -o ./docs/assets/styles/styles.min.css --minify && gulp preview"
   },
   "repository": {
     "type": "git",
