@@ -28,9 +28,10 @@
         "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 10,
+        "style": 11,
         "slide": {
             "cover": 1,
+            "quotes": 1,
             "opening": 1,
             "bride": 1,
             "date": 1,
