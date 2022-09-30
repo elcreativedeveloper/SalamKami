@@ -30,10 +30,10 @@
     "theme": {
         "style": 1,
         "slide": {
-            "cover": 1,
+            "cover": 4,
             "quotes": 1,
-            "opening": 1,
-            "bride": 1,
+            "opening": 2,
+            "bride": 4,
             "date": 1,
             "maps": 1,
             "rundown": 1,
@@ -50,7 +50,7 @@
     },
     "fonts": {
         "primary": "Google Sans Text",
-        "secondary": "Sacramento"
+        "secondary": "Google Sans Text"
     },
     "config": {
         "script:start": "<script>",

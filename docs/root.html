@@ -43,18 +43,18 @@
         <link rel="stylesheet" href="assets/styles/styles.min.css" />
         <!-- prettier-ignore -->
         <style>
-            @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Gwendolyn:wght@400;500;700&display=swap');
+            @import url('https://fonts.googleapis.com/css2?family=Google Sans Text&family=Google Sans Text:wght@400;500;700&display=swap');
             :root {
-                --fontPrimary: 'Montserrat', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
-                --fontSecondary: 'Gwendolyn', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+                --fontPrimary: 'Google Sans Text', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+                --fontSecondary: 'Google Sans Text', ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
 
-                --colorMain: #192c4e;
+                --colorMain: #5f5f5f;
                 --colorText: #202124;
                 --colorBackground: #ffffff;
 
-                --imageBackground: url("docs/assets/images/layouts/15/imageBackground.jpg");
-                --imageOrnamentTop: url("docs/assets/images/layouts/15/imageOrnamentTop.png");
-                --imageOrnamentBottom: url("docs/assets/images/layouts/15/imageOrnamentBottom.png");
+                --imageBackground: url("docs/assets/images/layouts/1/imageBackground.jpg");
+                --imageOrnamentTop: url("docs/assets/images/layouts/1/imageOrnamentTop.png");
+                --imageOrnamentBottom: url("docs/assets/images/layouts/1/imageOrnamentBottom.png");
             }
         </style>
         <script src="assets/scripts/defer.js"></script>
@@ -76,21 +76,12 @@
                         <div class="glide__slide layout_cover">
                             <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
                                 <div class="flex h-full w-full flex-col items-center justify-center p-5">
-                                    <div class="mb-11 flex flex-col items-center justify-center">
-                                        <div class="flex w-full items-center justify-between">
-                                            <div class="animate_animated animate_fadeInLeft animate_slower mr-4 mb-4 flex flex-col items-center justify-center">
-                                                <div class="mb-2 font-fontSecondary text-[36px] text-colorMain">Azrina</div>
-                                                <div class="text-sm">Haisha Azrina</div>
-                                            </div>
-                                            <div class="animate_animated animate_fadeInDown animate_slower h-20 w-[50px] border-t-[3px] border-r-[3px] border-colorMain"></div>
-                                        </div>
-                                        <div class="flex w-full items-center justify-between">
-                                            <div class="animate_animated animate_fadeInUp animate_slower h-20 w-[50px] border-b-[3px] border-l-[3px] border-colorMain"></div>
-                                            <div class="animate_animated animate_fadeInRight animate_slower mt-4 ml-4 flex flex-col items-center justify-center">
-                                                <div class="mb-2 text-sm">Faris Advaita Alhasan</div>
-                                                <div class="font-fontSecondary text-[36px] text-colorMain">Faris</div>
-                                            </div>
-                                        </div>
+                                    <div class="mb-4 flex flex-col items-center justify-center">
+                                        <div class="animate_animated animate_fadeInDown animate_slower mb-3">UNDANGAN PERNIKAHAN</div>
+                                        <div class="animate_animated animate_fadeInLeft animate_slower font-fontSecondary text-5xl text-colorMain">Azrina</div>
+                                        <div class="animate_animated animate_fadeIn animate_slower font-fontSecondary text-3xl text-colorMain">&</div>
+                                        <div class="animate_animated animate_fadeInRight animate_slower font-fontSecondary text-5xl text-colorMain">Faris</div>
+                                        <div class="animate_animated animate_fadeInUp animate_slower mt-3">Sabtu, 01 November 2025</div>
                                     </div>
                                     <div class="animate_animated animate_fadeInUp animate_slower item-center mb-4 flex flex-col items-center justify-center text-sm">
                                         <span>Kepada Yth,</span>
@@ -99,13 +90,13 @@
                                     <!-- Invitee -->
                                     <div id="text_kepada" class="animate_animated animate_fadeInUp animate_slower mb-4 text-lg font-bold text-colorMain">Tamu Undangan</div>
                                     <div class="animate_animated animate_fadeInUp animate_slower mb-6 text-sm">di Tempat</div>
-                                    <button id="button_swipe" type="button" class="animate_animated animate_fadeInUp animate_slower rounded-full border-colorMain bg-colorMain py-2 px-4 text-colorBackground shadow-sm transition-shadow hover:shadow-lg" aria-label="Buka Undangan">Buka Undangan</button>
+                                    <button id="button_swipe" type="button" class="animate_animated animate_fadeInUp animate_slower rounded-full border-colorMain bg-colorMain py-2 px-4 text-white text-colorBackground shadow-sm transition-shadow hover:shadow-lg" aria-label="Buka Undangan">Buka Undangan</button>
                                 </div>
                             </div>
 
                             <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentTop.png")'></span>
-                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentBottom.png")'></span>
+                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentTop.png")'></span>
+                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentBottom.png")'></span>
                             </div>
                         </div>
 
@@ -128,47 +119,52 @@
                             </div>
 
                             <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentTop.png")'></span>
-                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentBottom.png")'></span>
+                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentTop.png")'></span>
+                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentBottom.png")'></span>
                             </div>
                         </div>
 
                         <div class="glide__slide layout_opening">
                             <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
                                 <div class="flex h-full w-full flex-col items-center justify-center p-5">
-                                    <div class="animate_animated animate_fadeIn animate_slower mb-5 h-[230px] w-full flex-shrink-0 flex-grow-0 overflow-hidden rounded-xl border-[4px] border-colorMain p-2 shadow-md">
-                                        <img class="h-full w-full rounded-xl object-cover" src="https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png" />
+                                    <div class="animate_animated animate_fadeInDown animate_slower -mt-5 h-[70vh] w-10/12 overflow-hidden rounded-b-full border-x-[4px] border-b-[4px] border-colorMain px-2 pb-2 shadow-md">
+                                        <img class="h-full w-full rounded-b-full object-cover object-bottom" src="https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png" />
                                     </div>
-                                    <div class="animate_animated animate_fadeInUp animate_slower text-center"><em>Bismillahirohmanirrohiim</em></div>
-                                    <div class="animate_animated animate_fadeInUp animate_slower mb-5 text-center"><em>Assalamu'alaikum Warahmatullahi Wabarokatuh</em></div>
-                                    <div class="animate_animated animate_fadeInUp animate_slower text-center">Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/Saudari pada acara resepsi pernikahan kami.</div>
+
+                                    <div class="my-auto text-center">
+                                        <div class="animate_animated animate_fadeInUp animate_slower text-center"><em>Bismillahirohmanirrohiim</em></div>
+                                        <div class="animate_animated animate_fadeInUp animate_slower mb-5 text-center"><em>Assalamu'alaikum Warahmatullahi Wabarokatuh</em></div>
+                                        <div class="animate_animated animate_fadeInUp animate_slower text-center">Tanpa mengurangi rasa hormat, kami bermaksud mengundang Bapak/Ibu/Saudara/Saudari pada acara resepsi pernikahan kami.</div>
+                                    </div>
                                 </div>
                             </div>
 
                             <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentTop.png")'></span>
-                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentBottom.png")'></span>
+                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentTop.png")'></span>
+                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentBottom.png")'></span>
                             </div>
                         </div>
 
                         <div class="glide__slide layout_bride">
                             <div class="no-scrollbar mx-auto h-full max-w-xl overflow-y-auto overflow-x-hidden">
                                 <div class="flex h-full w-full flex-col items-center justify-center p-5">
-                                    <div class="animate_animated animate_fadeInDown animate__slow mb-2 font-fontSecondary text-3xl text-colorMain">Haisha Azrina</div>
-                                    <div class="animate_animated animate_fadeInUp animate_slower flex flex-col items-center justify-center">
+                                    <div class="my-6 flex items-center justify-center">
+                                        <div class="animate_animated animate_fadeInLeft animate__slow mr-2 h-[100px] w-[100px] flex-shrink-0 flex-grow-0 overflow-hidden rounded-full border-[4px] border-colorMain p-1 shadow-md">
+                                            <img class="h-full w-full rounded-full bg-white object-cover" src="https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png" />
+                                        </div>
+                                        <div class="animate_animated animate_fadeInRight animate__slow ml-2 h-[100px] w-[100px] flex-shrink-0 flex-grow-0 overflow-hidden rounded-full border-[4px] border-colorMain p-1 shadow-md">
+                                            <img class="h-full w-full rounded-full bg-white object-cover" src="https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png" />
+                                        </div>
+                                    </div>
+
+                                    <div class="animate_animated animate_fadeInRight animate__slow mb-2 font-fontSecondary text-3xl text-colorMain">Haisha Azrina</div>
+                                    <div class="animate_animated animate_fadeInUp animate_slower mb-6 flex flex-col items-center justify-center">
                                         <span>Putri dari Bapak Farhan Alfarezi</span>
                                         <span>&amp;</span>
                                         <span>Ibu Shafiyyah Sammira</span>
                                     </div>
-                                    <div class="my-6 flex items-center justify-center">
-                                        <div class="animate_animated animate_fadeInLeft animate_slower mr-2 h-[200px] w-[150px] flex-shrink-0 flex-grow-0 overflow-hidden rounded-lg border-[4px] border-colorMain p-2 shadow-md">
-                                            <img class="h-full w-full rounded-lg bg-white object-cover" src="https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png" />
-                                        </div>
-                                        <div class="animate_animated animate_fadeInRight animate_slower ml-2 h-[200px] w-[150px] flex-shrink-0 flex-grow-0 overflow-hidden rounded-lg border-[4px] border-colorMain p-2 shadow-md">
-                                            <img class="h-full w-full rounded-lg bg-white object-cover" src="https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png" />
-                                        </div>
-                                    </div>
-                                    <div class="animate_animated animate_fadeInUp animate__slow mb-2 font-fontSecondary text-3xl text-colorMain">Faris Advaita Alhasan</div>
+
+                                    <div class="animate_animated animate_fadeInLeft animate__slow mb-2 font-fontSecondary text-3xl text-colorMain">Faris Advaita Alhasan</div>
                                     <div class="animate_animated animate_fadeInUp animate_slower flex flex-col items-center justify-center">
                                         <span>Putra dari Bapak Adzriel Fairuz</span>
                                         <span>&amp;</span>
@@ -178,8 +174,8 @@
                             </div>
 
                             <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentTop.png")'></span>
-                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentBottom.png")'></span>
+                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentTop.png")'></span>
+                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentBottom.png")'></span>
                             </div>
                         </div>
 
@@ -210,8 +206,8 @@
                             </div>
 
                             <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentTop.png")'></span>
-                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentBottom.png")'></span>
+                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentTop.png")'></span>
+                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentBottom.png")'></span>
                             </div>
                         </div>
 
@@ -256,8 +252,8 @@
                             </div>
 
                             <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentTop.png")'></span>
-                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentBottom.png")'></span>
+                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentTop.png")'></span>
+                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentBottom.png")'></span>
                             </div>
                         </div>
 
@@ -278,8 +274,8 @@
                             </div>
 
                             <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentTop.png")'></span>
-                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentBottom.png")'></span>
+                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentTop.png")'></span>
+                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentBottom.png")'></span>
                             </div>
                         </div>
 
@@ -313,8 +309,8 @@
                             </div>
 
                             <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentTop.png")'></span>
-                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentBottom.png")'></span>
+                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentTop.png")'></span>
+                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentBottom.png")'></span>
                             </div>
                         </div>
 
@@ -352,8 +348,8 @@
                             </div>
 
                             <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentTop.png")'></span>
-                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentBottom.png")'></span>
+                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentTop.png")'></span>
+                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentBottom.png")'></span>
                             </div>
                         </div>
 
@@ -377,8 +373,8 @@
                             </div>
 
                             <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentTop.png")'></span>
-                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/15/imageOrnamentBottom.png")'></span>
+                                <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentTop.png")'></span>
+                                <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("assets/images/layouts/1/imageOrnamentBottom.png")'></span>
                             </div>
                         </div>
 
@@ -406,7 +402,7 @@
                     </div>
                 </div>
             </div>
-            <div class="animate_kenburns fixed top-0 -z-10 h-full w-full bg-cover bg-center bg-no-repeat" style='background-image: url("assets/images/layouts/15/imageBackground.jpg")'></div>
+            <div class="animate_kenburns fixed top-0 -z-10 h-full w-full bg-cover bg-center bg-no-repeat" style='background-image: url("assets/images/layouts/1/imageBackground.jpg")'></div>
             <audio id="music" loop="true" autoplay="true">
                 <source src="assets/audio/.mp3" />
             </audio>
