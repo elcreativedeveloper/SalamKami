@@ -16,8 +16,7 @@ const config = './config.json';
 gulp.task('styles', function () {
     return gulp.src([
         './docs/assets/styles/*.{css,scss}'
-    ]).pipe(gulpSass()).pipe(gulp.dest('./build/styles'));
-    // ]).pipe(gulpSass()).pipe(gulp.dest('./docs/assets/styles'));
+    ]).pipe(gulpSass()).pipe(gulp.dest('./docs/assets/styles'));
 });
 // Generate Prefixed Styles
 gulp.task('styles:prefixed', function () {
