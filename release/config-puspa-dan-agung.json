@@ -1,0 +1,63 @@
+{
+    "name": {
+        "male": "Dwi Agung Cahyadi, S.Kom",
+        "maleInitial": "Agung",
+        "maleDad": "Witriono, S.E",
+        "maleMom": "Tri Yuliati",
+        "female": "Puspa Sari, S.Kom",
+        "femaleInitial": "Puspa",
+        "femaleDad": "Turiman (Alm)",
+        "femaleMom": "Mariyem"
+    },
+    "date": {
+        "contract": "Senin, 26 Septemper 2022",
+        "contractTime": "08:00 WIB",
+        "contractLocation": "Pekon Bumi Arum, RT/RW 001/004, Kec. Pringsewu, Kab. Pringsewu, Prov. Lampung",
+        "reception": "Senin, 26 Septemper 2022",
+        "receptionTime": "10:00 WIB",
+        "receptionToDate": "2022-09-26",
+        "receptionToDate1": "20220926T0800"
+    },
+    "location": {
+        "contract": "Pekon Bumi Arum, RT/RW 001/004, Kec. Pringsewu, Kab. Pringsewu, Prov. Lampung",
+        "reception": "Di Kediaman Mempelai Wanita.",
+        "maps": "-5.34700076388259, 104.95010598444547"
+    },
+    "gift": {
+        "bankNumber": "1140 0248 10445",
+        "bankAccount": "Bank Mandiri a/n Dwi Agung Cahyadi"
+    },
+    "theme": {
+        "style": 2,
+        "slide": {
+            "cover": 1,
+            "quotes": 0,
+            "opening": 1,
+            "bride": 1,
+            "date": 1,
+            "maps": 1,
+            "rundown": 0,
+            "loveStory": 0,
+            "gift": 1,
+            "closing": 1
+        }
+    },
+    "audio": "brooklyn_duo-perfect",
+    "images": {
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtpS7WttLxiio18u1tn8PmLvdfmUdQYn8_AKmg4CKX8OKjNPL6Vm-V7Vv4tTOb24N4x0P9WqNjpRycW29AQFgTgHD-JfpXEL5NbVj88IzUcaSHzZIWLKxLZqc74qEKrXCGOSyq55v2WSZh8pSW3XZ2Iukul1V5DKfXLXWdtc7JyjErK8GKC3pKgURH/s500/1661536006207%20%281%29.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2_ScVgXLh1vc1vgkvv1fWnLu2dWJ47V7-003V8W6bV2fq6fEHS9KpAnjwRo7g75EJCLqLmY8OZ2-P6Za2bvSNrKKP_OUoCSDIHGqnWe9NQtHu9lAlrcOtUwNFuhxa99TdUI9bTdPsUWIHnLicptKb5au7h99iIRedWDQV_KaH9IXw1cle8XTyHXWX5Q/s1600/PROMO%20SECONDARY%201.png",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjkyZpMyXGX9OdrHDz0lbuPtrJbHFCg4Z_tqiA7W6ipylc7QSxmEGu1IU7p7a2NICNvcMxz-97Kfj0c1OtjgoJSPl0Q4jtiv6QOz609cNymKkamuQl-OvkVBnSD98LnsCjqokXqfkSQuY3Rshi6v5-GIuVYg_WkFTq6spWfWg16-fuSjUGo5ot5R_N0aw/s1600/PROMO%20SECONDARY%201.png"
+    },
+    "fonts": {
+        "primary": "Google Sans Text",
+        "secondary": "Ms Madi"
+    },
+    "config": {
+        "script:start": "<script>",
+        "script:end": "</script>",
+        "style:start": "<style>",
+        "style:end": "</style>",
+        "cdataStart": "/*<![CDATA[*/",
+        "cdataEnd": "/*]]>*/"
+    }
+}
