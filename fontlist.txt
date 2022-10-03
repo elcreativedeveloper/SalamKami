@@ -2,6 +2,7 @@
 
 # SECONDARY
 Amatic SC
+Alex Brush
 Caveat
 Dancing Script
 Great Vibes
