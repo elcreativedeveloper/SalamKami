@@ -8,6 +8,7 @@ const gulpTokenReplace = require('gulp-token-replace');
 const gulpFileInclude = require('gulp-file-include');
 const gulpReplace = require('gulp-replace');
 const gulpRename = require('gulp-rename');
+const gulpJavaScriptObfuscator = require('gulp-javascript-obfuscator');
 
 const packages = './package.json';
 const config = './config.json';
@@ -58,6 +59,12 @@ gulp.task('script:minify', function () {
             removeConsole: true,
         })).pipe(gulp.dest('./docs/assets/scripts'));
 });
+gulp.task('script:obfuscate', function () {
+    return gulp.src('./docs/assets/scripts/*.js')
+        .pipe(gulpJavaScriptObfuscator({
+            compact: true
+        })).pipe(gulp.dest('./docs/assets/scripts'));
+});
 
 // Final Tasks
 gulp.task('start', function () {
@@ -90,5 +97,5 @@ gulp.task('preview', function () {
 });
 
 // Production Mode
-gulp.task('build', gulp.series('styles', 'styles:prefixed', 'styles:minify', 'script', 'script:minify', 'start'));
+gulp.task('build', gulp.series('styles', 'styles:prefixed', 'styles:minify', 'script', 'script:minify', 'script:obfuscate', 'start'));
 gulp.task('preview', gulp.series('styles', 'styles:prefixed', 'styles:minify', 'script', 'script:minify', 'start', 'preview'));

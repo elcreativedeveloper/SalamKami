@@ -58,7 +58,11 @@
         <script src="../assets/scripts/defer.js"></script>
     </head>
     <body class="glide_first bg-colorBackground font-fontPrimary text-sm text-colorText">
-        <div id="loaders" class="fixed top-0 z-30 flex h-screen w-full items-center justify-center bg-white">
+        <div id="loaders" class="fixed top-0 z-30 flex h-screen w-full flex-col items-center justify-center bg-white">
+            <div class="mb-5 flex flex-col items-center justify-center text-center">
+                <div class="mb-1">UNDANGAN PERNIKAHAN</div>
+                <div class="font-fontSecondary text-3xl font-bold">{{name.femaleInitial}} & {{name.maleInitial}}</div>
+            </div>
             <div class="loader mx-auto h-[42px] w-[42px]">
                 <svg class="circular" viewBox="25 25 50 50" width="42" height="42"><circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"></circle></svg>
             </div>
