@@ -3,6 +3,7 @@
 # SECONDARY
 Amatic SC
 Alex Brush
+Bad Script
 Caveat
 Caramel
 Dancing Script

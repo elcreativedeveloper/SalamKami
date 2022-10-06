@@ -28,12 +28,12 @@
         "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 16,
+        "style": 17,
         "slide": {
-            "cover": 1,
+            "cover": 2,
             "quotes": 1,
-            "opening": 1,
-            "bride": 1,
+            "opening": 2,
+            "bride": 2,
             "date": 1,
             "maps": 1,
             "rundown": 1,
@@ -42,7 +42,7 @@
             "closing": 1
         }
     },
-    "audio": "brooklyn_duo-love_me_like_you_do",
+    "audio": "brooklyn_duo-love_yourself",
     "images": {
         "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
         "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
@@ -50,7 +50,7 @@
     },
     "fonts": {
         "primary": "Google Sans Text",
-        "secondary": "Caramel"
+        "secondary": "Bad Script"
     },
     "config": {
         "script:start": "<script>",
