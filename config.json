@@ -28,12 +28,12 @@
         "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 19,
+        "style": 20,
         "slide": {
-            "cover": 4,
+            "cover": 1,
             "quotes": 1,
-            "opening": 2,
-            "bride": 4,
+            "opening": 1,
+            "bride": 1,
             "date": 1,
             "maps": 1,
             "rundown": 1,
@@ -42,7 +42,7 @@
             "closing": 1
         }
     },
-    "audio": "daniel_jang-all_of_me",
+    "audio": "stringspace-im_yours_string_quartet",
     "images": {
         "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
         "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
@@ -50,7 +50,7 @@
     },
     "fonts": {
         "primary": "Google Sans Text",
-        "secondary": "La Belle Aurore"
+        "secondary": "Euphoria Script"
     },
     "config": {
         "script:start": "<script>",
