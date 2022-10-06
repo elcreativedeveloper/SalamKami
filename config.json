@@ -28,12 +28,12 @@
         "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 17,
+        "style": 18,
         "slide": {
-            "cover": 2,
+            "cover": 3,
             "quotes": 1,
-            "opening": 2,
-            "bride": 2,
+            "opening": 1,
+            "bride": 3,
             "date": 1,
             "maps": 1,
             "rundown": 1,
@@ -42,7 +42,7 @@
             "closing": 1
         }
     },
-    "audio": "brooklyn_duo-love_yourself",
+    "audio": "brooklyn_duo-perfect",
     "images": {
         "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
         "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
@@ -50,7 +50,7 @@
     },
     "fonts": {
         "primary": "Google Sans Text",
-        "secondary": "Bad Script"
+        "secondary": "Shadows Into Light Two"
     },
     "config": {
         "script:start": "<script>",
