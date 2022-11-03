@@ -1,36 +1,36 @@
 {
     "name": {
-        "male": "Faris Advaita Alhasan",
-        "maleInitial": "Faris",
-        "maleDad": "Adzriel Fairuz",
-        "maleMom": "Areta Mahveen",
-        "female": "Haisha Azrina",
-        "femaleInitial": "Azrina",
-        "femaleDad": "Farhan Alfarezi",
-        "femaleMom": "Shafiyyah Sammira"
+        "male": "Muhammad Rieko Dharma Pratama, S.E",
+        "maleInitial": "Rieko",
+        "maleDad": "Hi. Zanwar Ratnoto",
+        "maleMom": "Ida Lestari",
+        "female": "Umi Nurhasanah, S.Pd",
+        "femaleInitial": "Umi",
+        "femaleDad": "Sarjiman",
+        "femaleMom": "Siti Alimah"
     },
     "date": {
-        "contract": "Sabtu, 01 November 2025",
+        "contract": "Minggu, 11 Desember 2022",
         "contractTime": "08:00 WIB",
-        "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
-        "reception": "Sabtu, 01 November 2025",
+        "contractLocation": "Sidoharjo RT/RW 008/003 Pekon Sidoharjo, Kecamatan Pringsewu, Kabupaten Pringsewu.",
+        "reception": "Minggu, 11 Desember 2022",
         "receptionTime": "10:00 WIB",
-        "receptionToDate": "2025-11-01",
-        "receptionToDate1": "20251101T0800"
+        "receptionToDate": "2022-12-11",
+        "receptionToDate1": "20251211T0800"
     },
     "location": {
-        "contract": "Alamat Lengkap Lokasi Akad Nikah",
-        "reception": "Alamat Lengkap Lokasi Resepsi Penikahan",
-        "maps": "-5.34700076388259, 104.95010598444547"
+        "contract": "Sidoharjo RT/RW 008/003 Pekon Sidoharjo, Kecamatan Pringsewu, Kabupaten Pringsewu.",
+        "reception": "Sidoharjo RT/RW 008/003 Pekon Sidoharjo, Kecamatan Pringsewu, Kabupaten Pringsewu.",
+        "maps": "-5.359752, 104.995237"
     },
     "gift": {
-        "bankNumber": "1234 5678 9123",
-        "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
+        "bankNumber": "0358 0105 3738 500",
+        "bankAccount": "Bank BRI a/n Umi Nurhasanah"
     },
     "theme": {
-        "style": 20,
+        "style": 13,
         "slide": {
-            "cover": 1,
+            "cover": 3,
             "quotes": 1,
             "opening": 1,
             "bride": 1,
@@ -42,15 +42,15 @@
             "closing": 1
         }
     },
-    "audio": "stringspace-im_yours_string_quartet",
+    "audio": "you_are_the_reason",
     "images": {
-        "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
-        "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
-        "female": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png"
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1D7XfVyGc2wRuBvnXzBWwueRAR2LfJAGbIUpSZt49p5bkcyCdf__d6iInnqXA2WlCbSvkKrZZQ6ryu6E1TO66C-sLsYeeZYIf87q7ac3tXkHmb-4TN5Um1HYKV_LeKOJQt_RRkFXdf6Z6Gq-JrDdErLW9ZUk78E_49Kjm2u3gBYeH3Wg1zuiMAx31/s1600/umi-rieko.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx3Jm6MoI1YfK9Wqw4dbVKmW88ShuTF00TD06EHerLDBrQ74D-m1rYx3CF4eKzTrPqpIeDn3DjMm1qSLrk87rpE7CX3zqFoMYe7TtJzBF6fNircf-R2aHiGWP4u1Fm3TJpGs8lf_YJrAIssKCes96ETokbLM0zclvHv2z4jpYlojJoy06Q8ob8SzyY/s1600/rieko.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxkJqs-UhR7XpexZJ8pZ_fbE9hCv5nRjK9AU8rbOyWKdrYaEi__oV0IKHJQ679MqYsAMK290lFytZjeAkPvWN9HRwdRD7obxsXCIvdV7HI0rnvV75H2_EK6AIHAYt3SxBIq5_JSZzv7cJddPEgEnJH4WgWMwJINnKvZHpJVKxrRscBkDWmKR9h1Bjo/s1600/umi.jpg"
     },
     "fonts": {
         "primary": "Google Sans Text",
-        "secondary": "Euphoria Script"
+        "secondary": "Bilbo Swash Caps"
     },
     "config": {
         "script:start": "<script>",
