@@ -24,20 +24,20 @@
         "maps": "-5.349417, 104.970083"
     },
     "gift": {
-        "bankNumber": "3622 5620 68",
-        "bankAccount": "Bank Danamon a/n Muhammad Rieko Dharma Pratama"
+        "bankNumber": "XXXX XXXX XXX",
+        "bankAccount": "Bank XX a/n XXX"
     },
     "theme": {
         "style": 16,
         "slide": {
             "cover": 3,
-            "quotes": 1,
+            "quotes": 0,
             "opening": 1,
             "bride": 1,
             "date": 1,
             "maps": 1,
             "rundown": 1,
-            "loveStory": 1,
+            "loveStory": 0,
             "gift": 1,
             "closing": 1
         }
