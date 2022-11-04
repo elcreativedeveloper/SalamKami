@@ -1,26 +1,26 @@
 {
     "name": {
-        "male": "Muhammad Rieko Dharma Pratama, S.E",
-        "maleInitial": "Rieko",
-        "maleDad": "Hi. Zanwar Ratnoto",
-        "maleMom": "Ida Lestari",
-        "female": "Umi Nurhasanah, S.Pd",
-        "femaleInitial": "Umi",
-        "femaleDad": "Sarjiman",
-        "femaleMom": "Siti Alimah"
+        "male": "Lukman Hidayat",
+        "maleInitial": "Lukman",
+        "maleDad": "Judin",
+        "maleMom": "Ena",
+        "female": "Yeti Nurindah Sari",
+        "femaleInitial": "Yeti",
+        "femaleDad": "Sungkono",
+        "femaleMom": "Tri Hayani"
     },
     "date": {
-        "contract": "Sabtu, 17 Desember 2022",
+        "contract": "Jum'at, 25 November 2022",
         "contractTime": "09:00 WIB",
-        "contractLocation": "Jl. Makam LK. III RT 006, Kelurahan Pringsewu Barat, Kecamatan Pringsewu, Kabupaten Pringsewu.",
-        "reception": "Sabtu, 17 Desember 2022",
+        "contractLocation": "Padang Bulan, Kecamatan Pajaresuk, Kabupaten Pringsewu",
+        "reception": "Jum'at, 25 November 2022",
         "receptionTime": "09:00 WIB",
-        "receptionToDate": "2022-12-17",
-        "receptionToDate1": "20251217T0800"
+        "receptionToDate": "2022-11-17",
+        "receptionToDate1": "2022117T0800"
     },
     "location": {
-        "contract": "Jl. Makam LK. III RT 006, Kelurahan Pringsewu Barat, Kecamatan Pringsewu, Kabupaten Pringsewu.",
-        "reception": "Jl. Makam LK. III RT 006, Kelurahan Pringsewu Barat, Kecamatan Pringsewu, Kabupaten Pringsewu.",
+        "contract": "Padang Bulan, Kecamatan Pajaresuk, Kabupaten Pringsewu",
+        "reception": "Padang Bulan, Kecamatan Pajaresuk, Kabupaten Pringsewu",
         "maps": "-5.349417, 104.970083"
     },
     "gift": {
@@ -28,7 +28,7 @@
         "bankAccount": "Bank Danamon a/n Muhammad Rieko Dharma Pratama"
     },
     "theme": {
-        "style": 21,
+        "style": 16,
         "slide": {
             "cover": 3,
             "quotes": 1,
@@ -44,9 +44,9 @@
     },
     "audio": "you_are_the_reason",
     "images": {
-        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1D7XfVyGc2wRuBvnXzBWwueRAR2LfJAGbIUpSZt49p5bkcyCdf__d6iInnqXA2WlCbSvkKrZZQ6ryu6E1TO66C-sLsYeeZYIf87q7ac3tXkHmb-4TN5Um1HYKV_LeKOJQt_RRkFXdf6Z6Gq-JrDdErLW9ZUk78E_49Kjm2u3gBYeH3Wg1zuiMAx31/s1600/umi-rieko.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx3Jm6MoI1YfK9Wqw4dbVKmW88ShuTF00TD06EHerLDBrQ74D-m1rYx3CF4eKzTrPqpIeDn3DjMm1qSLrk87rpE7CX3zqFoMYe7TtJzBF6fNircf-R2aHiGWP4u1Fm3TJpGs8lf_YJrAIssKCes96ETokbLM0zclvHv2z4jpYlojJoy06Q8ob8SzyY/s1600/rieko.jpg",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxkJqs-UhR7XpexZJ8pZ_fbE9hCv5nRjK9AU8rbOyWKdrYaEi__oV0IKHJQ679MqYsAMK290lFytZjeAkPvWN9HRwdRD7obxsXCIvdV7HI0rnvV75H2_EK6AIHAYt3SxBIq5_JSZzv7cJddPEgEnJH4WgWMwJINnKvZHpJVKxrRscBkDWmKR9h1Bjo/s1600/umi.jpg"
+        "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
+        "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
+        "female": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png"
     },
     "fonts": {
         "primary": "Google Sans Text",

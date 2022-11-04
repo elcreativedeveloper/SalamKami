@@ -1,0 +1,63 @@
+{
+    "name": {
+        "male": "Muhammad Rieko Dharma Pratama, S.E",
+        "maleInitial": "Rieko",
+        "maleDad": "Hi. Zanwar Ratnoto",
+        "maleMom": "Ida Lestari",
+        "female": "Umi Nurhasanah, S.Pd",
+        "femaleInitial": "Umi",
+        "femaleDad": "Sarjiman",
+        "femaleMom": "Siti Alimah"
+    },
+    "date": {
+        "contract": "Sabtu, 17 Desember 2022",
+        "contractTime": "09:00 WIB",
+        "contractLocation": "Jl. Makam LK. III RT 006, Kelurahan Pringsewu Barat, Kecamatan Pringsewu, Kabupaten Pringsewu.",
+        "reception": "Sabtu, 17 Desember 2022",
+        "receptionTime": "09:00 WIB",
+        "receptionToDate": "2022-12-17",
+        "receptionToDate1": "20251217T0800"
+    },
+    "location": {
+        "contract": "Jl. Makam LK. III RT 006, Kelurahan Pringsewu Barat, Kecamatan Pringsewu, Kabupaten Pringsewu.",
+        "reception": "Jl. Makam LK. III RT 006, Kelurahan Pringsewu Barat, Kecamatan Pringsewu, Kabupaten Pringsewu.",
+        "maps": "-5.349417, 104.970083"
+    },
+    "gift": {
+        "bankNumber": "3622 5620 68",
+        "bankAccount": "Bank Danamon a/n Muhammad Rieko Dharma Pratama"
+    },
+    "theme": {
+        "style": 21,
+        "slide": {
+            "cover": 3,
+            "quotes": 1,
+            "opening": 1,
+            "bride": 1,
+            "date": 1,
+            "maps": 1,
+            "rundown": 1,
+            "loveStory": 1,
+            "gift": 1,
+            "closing": 1
+        }
+    },
+    "audio": "you_are_the_reason",
+    "images": {
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj1D7XfVyGc2wRuBvnXzBWwueRAR2LfJAGbIUpSZt49p5bkcyCdf__d6iInnqXA2WlCbSvkKrZZQ6ryu6E1TO66C-sLsYeeZYIf87q7ac3tXkHmb-4TN5Um1HYKV_LeKOJQt_RRkFXdf6Z6Gq-JrDdErLW9ZUk78E_49Kjm2u3gBYeH3Wg1zuiMAx31/s1600/umi-rieko.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx3Jm6MoI1YfK9Wqw4dbVKmW88ShuTF00TD06EHerLDBrQ74D-m1rYx3CF4eKzTrPqpIeDn3DjMm1qSLrk87rpE7CX3zqFoMYe7TtJzBF6fNircf-R2aHiGWP4u1Fm3TJpGs8lf_YJrAIssKCes96ETokbLM0zclvHv2z4jpYlojJoy06Q8ob8SzyY/s1600/rieko.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhxkJqs-UhR7XpexZJ8pZ_fbE9hCv5nRjK9AU8rbOyWKdrYaEi__oV0IKHJQ679MqYsAMK290lFytZjeAkPvWN9HRwdRD7obxsXCIvdV7HI0rnvV75H2_EK6AIHAYt3SxBIq5_JSZzv7cJddPEgEnJH4WgWMwJINnKvZHpJVKxrRscBkDWmKR9h1Bjo/s1600/umi.jpg"
+    },
+    "fonts": {
+        "primary": "Google Sans Text",
+        "secondary": "Bilbo Swash Caps"
+    },
+    "config": {
+        "script:start": "<script>",
+        "script:end": "</script>",
+        "style:start": "<style>",
+        "style:end": "</style>",
+        "cdataStart": "/*<![CDATA[*/",
+        "cdataEnd": "/*]]>*/"
+    }
+}
