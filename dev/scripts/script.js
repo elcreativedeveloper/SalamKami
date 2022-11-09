@@ -276,10 +276,6 @@ function functionRunInvitation() {
                 selection.removeAllRanges();
 
                 document.body.removeChild(textarea);
-
-                setTimeout(() => {
-                    document.getElementById('button_salin_rekening').innerHTML = 'Salin No. Rekening';
-                }, 1000)
             } else {
                 navigator.clipboard
                     .writeText(rekening)
