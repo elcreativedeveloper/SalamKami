@@ -304,11 +304,7 @@ function functionRunInvitation() {
 
                 images.querySelector('#image_list').innerHTML = imageList.toString().replace(/\,/g, '');
 
-                mediumZoom('[data-zoomable]', {
-                    margin: 0,
-                    opacity: 1,
-                    borderRadius: 0,
-                });
+                mediumZoom('[data-zoomable]');
             })
         }
 
