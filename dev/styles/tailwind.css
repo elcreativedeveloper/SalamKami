@@ -356,6 +356,6 @@ html {
 .medium-zoom-image--opened {
     @apply m-0 rounded-none opacity-100;
 }
-.medium-zoom-overlay {
-    @apply opacity-80;
+.medium-zoom--opened .medium-zoom-overlay {
+    opacity: 0.8 !important;
 }
