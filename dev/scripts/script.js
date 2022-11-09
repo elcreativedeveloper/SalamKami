@@ -257,7 +257,7 @@ function functionRunInvitation() {
         document.getElementById('button_salin_rekening') && document.getElementById('button_salin_rekening').addEventListener('click', function (event) {
             event.preventDefault();
 
-            const rekening = document.getElementById('nomor_rekening').textContent.trim().replace(' ', '').replace('-', '');
+            const rekening = document.getElementById('nomor_rekening').textContent.replace(/\s/g, '').replace('-', '').trim();
             if (!navigator.clipboard) {
                 let textarea = document.createElement('textarea');
                 textarea.textContent = rekening;
@@ -293,6 +293,17 @@ function functionRunInvitation() {
             this.querySelector('.fullscreen_off').classList.remove('hidden');
             functionFullScreen(this);
         });
+
+        const images = document.querySelector('.layout_gallery');
+        if (images) {
+            let imageList = images.querySelector('#image_list').textContent.split(/\s*,\s*/);
+            for (let index = 0; index < imageList.length; index++) {
+                imageList[index] = `<img class='rounded-md mb-3' src='${imageList[index]}' loading='lazy' />`
+            };
+            
+            images.querySelector('#image_list').innerHTML = imageList.toString().replace(/\,/g, '');
+            
+        }
 
         // countdown
         const countdownElement = document.getElementsByClassName('countdown_wrapper');

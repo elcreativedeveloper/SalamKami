@@ -31,14 +31,15 @@
         "style": 16,
         "slide": {
             "cover": 1,
-            "quotes": 0,
             "opening": 1,
+            "loveStory": 0,
             "bride": 1,
             "date": 1,
             "maps": 1,
-            "rundown": 1,
-            "loveStory": 0,
             "gift": 1,
+            "gallery": 1,
+            "rundown": 1,
+            "quotes": 0,
             "closing": 1
         }
     },
@@ -46,7 +47,8 @@
     "images": {
         "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
         "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
-        "female": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png"
+        "female": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
+        "gallery": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png, https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png, https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjnos_HQJEdEohUbkOYoeE0dcRg79FS-3y7Om-ACmW1FOUjdOm4FaE4ciGoP-_-FnbA8vcA9pR9Y7xZWAvqXedXomFZ0GVMmMxs8w7RGuQgEZRDOOV_xabYPJSAR3hLYJPqcz002mILyeM6ypYABy9xMj8k3MiYvBrVsxJTmFHyJEI3-SQNfsqaaAFkig/s1600/AGG_4439.JPG, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiNAHLP-_cjkg5cOJz8jMjKN84rX0CII2Y_jMyYQTTPnjsyKmgLPw2tvEaJV2O2YBvqQgL4Y8u5Lk8tiDo4NSc0WTmXQq6GlE9m56LjUiWR8Bq10yasQ5zKvdTt0RpOBg1CSOh-qahnGYqFZPaz_00eEnWcUQMjY7ZBlbxBFLhKt2OnsYPi7Jxc52JObw/s1600/AGG_4419.JPG, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBDDL8m9k5sGs_NE4Uu16G-kV6eKKNMZLtnre1dtdLVK-LAfFSZczdB8nISbICoZcCdbWd5cIvhX-A0e4711an-IV_D081e-5WXTpx-IvVoNPKkFL02v-MwijAlvXsp4BCI-7dTq31-dLJh7Sce7MdcEYoL4DvaOTj0BKGnVB9B6pmwXI75FTodR8gCA/s1600/AGG_4420.JPG, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiwOkSsKXLD4_ahv_lnwfnps5Erqo0zqtdxVhmiWU79F_Z0WVeU7z3CLjvABtSGbo2M6gMndLzXYGUWAR1PXoNSQoqozKQC5WYxezCjwOlhQl6S4BqNgoehujUOyrhi5qiv-7h0TftbTqBhpBHFGwycmZxDdvbn80EUO6w62g4dkXSFZmWD6ZDUOxJOLw/s1600/AGG_4374.JPG"
     },
     "fonts": {
         "primary": "Google Sans Text",
