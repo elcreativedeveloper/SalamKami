@@ -305,6 +305,9 @@ function functionRunInvitation() {
                 images.querySelector('#image_list').innerHTML = imageList.toString().replace(/\,/g, '');
 
                 mediumZoom('[data-zoomable]');
+                document.querySelectorAll('[data-zoomable]').forEach((element) => {
+                    element.classList.remove('animate_animated', 'rounded-md', 'mb-3')
+                })
             })
         }
 
