@@ -297,8 +297,6 @@ function functionRunInvitation() {
         const images = document.querySelector('.layout_gallery');
         if (images) {
             functionLoadScript('https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js').then(() => {
-                mediumZoom('[data-zoomable]');
-
                 let imageList = images.querySelector('#image_list').textContent.split(/\s*,\s*/);
                 for (let index = 0; index < imageList.length; index++) {
                     imageList[index] = `<img data-zoomable class='rounded-md mb-3 animate_animated animate_fadeIn animate_slower ' src='${imageList[index]}' />`
@@ -306,6 +304,7 @@ function functionRunInvitation() {
 
                 images.querySelector('#image_list').innerHTML = imageList.toString().replace(/\,/g, '');
 
+                mediumZoom('[data-zoomable]');
             })
         }
 
