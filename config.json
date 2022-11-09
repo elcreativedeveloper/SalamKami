@@ -1,58 +1,58 @@
 {
     "name": {
-        "male": "Lukman Hidayat",
-        "maleInitial": "Lukman",
-        "maleDad": "Judin",
-        "maleMom": "Ena",
-        "female": "Yeti Nurindah Sari",
-        "femaleInitial": "Yeti",
-        "femaleDad": "Sungkono",
-        "femaleMom": "Tri Hayani"
+        "male": "Faris Advaita Alhasan",
+        "maleInitial": "Faris",
+        "maleDad": "Adzriel Fairuz",
+        "maleMom": "Areta Mahveen",
+        "female": "Haisha Azrina",
+        "femaleInitial": "Azrina",
+        "femaleDad": "Farhan Alfarezi",
+        "femaleMom": "Shafiyyah Sammira"
     },
     "date": {
-        "contract": "Jum'at, 25 November 2022",
-        "contractTime": "09:00 WIB",
-        "contractLocation": "Padang Bulan, Kecamatan Pajaresuk, Kabupaten Pringsewu",
-        "reception": "Jum'at, 25 November 2022",
-        "receptionTime": "09:00 WIB",
-        "receptionToDate": "2022-11-17",
-        "receptionToDate1": "2022117T0800"
+        "contract": "Sabtu, 01 November 2025",
+        "contractTime": "08:00 WIB",
+        "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
+        "reception": "Sabtu, 01 November 2025",
+        "receptionTime": "10:00 WIB",
+        "receptionToDate": "2025-11-01",
+        "receptionToDate1": "20251101T0800"
     },
     "location": {
-        "contract": "Padang Bulan, Kecamatan Pajaresuk, Kabupaten Pringsewu",
-        "reception": "Padang Bulan, Kecamatan Pajaresuk, Kabupaten Pringsewu",
-        "maps": "-5.349417, 104.970083"
+        "contract": "Alamat Lengkap Lokasi Akad Nikah",
+        "reception": "Alamat Lengkap Lokasi Resepsi Penikahan",
+        "maps": "-5.34700076388259, 104.95010598444547"
     },
     "gift": {
-        "bankNumber": "XXXX XXXX XXX",
-        "bankAccount": "Bank XX a/n XXX"
+        "bankNumber": "1234 5678 9123",
+        "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 19,
+        "style": 21,
         "slide": {
             "cover": 1,
             "opening": 1,
-            "loveStory": 0,
+            "loveStory": 1,
             "bride": 1,
             "date": 1,
             "maps": 1,
             "gift": 1,
             "gallery": 1,
             "rundown": 1,
-            "quotes": 0,
+            "quotes": 1,
             "closing": 1
         }
     },
-    "audio": "you_are_the_reason",
+    "audio": "stringspace-im_yours_string_quartet",
     "images": {
         "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
         "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
         "female": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
-        "gallery": "https://cdn.idntimes.com/content-images/post/20200716/screen-shot-2020-07-16-at-112240-22a10b84bc693264bd119fca34de0969.png, https://cdn.idntimes.com/content-images/post/20200716/109246177-649014242369468-6762826795095495288-n-051678ace07122d8a4b6f0d9b8aae899.jpg, https://cdn.idntimes.com/content-images/post/20200716/108205746-206233437415933-7484650732486044043-n-3cce7aa14a312c3737bd50f09aa1efff.jpg, https://cdn.idntimes.com/content-images/post/20200716/107827249-446177529598899-739618938078378725-n-e154248ba002e139fef7d60d374e9d9d.jpg, https://cdn.idntimes.com/content-images/post/20200716/107377309-1124136897985843-4459225003781845761-n-d9eca769eb1d86534fce76d4b72a5646.jpg, https://cdn.popbela.com/content-images/post/20200715/f7699488-7936-4432-8b56-fb9c01bf835d-055c19c1b7ddd58fe9f9481e8d4fd4e0.jpg, https://cdn.idntimes.com/content-images/post/20200716/107827249-446177529598899-739618938078378725-n-e154248ba002e139fef7d60d374e9d9d.jpg, "
+        "gallery": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png,https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png,https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png,https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png,https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png,https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png,https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png,https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png,https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png,"
     },
     "fonts": {
         "primary": "Google Sans Text",
-        "secondary": "Bilbo Swash Caps"
+        "secondary": "Euphoria Script"
     },
     "config": {
         "script:start": "<script>",
