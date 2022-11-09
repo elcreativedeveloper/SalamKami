@@ -254,6 +254,40 @@ function functionRunInvitation() {
             document.querySelector('.container_hadiah').classList.add('hidden');
         });
 
+        document.getElementById('button_salin_rekening') && document.getElementById('button_salin_rekening').addEventListener('click', function (event) {
+            event.preventDefault();
+
+            const rekening = document.getElementById('nomor_rekening').textContent.trim().replace(' ', '').replace('-', '');
+            if (!navigator.clipboard) {
+                let textarea = document.createElement('textarea');
+                textarea.textContent = rekening;
+                textarea.className = 'sr-only';
+                document.body.appendChild(textarea);
+
+                let selection = document.getSelection();
+                let range = document.createRange();
+                //  range.selectNodeContents(textarea);
+                range.selectNode(textarea);
+                selection.removeAllRanges();
+                selection.addRange(range);
+
+                document.execCommand('copy')
+                document.getElementById('button_salin_rekening').innerHTML = 'Berhasil Disalin';
+                selection.removeAllRanges();
+
+                document.body.removeChild(textarea);
+            } else {
+                navigator.clipboard
+                    .writeText(rekening)
+                    .then(function () {
+                        document.getElementById('button_salin_rekening').innerHTML = 'Berhasil Disalin';
+                    })
+                    .catch(function () {
+                        document.getElementById('button_salin_rekening').innerHTML = 'Gagal Disalin';
+                    });
+            }
+        })
+
         document.getElementById('button_toggle_fullscreen') && document.getElementById('button_toggle_fullscreen').addEventListener('click', function (event) {
             event.preventDefault();
             this.querySelector('.fullscreen_off').classList.remove('hidden');
