@@ -21,7 +21,7 @@ html {
 }
 
 .no-scrollbar::-webkit-scrollbar {
-    display: none;
+    @apply hidden;
 }
 .no-scrollbar {
     -ms-overflow-style: none;
@@ -259,34 +259,19 @@ html {
 }
 
 .glide {
-    position: relative;
-    width: 100%;
-    box-sizing: border-box;
-    height: 100vh;
+    @apply relative h-screen w-full overflow-hidden;
     min-height: -webkit-fill-available;
     overflow: hidden;
 }
-.glide * {
-    box-sizing: inherit;
-}
 .glide__track {
-    overflow: hidden;
-    height: 100%;
+    @apply h-full overflow-hidden;
 }
 .glide__slides {
-    position: relative;
-    width: 100%;
-    list-style: none;
+    @apply relative flex h-full w-full flex-nowrap overflow-hidden whitespace-nowrap p-0;
     backface-visibility: hidden;
     transform-style: preserve-3d;
     touch-action: pan-Y;
-    overflow: hidden;
-    padding: 0;
-    white-space: nowrap;
-    display: flex;
-    flex-wrap: nowrap;
     will-change: transform;
-    height: 100%;
 }
 .glide__slides--dragging {
     user-select: none;
@@ -392,4 +377,10 @@ html {
     cursor: grabbing;
     cursor: -moz-grabbing;
     cursor: -webkit-grabbing;
+}
+
+.medium-zoom-image--opened {
+    opacity: 1;
+    border-radius: 0;
+    margin: 0;
 }
