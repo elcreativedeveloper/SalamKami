@@ -1,26 +1,26 @@
 {
     "name": {
-        "male": "Faris Advaita Alhasan",
-        "maleInitial": "Faris",
-        "maleDad": "Adzriel Fairuz",
-        "maleMom": "Areta Mahveen",
-        "female": "Haisha Azrina",
-        "femaleInitial": "Azrina",
-        "femaleDad": "Farhan Alfarezi",
-        "femaleMom": "Shafiyyah Sammira"
+        "male": "Lukman Hidayat",
+        "maleInitial": "Lukman",
+        "maleDad": "Judin",
+        "maleMom": "Ena",
+        "female": "Yeti Nurindah Sari",
+        "femaleInitial": "Yeti",
+        "femaleDad": "Sungkono",
+        "femaleMom": "Tri Haryani"
     },
     "date": {
-        "contract": "Sabtu, 01 November 2025",
-        "contractTime": "08:00 WIB",
-        "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
-        "reception": "Sabtu, 01 November 2025",
+        "contract": "Jum'at, 25 November 2022",
+        "contractTime": "09:00 WIB",
+        "contractLocation": "Padang Bulan, Kab. Pringsewu, Prov. Lampung",
+        "reception": "Jum'at, 25 November 2022",
         "receptionTime": "10:00 WIB",
-        "receptionToDate": "2025-11-01",
-        "receptionToDate1": "20251101T0800"
+        "receptionToDate": "2022-11-25",
+        "receptionToDate1": "20221125T0900"
     },
     "location": {
-        "contract": "Alamat Lengkap Lokasi Akad Nikah",
-        "reception": "Alamat Lengkap Lokasi Resepsi Penikahan",
+        "contract": "Padang Bulan, Kab. Pringsewu, Prov. Lampung",
+        "reception": "Padang Bulan, Kab. Pringsewu, Prov. Lampung",
         "maps": "-5.34700076388259, 104.95010598444547"
     },
     "gift": {
@@ -28,26 +28,26 @@
         "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 1,
+        "style": 16,
         "slide": {
-            "cover": 1,
+            "cover": 2,
             "opening": 1,
-            "loveStory": 1,
+            "loveStory": 0,
             "bride": 1,
             "date": 1,
             "maps": 1,
-            "gift": 1,
-            "gallery": 1,
-            "rundown": 1,
+            "gift": 0,
+            "gallery": 0,
+            "rundown": 0,
             "quotes": 1,
             "closing": 1
         }
     },
     "audio": "stringspace-im_yours_string_quartet",
     "images": {
-        "both": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
-        "male": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
-        "female": "https://raw.githubusercontent.com/elcreativedeveloper/SalamKami/a89fb84b4d00e0df76fa73c6564cf2ed40190ed9/docs/assets/images/placeholder.png",
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF7IOqRnYRL9LUcuKDwDlupivGJzC1jN9EqfdYKWWXCoK5SJaH2YhyxjZDkPh9nGcvATfYeRA3EGfhN-BZrdfqMizjuBdhWiIkUZaoH11x51iXxinKrYoGb6Cfa2NK6cfiBZ8_AhsLhpKtLeb8g_gKd6JSo55KGbnE6ZTJVhwUMX3P9YcVSppqCxqN/s1600/yeti-dan-lukman.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQNgbe_D1XDZIeiUHbIhvwL12iVKqOJkBGwC4d42JV1TxuXlF1G-DHNQDkzTruAfHjM56R8nHUJ46xHMt9VM1m-EbY7j0akBNqvdfVPPzZr2ZXbqAh2GSOKwSGvt-93R94sU8TN_dKmEz8UJ5vSvzBCnDOas5aWQ_0lhHT2vlff4SFAWpDHQXKFVXB/s1600/lukman.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfTafwkcmwOWyws90fADb_xwxZ7UmWoMNbglRuOgNH4_sFAryyr7rXDi5k6yryECi6rOAAzA8NaiU7Daq7hgzcwEp4ATAFOIEaVn03UE9MAqPOGuSyqhdmECPoY3QYtn5nboRp_Dd6w3pY6nCzmK8SM_w3RWsaoUDr7-bcDB5POyPZ35wyGiPE2gD5/s1600/yeti.jpg",
         "gallery": "https://i.pinimg.com/originals/6c/1a/55/6c1a5562cf136360a1c9dc48213d2088.jpg, https://i.pinimg.com/originals/95/12/c7/9512c78d98e76e1823cf6d6cdc2ed007.jpg, https://i.pinimg.com/originals/95/aa/cb/95aacb962552d9d4a9726d40be6bc28d.jpg, https://i.pinimg.com/originals/35/9d/8d/359d8db8caf92ae62970187a671d844c.jpg"
     },
     "fonts": {
