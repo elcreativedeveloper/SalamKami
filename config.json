@@ -1,53 +1,53 @@
 {
     "name": {
-        "male": "Lukman Hidayat",
-        "maleInitial": "Lukman",
-        "maleDad": "Judin",
-        "maleMom": "Ena",
-        "female": "Yeti Nurindah Sari",
-        "femaleInitial": "Yeti",
-        "femaleDad": "Sungkono",
-        "femaleMom": "Tri Haryani"
+        "male": "Faris Advaita Alhasan",
+        "maleInitial": "Faris",
+        "maleDad": "Adzriel Fairuz",
+        "maleMom": "Areta Mahveen",
+        "female": "Haisha Azrina",
+        "femaleInitial": "Azrina",
+        "femaleDad": "Farhan Alfarezi",
+        "femaleMom": "Shafiyyah Sammira"
     },
     "date": {
-        "contract": "Jum'at, 25 November 2022",
-        "contractTime": "09:00 WIB",
-        "contractLocation": "Padang Bulan, Kab. Pringsewu, Prov. Lampung",
-        "reception": "Jum'at, 25 November 2022",
+        "contract": "Sabtu, 01 November 2025",
+        "contractTime": "08:00 WIB",
+        "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
+        "reception": "Sabtu, 01 November 2025",
         "receptionTime": "10:00 WIB",
-        "receptionToDate": "2022-11-25",
-        "receptionToDate1": "20221125T0900"
+        "receptionToDate": "2025-11-01",
+        "receptionToDate1": "20251101T0800"
     },
     "location": {
-        "contract": "Padang Bulan, Kab. Pringsewu, Prov. Lampung",
-        "reception": "Padang Bulan, Kab. Pringsewu, Prov. Lampung",
-        "maps": "-5.347926, 104.952265"
+        "contract": "Alamat Lengkap Lokasi Akad Nikah",
+        "reception": "Alamat Lengkap Lokasi Resepsi Penikahan",
+        "maps": "-5.34700076388259, 104.95010598444547"
     },
     "gift": {
-        "bankNumber": "8660 2705 08",
-        "bankAccount": "Bank BCA a/n Yeti Nurindah Sari"
+        "bankNumber": "1234 5678 9123",
+        "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
     },
     "theme": {
-        "style": 16,
+        "style": 1,
         "slide": {
-            "cover": 3,
+            "cover": 1,
             "opening": 1,
-            "loveStory": 0,
+            "loveStory": 1,
             "bride": 1,
             "date": 1,
             "maps": 1,
             "gift": 1,
-            "gallery": 0,
-            "rundown": 0,
+            "gallery": 1,
+            "rundown": 1,
             "quotes": 1,
             "closing": 1
         }
     },
-    "audio": "beautiful_in_white",
+    "audio": "stringspace-im_yours_string_quartet",
     "images": {
-        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjx-admahTpTv9vbXW-h8MXG8rEr4nr05yw-pEbcFUGzlpYqzAJ8CSdzIKmmVEg24KB1mPVsjmw3uWmE67AIuaE5sOBDYs4P5eq0tmeetg2uSmgA-cnxa_NpQE41ZSmWRF5dOVwz9yydy09lOZKQqtPYEElMWmUnFQfWrPjIMxLraBRm47XmGa0W2c3/s1600/yeti-dan-lukman.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiQNgbe_D1XDZIeiUHbIhvwL12iVKqOJkBGwC4d42JV1TxuXlF1G-DHNQDkzTruAfHjM56R8nHUJ46xHMt9VM1m-EbY7j0akBNqvdfVPPzZr2ZXbqAh2GSOKwSGvt-93R94sU8TN_dKmEz8UJ5vSvzBCnDOas5aWQ_0lhHT2vlff4SFAWpDHQXKFVXB/s1600/lukman.jpg",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhfTafwkcmwOWyws90fADb_xwxZ7UmWoMNbglRuOgNH4_sFAryyr7rXDi5k6yryECi6rOAAzA8NaiU7Daq7hgzcwEp4ATAFOIEaVn03UE9MAqPOGuSyqhdmECPoY3QYtn5nboRp_Dd6w3pY6nCzmK8SM_w3RWsaoUDr7-bcDB5POyPZ35wyGiPE2gD5/s1600/yeti.jpg",
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_k_Cs22FCyw6hBXv1jI6b_kf6tHqodYRbc8cg_fXdsIGBMb7XdLlAbtog854Jh5uS8b7b40P40JmRhB8cvcViMIxH-vfg-2ZzO7y-2_KvEkotnWCM3wJWOR9RoH0P9RwMJPssSJoUj-nmnRUhuaLRet536NVLzTjHf_Fau4DK27Pl1AphZEflOBU/s1600/BGs.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd8_vyzfs9BY3TBgHd1FAfcSeZd9o09PsdEBbQkVhVGNwiE-MzSScVNjUQ1OTY8CWbvmM78T-wcB4rq7AuBC5Jw7pJo_fiO2AYoME1sD6kW9WL7gSwdGcmo22BVsTDGF-liWsBiup0iyHj_rFcyJJYuIbOJvaGaPYHYwK1rKzsd5NMOMRDlaRclbjW/s1600/BGs.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrSWeStaaU5ZQ8LhD-w2aySRyG81Wwuxmq-Rjh2OhMRlXne2tx2dQDDurdKtmQ1jDAqbyHy44YSV-Qrr7wNaRqu9eAtRwbyZjUMtYGDSwr85CyqBBNZ8ID3pJ3hUGD0PfRJFSOvkosuEfA6aznyPQvBfCsTwR_OPwuydf5oAgdmtLkECwG1QGbsveZ/s1600/BGs.jpg",
         "gallery": "https://i.pinimg.com/originals/6c/1a/55/6c1a5562cf136360a1c9dc48213d2088.jpg, https://i.pinimg.com/originals/95/12/c7/9512c78d98e76e1823cf6d6cdc2ed007.jpg, https://i.pinimg.com/originals/95/aa/cb/95aacb962552d9d4a9726d40be6bc28d.jpg, https://i.pinimg.com/originals/35/9d/8d/359d8db8caf92ae62970187a671d844c.jpg"
     },
     "fonts": {
