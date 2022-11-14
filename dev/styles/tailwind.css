@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 * {
-    -webkit-tap-highlight-color: transparent;
+    @apply [-webkit-tap-highlight-color:transparent];
 }
 
 :focus-visible {
-    outline: 0;
+    @apply outline-0;
 }
 
 :root {
@@ -17,15 +17,14 @@
 }
 
 html {
-    height: -webkit-fill-available;
+    @apply h-[-webkit-fill-available];
 }
 
 .no-scrollbar::-webkit-scrollbar {
     @apply hidden;
 }
 .no-scrollbar {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    @apply [-ms-overflow-style:none] [scrollbar-width:none];
 }
 
 .glide_first .glide__bullets,
