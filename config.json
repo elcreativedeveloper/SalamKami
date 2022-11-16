@@ -1,44 +1,44 @@
 {
     "name": {
-        "male": "Faris Advaita Alhasan",
-        "maleInitial": "Faris",
-        "maleDad": "Adzriel Fairuz",
-        "maleMom": "Areta Mahveen",
-        "female": "Haisha Azrina",
-        "femaleInitial": "Azrina",
-        "femaleDad": "Farhan Alfarezi",
-        "femaleMom": "Shafiyyah Sammira"
+        "male": "Ariko",
+        "maleInitial": "Riko",
+        "maleDad": "Mariman",
+        "maleMom": "Turahmi",
+        "female": "Tika Priliyana S.Pd",
+        "femaleInitial": "Priliy",
+        "femaleDad": "Supriyanto",
+        "femaleMom": "Partinah"
     },
     "date": {
-        "contract": "Sabtu, 01 November 2025",
+        "contract": "Senin, 05 Desember 2022",
         "contractTime": "08:00 WIB",
-        "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
-        "reception": "Sabtu, 01 November 2025",
+        "contractLocation": "Gumukrejo, RT/RW 09/003, Kecamatan Pagelaran, Kabupaten Pringsewu, Provinsi Lampung",
+        "reception": "Senin, 05 Desember 2022",
         "receptionTime": "10:00 WIB",
-        "receptionToDate": "2025-11-01",
-        "receptionToDate1": "20251101T0800"
+        "receptionToDate": "2022-12-05",
+        "receptionToDate1": "20221205T0800"
     },
     "location": {
-        "contract": "Alamat Lengkap Lokasi Akad Nikah",
-        "reception": "Alamat Lengkap Lokasi Resepsi Penikahan",
+        "contract": "Gumukrejo, RT/RW 09/003, Kecamatan Pagelaran, Kabupaten Pringsewu, Provinsi Lampung",
+        "reception": "Gumukrejo, RT/RW 09/003, Kecamatan Pagelaran, Kabupaten Pringsewu, Provinsi Lampung",
         "maps": "-5.34700076388259, 104.95010598444547"
     },
     "gift": {
-        "bankNumber": "1234 5678 9123",
-        "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
+        "bankNumber": "5775 01 010233 53 6",
+        "bankAccount": "Bank BRI a/n Tika Priliyana"
     },
     "theme": {
-        "style": 2,
+        "style": 16,
         "slide": {
             "cover": 1,
             "opening": 1,
-            "loveStory": 1,
+            "loveStory": 0,
             "bride": 1,
             "date": 1,
             "maps": 1,
             "gift": 1,
-            "gallery": 1,
-            "rundown": 1,
+            "gallery": 0,
+            "rundown": 0,
             "quotes": 1,
             "closing": 1
         }
