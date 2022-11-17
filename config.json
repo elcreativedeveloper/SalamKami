@@ -1,13 +1,13 @@
 {
     "name": {
-        "male": "Ariko",
-        "maleInitial": "Riko",
-        "maleDad": "Mariman",
-        "maleMom": "Turahmi",
-        "female": "Tika Priliyana S.Pd",
-        "femaleInitial": "Priliy",
-        "femaleDad": "Supriyanto",
-        "femaleMom": "Partinah"
+        "male": "Tika Priliyana S.Pd",
+        "maleInitial": "Priliy",
+        "maleDad": "Supriyanto",
+        "maleMom": "Partinah",
+        "female": "Ariko",
+        "femaleInitial": "Riko",
+        "femaleDad": "Mariman",
+        "femaleMom": "Turahmi"
     },
     "date": {
         "contract": "Senin, 05 Desember 2022",
@@ -32,7 +32,7 @@
         "slide": {
             "cover": 3,
             "opening": 1,
-            "loveStory": 0,
+            "loveStory": 1,
             "bride": 1,
             "date": 1,
             "maps": 1,
@@ -46,8 +46,8 @@
     "audio": "kebo_giro",
     "images": {
         "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioH3pqgGTLfMQi-wj6plYKMNZwOxwBcHBokpP3M1UdM6WsoxBFDv6DrGqvTDs0jD4C-X4dlwWwO210gwjeJ3qe_-SVfMR2Cgwhuve6cUB3wYpNapNd0h821gxSXgh9D-PgnaoaWSxiP8qAnC4Z1-PutqferfkP8xYzzjoCqZn2eN-MDseEWe3YtL03/s600/wide.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3nitqV2ZWD01VxDk5U7wnGO6zSuHPMih0ZKs-MrR9sFSt1BrGtmGpKTeEat_j6ajcIdp2EQyL7WfSeBSEWXdu6NgcW7Oa4dWt_RbITc_B0txIth0aNmwxY4TUQHvhJXnVWwnEOf2mrV4l1xSFF8JcqnqdKf_9aR5uL1g_qHcL95x0q2a1LTSyeLGl/s600/portrait.jpg",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwXqgslpQtANJ8M0SeQoytmujmECw_sJKvqPzjkMEblnJpdfPbNUJo1yR30VeKnthHYGIJ4kc9VcVYG919L3478-GYt-ypHnZuD05pVK9j5v203feTi63V2OHdqMrXr0zt2g4vL5nhmhhNRvxhCm9MvtsXCiWqLaFxTxKNmbqZVSg5b-P50oMOeCI4/s600/portrait.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwXqgslpQtANJ8M0SeQoytmujmECw_sJKvqPzjkMEblnJpdfPbNUJo1yR30VeKnthHYGIJ4kc9VcVYG919L3478-GYt-ypHnZuD05pVK9j5v203feTi63V2OHdqMrXr0zt2g4vL5nhmhhNRvxhCm9MvtsXCiWqLaFxTxKNmbqZVSg5b-P50oMOeCI4/s600/portrait.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3nitqV2ZWD01VxDk5U7wnGO6zSuHPMih0ZKs-MrR9sFSt1BrGtmGpKTeEat_j6ajcIdp2EQyL7WfSeBSEWXdu6NgcW7Oa4dWt_RbITc_B0txIth0aNmwxY4TUQHvhJXnVWwnEOf2mrV4l1xSFF8JcqnqdKf_9aR5uL1g_qHcL95x0q2a1LTSyeLGl/s600/portrait.jpg",
         "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiiVxf2U4a6JnFlysg0xvGLCb0MadxT49nJq2Z_oIrY-20FqCNY31eRjni2OnKmgbxcCAF8hefcmEcsH9pkZOTEaPk32F1pzKgibCDF9UsNdDPYEALd5l2OA8VL5NPW8ENXM9YTRIaYRzv6qtI5kcE1TfcAA36rgc5O3KxThdP1DHiW_D-BwZnuHwEg/s1600/IMG_0026%20%281%29.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgdLFn8Kqx0m-NUbjCqHhIcmPmsuVKUMlAcZBUStW9CkkKRC8P6I7RMUMIrbvP2VHDbHZA-5ieuOjbCNnTBkTsKgxHNZuWx3oBdGX1AbQeffjF2k5NUDA4-t2KKT5p6yc-wAPNF3AFYxYRNSYH7bHOXjfZl-Evj5RSiG3nJ9mwzI4Hg88zjicoSXtIy/s1600/IMG_9912%20%281%29%281%29.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjHVf0UqNy0pQUsCJzLzb-Tf4JB8oDGCjSiOScsftodC8FlMuq1k5xDiq-At4Xod5z7DgSGTby5IzfrFh0Ew8TDJKz9vSCFOwkBMwhxgZoTkCzLknACvT9a1mDj-DKrjRgtQ92QzLpyhBhisyg842ohzgmYcR4KtiwClLBU74SYc6WVWs_U4FNT8GgC/s1600/IMG_9927.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiejEv-zUXsfvSt6-vAsgNhwQLL4M-GFXkK0WdBtks16ZKU6TBP8N2UXtI6h0hmHmQaUIoZVPekFP26I665F_9_nKoe8MmE7f_j9DcJZOzjEERDGNJjdoONKqQeNgXn5FJglcb8K3RFWobtXnVjtBTQIDaNstu9fjp62-LzYJmp4xmHaeC6hc7oz_ic/s1600/IMG_9931.jpg"
     },
     "fonts": {
