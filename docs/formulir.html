@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link rel="stylesheet" href="./assets/styles/styles.min.css" />
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Google Sans Text:wght@400;500;700&display=swap');
+            :root {
+                --fontPrimary: 'Google Sans Text', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+            }
+        </style>
+    </head>
+    <body class="font-fontPrimary">
+        <div class="mx-auto w-full max-w-2xl p-3">
+            <h2 class="mb-3 border-b border-gray-300 pb-3 text-lg font-bold">Informasi Dasar</h2>
+            <label for="input_layout_cover" class="mb-2 block text-sm font-medium text-gray-900">Pilih Tema</label>
+            <select id="input_layout_cover" class="mb-6 w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
+                <option selected disabled>Pilih Tema</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+                <option value="13">13</option>
+                <option value="14">14</option>
+                <option value="15">15</option>
+                <option value="16">16</option>
+                <option value="17">17</option>
+                <option value="18">18</option>
+                <option value="19">19</option>
+                <option value="20">20</option>
+            </select>
+            <h3 class="text-md mb-3 border-b border-gray-300 pb-3 font-bold">Mempelai Pria</h3>
+            <div class="mb-3">
+                <label for="input_name_male_long" class="mb-2 block text-sm font-medium text-gray-900">Nama Lengkap Mempelai Pria</label>
+                <input type="text" id="input_name_male_long" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Faris Advaita Al-Hasan" required />
+            </div>
+            <div class="mb-3">
+                <label for="input_name_male_short" class="mb-2 block text-sm font-medium text-gray-900">Nama Panggilan Mempelai Pria</label>
+                <input type="text" id="input_name_male_short" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Faris" required />
+            </div>
+            <div class="mb-3">
+                <label for="input_name_male_dad" class="mb-2 block text-sm font-medium text-gray-900">Nama Lengkap Ayah Mempelai Pria</label>
+                <input type="text" id="input_name_male_dad" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Farhan Alfarezy" required />
+            </div>
+            <div class="mb-6">
+                <label for="input_name_male_mom" class="mb-2 block text-sm font-medium text-gray-900">Nama Lengkap Ibu Mempelai Pria</label>
+                <input type="text" id="input_name_male_mom" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Safiyyah Samira" required />
+            </div>
+
+            <h3 class="mb-3 border-b border-gray-300 pb-3 text-lg font-bold">Mempelai Wanita</h3>
+            <div class="mb-3">
+                <label for="input_name_female_long" class="mb-2 block text-sm font-medium text-gray-900"> Nama Lengkap Mempelai Wanita </label>
+                <input type="text" id="input_name_female_long" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Haisha Azrina" required />
+            </div>
+            <div class="mb-3">
+                <label for="input_name_female_short" class="mb-2 block text-sm font-medium text-gray-900"> Nama Panggilan Mempelai Wanita </label>
+                <input type="text" id="input_name_female_short" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Azrina" required />
+            </div>
+            <div class="mb-3">
+                <label for="input_name_female_dad" class="mb-2 block text-sm font-medium text-gray-900"> Nama Lengkap Ayah Mempelai Wanita </label>
+                <input type="text" id="input_name_female_dad" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Adzriel Fairuz" required />
+            </div>
+            <div class="mb-6">
+                <label for="input_name_female_mom" class="mb-2 block text-sm font-medium text-gray-900"> Nama Lengkap Ibu Mempelai Wanita </label>
+                <input type="text" id="input_name_female_mom" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Areta Mahveen" required />
+            </div>
+
+            <h3 class="mb-3 border-b border-gray-300 pb-3 text-lg font-bold">Acara Akad Nikah</h3>
+            <div class="relative mb-4 grid gap-3 md:grid-cols-2">
+                <div class="relative">
+                    <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                        <svg aria-hidden="true" class="h-5 w-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <input id="input_date_contract" datepicker type="text" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500" placeholder="Hari, Bulan dan Tahun" />
+                </div>
+                <div class="relative">
+                    <label for="input_" class="sr-only"> Jam Akad </label>
+                    <input type="text" id="input_time_contract" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Jam" required />
+                </div>
+            </div>
+            <div class="relative mb-6">
+                <label for="input_" class="sr-only"> Alamat Akad Nikah </label>
+                <textarea id="input_location_contract" rows="4" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500" placeholder="Alamat lengkap acara Akad Nikah..."></textarea>
+            </div>
+
+            <h3 class="mb-3 border-b border-gray-300 pb-3 text-lg font-bold">Acara Resepsi</h3>
+            <div class="relative mb-4 grid gap-3 md:grid-cols-2">
+                <div class="relative">
+                    <div class="pointer-events-none absolute inset-y-0 left-0 flex items-center pl-3">
+                        <svg aria-hidden="true" class="h-5 w-5 text-gray-500" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd" />
+                        </svg>
+                    </div>
+                    <input id="input_date_reception" datepicker type="text" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500" placeholder="Hari, Bulan dan Tahun" />
+                </div>
+                <div class="relative">
+                    <label for="input_" class="sr-only"> Jam Akad </label>
+                    <input type="text" id="input_time_reception" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Jam" required />
+                </div>
+            </div>
+            <div class="relative mb-4">
+                <label for="input_" class="sr-only"> Alamat Akad Nikah </label>
+                <textarea id="input_location_reception" rows="4" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500" placeholder="Alamat lengkap acara Akad Nikah..."></textarea>
+            </div>
+            <div class="mb-6">
+                <label for="input_maps_reception" class="sr-only"> Lokasi Drop Point Acara Respsi </label>
+                <input type="text" id="input_maps_reception" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Drop Point Acara Respsi" required />
+            </div>
+
+            <h2 class="mb-3 border-b border-gray-300 pb-3 text-lg font-bold">Informasi Slide</h2>
+            <div class="flex w-full flex-col items-start justify-center">
+                <label for="input_slide_cover" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_cover" type="checkbox" value="" class="peer sr-only" checked disabled />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Cover (Halaman Depan)</span>
+                </label>
+                <label for="input_layout_cover" class="sr-only"> Pilih Layout Cover </label>
+                <select id="input_layout_cover" class="mb-4 hidden w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
+                    <option selected disabled>Pilih Layout Cover</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+
+                <label for="input_slide_opening" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_opening" type="checkbox" value="" class="peer sr-only" />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Opening (Kata Pembukaan)</span>
+                </label>
+                <label for="input_layout_opening" class="sr-only"> Pilih Layout Opening </label>
+                <select id="input_layout_opening" class="mb-4 hidden w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
+                    <option selected disabled>Pilih Layout Opening</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+
+                <label for="input_slide_love_story" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_love_story" type="checkbox" value="" class="peer sr-only" />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Love Story (Kisah Perjalanan Cinta)</span>
+                </label>
+
+                <label for="input_slide_bride" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_bride" type="checkbox" value="" class="peer sr-only" checked disabled />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Bride & Groom (Mempelai)</span>
+                </label>
+                <label for="input_layout_bride" class="sr-only"> Pilih Layout Bride </label>
+                <select id="input_layout_bride" class="mb-4 hidden w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
+                    <option selected disabled>Pilih Layout Bride</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+
+                <label for="input_slide_date" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_date" type="checkbox" value="" class="peer sr-only" checked disabled />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Date (Tanggal dan Lokasi Acara)</span>
+                </label>
+                <label for="input_slide_maps" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_maps" type="checkbox" value="" class="peer sr-only" checked disabled />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Maps (Drop Point Lokasi Acara)</span>
+                </label>
+                <label for="input_slide_gift" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_gift" type="checkbox" value="" class="peer sr-only" />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Gift (Hadiah dan Kado)</span>
+                </label>
+                <label for="input_slide_gallery" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_gallery" type="checkbox" value="" class="peer sr-only" />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Gallery (Galeri Photo)</span>
+                </label>
+                <label for="input_slide_video" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_video" type="checkbox" value="" class="peer sr-only" />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Video</span>
+                </label>
+                <label for="input_slide_live" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_live" type="checkbox" value="" class="peer sr-only" />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Live Streaming</span>
+                </label>
+                <label for="input_slide_rsvp" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_rsvp" type="checkbox" value="" class="peer sr-only" />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide RSVP (Ucapan & Konfirmasi Kehadiran)</span>
+                </label>
+                <label for="input_slide_rundown" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_rundown" type="checkbox" value="" class="peer sr-only" />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Rundown (Susunan Acara)</span>
+                </label>
+                <label for="input_slide_quotes" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_quotes" type="checkbox" value="" class="peer sr-only" />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Quotes (Kata-kata/Kutipan)</span>
+                </label>
+                <label for="input_slide_closing" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <input id="input_slide_closing" type="checkbox" value="" class="peer sr-only" checked disabled />
+                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                    <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Closing (Penutup)</span>
+                </label>
+            </div>
+        </div>
+    </body>
+</html>

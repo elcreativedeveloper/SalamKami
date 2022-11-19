@@ -3,6 +3,7 @@ module.exports = {
     darkMode: 'class',
     content: [
         './dev/**/*.{html,js}',
+        './docs/formulir.html',
     ],
     theme: {
         extend: {
