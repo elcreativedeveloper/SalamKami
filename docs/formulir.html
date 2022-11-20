@@ -87,8 +87,8 @@
                     <input id="input_date_contract" datepicker type="text" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500" placeholder="Tanggal, Bulan dan Tahun" />
                 </div>
                 <div class="relative">
-                    <label for="input_" class="sr-only"> Jam Akad </label>
-                    <input type="text" id="input_time_contract" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Jam" required />
+                    <label for="input_" class="sr-only">Jam Akad</label>
+                    <input type="text" id="input_time_contract" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="08:00" required />
                 </div>
             </div>
             <div class="relative mb-6">
@@ -107,8 +107,8 @@
                     <input id="input_date_reception" datepicker type="text" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 pl-10 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500" placeholder="Tanggal, Bulan dan Tahun" />
                 </div>
                 <div class="relative">
-                    <label for="input_" class="sr-only">Jam Akad</label>
-                    <input type="text" id="input_time_reception" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="Jam" required />
+                    <label for="input_" class="sr-only">Jam Resepsi</label>
+                    <input type="text" id="input_time_reception" class="block w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600" placeholder="10:00" required />
                 </div>
             </div>
             <div class="relative mb-4">
@@ -222,5 +222,49 @@
                 </label>
             </div>
         </div>
+
+        <script>
+            var themeNumber = document.querySelector('#input_layout_cover').value;
+
+            var nameMale = document.querySelector('#input_name_male_long').value;
+            var nameMaleShort = document.querySelector('#input_name_male_short').value;
+            var nameMaleDad = document.querySelector('#input_name_male_dad').value;
+            var nameMaleMom = document.querySelector('#input_name_male_mom').value;
+
+            var nameFemale = document.querySelector('#input_name_female_long').value;
+            var nameFemaleShort = document.querySelector('#input_name_female_short').value;
+            var nameFemaleDad = document.querySelector('#input_name_female_dad').value;
+            var nameFemaleMom = document.querySelector('#input_name_female_mom').value;
+
+            var contractDate = document.querySelector('#input_date_contract').value;
+            var contractTime = document.querySelector('#input_time_contract').value;
+            var contractLocation = document.querySelector('#input_location_contract').value;
+
+            var receptionDate = document.querySelector('#input_date_reception').value;
+            var receptionTime = document.querySelector('#input_time_reception').value;
+            var receptionLocation = document.querySelector('#input_time_reception').value;
+
+            console.log(`{
+                theme: ${themeNumber},
+
+                nameMale: "${nameMale}",
+                nameMaleShort: "${nameMaleShort}",
+                nameMaleDad: "${nameMaleDad}",
+                nameMaleMom: "${nameMaleMom}",
+
+                nameFemale: "${nameFemale}",
+                nameFemaleShort: "${nameFemaleShort}",
+                nameFemaleDad: "${nameFemaleDad}",
+                nameFemaleMom: "${nameFemaleMom}",
+
+                contractDate: "${contractDate}",
+                contractTime: "${contractTime}",
+                contractLocation: "${contractLocation}",
+
+                receptionDate: "${receptionDate}",
+                receptionTime: "${receptionTime}",
+                receptionLocation: "${receptionLocation}",
+                }`);
+        </script>
     </body>
 </html>
