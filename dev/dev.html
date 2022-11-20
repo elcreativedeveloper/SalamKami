@@ -5,12 +5,12 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
         <meta name="format-detection" content="telephone=no" />
-        <title>Undangan Pernikahan {{name.femaleInitial}} & {{name.maleInitial}}</title>
-        <meta name="title" content="Undangan Pernikahan {{name.femaleInitial}} & {{name.maleInitial}}" />
+        <title>Undangan Pernikahan {{nameFemaleShort}} & {{nameMaleShort}}</title>
+        <meta name="title" content="Undangan Pernikahan {{nameFemaleShort}} & {{nameMaleShort}}" />
         <meta name="description" content="{{date.reception}}" />
 
-        <meta name="keywords" content="Undangan Pernikahan {{name.female}} & {{name.male}}" />
-        <meta name="news_keywords" content="Undangan Pernikahan {{name.female}} & {{name.male}}" />
+        <meta name="keywords" content="Undangan Pernikahan {{nameFemale}} & {{nameMale}}" />
+        <meta name="news_keywords" content="Undangan Pernikahan {{nameFemale}} & {{nameMale}}" />
         <meta name="author" content="SalamKami | EL Creative Developer" />
         <meta name="copyright" content="SalamKami | EL Creative Developer" />
         <meta name="url" content="https://www.salamkami.com/" />
@@ -19,15 +19,15 @@
         <meta name="rating" content="general" />
         <meta name="theme-color" content="#ffffff" />
 
-        <meta property="og:title" content="Undangan Pernikahan {{name.femaleInitial}} & {{name.maleInitial}}" />
+        <meta property="og:title" content="Undangan Pernikahan {{nameFemaleShort}} & {{nameMaleShort}}" />
         <meta property="og:description" content="{{date.reception}}" />
-        <meta property="og:site_name" content="Undangan Pernikahan {{name.female}} & {{name.male}}" />
+        <meta property="og:site_name" content="Undangan Pernikahan {{nameFemale}} & {{nameMale}}" />
         <meta property="og:url" content="https://www.salamkami.com/" />
         <meta property="og:locale" content="id" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="{{images.both}}" />
 
-        <meta name="twitter:title" content="Undangan Pernikahan {{name.femaleInitial}} & {{name.maleInitial}}" />
+        <meta name="twitter:title" content="Undangan Pernikahan {{nameFemaleShort}} & {{nameMaleShort}}" />
         <meta name="twitter:description" content="{{date.reception}}" />
         <meta name="twitter:url" content="https://www.salamkami.com/" />
         <meta name="twitter:image" content="{{images.both}}" />
@@ -58,10 +58,10 @@
         <script src="../assets/scripts/defer.js"></script>
     </head>
     <body class="glide_first bg-colorBackground font-fontPrimary text-sm text-colorText">
-        <div id="loaders" class="fixed top-0 z-30 flex h-screen w-full flex-col items-center justify-center bg-white text-gray-600">
+        <div id="loaders" class="fixed top-0 z-30 flex h-screen w-full flex-col items-center justify-center bg-colorBackground text-colorText">
             <div class="mb-5 flex flex-col items-center justify-center text-center">
                 <div class="mb-1">UNDANGAN PERNIKAHAN</div>
-                <div class="font-fontSecondary text-3xl">{{name.femaleInitial}} & {{name.maleInitial}}</div>
+                <div class="font-fontSecondary text-3xl">{{nameFemaleShort}} & {{nameMaleShort}}</div>
             </div>
             <div class="loader mx-auto h-[42px] w-[42px]">
                 <svg class="circular" viewBox="25 25 50 50" width="42" height="42"><circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"></circle></svg>

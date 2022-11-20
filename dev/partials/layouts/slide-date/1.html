@@ -3,7 +3,7 @@
         <div class="no-scrollbar flex h-full w-full flex-col items-center overflow-y-auto overflow-x-hidden p-5 before:m-auto before:content-[''] after:m-auto after:content-['']">
             <div class="animate_animated animate_fadeInLeft animate_slower mb-6 text-center">
                 <div class="mb-2 font-fontSecondary text-3xl text-colorMain">Akad Nikah</div>
-                <div>{{date.contract}} - Pukul {{date.contractTime}} s/d Selesai</div>
+                <div>{{contractDate}} - Pukul {{date.contractTime}} s/d Selesai.</div>
                 <div>{{location.contract}}</div>
             </div>
             <div class="animate_animated animate_fadeInRight animate_slower mb-8 text-center">
@@ -32,7 +32,7 @@
                 </div>
             </div>
 
-            <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;dates={{date.receptionToDate1}}00ID/{{date.receptionToDate1}}00ID&amp;text=Pernikahan {{name.femaleInitial}} dan {{name.maleInitial}}&amp;details=Pernikahan {{name.femaleInitial}} dan {{name.maleInitial}}&amp;location={{location.reception}}&amp;recur=RRULE:FREQ%3DWEEKLY;INTERVAL%3D3" target="_blank" class="animate_animated animate_fadeInUp animate_slower animate__delay-015s mt-5 rounded-full bg-colorMain py-2 px-4 text-colorBackground transition-shadow hover:shadow-lg" rel="nofollow noopener noreferer">Tambahkan Pengingat di Kalender</a>
+            <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;dates={{date.receptionToDate1}}00ID/{{date.receptionToDate1}}00ID&amp;text=Pernikahan {{nameFemaleShort}} dan {{nameMaleShort}}&amp;details=Pernikahan {{nameFemaleShort}} dan {{nameMaleShort}}&amp;location={{location.reception}}&amp;recur=RRULE:FREQ%3DWEEKLY;INTERVAL%3D3" target="_blank" class="animate_animated animate_fadeInUp animate_slower animate__delay-015s mt-5 rounded-full bg-colorMain py-2 px-4 text-colorBackground transition-shadow hover:shadow-lg" rel="nofollow noopener noreferer">Tambahkan Pengingat di Kalender</a>
         </div>
     </div>
 

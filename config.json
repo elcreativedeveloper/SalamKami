@@ -1,14 +1,16 @@
 {
-    "name": {
-        "male": "Faris Advaita Alhasan",
-        "maleInitial": "Faris",
-        "maleDad": "Adzriel Fairuz",
-        "maleMom": "Areta Mahveen",
-        "female": "Haisha Azrina",
-        "femaleInitial": "Azrina",
-        "femaleDad": "Farhan Alfarezi",
-        "femaleMom": "Shafiyyah Sammira"
-    },
+    "nameMale": "Faris Advaita Alhasan",
+    "nameMaleShort": "Faris",
+    "nameMaleDad": "Adzriel Fairuz",
+    "nameMaleMom": "Areta Mahveen",
+
+    "nameFemale": "Haisha Azrina",
+    "nameFemaleShort": "Azrina",
+    "nameFemaleDad": "Farhan Alfarezi",
+    "nameFemaleMom": "Shafiyyah Sammira",
+
+    "contractDate": "01-11-2025",
+
     "date": {
         "contract": "Sabtu, 01 November 2025",
         "contractTime": "08:00 WIB",
@@ -52,7 +54,7 @@
     },
     "fonts": {
         "primary": "Google Sans Text",
-        "secondary": "Euphoria Script"
+        "secondary": "Alex Brush"
     },
     "config": {
         "script:start": "<script>",
