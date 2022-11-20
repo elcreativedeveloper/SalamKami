@@ -9,53 +9,51 @@
     "nameFemaleDad": "Farhan Alfarezi",
     "nameFemaleMom": "Shafiyyah Sammira",
 
-    "contractDate": "01-11-2025",
+    "contractDate": "Sabtu, 01 November 2025",
+    "contractTime": "08:00 WIB",
+    "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
 
-    "date": {
-        "contract": "Sabtu, 01 November 2025",
-        "contractTime": "08:00 WIB",
-        "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
-        "reception": "Sabtu, 01 November 2025",
-        "receptionTime": "10:00 WIB",
-        "receptionToDate": "2025-11-01",
-        "receptionToDate1": "20251101T0800"
-    },
-    "location": {
-        "contract": "Alamat Lengkap Lokasi Akad Nikah",
-        "reception": "Alamat Lengkap Lokasi Resepsi Penikahan",
-        "maps": "-5.34700076388259, 104.95010598444547"
-    },
-    "gift": {
-        "bankNumber": "1234 5678 9123",
-        "bankAccount": "Nama Bank a/n Nama Penerima Hadiah"
-    },
-    "theme": {
-        "style": 1,
-        "slide": {
-            "cover": 1,
-            "opening": 1,
-            "loveStory": 1,
-            "bride": 1,
-            "date": 1,
-            "maps": 1,
-            "gift": 1,
-            "gallery": 1,
-            "rundown": 1,
-            "quotes": 1,
-            "closing": 1
+    "receptionDate": "Sabtu, 01 November 2025",
+    "receptionDateFormat1": "2025-11-01",
+    "receptionDateFormat2": "20251101T0800",
+    "receptionTime": "10:00 WIB",
+    "receptionLocation": "Alamat Lengkap Lokasi Resepsi Penikahan",
+    "receptionMaps": "-5.34700076388259, 104.95010598444547",
+
+    "themes": {
+        "style": 5,
+        "audio": "stringspace-im_yours_string_quartet",
+        "fonts": {
+            "primary": "Google Sans Text",
+            "secondary": "Alex Brush"
         }
     },
-    "audio": "stringspace-im_yours_string_quartet",
+    "slides": {
+        "cover": 1,
+        "opening": 1,
+        "loveStory": 1,
+        "bride": 1,
+        "date": 1,
+        "maps": 1,
+        "gift": {
+            "layout": 1,
+            "bankNumber": "1234 5678 9123",
+            "bankName": "Bank",
+            "bankAccount": "Nama Penerima Hadiah"
+        },
+        "gallery": 1,
+        "rundown": 1,
+        "quotes": 1,
+        "closing": 1
+    },
+
     "images": {
         "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_k_Cs22FCyw6hBXv1jI6b_kf6tHqodYRbc8cg_fXdsIGBMb7XdLlAbtog854Jh5uS8b7b40P40JmRhB8cvcViMIxH-vfg-2ZzO7y-2_KvEkotnWCM3wJWOR9RoH0P9RwMJPssSJoUj-nmnRUhuaLRet536NVLzTjHf_Fau4DK27Pl1AphZEflOBU/s1600/BGs.jpg",
         "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd8_vyzfs9BY3TBgHd1FAfcSeZd9o09PsdEBbQkVhVGNwiE-MzSScVNjUQ1OTY8CWbvmM78T-wcB4rq7AuBC5Jw7pJo_fiO2AYoME1sD6kW9WL7gSwdGcmo22BVsTDGF-liWsBiup0iyHj_rFcyJJYuIbOJvaGaPYHYwK1rKzsd5NMOMRDlaRclbjW/s1600/BGs.jpg",
         "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrSWeStaaU5ZQ8LhD-w2aySRyG81Wwuxmq-Rjh2OhMRlXne2tx2dQDDurdKtmQ1jDAqbyHy44YSV-Qrr7wNaRqu9eAtRwbyZjUMtYGDSwr85CyqBBNZ8ID3pJ3hUGD0PfRJFSOvkosuEfA6aznyPQvBfCsTwR_OPwuydf5oAgdmtLkECwG1QGbsveZ/s1600/BGs.jpg",
         "gallery": "https://i.pinimg.com/originals/6c/1a/55/6c1a5562cf136360a1c9dc48213d2088.jpg, https://i.pinimg.com/originals/95/12/c7/9512c78d98e76e1823cf6d6cdc2ed007.jpg, https://i.pinimg.com/originals/95/aa/cb/95aacb962552d9d4a9726d40be6bc28d.jpg, https://i.pinimg.com/originals/35/9d/8d/359d8db8caf92ae62970187a671d844c.jpg"
     },
-    "fonts": {
-        "primary": "Google Sans Text",
-        "secondary": "Euphoria Script"
-    },
+    
     "config": {
         "script:start": "<script>",
         "script:end": "</script>",

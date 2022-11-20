@@ -11,8 +11,8 @@
                 <div class="mb-2 text-center">
                     <div class="mb-4 font-fontSecondary text-2xl text-colorMain">Kirim Hadiah</div>
                     <div><em>Anda dapat mengirim hadiah ke:</em></div>
-                    <div id="nomor_rekening" class="font-mono text-lg font-bold">{{gift.bankNumber}}</div>
-                    <div>{{gift.bankAccount}}</div>
+                    <div id="nomor_rekening" class="font-mono text-lg font-bold">{{slides.gift.bankNumber}}</div>
+                    <div>{{slides.gift.bankName}} A/N {{slides.gift.bankAccount}}</div>
 
                     <button id="button_salin_rekening" type="button" class="mx-auto mt-3 rounded-full bg-colorMain py-2 px-4 text-colorBackground transition-shadow hover:shadow-lg">Salin No. Rekening</button>
                 </div>
@@ -21,14 +21,14 @@
                 <div class="mb-2 text-center">
                     <div class="mb-4 font-fontSecondary text-2xl text-colorMain">Kirim Kado</div>
                     <div><em>Anda dapat mengirim kado ke:</em></div>
-                    <div class="font-bold">{{location.reception}}</div>
+                    <div class="font-bold">{{receptionLocation}}</div>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="pointer-events-none absolute top-0 left-0 right-0 bottom-0 -z-10">
-        <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("../assets/images/layouts/{{theme.style}}/imageOrnamentTop.png")'></span>
-        <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("../assets/images/layouts/{{theme.style}}/imageOrnamentBottom.png")'></span>
+        <span class="animate_animated animate_fadeInTopLeft animate_slower absolute top-0 left-0 h-full w-1/2 bg-contain bg-left-top bg-no-repeat sm:w-[20%]" style='background-image:url("../assets/images/layouts/{{themes.style}}/imageOrnamentTop.png")'></span>
+        <span class="animate_animated animate_fadeInBottomRight animate_slower absolute bottom-0 right-0 h-full w-1/2 bg-contain bg-right-bottom bg-no-repeat sm:w-[20%]" style='background-image:url("../assets/images/layouts/{{themes.style}}/imageOrnamentBottom.png")'></span>
     </div>
 </div>
