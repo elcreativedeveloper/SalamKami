@@ -38,7 +38,7 @@ html {
     animation-fill-mode: both;
     opacity: 0;
 }
-.animate_animated.animate__slow {
+.animate_animated.animate_slow {
     animation-duration: 2s;
     animation-duration: calc(var(--animate-duration) * 2);
 }
