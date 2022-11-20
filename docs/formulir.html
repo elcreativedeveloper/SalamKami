@@ -121,105 +121,147 @@
             </div>
 
             <h2 class="mb-3 border-b border-gray-300 pb-3 text-lg font-bold">Informasi Slide</h2>
-            <div class="flex w-full flex-col items-start justify-center">
-                <label for="input_slide_cover" class="relative mb-3 inline-flex cursor-pointer items-center">
+            <div class="flex w-full flex-col items-center justify-center">
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border">
                     <input id="input_slide_cover" type="checkbox" value="" class="peer sr-only" checked disabled />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Cover (Halaman Depan)</span>
-                </label>
-                <label for="input_layout_cover" class="sr-only"> Pilih Layout Cover </label>
-                <select id="input_layout_cover" class="mb-4 hidden w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
-                    <option selected disabled>Pilih Layout Cover</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
+                    <label for="input_slide_cover" class="peer relative flex w-full cursor-not-allowed select-none items-center justify-start px-4 py-3 text-sm font-medium text-gray-900 before:mr-2 before:inline-block before:h-4 before:w-4 before:rounded-full before:bg-red-600 before:content-[''] peer-checked:before:bg-blue-600">Slide Cover* (Halaman Depan)</label>
 
-                <label for="input_slide_opening" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <div class="hidden w-full flex-col items-start justify-center border-t p-4 peer-checked:flex">
+                        <label for="input_layout_cover" class="mb-2 block text-sm font-medium text-gray-900">Pilih Layout</label>
+                        <select id="input_layout_cover" class="w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
+                            <option selected disabled>Pilih Layout</option>
+                            <option value="1">Layout 1</option>
+                            <option value="2">Layout 2</option>
+                            <option value="3">Layout 3</option>
+                            <option value="4">Layout 4</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border">
                     <input id="input_slide_opening" type="checkbox" value="" class="peer sr-only" />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Opening (Kata Pembukaan)</span>
-                </label>
-                <label for="input_layout_opening" class="sr-only"> Pilih Layout Opening </label>
-                <select id="input_layout_opening" class="mb-4 hidden w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
-                    <option selected disabled>Pilih Layout Opening</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
+                    <label for="input_slide_opening" class="peer relative flex w-full cursor-pointer select-none items-center justify-start px-4 py-3 text-sm font-medium text-gray-900 before:mr-2 before:inline-block before:h-4 before:w-4 before:rounded-full before:bg-red-600 before:content-[''] peer-checked:before:bg-green-600">Slide Opening (Kata Pembukaan)</label>
 
-                <label for="input_slide_love_story" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <div class="hidden w-full flex-col items-start justify-center border-t p-4 peer-checked:flex">
+                        <label for="input_layout_opening" class="mb-2 block text-sm font-medium text-gray-900">Pilih Layout</label>
+                        <select id="input_layout_opening" class="w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
+                            <option selected disabled>Pilih Layout</option>
+                            <option value="1">Layout 1</option>
+                            <option value="2">Layout 2</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border">
                     <input id="input_slide_love_story" type="checkbox" value="" class="peer sr-only" />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Love Story (Kisah Perjalanan Cinta)</span>
-                </label>
+                    <label for="input_slide_love_story" class="peer relative flex w-full cursor-pointer select-none items-center justify-start px-4 py-3 text-sm font-medium text-gray-900 before:mr-2 before:inline-block before:h-4 before:w-4 before:rounded-full before:bg-red-600 before:content-[''] peer-checked:before:bg-green-600">Slide Love Story (Kisah Perjalanan Cinta)</label>
+                </div>
 
-                <label for="input_slide_bride" class="relative mb-3 inline-flex cursor-pointer items-center">
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border">
                     <input id="input_slide_bride" type="checkbox" value="" class="peer sr-only" checked disabled />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Bride & Groom (Mempelai)</span>
-                </label>
-                <label for="input_layout_bride" class="sr-only"> Pilih Layout Bride </label>
-                <select id="input_layout_bride" class="mb-4 hidden w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
-                    <option selected disabled>Pilih Layout Bride</option>
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                </select>
+                    <label for="input_slide_bride" class="peer relative flex w-full cursor-not-allowed select-none items-center justify-start px-4 py-3 text-sm font-medium text-gray-900 before:mr-2 before:inline-block before:h-4 before:w-4 before:rounded-full before:bg-red-600 before:content-[''] peer-checked:before:bg-blue-600">Slide Bride & Groom* (Mempelai)</label>
 
-                <label for="input_slide_date" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <div class="hidden w-full flex-col items-start justify-center border-t p-4 peer-checked:flex">
+                        <label for="input_layout_bride" class="mb-2 block text-sm font-medium text-gray-900">Pilih Layout</label>
+                        <select id="input_layout_bride" class="w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
+                            <option selected disabled>Pilih Layout</option>
+                            <option value="1">Layout 1</option>
+                            <option value="2">Layout 2</option>
+                            <option value="3">Layout 3</option>
+                            <option value="4">Layout 4</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border">
                     <input id="input_slide_date" type="checkbox" value="" class="peer sr-only" checked disabled />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Date (Tanggal dan Lokasi Acara)</span>
-                </label>
-                <label for="input_slide_maps" class="relative mb-3 inline-flex cursor-pointer items-center">
+                    <label for="input_slide_date" class="peer relative flex w-full cursor-not-allowed select-none items-center justify-start px-4 py-3 text-sm font-medium text-gray-900 before:mr-2 before:inline-block before:h-4 before:w-4 before:rounded-full before:bg-red-600 before:content-[''] peer-checked:before:bg-blue-600">Slide Date (Tanggal dan Lokasi Acara)</label>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border">
                     <input id="input_slide_maps" type="checkbox" value="" class="peer sr-only" checked disabled />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Maps (Drop Point Lokasi Acara)</span>
-                </label>
-                <label for="input_slide_gift" class="relative mb-3 inline-flex cursor-pointer items-center">
-                    <input id="input_slide_gift" type="checkbox" value="" class="peer sr-only" />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Gift (Hadiah dan Kado)</span>
-                </label>
-                <label for="input_slide_gallery" class="relative mb-3 inline-flex cursor-pointer items-center">
-                    <input id="input_slide_gallery" type="checkbox" value="" class="peer sr-only" />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Gallery (Galeri Photo)</span>
-                </label>
-                <label for="input_slide_video" class="relative mb-3 inline-flex cursor-pointer items-center">
-                    <input id="input_slide_video" type="checkbox" value="" class="peer sr-only" />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Video</span>
-                </label>
-                <label for="input_slide_live" class="relative mb-3 inline-flex cursor-pointer items-center">
-                    <input id="input_slide_live" type="checkbox" value="" class="peer sr-only" />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Live Streaming</span>
-                </label>
-                <label for="input_slide_rsvp" class="relative mb-3 inline-flex cursor-pointer items-center">
-                    <input id="input_slide_rsvp" type="checkbox" value="" class="peer sr-only" />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide RSVP (Ucapan & Konfirmasi Kehadiran)</span>
-                </label>
-                <label for="input_slide_rundown" class="relative mb-3 inline-flex cursor-pointer items-center">
-                    <input id="input_slide_rundown" type="checkbox" value="" class="peer sr-only" />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Rundown (Susunan Acara)</span>
-                </label>
-                <label for="input_slide_quotes" class="relative mb-3 inline-flex cursor-pointer items-center">
-                    <input id="input_slide_quotes" type="checkbox" value="" class="peer sr-only" />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Quotes (Kata-kata/Kutipan)</span>
-                </label>
-                <label for="input_slide_closing" class="relative mb-3 inline-flex cursor-pointer items-center">
-                    <input id="input_slide_closing" type="checkbox" value="" class="peer sr-only" checked disabled />
-                    <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
-                    <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Closing (Penutup)</span>
-                </label>
+                    <label for="input_slide_maps" class="peer relative flex w-full cursor-not-allowed select-none items-center justify-start px-4 py-3 text-sm font-medium text-gray-900 before:mr-2 before:inline-block before:h-4 before:w-4 before:rounded-full before:bg-red-600 before:content-[''] peer-checked:before:bg-blue-600">Slide Maps (Drop Point Lokasi Acara)</label>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border" draggable="true" data-index="6">
+                    <div class="flex w-full flex-row items-center justify-between px-4 py-3">
+                        <label for="input_slide_gift" class="relative inline-flex cursor-pointer items-center">
+                            <input id="input_slide_gift" type="checkbox" value="" class="peer sr-only" />
+                            <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                            <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Gift (Hadiah dan Kado)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border" draggable="true" data-index="7">
+                    <div class="flex w-full flex-row items-center justify-between px-4 py-3">
+                        <label for="input_slide_gallery" class="relative inline-flex cursor-pointer items-center">
+                            <input id="input_slide_gallery" type="checkbox" value="" class="peer sr-only" />
+                            <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                            <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Gallery (Galeri Photo)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border" draggable="true" data-index="8">
+                    <div class="flex w-full flex-row items-center justify-between px-4 py-3">
+                        <label for="input_slide_video" class="relative inline-flex cursor-pointer items-center">
+                            <input id="input_slide_video" type="checkbox" value="" class="peer sr-only" />
+                            <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                            <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Video</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border" draggable="true" data-index="9">
+                    <div class="flex w-full flex-row items-center justify-between px-4 py-3">
+                        <label for="input_slide_live" class="relative inline-flex cursor-pointer items-center">
+                            <input id="input_slide_live" type="checkbox" value="" class="peer sr-only" />
+                            <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                            <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Live Streaming</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border" draggable="true" data-index="10">
+                    <div class="flex w-full flex-row items-center justify-between px-4 py-3">
+                        <label for="input_slide_rsvp" class="relative inline-flex cursor-pointer items-center">
+                            <input id="input_slide_rsvp" type="checkbox" value="" class="peer sr-only" />
+                            <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                            <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide RSVP (Ucapan & Konfirmasi Kehadiran)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border" draggable="true" data-index="11">
+                    <div class="flex w-full flex-row items-center justify-between px-4 py-3">
+                        <label for="input_slide_rundown" class="relative inline-flex cursor-pointer items-center">
+                            <input id="input_slide_rundown" type="checkbox" value="" class="peer sr-only" />
+                            <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                            <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Rundown (Susunan Acara)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border" draggable="true" data-index="12">
+                    <div class="flex w-full flex-row items-center justify-between px-4 py-3">
+                        <label for="input_slide_quotes" class="relative inline-flex cursor-pointer items-center">
+                            <input id="input_slide_quotes" type="checkbox" value="" class="peer sr-only" />
+                            <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-blue-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                            <span class="ml-3 select-none text-sm font-medium text-gray-900">Slide Quotes (Kata-kata/Kutipan)</span>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="mb-3 flex w-full flex-col items-start justify-center rounded-md border" draggable="true" data-index="13">
+                    <div class="flex w-full flex-row items-center justify-between px-4 py-3">
+                        <label for="input_slide_closing" class="relative mb-3 inline-flex cursor-pointer items-center">
+                            <input id="input_slide_closing" type="checkbox" value="" class="peer sr-only" checked disabled />
+                            <div class="peer h-5 w-9 rounded-full bg-gray-200 after:absolute after:top-[2px] after:left-[2px] after:h-4 after:w-4 after:rounded-full after:border after:border-gray-300 after:bg-white after:transition-all after:content-[''] peer-checked:bg-gray-600 peer-checked:after:translate-x-full peer-checked:after:border-white peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300"></div>
+                            <span class="ml-3 select-none text-sm font-medium text-gray-400">Slide Closing (Penutup)</span>
+                        </label>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -266,7 +308,14 @@
                 receptionTime: "${receptionTime}",
                 receptionLocation: "${receptionLocation}",
                 receptionDropPoint: "${receptionDropPoint}",
-                }`);
+            }`);
+
+            const toggleAble = document.querySelectorAll('.toggleable');
+            toggleAble.forEach((toggleAble) => {
+                toggleAble.addEventListener('click', function () {
+                    this.parentElement.classList.toggle('active');
+                });
+            });
         </script>
     </body>
 </html>
