@@ -283,7 +283,7 @@ function functionRunInvitation() {
                         document.getElementById('button_salin_rekening').innerHTML = 'Berhasil Disalin';
                     })
                     .catch(function () {
-                        document.getElementById('button_salin_rekening').innerHTML = 'Gagal Disalin';
+                        document.getElementById('button_salin_rekening').remove();
                     });
             }
         })
