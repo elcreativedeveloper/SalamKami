@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 12,
+        "style": 22,
         "audio": "stringspace-im_yours_string_quartet",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Alex Brush"
+            "secondary": "Fredoka One"
         }
     },
     "slides": {
-        "cover": 1,
+        "cover": 2,
         "opening": 1,
         "loveStory": 1,
         "bride": 4,
