@@ -20,8 +20,8 @@ Defer(() => {
         const docData = doc.data();
 
         const elementViews = document.getElementById('views');
-        elementViews.classList.remove('invisible')
         elementViews.querySelector('.view_eye').innerHTML = docData.views
+        elementViews.classList.remove('invisible')
     })
 
     const buttonSwipe = document.getElementById('button_swipe');
