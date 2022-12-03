@@ -21,8 +21,8 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 13,
-        "audio": "stringspace-im_yours_string_quartet",
+        "style": 14,
+        "audio": "vitamin_string_quartet-stay_with_me",
         "fonts": {
             "primary": "Google Sans Text",
             "secondary": "Alex Brush"
@@ -30,7 +30,7 @@
     },
     "slides": {
         "cover": 2,
-        "opening": 2,
+        "opening": 1,
         "loveStory": 1,
         "bride": 2,
         "date": 1,
