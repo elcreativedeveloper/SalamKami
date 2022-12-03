@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { doc, getFirestore, increment, setDoc, updateDoc } from "firebase/firestore";
+import { addDoc, doc, getFirestore, increment, setDoc, updateDoc } from "firebase/firestore";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAHOv64OFwobOVReOdO7I0FDn14ALio4Sk",
@@ -13,15 +13,16 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 
 const firestoreDatabase = getFirestore();
-setDoc(doc(firestoreDatabase, 'web', urls.split('/').pop()));
+const urls = window.location.href.split('?')[0];
+setDoc(doc(firestoreDatabase, 'web', urls.split('/').pop()), {
+    views: increment(1)
+}, {
+    merge: true
+});
 
 const buttonSwipe = document.getElementById('button_swipe');
-const urls = window.location.href.split('?')[0];
-
-buttonSwipe.addEventListener('click', () => {
-    updateDoc(doc(firestoreDatabase, 'web', urls.split('/').pop()), {
-        views: increment(1)
-    })
+buttonSwipe && buttonSwipe.addEventListener('click', () => {
+    
 })
 
 console.log('asu')
