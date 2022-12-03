@@ -15,11 +15,6 @@ Defer(() => {
 
     const firestoreDatabase = getFirestore();
     const urls = window.location.href.split('?')[0];
-    setDoc(doc(firestoreDatabase, 'web', urls.split('/').pop()), {
-        views: increment(1)
-    }, {
-        merge: true
-    });
 
     onSnapshot(doc(firestoreDatabase, `web/${urls.split('/').pop()}`), (doc) => {
         const docData = doc.data();
@@ -30,4 +25,11 @@ Defer(() => {
     })
 
     const buttonSwipe = document.getElementById('button_swipe');
+    buttonSwipe && buttonSwipe.addEventListener('click', () => {
+        setDoc(doc(firestoreDatabase, 'web', urls.split('/').pop()), {
+            views: increment(1)
+        }, {
+            merge: true
+        });
+    })
 }, 3000)
