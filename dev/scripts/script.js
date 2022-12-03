@@ -219,7 +219,7 @@ function functionRunInvitation() {
             functionPlayMusic(document.getElementById('music') ? document.getElementById('music') : null, {
                 playMusic: true,
             });
-            functionFullScreen(null);
+            // functionFullScreen(null);
         });
 
         document.getElementById('button_toggle_audio') && document.getElementById('button_toggle_audio').addEventListener('click', function (event) {
