@@ -16,6 +16,29 @@
     <body class="font-fontPrimary">
         <div class="mx-auto w-full max-w-2xl p-3">
             <h2 class="mb-3 border-b border-gray-300 pb-3 text-lg font-bold">Informasi Dasar</h2>
+            <div id="productList" class="list-group list-group-flush">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span><span class="font-weight-bold">1</span>. <span id="title[]">£50 PSN PlayStation Network Card UK</span></span>
+                    <span class="badge badge-primary badge-pill">21</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span><span class="font-weight-bold">2</span>. <span id="title[]">Microsoft Office 2019 Professional Plus</span></span>
+                    <span class="badge badge-primary badge-pill">35</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span><span class="font-weight-bold">3</span>. <span id="title[]">FIFA 20 Standard Edition Xbox One</span></span>
+                    <span class="badge badge-primary badge-pill">45</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span><span class="font-weight-bold">4</span>. <span id="title[]">Apex Legends 6700 Coins PS4</span></span>
+                    <span class="badge badge-primary badge-pill">17</span>
+                </li>
+            </div>
+
+            <textarea name="asu" id="asu" cols="30" rows="10"></textarea>
+
+            <button type="button" id="generateJSON" class="btn btn-info">Generate JSON</button>
+
             <label for="input_layout_cover" class="mb-2 block text-sm font-medium text-gray-900">Pilih Tema</label>
             <select id="input_layout_cover" class="mb-6 w-full rounded-md border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500">
                 <option selected disabled>Pilih Tema</option>
@@ -265,7 +288,24 @@
             </div>
         </div>
 
+        <script src="https://cdn.jsdelivr.net/npm/sortablejs@latest/Sortable.min.js"></script>
         <script>
+            document.getElementById('generateJSON').addEventListener('click', () => {
+                let titles = document.querySelectorAll('span[id^=title]');
+
+                titles.forEach((element) => {
+                    document.getElementById('asu').value += element.textContent;
+                });
+
+
+                
+            });
+
+            Sortable.create(productList, {
+                group: 'sorting',
+                sort: true,
+            });
+
             var themeNumber = document.querySelector('#input_layout_cover').value;
 
             var nameMale = document.querySelector('#input_name_male_long').value;
