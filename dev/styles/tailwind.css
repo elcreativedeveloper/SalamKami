@@ -28,7 +28,8 @@ html {
 }
 
 .glide_first .glide__bullets,
-.glide_first .fab {
+.glide_first .fab,
+.glide_first .views {
     @apply invisible;
 }
 

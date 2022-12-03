@@ -1,5 +1,5 @@
 import { initializeApp } from "firebase/app";
-import { addDoc, doc, getFirestore, increment, setDoc, updateDoc } from "firebase/firestore";
+import { addDoc, doc, getFirestore, increment, onSnapshot, setDoc, updateDoc } from "firebase/firestore";
 
 const firebaseConfig = {
     apiKey: "AIzaSyAHOv64OFwobOVReOdO7I0FDn14ALio4Sk",
@@ -10,19 +10,24 @@ const firebaseConfig = {
     appId: "1:710379476608:web:9463f2d56ca7690f0eb865"
 };
 
-initializeApp(firebaseConfig);
+Defer(() => {
+    initializeApp(firebaseConfig);
 
-const firestoreDatabase = getFirestore();
-const urls = window.location.href.split('?')[0];
-setDoc(doc(firestoreDatabase, 'web', urls.split('/').pop()), {
-    views: increment(1)
-}, {
-    merge: true
-});
+    const firestoreDatabase = getFirestore();
+    const urls = window.location.href.split('?')[0];
+    setDoc(doc(firestoreDatabase, 'web', urls.split('/').pop()), {
+        views: increment(1)
+    }, {
+        merge: true
+    });
 
-const buttonSwipe = document.getElementById('button_swipe');
-buttonSwipe && buttonSwipe.addEventListener('click', () => {
-    
-})
+    onSnapshot(doc(firestoreDatabase, `web/${urls.split('/').pop()}`), (doc) => {
+        const docData = doc.data();
 
-console.log('asu')
+        const elementViews = document.getElementById('views');
+        elementViews.classList.remove('invisible')
+        elementViews.querySelector('.view_eye').innerHTML = docData.views
+    })
+
+    const buttonSwipe = document.getElementById('button_swipe');
+}, 3000)
