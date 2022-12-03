@@ -8,6 +8,7 @@
     "@tailwindcss/line-clamp": "^0.4.0",
     "autoprefixer": "^10.4.8",
     "del": "6.0.0",
+    "firebase": "^9.14.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
     "gulp-babel": "^8.0.0",
@@ -30,7 +31,8 @@
   },
   "scripts": {
     "build": "npx tailwindcss -i ./dev/styles/tailwind.css -o ./docs/assets/styles/styles.min.css --minify && gulp build",
-    "preview": "npx tailwindcss -i ./dev/styles/tailwind.css -o ./docs/assets/styles/styles.min.css --minify && gulp preview"
+    "preview": "npx tailwindcss -i ./dev/styles/tailwind.css -o ./docs/assets/styles/styles.min.css --minify && gulp preview",
+    "webpack": "webpack --mode=production"
   },
   "repository": {
     "type": "git",
