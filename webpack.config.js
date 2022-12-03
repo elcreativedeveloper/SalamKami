@@ -81,7 +81,7 @@ module.exports = {
         // },
     },
     output: {
-        clean: true,
+        clean: false,
         path: path.resolve(__dirname, './docs/assets/scripts'),
         filename: '[name].js'
     },

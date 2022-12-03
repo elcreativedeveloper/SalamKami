@@ -43,12 +43,16 @@ gulp.task('styles:minify', function () {
 // Generate Scripts
 gulp.task('script', function () {
     return gulp.src([
-        './dev/scripts/*.js'
+        './dev/scripts/defer.js',
+        './dev/scripts/script.js',
     ]).pipe(gulpBabel()).pipe(gulp.dest('./docs/assets/scripts'));
 });
 // Generate Minified Script
 gulp.task('script:minify', function () {
-    return gulp.src('./docs/assets/scripts/*.js')
+    return gulp.src([
+        './docs/assets/scripts/defer.js',
+        './docs/assets/scripts/script.js',
+    ])
         .pipe(gulpBabelMinify({
             mangle: {
                 keepClassName: false,
@@ -60,7 +64,10 @@ gulp.task('script:minify', function () {
         })).pipe(gulp.dest('./docs/assets/scripts'));
 });
 gulp.task('script:obfuscate', function () {
-    return gulp.src('./docs/assets/scripts/*.js')
+    return gulp.src([
+        './docs/assets/scripts/defer.js',
+        './docs/assets/scripts/script.js',
+    ])
         .pipe(gulpJavaScriptObfuscator({
             compact: true
         })).pipe(gulp.dest('./docs/assets/scripts'));
