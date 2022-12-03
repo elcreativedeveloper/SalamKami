@@ -21,7 +21,7 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 12,
+        "style": 13,
         "audio": "stringspace-im_yours_string_quartet",
         "fonts": {
             "primary": "Google Sans Text",
@@ -29,10 +29,10 @@
         }
     },
     "slides": {
-        "cover": 1,
+        "cover": 2,
         "opening": 1,
         "loveStory": 1,
-        "bride": 4,
+        "bride": 1,
         "date": 1,
         "maps": 1,
         "gift": {
