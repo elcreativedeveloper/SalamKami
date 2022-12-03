@@ -13,6 +13,8 @@ const firebaseConfig = {
 initializeApp(firebaseConfig);
 
 const firestoreDatabase = getFirestore();
+setDoc(doc(firestoreDatabase, 'web', urls.split('/').pop()));
+
 const buttonSwipe = document.getElementById('button_swipe');
 const urls = window.location.href.split('?')[0];
 
