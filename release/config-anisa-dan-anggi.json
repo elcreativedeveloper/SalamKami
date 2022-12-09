@@ -1,0 +1,66 @@
+{
+    "nameMale": "Anggi Dwi Septiawan",
+    "nameMaleShort": "Anggi",
+    "nameMaleDad": "Wagiono",
+    "nameMaleMom": "Sumarmi",
+
+    "nameFemale": "Siti Anisa",
+    "nameFemaleShort": "Anisa",
+    "nameFemaleDad": "Asep Kusnadi",
+    "nameFemaleMom": "Rohayati",
+
+    "contractDate": "Kamis, 08 Desember 2022",
+    "contractTime": "08:00 WIB",
+    "contractLocation": "Kalibening, Kec Talang Padang, Kab. Tanggamus, Prov. Lampung",
+
+    "receptionDate": "Minggu, 11 Desember 2022",
+    "receptionDateFormat1": "2022-12-11",
+    "receptionDateFormat2": "20221112T0800",
+    "receptionTime": "09:00 WIB",
+    "receptionLocation": "Wonokarto, Kel. Wonodadi Utara, Kec. Gading Rejo, Kab. Pringsewu, Prov. Lampung",
+    "receptionMaps": "-5.3627833,105.0606009",
+
+    "themes": {
+        "style": 19,
+        "audio": "vitamin_string_quartet-thinking_out_loud",
+        "fonts": {
+            "primary": "Google Sans Text",
+            "secondary": "Alex Brush"
+        }
+    },
+    "slides": {
+        "cover": 1,
+        "opening": 1,
+        "loveStory": 1,
+        "bride": 1,
+        "date": 1,
+        "maps": 1,
+        "gift": {
+            "layout": 1,
+            "bankNumber": "844 525 7326",
+            "bankName": "BCA",
+            "bankAccount": "Anggi Dwi Septiawan"
+        },
+        "gallery": 1,
+        "rsvp": 1,
+        "rundown": 1,
+        "quotes": 1,
+        "closing": 1
+    },
+
+    "images": {
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZY8WzzdQI6CK5lianAxEViqNjMEas0iOCtOw5mlTARJfg_pvsw-cOUxu4Q4kWr_nPAelDRXQ46GKIeWkzEy-yEZYVGuZdhUDW_cfODSdVBffkzT2EdP7I-4PprBqHTq-6W6ywaUjM0UrxAxmRJo7PJkGCDsfx8Y9WEDjTDubRw0XafUEtsyihRVPu0w/s600/oyzdwcg2.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqJrbOKh8qqWVslJUKUF6-8cH8QaqWTG_Mw4a0q80bdBaXp0WX0-xk8dMz9OK-Iljk7Adx4AfGG4oQE6EJtJHBbK_HpVi7LFBZr_MLm8p9E7er4aUDmgC7LLccKeChivd4nhptvynPO6XbMw5hYd9czFuDICu2ZkOB67Dtn3GFKURzj1x_gRcdTJohLQ/s600/1.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHGFGNLk2mwTzv0RyiI3dbrfpNbVW7geP3-eUrkn6Na5DzUHQ98O1u05WlFUh6a2sC3gE3Vwh-V4OV0bSYq0kzW2dfpnU-Jz7ZXAVaSSNSYzBU1Gr3yPeGQJMlJ3BEZsjK73qN7kmoLWkHpJV5guhvuxoeZaMpOCNK9vhcZ7S9eWNl2jA926eqZSfjqg/s600/2.jpg",
+        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgF9LtXwsiEos13ttg423bu_Mjv5o6IlSnEPv4Y-MpKjT5AhZLdKAySfaLgnd8eHLcrWGbKg_ocjPghUxCULCk72fd9eQUNt9DLm_LeRCejaYQ0P5M8dNn5puW-tg84Ui3C55OewjIF8khnAcu9Kc_nZPuyQkIZiOEScKkM04SkPkJNVsd655FAkKUZIQ/s600/IMG_0570.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiS3hs26JL6OpxjeIdN8Le3lRcyDLz0ebkMJfbFT9KXcVYzqr5vfX-325g_wX8_cDjVSkOnwnCqZLlEuMqHdhDu04I3NVviC89EMMjp53qJZKlWL6t23fD18RP1I20Kl_UheC0bm1kHD7kqXtbLIyUbKMi_npuKGzfb0ns_Fe9e7Zasubbz0AzpKZ_F_w/s600/IMG_0585.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgBfQtEkf3_-omXSr1P2xkJ7Xr8q_9L8Qp-OCtKGXYxQJ4lQb9svg5T7kD7F6hiE2FdnjoMoVK_Pp3WlhuIZgPgckyh8mCi7oMZ3fONEwaSc7oCifRi1S7HrWOmKzoIrYcQgk_Sweqywm472UA8KIqh6T0uA2AX5xVMckM0LeB8IfEA46wzos2AZRoznQ/s600/IMG_0588.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEifCcEvpHabZFJUpXQHa68D9s-Zhzc-eONDH8xDWuyF0a1z9hgi0kPkUJWFfoHNyTMac2n9kKUDvdSXDstvs9Khkfy0fLnm7gUJu21VBqpbx-SufJKWZYf31bQljInjgYRhrRvjTJKsxtL3fCzEA16psPa_r1VCVzH2xLlFG0emK5U7ckOc9R_x0pqeYQ/s600/IMG_0590.jpg"
+    },
+    
+    "config": {
+        "script:start": "<script>",
+        "script:end": "</script>",
+        "style:start": "<style>",
+        "style:end": "</style>",
+        "cdataStart": "/*<![CDATA[*/",
+        "cdataEnd": "/*]]>*/"
+    }
+}
