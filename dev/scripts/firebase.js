@@ -42,7 +42,7 @@ Defer(() => {
             merge: true
         });
 
-        
+
         const subsMessages = onSnapshot(query(collection(firestoreDatabase, `web/${urls.split('/').pop()}/messages`), orderBy('message_date', 'desc')), (coll) => {
             let templates = '';
             coll.docs.forEach((colls) => {
@@ -82,7 +82,8 @@ Defer(() => {
                 message_date: serverTimestamp(),
             }).then(() => {
                 forms.remove()
+                document.querySelector('.alert_message').classList.remove('hidden');
             });
-        }
+        };
     })
 })

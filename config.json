@@ -25,26 +25,26 @@
         "audio": "stringspace-im_yours_string_quartet",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Alex Brush"
+            "secondary": "Amatic SC"
         }
     },
     "slides": {
         "cover": 1,
-        "opening": 1,
-        "loveStory": 1,
-        "bride": 4,
-        "date": 1,
-        "maps": 1,
+        "opening": 0,
+        "loveStory": 0,
+        "bride": 0,
+        "date": 0,
+        "maps": 0,
         "gift": {
-            "layout": 1,
+            "layout": 0,
             "bankNumber": "1234 5678 9123",
             "bankName": "Bank",
             "bankAccount": "Nama Penerima Hadiah"
         },
-        "gallery": 1,
+        "gallery": 0,
         "rsvp": 1,
-        "rundown": 1,
-        "quotes": 1,
+        "rundown": 0,
+        "quotes": 0,
         "closing": 1
     },
 
