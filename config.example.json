@@ -21,7 +21,7 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 12,
+        "style": 1,
         "audio": "stringspace-im_yours_string_quartet",
         "fonts": {
             "primary": "Google Sans Text",
@@ -42,6 +42,7 @@
             "bankAccount": "Nama Penerima Hadiah"
         },
         "gallery": 1,
+        "rsvp": 1,
         "rundown": 1,
         "quotes": 1,
         "closing": 1
