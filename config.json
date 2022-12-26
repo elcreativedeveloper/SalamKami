@@ -22,7 +22,7 @@
 
     "themes": {
         "style": 1,
-        "audio": "stringspace-im_yours_string_quartet",
+        "audio": "beautiful_in_white",
         "fonts": {
             "primary": "Google Sans Text",
             "secondary": "Amatic SC"
@@ -30,21 +30,21 @@
     },
     "slides": {
         "cover": 1,
-        "opening": 0,
-        "loveStory": 0,
-        "bride": 0,
-        "date": 0,
-        "maps": 0,
+        "opening": 1,
+        "loveStory": 1,
+        "bride": 1,
+        "date": 1,
+        "maps": 1,
         "gift": {
-            "layout": 0,
+            "layout": 1,
             "bankNumber": "1234 5678 9123",
             "bankName": "Bank",
             "bankAccount": "Nama Penerima Hadiah"
         },
-        "gallery": 0,
+        "gallery": 1,
         "rsvp": 1,
-        "rundown": 0,
-        "quotes": 0,
+        "rundown": 1,
+        "quotes": 1,
         "closing": 1
     },
 
