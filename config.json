@@ -22,14 +22,14 @@
 
     "themes": {
         "style": 1,
-        "audio": "beautiful_in_white",
+        "audio": "brooklyn_duo-perfect",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Amatic SC"
+            "secondary": "Caveat"
         }
     },
     "slides": {
-        "cover": 1,
+        "cover": 4,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
