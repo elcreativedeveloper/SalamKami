@@ -22,17 +22,17 @@
 
     "themes": {
         "style": 1,
-        "audio": "stringspace-im_yours_string_quartet",
+        "audio": "beautiful_in_white",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Alex Brush"
+            "secondary": "Amatic SC"
         }
     },
     "slides": {
         "cover": 1,
         "opening": 1,
         "loveStory": 1,
-        "bride": 4,
+        "bride": 1,
         "date": 1,
         "maps": 1,
         "gift": {
