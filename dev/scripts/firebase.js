@@ -82,7 +82,7 @@ Defer(() => {
                 message_date: serverTimestamp(),
             }).then(() => {
                 forms.remove()
-                document.querySelector('.alert_message').classList.remove('hidden');
+                document.querySelector('.alert_message.hidden').classList.remove('hidden');
             });
         };
     })
