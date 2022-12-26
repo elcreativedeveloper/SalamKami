@@ -21,11 +21,11 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 1,
-        "audio": "brooklyn_duo-perfect",
+        "style": 4,
+        "audio": "vitamin_string_quartet-thinking_out_loud",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Caveat"
+            "secondary": "Shadows Into Light Two"
         }
     },
     "slides": {
