@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 10,
-        "audio": "brooklyn_duo-perfect",
+        "style": 15,
+        "audio": "you_are_the_reason_1",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Indie Flower"
+            "secondary": "Caveat"
         }
     },
     "slides": {
-        "cover": 2,
+        "cover": 4,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
