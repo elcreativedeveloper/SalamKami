@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 4,
-        "audio": "vitamin_string_quartet-thinking_out_loud",
+        "style": 10,
+        "audio": "brooklyn_duo-perfect",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Shadows Into Light Two"
+            "secondary": "Indie Flower"
         }
     },
     "slides": {
-        "cover": 4,
+        "cover": 2,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
