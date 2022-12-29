@@ -22,14 +22,14 @@
 
     "themes": {
         "style": 30,
-        "audio": "stringspace-im_yours_string_quartet",
+        "audio": "daniel_jang-all_of_me",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Bad Script"
+            "secondary": "Alex Brush"
         }
     },
     "slides": {
-        "cover": 3,
+        "cover": 4,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
