@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 26,
-        "audio": "beautiful_in_white",
+        "style": 27,
+        "audio": "you_are_the_reason_1",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "La Belle Aurore"
+            "secondary": "Indie Flower"
         }
     },
     "slides": {
-        "cover": 3,
+        "cover": 1,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
