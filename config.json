@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 25,
-        "audio": "brooklyn_duo-love_me_like_you_do",
+        "style": 26,
+        "audio": "beautiful_in_white",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Ms Madi"
+            "secondary": "La Belle Aurore"
         }
     },
     "slides": {
-        "cover": 2,
+        "cover": 3,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
