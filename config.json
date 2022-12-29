@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 28,
-        "audio": "yiruma-its_your_day",
+        "style": 29,
+        "audio": "vitamin_string_quartet-stay_with_me",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Great Vibes"
+            "secondary": "Dancing Script"
         }
     },
     "slides": {
-        "cover": 2,
+        "cover": 4,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
