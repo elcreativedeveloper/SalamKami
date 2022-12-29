@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 29,
-        "audio": "vitamin_string_quartet-stay_with_me",
+        "style": 30,
+        "audio": "vitamin_string_quartet-dont_stop_believin",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Dancing Script"
+            "secondary": "Caramel"
         }
     },
     "slides": {
-        "cover": 4,
+        "cover": 1,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
