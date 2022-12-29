@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 23,
-        "audio": "brooklyn_duo-perfect",
+        "style": 24,
+        "audio": "brooklyn_duo-love_yourself",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Shadows Into Light"
+            "secondary": "Parisienne"
         }
     },
     "slides": {
-        "cover": 4,
+        "cover": 1,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
