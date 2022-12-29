@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 27,
-        "audio": "you_are_the_reason_1",
+        "style": 28,
+        "audio": "yiruma-its_your_day",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Indie Flower"
+            "secondary": "Great Vibes"
         }
     },
     "slides": {
-        "cover": 1,
+        "cover": 2,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
