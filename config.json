@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 24,
-        "audio": "brooklyn_duo-love_yourself",
+        "style": 25,
+        "audio": "brooklyn_duo-love_me_like_you_do",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Parisienne"
+            "secondary": "Ms Madi"
         }
     },
     "slides": {
-        "cover": 1,
+        "cover": 2,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
