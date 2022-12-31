@@ -22,14 +22,14 @@
 
     "themes": {
         "style": 34,
-        "audio": "brooklyn_duo-love_yourself",
+        "audio": "brooklyn_duo-love_me_like_you_do",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Satisfy"
+            "secondary": "Pinyon Script"
         }
     },
     "slides": {
-        "cover": 3,
+        "cover": 4,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
