@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 30,
+        "style": 31,
         "audio": "daniel_jang-all_of_me",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Alex Brush"
+            "secondary": "Amatic SC"
         }
     },
     "slides": {
-        "cover": 4,
+        "cover": 1,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
