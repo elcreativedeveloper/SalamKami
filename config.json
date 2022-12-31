@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 31,
-        "audio": "daniel_jang-all_of_me",
+        "style": 34,
+        "audio": "brooklyn_duo-love_yourself",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Amatic SC"
+            "secondary": "Satisfy"
         }
     },
     "slides": {
-        "cover": 1,
+        "cover": 3,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
