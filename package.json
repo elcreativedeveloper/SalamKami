@@ -1,7 +1,7 @@
 {
   "name": "salamkami",
   "version": "1.1.0",
-  "description": "",
+  "description": "SalamKami",
   "devDependencies": {
     "@babel/preset-env": "^7.18.10",
     "@prettier/plugin-xml": "^2.2.0",
