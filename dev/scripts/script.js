@@ -56,22 +56,25 @@ const getURLParams = (params, element) => {
 let musicIsPlaying = false;
 const playMusic = (selector, options) => {
     if (selector) {
+        if (options.playMusic) {
+            selector.play();
+            musicIsPlaying = true;
+        } else {
+            if (musicIsPlaying) {
+                selector.pause();
+                musicIsPlaying = false;
+            } else {
+                selector.play();
+                musicIsPlaying = true;
+            }
+        }
+
         selector.onplaying = function () {
             musicIsPlaying = true;
         };
         selector.onpause = function () {
             musicIsPlaying = false;
         };
-
-        if (options.playMusic) {
-            selector.play();
-        } else {
-            if (musicIsPlaying) {
-                selector.pause();
-            } else {
-                selector.play();
-            }
-        }
     }
 };
 
