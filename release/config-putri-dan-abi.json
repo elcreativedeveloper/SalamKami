@@ -1,0 +1,66 @@
+{
+    "nameMale": "Satria Abi Nugraha",
+    "nameMaleShort": "Abi",
+    "nameMaleDad": "M Muchlisin (Alm)",
+    "nameMaleMom": "Parwati (Alm)",
+
+    "nameFemale": "Putri Merta Jaya",
+    "nameFemaleShort": "Putri",
+    "nameFemaleDad": "Rahmat Jaya (Iskandar)",
+    "nameFemaleMom": "Rafiani R",
+
+    "contractDate": "Sabtu, 14 Januari 2023",
+    "contractTime": "10:00 WIB",
+    "contractLocation": "Home Beauty Putri, Jl. Soekarno Hatta, Gg. Musyawarah No. 22. Belakang Perumahan Kota Sepang Indah. Kelurahan Labuhan Ratu Raya, Kecamatan Labuhan Ratu, Bandar Lampung",
+
+    "receptionDate": "Sabtu, 14 Januari 2023",
+    "receptionDateFormat1": "2023-01-14",
+    "receptionDateFormat2": "20230114T1100",
+    "receptionTime": "11:00 WIB",
+    "receptionLocation": "Home Beauty Putri, Jl. Soekarno Hatta, Gg. Musyawarah No. 22. Belakang Perumahan Kota Sepang Indah. Kelurahan Labuhan Ratu Raya, Kecamatan Labuhan Ratu, Bandar Lampung",
+    "receptionMaps": "-5.368975441786261, 105.26372523757014",
+
+    "themes": {
+        "style": 34,
+        "audio": "beautiful_in_white",
+        "fonts": {
+            "primary": "Google Sans Text",
+            "secondary": "Pinyon Script"
+        }
+    },
+    "slides": {
+        "cover": 4,
+        "opening": 1,
+        "loveStory": 0,
+        "bride": 1,
+        "date": 1,
+        "maps": 1,
+        "gift": {
+            "layout": 1,
+            "bankNumber": "1119431437",
+            "bankName": "Bank Syariah Indonesia (BSI)",
+            "bankAccount": "Putri Merta Jaya"
+        },
+        "gallery": 1,
+        "rsvp": 1,
+        "rundown": 0,
+        "quotes": 1,
+        "closing": 1
+    },
+
+    "images": {
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEigRj5w4sLY-TQHIEYNhnyctABQ80h3LbfX-CO7ZMXzUT6KZp5uIa_Kvx_gaKtM0Lk4WC_jcCwNO3zFfwJJv7F5oaksw4GRTCxwbSCGySzsQxXTvQtG8G_hbSKySZG2Eq5K-qQNsH8xgT5Kg1HqqLNEdq1UMHdGvzMTrs4Lx6FaURx7Woej_oCCX21m/s600/putri-dan-abi.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi_cBC_hwmurmJtiLIeET-Kp6SruaDgDhNg7CCgi02XA-GAAtNsgC3NRcApFgox3MiaBRq3KixzGaD1yh1AAjXT2Ube1SDLTBHGoBL2QOR2j6d_gjP-Zinn70TW2ltgmiah0kxrIDimIYRoi6BXlZX8lht8IwLcXlMFM5iyRz4Q4JmS676Y1MMiYoWm/s600/abi.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDaDe3iBH_24Nsd4MkUkR-_ut2FM3SLSESDAdN50N8FKto5A-UgUNhWph67veXgNATHX-Q5iSJJP5Y1s4aS6L5EmeupqZQI5U-cb2SyByrj4AH4_1wC0w4GZJQ-fKcorHW1g3mof5rzK0YBQaYLo3wYh539_9U6zEdfzyRa--JTLFPGs4WJnpQybiG/s600/putri.jpg",
+        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjKeXq2mQSSLQKCkoRuT9xeUpqlc3I_Fkgsw61wZIgQ4HvtzFXVzXuXPiegD3PapB8aph_GegKV1OpbUzF40e-D9fB4XZ7LqPo4yur953WZGIsZrKaPTm8sj-T9x8El3AgTrN2q-9P5sZEbkpphkvggmGku6UcggtU4M2sVPF9GAD6AcEoVk3e_us3D/s600/24r.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivX54Q1kqi9IzZK09tf4o_oPeSzlgRcWc6q2uguFSu0AstjRP49aWoBXV0ULWuEefwizx21g_xP-IOEF8hxN0WJH5Hbl8Up6CWOOdI8vxlWaZ3oE4ZpEPzZzPd2O747mZFNI8K1T3j4vumf5crBouRI7VtjAyQoKMl6A8LZh3Jk5MC3UFfqToevL_q/s600/pilih..%20%281%29ok.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJBx5_T4hDuKXvKS5S8UWolwstAJ3a-TD2xgrzaXqwS-UsMr94kVd0-MX3tP9COyXKidzaWWTr1z3Xh4Pk0cwX_KUfoaJYxKSoPmSiQw330L9b-iwmHTB17tBtHsccO8peq0z7ezFEaYhf7GDzKMDd0wST7ngnfDNPrJoQIOpAMO2atZDG2G6c3gRl/s600/pilih..%20%282%29.JPG, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj35fr5J8ghJt-IL27f0VQDVY2VvAXegBucNQkskrl7XsgFUWcgdlkUocqdGy5hTXgUb6fugtjDwpSOC_dR64lY7BgQMXySLhmW5iC3OBTfCorM9vPA2Wr5kWpI6_t9CHb0mMR7TtzbAHe0GmbrBjNe5Txrke4DxprZSe2qsZMhmofwYvOjUPEVvB9s/s600/pilih..%20%283%29.JPG, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjAVypIX5HVCeEeUSiFvXzqZQo7d5WzfDl5kwwydrrz8MCmtDS8QbaZIZ1eTQDDrqBIDnX7we_MKIazQbJCevUBMPX6a8CeaI4MVHl3n6MM7YMMxJTw3hfpNlKEj_2SCoyaZDstKc-AxzutRqBgsSdAK6UIEtMZRwh_UtziTX1nWiOwKZnDKJdmNb1W/s600/pilih..%20%284%29.JPG"
+    },
+    
+    "config": {
+        "script:start": "<script>",
+        "script:end": "</script>",
+        "style:start": "<style>",
+        "style:end": "</style>",
+        "cdataStart": "/*<![CDATA[*/",
+        "cdataEnd": "/*]]>*/"
+    }
+}
