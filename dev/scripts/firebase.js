@@ -51,7 +51,7 @@ Defer(() => {
                 const msgContent = collsData.message_contant;
                 const msgDate = formatDate(collsData.message_date);
 
-                templates += `<div class='animate_animated animate_fadeInUp animate_slower bg-colorBackground relative mb-3 flex w-full flex-col items-start justify-center border border-colorMain p-3 rounded-md last:mb-0'><div class='mb-1'><strong>${msgName}</strong> - <em class='text-sm'>${msgDate}</em> </div>
+                templates += `<div class='animate_animated animate_fadeIn animate_slower bg-colorBackground relative mb-3 flex w-full flex-col items-start justify-center border border-colorMain p-3 rounded-md last:mb-0'><div class='mb-1'><strong>${msgName}</strong> - <em class='text-sm'>${msgDate}</em> </div>
                 <div>${msgContent}</div></div>`
             });
 
