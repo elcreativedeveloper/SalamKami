@@ -1,10 +1,10 @@
 {
-    "nameMale": "Faris Advaita Alhasan",
+    "nameMale": "Rayyanza Raffa Arman",
     "nameMaleShort": "Faris",
-    "nameMaleDad": "Adzriel Fairuz",
-    "nameMaleMom": "Areta Mahveen",
+    "nameMaleDad": "Dr. Andi Arman, Sp PD",
+    "nameMaleMom": "Dwi Wahyu Widi Astuti, S.ST., Bdn",
 
-    "nameFemale": "Haisha Azrina",
+    "nameFemale": "Rayyanza Raffa Arman",
     "nameFemaleShort": "Azrina",
     "nameFemaleDad": "Farhan Alfarezi",
     "nameFemaleMom": "Shafiyyah Sammira",
@@ -21,11 +21,11 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 1,
-        "audio": "beautiful_in_white",
+        "style": 22,
+        "audio": "assalamu_alayka",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Amatic SC"
+            "secondary": "Fredoka One"
         }
     },
     "slides": {
@@ -46,7 +46,7 @@
         "rundown": 1,
         "quotes": 1,
         "closing": 1,
-        "partners": 4
+        "partners": 1
     },
 
     "images": {
