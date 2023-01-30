@@ -1,59 +1,59 @@
 {
-    "nameMale": "Ns. Arfan Fauzi Rahmat, S.Kep",
-    "nameMaleShort": "Arfan",
-    "nameMaleDad": "Kartam, S.Pd",
-    "nameMaleMom": "Hari Supiati, S.Pd (Almh)",
+    "nameMale": "Nawasena Organizer",
+    "nameMaleShort": "Nawasena",
+    "nameMaleDad": "Nawasena",
+    "nameMaleMom": "Nawasena",
 
-    "nameFemale": "Ns. Yulia Putri Prastikaningrum, S.Kep",
-    "nameFemaleShort": "Yulia",
-    "nameFemaleDad": "Sugiyo, S.Pd",
-    "nameFemaleMom": "Dahlia",
+    "nameFemale": "Nawasena Organizer",
+    "nameFemaleShort": "Nawasena",
+    "nameFemaleDad": "Nawasena",
+    "nameFemaleMom": "Nawasena",
 
-    "contractDate": "Selasa, 07 Maret 2023",
-    "contractTime": "09:00 WIB",
-    "contractLocation": "RT/RW 004/001, Kelurahan Sukoharjo III Barat, Kecamatan Sukoharjo, Kabupaten Pringsewu, Provinsi Lampung",
+    "contractDate": "Jum'at, 03 Februari 2023",
+    "contractTime": "13:30 WIB",
+    "contractLocation": "Kampung BW, Kabupaten Pringsewu, Provinsi Lampung",
 
-    "receptionDate": "Sabtu, 11 Maret 2023",
-    "receptionDateFormat1": "2023-03-11",
-    "receptionDateFormat2": "20230311T0900",
-    "receptionTime": "09:00 WIB",
-    "receptionLocation": "RT/RW 004/001, Kelurahan Sukoharjo III Barat, Kecamatan Sukoharjo, Kabupaten Pringsewu, Provinsi Lampung",
-    "receptionMaps": "-4.607611766353836, 105.15310072622206",
+    "receptionDate": "Jum'at, 03 Februari 2023",
+    "receptionDateFormat1": "2023-02-03",
+    "receptionDateFormat2": "20230203T1330",
+    "receptionTime": "13:30 WIB",
+    "receptionLocation": "Kampung BW, Kabupaten Pringsewu, Provinsi Lampung",
+    "receptionMaps": "-5.336346556390833, 104.98136081534554",
 
     "themes": {
-        "style": 12,
-        "audio": "asmaralibrasi",
+        "style": 21,
+        "audio": "brooklyn_duo-perfect",
         "fonts": {
             "primary": "Google Sans Text",
             "secondary": "Pinyon Script"
         }
     },
     "slides": {
-        "cover": 1,
+        "cover": 3,
         "opening": 1,
-        "loveStory": 1,
-        "bride": 1,
+        "loveStory": 0,
+        "bride": 0,
         "date": 1,
         "maps": 1,
         "gift": {
-            "layout": 1,
-            "bankNumber": "7193613823",
-            "bankName": "BANK BSI",
-            "bankAccount": "Yulia Putri Prastikaningrum"
+            "layout": 0,
+            "bankNumber": "1234 5678 9123",
+            "bankName": "Bank",
+            "bankAccount": "Nama Penerima Hadiah"
         },
         "gallery": 1,
         "rsvp": 1,
-        "rundown": 1,
-        "quotes": 1,
+        "rundown": 0,
+        "quotes": 0,
         "closing": 1,
-        "partners": 3
+        "partners": 2
     },
 
     "images": {
-        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5hzJHcztPO55Ea_MGEgrqgoKpA8Y0jw5JM6izvsYRzWHYciG97VeyluHcUOt2ZnPiMViUxT8Jmzs_XpuYrraGv_C5Wrv8pJX6fVu6DqugX9wSb74zovwABP9AyeeCEVLoiSFsE-EYbKU0dHSfgHOTSxfPlwcDWJDXcaJepCwN0piO-SgOV-oq9UiQ/s600/1.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggmYMAKu5Yy1KwAPSwPQt9jOJPyBZkzpsW0X-DCyoo3Q1fYLDO3PJyFcqMALvyr9V5dDcCkuCHwb3kOsUBPDi325atuNYVvtEM2kFAO8gXNglMguccVJnbodM4jhA8dTw6NfokzVwzbbd54APSzBx-BVRqeDjIi9PbZhNbdeDQ5xOh59MS70_nx24m/s600/2.jpg",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPgvqr44mYXO__RD7DmOSqh2P9ono0RLHsmrjAGHaUrKU7zMohm6qiAg_rQLlt7EiZCec8jVhYIhSEP6Na1h3xfA0-n4ukpn24zUUlooOxV-vsR8kXoGM3YphfQv0UqZ_9Gpsh5qo1O7aDYsyVEnwjhRAnfWRQu8g3kvFZiim-U9mQ1ZnvsBTAjukh/s600/1.jpg",
-        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiqmzAAWHo5XMtbF-1DImLu6i6uY6SRUancxS0unbOTFJi_obmOiqm8n30v1sWlrbnWCI_2CSoAOnA3_evqwei2V4y52JygsyA-6bjKC6HDNfcCSswa1MWfm9OCZYVDJGB6huIvDvUFvuBiCnQu-G0rGwS2y5065CyNOWzuXwowCf2g3hBaW22ztyXL/s600/_MG_5384.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbk5gYxgTSFLowdDhnvj0J3Rqlnx2yij2uRSusdaNHFDs_eddRXb2a5ZAIXh4c8jBVC6sPOSLlUOillZtXLeHrUGQytbHjMIPfROnbIZe_teLWKZbKTdlwwBYABWhf2BH6LQm8rQTvTxYDfQWxBcuQz55ESrLZnd1Ql2tWbMTVNBby_B8ZgHM1O198/s600/_MG_5402.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg8ZVgI0QIYdW1wRfn_Mb86YcHgOhfvgwSOr6OV93DJBBDqkuOz9vljTVk2aejcfmg4PiO2wNrIJIb1l5X0Kf2wy_4VtF9Z0cgimrWpvnfldQtz2w58b7f6Ul-GYbkNEO9ohnyNBRfDluanTNt107nkcAOrG0PgcQMEIleK4x10WGIkZ6Xzs_WpMrjE/s600/_MG_5421.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi3M47kLzISJo1FTHejAiKb98yM6uQIBY-8Fy8Gs4AD-PhNHJYpMksAkK1Fseo7xn8TXsjrfGRDgF-fKBHox1Z9kVPgjxfasWBUe3U6p1FIu-yMuMPdO9JVYlWxuZJ3z0MBS507hvde2SPhxtwuGAaHOwRmFsU_uhv21Nr_5ZcJM75tsWzzq2Gq1CNA/s600/MTR_0537.JPG,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgX452oPmQHRaVjuhXDFgkHa57u_ENT2vvXZwa1pdCmCOyMdr0WLfpFHJTMh9Cx5YxePEFT7enzStkXu72JpXEC_zXCdLqIg-_YuqzO6QES8PC-ZVWYa0K85X7LN8zDZofBrfmYellcDaA_FfOgfn8UX27pM6e7LyMD0g4FEH-O_kRefGC5x1DzvDGn/s600/MTR_0569.JPG,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSM2RjDoUu1VqgHL5nmpTUqkKSkth3Ow3_Pn5qLntPxKnIlt48pn0xJwBDgv7yYiRIaOqGcACsuqyrRKWRAzCmTARNZGeHdcjNIWMW1DGo6DFfyQgJgORdP0u8aQ87y10JrGO1U2OpVfztSzUtcAbygTLxjC1I9Y7mDVTeBcVSQ1oLVJMSgupoom3Y/s600/MTR_0582.JPG,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu4Ax3trp0RO5-bG0NIka1M5_abZSaKfPnCIJSWvW6aykhcxHejrmghVfC9pTcchLnELt4ChdwggR6E_iIIxNpGCB8gia-QXwh4WSktbkb_mM-vQsM0gq0IHkvpQr-xvPRKlH6hyfXSXUQPdEMlaRZZai0DZridtiNdVJUfj37M462JkGZCjF56g8x/s600/MTR_0596.JPG,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEintIM2pq1oPd7zs0LHhH-MzFqI5DxL_2tzRP88L-r22NOv4q3xH-QICSbOlyJLeZtUWec5VAg2y302r3TFEbl3DHditzyzQ3CdjHoX67xGbhGqOszCd9R55sb_lcOUIasDsYuN4Jzgs62RbCcJb4Sxoq6wJOw7M3Vigt_VU_OXoXD7WH78ob_PJK2d/s600/MTR_0606.JPG,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiu7qXcwEnJw9ZjywJ7WbvVqqEY3tm2AiudYNx9NdVscAuk_C8g0usYiOCqnBNfLIO4mVGlfZCsgYF7w8dsRY5NWXqbJTZEsUmej-9nOn8MfQCavA9pqaEsnlGr7HbFc4uvfYP0wqo2a8TdIpqiFDfOxalJ1FE20uTWFzaVK-o45jWu3GrK23QYMvpE/s600/MTR_0612.JPG,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpK7QcIw4I3fT-B3b1C9EV39OfhT4ZIQwbDWoWfAUXAA7CmE1IUS83vGn4bdVAHqpY-I-Qxj4Kppd8UkT7RknAj7gvZS5lgv7nRLGuRywzcQ1UB2Xj4CYrwUOUjtd2hAmEfAw1j6uFWDKe73sYIYSm4phMwp0te6kGEkSotgVuaxOLUg9PBL7HkqDu/s600/MTR_0614.JPG,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiLOWRj3kymMUK0w8Fq7hS2pyhV2LBPjvI6Td8XHWe0zyUY_azBT5LKOsb81AB7rwbTlkWnAoMA-GDjOqXqDaZrkPpKrJty4Dnm5NMCrA03MlWFP9n9x8nzBsp2-VJUbhDOJI6OpXh6UzbvSIHMP77sNXtYuvNZbaMlFGKZwtz4assYkoGiWF5EZ45n/s600/MTR_0619.JPG"
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_FKwQWxcaG_iAT4C6xT6b9FzjOPO6L1zRWb7ybKM04zqdPtu2QD0vUr-JWcIhXuml379HpiunLfM-rEIHu9-ALTEy8BX5dMBXHjJMYRBtEkgzzVZBgIZnzNJ7RMBZhi9kgVF5n_AjA2BgNxmTYr11B5fdwKSl0uHqPDlTi18oSJtx_c31wjM1UTPz/s600/Logo%20Nawasena.png",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd8_vyzfs9BY3TBgHd1FAfcSeZd9o09PsdEBbQkVhVGNwiE-MzSScVNjUQ1OTY8CWbvmM78T-wcB4rq7AuBC5Jw7pJo_fiO2AYoME1sD6kW9WL7gSwdGcmo22BVsTDGF-liWsBiup0iyHj_rFcyJJYuIbOJvaGaPYHYwK1rKzsd5NMOMRDlaRclbjW/s600/BGs.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrSWeStaaU5ZQ8LhD-w2aySRyG81Wwuxmq-Rjh2OhMRlXne2tx2dQDDurdKtmQ1jDAqbyHy44YSV-Qrr7wNaRqu9eAtRwbyZjUMtYGDSwr85CyqBBNZ8ID3pJ3hUGD0PfRJFSOvkosuEfA6aznyPQvBfCsTwR_OPwuydf5oAgdmtLkECwG1QGbsveZ/s600/BGs.jpg",
+        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5099ZoE3qx0WD-AJeOI-BJNVujgsAj1Ln7J4Z1lf9BGfqdI-ziTtSEUBPawWArQphNjpMn1dEfIVnB80TS6pjVjb7bwW9GWpMBcNWpha5w3cA2lRmnHbvlH6JJopTExaCdjvbbVwC0lpWj6geIMVPk0IJ0bxOKz4zcxH7SFiTT21i0bQNr7Kox7aw/s1600/FER_0072.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq-_RWSiutY2czT_7kQpoLPKcMynKDmAgCuG9sT5fKKi_yswulzO3R0CwJPgcVeqHE7-uGRcrO3BXt51QEO4uA0C83YnwiQZZSHiF79_1TIsrqoZWFwPUgY71sCkV2aMV4XYAlhH8JT5DokbMBCeozdrf0OPq-hoIhQExlKinEPrKRxcFy9ZpAq-Xr/s1600/FER_0069.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrdgZQY5pJZ70LZkX5Gt1hBmjUMZheLApyegTfAUB_rAdWpDofuPug_jxnBhvxM4FuuBXrBAbPNjOhnY0mr06ArJNB2R3UuFTXy-K44owr3CaDTMeAa6Qbqaz6gQaB_3YSay4HmwD5C0vk1uqlcYi2PkxV9mJBGJceaBngVQd1TvjDFrL3GilKRhWf/s1600/FER_0064.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh95xoI29nUpBGq2zgBu9WA3yKQESbycVpN_DacLOUWtA4A4W4I15RYdHvnO3pTkRSwqvtwY6szpDzc5osV4J1nQrTNsUKoX3NZ6OnhYWbUKCzw1o49sXbBMvTt8RUe6GUr5uCUSvPVN6rEq3qAqHc2LySHDEA6sEk0csCVJ_AFLwLPsQOafJN-1O4p/s1600/FER_0049.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8rlHpo2H4kUrqBWxyuCkSK8aT1CjxWgh-Oi0xFfnq_Oe5aR36abIY8xH_RByxmRze4B__q2qa-olGTWp6qJWzpnivV215QveAV1VHmpXwv1QC5RoMOQGtqqzIDnYTzU-C6avT_BuL6V1jydThg1jkfpucYdHXBWNGn0Rx8b72Hl84gozid_kbaL6g/s1600/FER_0040.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2PnF283qbRQ3UUPyxdVXbOx7HKyUi6sjPdhdgHMBQrtxCLA9YPZkic9RqcKRNlOE0z9qkQAO035BLFFFWqH6sNHIxfCFLtceDK4XaYjJlul5Yiq8FM8e2xqRLQGIYF4cD7noQU6k9Olj4_H7MtKRTFAXnhcmFbEKzN5I-0P_uebkhq--Z4dB0Wq-D/s1600/FER_0109.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5aW40fXDg171lFr7XDYdylaYF0b0w32Tt2RF7qD1ItBHsxyvTefRsDtothBLmjdjUHAbznPqcSiqkb-gjOHw7HyNAngHPFxswZ1GenFy6kdwXtj4ihFBpkDmQunpYPeR5Dop-vNeZSkY3CuIh0_n74CplY4qjpy8npL1qZiF_rdbSaaVVClM7S1u/s1600/FER_0112.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_FKwQWxcaG_iAT4C6xT6b9FzjOPO6L1zRWb7ybKM04zqdPtu2QD0vUr-JWcIhXuml379HpiunLfM-rEIHu9-ALTEy8BX5dMBXHjJMYRBtEkgzzVZBgIZnzNJ7RMBZhi9kgVF5n_AjA2BgNxmTYr11B5fdwKSl0uHqPDlTi18oSJtx_c31wjM1UTPz/s1600/Logo%20Nawasena.png,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieFIzNf4QMvV7Uw_HBJ_q7VQxJPMziPbY3kLFgllWJiOyIB7b3A77FIUT9iojDSapiGCBgN4W2FS1c3MgFKS9Idr1iLJqGsCohNvFcBrL8kdVzfigELycyESZwJWVYoyCxctlbbIFrea2kRGN41U2eFTgB_YaHruJMwGkvlLiNHAWOgab7Iplt-P2l/s1600/FER_0032.jpg"
     },
     
     "config": {
