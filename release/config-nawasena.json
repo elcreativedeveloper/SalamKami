@@ -1,0 +1,67 @@
+{
+    "nameMale": "Nawasena Organizer",
+    "nameMaleShort": "Nawasena",
+    "nameMaleDad": "Nawasena",
+    "nameMaleMom": "Nawasena",
+
+    "nameFemale": "Nawasena Organizer",
+    "nameFemaleShort": "Nawasena",
+    "nameFemaleDad": "Nawasena",
+    "nameFemaleMom": "Nawasena",
+
+    "contractDate": "Jum'at, 03 Februari 2023",
+    "contractTime": "13:30 WIB",
+    "contractLocation": "Kampung BW, Kabupaten Pringsewu, Provinsi Lampung",
+
+    "receptionDate": "Jum'at, 03 Februari 2023",
+    "receptionDateFormat1": "2023-02-03",
+    "receptionDateFormat2": "20230203T1330",
+    "receptionTime": "13:30 WIB",
+    "receptionLocation": "Kampung BW, Kabupaten Pringsewu, Provinsi Lampung",
+    "receptionMaps": "-5.336346556390833, 104.98136081534554",
+
+    "themes": {
+        "style": 21,
+        "audio": "brooklyn_duo-perfect",
+        "fonts": {
+            "primary": "Google Sans Text",
+            "secondary": "Pinyon Script"
+        }
+    },
+    "slides": {
+        "cover": 3,
+        "opening": 1,
+        "loveStory": 0,
+        "bride": 0,
+        "date": 1,
+        "maps": 1,
+        "gift": {
+            "layout": 0,
+            "bankNumber": "1234 5678 9123",
+            "bankName": "Bank",
+            "bankAccount": "Nama Penerima Hadiah"
+        },
+        "gallery": 1,
+        "rsvp": 1,
+        "rundown": 0,
+        "quotes": 0,
+        "closing": 1,
+        "partners": 2
+    },
+
+    "images": {
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_FKwQWxcaG_iAT4C6xT6b9FzjOPO6L1zRWb7ybKM04zqdPtu2QD0vUr-JWcIhXuml379HpiunLfM-rEIHu9-ALTEy8BX5dMBXHjJMYRBtEkgzzVZBgIZnzNJ7RMBZhi9kgVF5n_AjA2BgNxmTYr11B5fdwKSl0uHqPDlTi18oSJtx_c31wjM1UTPz/s600/Logo%20Nawasena.png",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd8_vyzfs9BY3TBgHd1FAfcSeZd9o09PsdEBbQkVhVGNwiE-MzSScVNjUQ1OTY8CWbvmM78T-wcB4rq7AuBC5Jw7pJo_fiO2AYoME1sD6kW9WL7gSwdGcmo22BVsTDGF-liWsBiup0iyHj_rFcyJJYuIbOJvaGaPYHYwK1rKzsd5NMOMRDlaRclbjW/s600/BGs.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrSWeStaaU5ZQ8LhD-w2aySRyG81Wwuxmq-Rjh2OhMRlXne2tx2dQDDurdKtmQ1jDAqbyHy44YSV-Qrr7wNaRqu9eAtRwbyZjUMtYGDSwr85CyqBBNZ8ID3pJ3hUGD0PfRJFSOvkosuEfA6aznyPQvBfCsTwR_OPwuydf5oAgdmtLkECwG1QGbsveZ/s600/BGs.jpg",
+        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh5099ZoE3qx0WD-AJeOI-BJNVujgsAj1Ln7J4Z1lf9BGfqdI-ziTtSEUBPawWArQphNjpMn1dEfIVnB80TS6pjVjb7bwW9GWpMBcNWpha5w3cA2lRmnHbvlH6JJopTExaCdjvbbVwC0lpWj6geIMVPk0IJ0bxOKz4zcxH7SFiTT21i0bQNr7Kox7aw/s1600/FER_0072.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhq-_RWSiutY2czT_7kQpoLPKcMynKDmAgCuG9sT5fKKi_yswulzO3R0CwJPgcVeqHE7-uGRcrO3BXt51QEO4uA0C83YnwiQZZSHiF79_1TIsrqoZWFwPUgY71sCkV2aMV4XYAlhH8JT5DokbMBCeozdrf0OPq-hoIhQExlKinEPrKRxcFy9ZpAq-Xr/s1600/FER_0069.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrdgZQY5pJZ70LZkX5Gt1hBmjUMZheLApyegTfAUB_rAdWpDofuPug_jxnBhvxM4FuuBXrBAbPNjOhnY0mr06ArJNB2R3UuFTXy-K44owr3CaDTMeAa6Qbqaz6gQaB_3YSay4HmwD5C0vk1uqlcYi2PkxV9mJBGJceaBngVQd1TvjDFrL3GilKRhWf/s1600/FER_0064.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh95xoI29nUpBGq2zgBu9WA3yKQESbycVpN_DacLOUWtA4A4W4I15RYdHvnO3pTkRSwqvtwY6szpDzc5osV4J1nQrTNsUKoX3NZ6OnhYWbUKCzw1o49sXbBMvTt8RUe6GUr5uCUSvPVN6rEq3qAqHc2LySHDEA6sEk0csCVJ_AFLwLPsQOafJN-1O4p/s1600/FER_0049.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8rlHpo2H4kUrqBWxyuCkSK8aT1CjxWgh-Oi0xFfnq_Oe5aR36abIY8xH_RByxmRze4B__q2qa-olGTWp6qJWzpnivV215QveAV1VHmpXwv1QC5RoMOQGtqqzIDnYTzU-C6avT_BuL6V1jydThg1jkfpucYdHXBWNGn0Rx8b72Hl84gozid_kbaL6g/s1600/FER_0040.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi2PnF283qbRQ3UUPyxdVXbOx7HKyUi6sjPdhdgHMBQrtxCLA9YPZkic9RqcKRNlOE0z9qkQAO035BLFFFWqH6sNHIxfCFLtceDK4XaYjJlul5Yiq8FM8e2xqRLQGIYF4cD7noQU6k9Olj4_H7MtKRTFAXnhcmFbEKzN5I-0P_uebkhq--Z4dB0Wq-D/s1600/FER_0109.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhN5aW40fXDg171lFr7XDYdylaYF0b0w32Tt2RF7qD1ItBHsxyvTefRsDtothBLmjdjUHAbznPqcSiqkb-gjOHw7HyNAngHPFxswZ1GenFy6kdwXtj4ihFBpkDmQunpYPeR5Dop-vNeZSkY3CuIh0_n74CplY4qjpy8npL1qZiF_rdbSaaVVClM7S1u/s1600/FER_0112.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj_FKwQWxcaG_iAT4C6xT6b9FzjOPO6L1zRWb7ybKM04zqdPtu2QD0vUr-JWcIhXuml379HpiunLfM-rEIHu9-ALTEy8BX5dMBXHjJMYRBtEkgzzVZBgIZnzNJ7RMBZhi9kgVF5n_AjA2BgNxmTYr11B5fdwKSl0uHqPDlTi18oSJtx_c31wjM1UTPz/s1600/Logo%20Nawasena.png,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieFIzNf4QMvV7Uw_HBJ_q7VQxJPMziPbY3kLFgllWJiOyIB7b3A77FIUT9iojDSapiGCBgN4W2FS1c3MgFKS9Idr1iLJqGsCohNvFcBrL8kdVzfigELycyESZwJWVYoyCxctlbbIFrea2kRGN41U2eFTgB_YaHruJMwGkvlLiNHAWOgab7Iplt-P2l/s1600/FER_0032.jpg"
+    },
+    
+    "config": {
+        "script:start": "<script>",
+        "script:end": "</script>",
+        "style:start": "<style>",
+        "style:end": "</style>",
+        "cdataStart": "/*<![CDATA[*/",
+        "cdataEnd": "/*]]>*/"
+    }
+}
