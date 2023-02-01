@@ -21,11 +21,11 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 25,
+        "style": 40,
         "audio": "asmaralibrasi",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Sacramento"
+            "secondary": "Dancing Script"
         }
     },
     "slides": {
@@ -47,7 +47,7 @@
         "protocol": 1,
         "quotes": 1,
         "closing": 1,
-        "partners": 1
+        "partners": 5
     },
 
     "images": {

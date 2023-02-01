@@ -4,6 +4,7 @@ module.exports = {
     content: [
         './dev/**/*.{html,js}',
         './docs/formulir.html',
+        './docs/ucapan.html',
     ],
     theme: {
         extend: {

@@ -21,11 +21,11 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 1,
-        "audio": "beautiful_in_white",
+        "style": 25,
+        "audio": "asmaralibrasi",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Amatic SC"
+            "secondary": "Sacramento"
         }
     },
     "slides": {
@@ -44,9 +44,10 @@
         "gallery": 1,
         "rsvp": 1,
         "rundown": 1,
+        "protocol": 1,
         "quotes": 1,
         "closing": 1,
-        "partners": 4
+        "partners": 1
     },
 
     "images": {
