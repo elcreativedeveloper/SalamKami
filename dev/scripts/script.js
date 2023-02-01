@@ -201,7 +201,7 @@ Defer(() => {
 
         let glideControl = '';
         document.querySelectorAll('.glide__slide').forEach((value, index) => {
-            glideControl += `<div class="glide__bullet ${index == 0 ? 'hidden' : ''} relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-lg first:ml-0 last:mr-0" data-glide-dir="=${index}"></div>`
+            glideControl += `<div class="glide__bullet ${index == 0 ? 'hidden' : ''} relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-md first:ml-0 last:mr-0" data-glide-dir="=${index}"></div>`
         });
         document.getElementById('glide__bullets').innerHTML = glideControl;
 
@@ -217,6 +217,7 @@ Defer(() => {
             playMusic(document.getElementById('music') ? document.getElementById('music') : null, {
                 playMusic: true,
             });
+
             // fullScreenMode(null);
         });
 

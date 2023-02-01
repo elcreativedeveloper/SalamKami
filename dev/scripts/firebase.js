@@ -9,13 +9,14 @@ const firebaseConfig = {
     messagingSenderId: "710379476608",
     appId: "1:710379476608:web:9463f2d56ca7690f0eb865"
 };
-
 const formatDate = (dateData) => {
     const day = dateData.toDate().getDate();
-    const month = dateData.toDate().toLocaleString('default', { month: 'long' });
+    const month = dateData.toDate().toLocaleString('id', { month: 'long' });
     const year = dateData.toDate().getFullYear();
+    const hours = dateData.toDate().getHours();
+    const minutes = dateData.toDate().getMinutes();
 
-    return `${month} ${day}, ${year}`;
+    return `${day} ${month} ${year} | ${hours}:${minutes}`;
 };
 
 Defer(() => {
