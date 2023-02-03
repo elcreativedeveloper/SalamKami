@@ -53,7 +53,7 @@ Defer(() => {
                 const msgDate = formatDate(collsData.message_date);
                 const msgAttend = collsData.message_attend;
 
-                templates += `<div class='animate_animated animate_fadeIn animate_slower bg-colorBackground relative mb-3 flex w-full flex-col items-start justify-center border border-colorMain p-3 rounded-md last:mb-0'><div class='flex flex-col items-start justify-start mb-2'><div class='flex items-center justify-center mb-1'><div class='font-bold mr-2'>${msgName}</div>${msgAttend && msgAttend !== 'Belum Pasti' ? `<div class='${msgAttend === 'Hadir' ? 'bg-green-700' : 'bg-amber-700'} rounded-lg py-1 px-2 text-xs text-white'>${msgAttend}</div>` : ''}</div><div class='text-xs opacity-80'>${msgDate}</div></div><div>${msgContent}</div></div>`
+                templates += `<div class='animate_animated animate_fadeIn animate_slower bg-colorBackground relative mb-3 flex w-full flex-col items-start justify-center border border-colorMain p-3 rounded-md last:mb-0'><div class='flex flex-col items-start justify-start mb-2'><div class='flex items-center justify-center mb-1'><div class='font-bold mr-2'>${msgName}</div>${msgAttend && msgAttend !== 'Belum Pasti' ? `<div class='${msgAttend === 'Hadir' ? 'bg-green-700' : 'bg-amber-700'} rounded-full py-[2px] px-2 text-[10px] text-white'>${msgAttend}</div>` : ''}</div><div class='text-xs opacity-80'>${msgDate}</div></div><div>${msgContent}</div></div>`
             });
 
             document.getElementById('all_message').innerHTML += templates;

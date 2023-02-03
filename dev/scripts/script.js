@@ -172,7 +172,7 @@ setTimeout(() => {
                             playMusic: true,
                         });
 
-                        // fullScreenMode(null);
+                        fullScreenMode(document.querySelector('#button_toggle_fullscreen'));
                     })
                 }
             };
