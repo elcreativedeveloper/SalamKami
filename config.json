@@ -35,13 +35,13 @@
         "bride": 1,
         "date": 1,
         "maps": 1,
+        "gallery": 1,
         "gift": {
             "layout": 1,
             "bankNumber": "1234 5678 9123",
             "bankName": "Bank",
             "bankAccount": "Nama Penerima Hadiah"
         },
-        "gallery": 1,
         "rsvp": 1,
         "rundown": 1,
         "protocol": 1,

@@ -79,239 +79,255 @@ const playMusic = (selector, options) => {
 };
 
 // Full Screen
-const fullScreenMode = (toggleButton) => {
-    const isInFullScreen = (document.fullscreenElement && document.fullscreenElement !== null) || (document.webkitFullscreenElement && document.webkitFullscreenElement !== null) || (document.mozFullScreenElement && document.mozFullScreenElement !== null) || (document.msFullscreenElement && document.msFullscreenElement !== null);
+const fullScreenMode = toggleButton => {
+    const isInFullScreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
 
-    const toggles = () => {
-        if (toggleButton != null) {
-            toggleButton.querySelector('.fullscreen_off').classList.add('hidden');
-            toggleButton.querySelector('.fullscreen_on').classList.remove('hidden');
+    const toggleButtonVisibility = (bool) => {
+        if (toggleButton) {
+            if (bool) {
+                toggleButton.querySelector(".fullscreen_off").classList.remove("hidden");
+                toggleButton.querySelector(".fullscreen_on").classList.add("hidden");
+            } else {
+                toggleButton.querySelector(".fullscreen_off").classList.add("hidden");
+                toggleButton.querySelector(".fullscreen_on").classList.remove("hidden");
+            }
         }
-    }
+    };
 
     if (!isInFullScreen) {
-        if (document.documentElement.requestFullscreen) {
-            document.documentElement.requestFullscreen();
-            if (toggleButton != null) {
-                toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
-                toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
-            }
-        } else if (document.documentElement.mozRequestFullScreen) {
-            document.documentElement.mozRequestFullScreen();
-            if (toggleButton != null) {
-                toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
-                toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
-            }
-        } else if (document.documentElement.webkitRequestFullScreen) {
-            document.documentElement.webkitRequestFullScreen();
-            if (toggleButton != null) {
-                toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
-                toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
-            }
-        } else if (document.documentElement.msRequestFullscreen) {
-            document.documentElement.msRequestFullscreen();
-            if (toggleButton != null) {
-                toggleButton.querySelector('.fullscreen_off').classList.remove('hidden');
-                toggleButton.querySelector('.fullscreen_on').classList.add('hidden');
-            }
+        const requestFullscreen = document.documentElement.requestFullscreen || document.documentElement.mozRequestFullScreen || document.documentElement.webkitRequestFullScreen || document.documentElement.msRequestFullscreen;
+
+        if (requestFullscreen) {
+            requestFullscreen.call(document.documentElement);
+            toggleButtonVisibility(true);
         }
     } else {
-        if (document.exitFullscreen) {
-            document.exitFullscreen();
-            toggles();
-        } else if (document.webkitExitFullscreen) {
-            document.webkitExitFullscreen();
-            toggles();
-        } else if (document.mozCancelFullScreen) {
-            document.mozCancelFullScreen();
-            toggles();
-        } else if (document.msExitFullscreen) {
-            document.msExitFullscreen();
-            toggles();
+        const exitFullscreen = document.exitFullscreen || document.webkitExitFullscreen || document.mozCancelFullScreen || document.msExitFullscreen;
+
+        if (exitFullscreen) {
+            exitFullscreen.call(document);
+            toggleButtonVisibility(false);
         }
     }
 };
 
-// Countdown
-const countdown = (target) => {
-    const countDownDate = new Date(target.dataset.datetime).getTime();
-    const countDownDays = target.querySelector('.countdown > .day > .number');
-    const countDownHours = target.querySelector('.countdown > .hour > .number');
-    const countDownMinutes = target.querySelector('.countdown > .minute > .number');
-    const countDownSeconds = target.querySelector('.countdown > .second > .number');
 
-    // Update the count down every 1 second
-    let interval = setInterval(function () {
-        // Get today's date and time
-        const now = new Date().getTime();
+let isLoaded = false;
+setTimeout(() => {
+    if (!isLoaded) {
+        isLoaded = true;
 
-        // Find the distance between now and the count down date
-        const distance = countDownDate - now;
+        const elementApp = document.getElementById('app');
+        const elementLoaders = document.getElementById('loaders');
 
-        // Time calculations for days, hours, minutes and seconds
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        elementLoaders.remove();
+        elementApp.classList.remove('invisible');
 
-        countDownDays.innerHTML = days;
-        countDownHours.innerHTML = hours;
-        countDownMinutes.innerHTML = minutes;
-        countDownSeconds.innerHTML = seconds;
+        getURLParams(window.location.search, document.getElementById('text_kepada'));
 
-        // If the count down is over, write some text
-        if (distance < 0) {
-            clearInterval(interval);
-            countDownDays.innerHTML = '00';
-            countDownHours.innerHTML = '00';
-            countDownMinutes.innerHTML = '00';
-            countDownSeconds.innerHTML = '00';
-        }
-    }, 1000);
-};
+        loadScript('https://cdn.jsdelivr.net/npm/@glidejs/glide').then(() => {
+            const glideBullets = document.querySelector('.glide__bullets');
 
-Defer(() => {
-    const elementApp = document.getElementById('app');
-    const elementLoaders = document.getElementById('loaders');
 
-    elementLoaders.remove();
-    elementApp.classList.remove('invisible');
+            const glide = new Glide('.glide', {
+                autoplay: 8000,
+                animationDuration: 600,
+                animationTimingFunc: 'cubic-bezier(0.165, 0.840, 0.440, 1.000)',
+                hoverpause: true,
+                gap: 0,
+                rewind: false,
+                type: 'slider',
+            }).mount();
 
-    getURLParams(window.location.search, document.getElementById('text_kepada'));
-
-    loadScript('https://cdn.jsdelivr.net/npm/@glidejs/glide').then(() => {
-        const glide = new Glide('.glide', {
-            autoplay: 8000,
-            animationDuration: 600,
-            animationTimingFunc: 'cubic-bezier(0.165, 0.840, 0.440, 1.000)',
-            hoverpause: true,
-            gap: 0,
-            rewind: false,
-            type: 'slider',
-        }).mount();
-
-        glide.disable();
-        glide.on('move.after', () => {
-            if (glide.index == 0) {
-                document.body.classList.add('glide_first');
-            } else {
-                document.body.classList.remove('glide_first');
-            }
-        });
-
-        let glideControl = '';
-        document.querySelectorAll('.glide__slide').forEach((value, index) => {
-            glideControl += `<div class="glide__bullet ${index == 0 ? 'hidden' : ''} relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-md first:ml-0 last:mr-0" data-glide-dir="=${index}"></div>`
-        });
-        document.getElementById('glide__bullets').innerHTML = glideControl;
-
-        // Slide Cover
-        document.getElementById('button_swipe') && document.getElementById('button_swipe').addEventListener('click', (event) => {
-            event.preventDefault();
-
-            glide.enable();
-            glide.go('>');
-
-            document.querySelector('.glide__bullets').classList.remove('invisible');
-
-            playMusic(document.getElementById('music') ? document.getElementById('music') : null, {
-                playMusic: true,
+            glide.disable();
+            glide.on('move.after', () => {
+                if (glide.index === 0) {
+                    document.body.classList.add('glide_first');
+                } else {
+                    document.body.classList.remove('glide_first');
+                }
             });
 
-            // fullScreenMode(null);
-        });
+            let glideControl = '';
+            document.querySelectorAll('.glide__slide').forEach((element, index) => {
+                glideControl += `<div class="glide__bullet ${index == 0 ? 'hidden' : ''} relative mx-1 h-1 w-full cursor-pointer overflow-hidden rounded-md first:ml-0 last:mr-0" data-glide-dir="=${index}"></div>`
+            });
+            glideBullets.innerHTML = glideControl;
 
-        // Button Toggle Audio
-        document.getElementById('button_toggle_audio') && document.getElementById('button_toggle_audio').addEventListener('click', function (event) {
-            if (musicIsPlaying) {
-                this.querySelector('.audio_on').classList.add('hidden');
-                this.querySelector('.audio_off').classList.remove('hidden');
 
-                playMusic(document.getElementById('music') ? document.getElementById('music') : null, {
-                    playMusic: false,
-                });
-            } else {
-                this.querySelector('.audio_on').classList.remove('hidden');
-                this.querySelector('.audio_off').classList.add('hidden');
+            // Cover
+            const slideCover = document.querySelector('.layout_cover');
+            if (slideCover) {
+                const buttonSwipe = slideCover.querySelector('#button_swipe');
+                if (buttonSwipe) {
+                    buttonSwipe.addEventListener('click', (event) => {
+                        event.preventDefault();
 
-                playMusic(document.getElementById('music') ? document.getElementById('music') : null, {
-                    playMusic: true,
-                });
-            }
-        });
+                        glide.enable();
+                        glide.go('>');
 
-        document.getElementById('button_hadiah') && document.getElementById('button_hadiah').addEventListener('click', function (event) {
-            event.preventDefault();
+                        glideBullets.classList.remove('invisible');
 
-            document.querySelector('.container_hadiah').classList.remove('hidden');
-            document.querySelector('.container_kado').classList.add('hidden');
-        });
+                        playMusic(document.getElementById('music') ? document.getElementById('music') : null, {
+                            playMusic: true,
+                        });
 
-        document.getElementById('button_kado') && document.getElementById('button_kado').addEventListener('click', function (event) {
-            event.preventDefault();
-
-            document.querySelector('.container_kado').classList.remove('hidden');
-            document.querySelector('.container_hadiah').classList.add('hidden');
-        });
-
-        document.getElementById('button_salin_rekening') && document.getElementById('button_salin_rekening').addEventListener('click', function (event) {
-            event.preventDefault();
-
-            const rekening = document.getElementById('nomor_rekening').textContent.replace(/\s/g, '').replace('-', '').trim();
-            if (!navigator.clipboard) {
-                let textarea = document.createElement('textarea');
-                textarea.textContent = rekening;
-                textarea.className = 'sr-only';
-                document.body.appendChild(textarea);
-
-                let selection = document.getSelection();
-                let range = document.createRange();
-                //  range.selectNodeContents(textarea);
-                range.selectNode(textarea);
-                selection.removeAllRanges();
-                selection.addRange(range);
-
-                document.execCommand('copy')
-                document.getElementById('button_salin_rekening').innerHTML = 'Berhasil Disalin';
-                selection.removeAllRanges();
-
-                document.body.removeChild(textarea);
-            } else {
-                navigator.clipboard
-                    .writeText(rekening)
-                    .then(function () {
-                        document.getElementById('button_salin_rekening').innerHTML = 'Berhasil Disalin';
+                        // fullScreenMode(null);
                     })
-                    .catch(function () {
-                        document.getElementById('button_salin_rekening').remove();
+                }
+            };
+
+            // Date
+            const slideDate = document.querySelector('.layout_date');
+            if (slideDate) {
+                const countdownWrapper = slideDate.querySelector('.countdown_wrapper');
+                if (countdownWrapper) {
+                    const countDownDate = new Date(countdownWrapper.dataset.datetime).getTime();
+                    const countDownElements = {
+                        days: countdownWrapper.querySelector('.countdown .day .number'),
+                        hours: countdownWrapper.querySelector('.countdown .hour .number'),
+                        minutes: countdownWrapper.querySelector('.countdown .minute .number'),
+                        seconds: countdownWrapper.querySelector('.countdown .second .number'),
+                    };
+
+                    // Update the count down every 1 second
+                    let interval = setInterval(() => {
+                        const now = new Date().getTime();
+                        const distance = countDownDate - now;
+                        if (distance < 0) {
+                            clearInterval(interval);
+                            for (const element in countDownElements) {
+                                countDownElements[element].innerHTML = '00';
+                            }
+                        } else {
+                            const timeRemaining = {
+                                days: Math.floor(distance / (1000 * 60 * 60 * 24)),
+                                hours: Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
+                                minutes: Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60)),
+                                seconds: Math.floor((distance % (1000 * 60)) / 1000),
+                            };
+
+                            for (const element in countDownElements) {
+                                countDownElements[element].innerHTML = timeRemaining[element];
+                            }
+                        }
+                    }, 1000)
+                }
+            };
+
+            // Gallery
+            const slideGallery = document.querySelector('.layout_gallery');
+            if (slideGallery) {
+                loadScript('https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js').then(() => {
+                    let imageList = slideGallery.querySelector('#image_list').textContent.split(/\s*,\s*/);
+                    imageList.forEach((element, index) => {
+                        imageList[index] = `<img data-zoomable class='rounded-md mb-3 animate_animated animate_fadeIn animate_slower w-full' src='${element}' />`
                     });
-            }
-        })
 
-        document.getElementById('button_toggle_fullscreen') && document.getElementById('button_toggle_fullscreen').addEventListener('click', function (event) {
-            event.preventDefault();
-            this.querySelector('.fullscreen_off').classList.remove('hidden');
-            fullScreenMode(this);
-        });
+                    slideGallery.querySelector('#image_list').innerHTML = imageList.toString().replace(/\,/g, '');
 
-        const images = document.querySelector('.layout_gallery');
-        if (images) {
-            loadScript('https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js').then(() => {
-                let imageList = images.querySelector('#image_list').textContent.split(/\s*,\s*/);
-                for (let index = 0; index < imageList.length; index++) {
-                    imageList[index] = `<img data-zoomable class='rounded-md mb-3 animate_animated animate_fadeIn animate_slower w-full' src='${imageList[index]}' />`
+                    mediumZoom('[data-zoomable]');
+                })
+            };
+
+            // Gift
+            const slideGift = document.querySelector('.layout_gift');
+            if (slideGift) {
+                const copyToClipboard = (text) => {
+                    if (!navigator.clipboard) {
+                        return new Promise((resolve, reject) => {
+                            let textarea = document.createElement('textarea');
+                            textarea.textContent = text;
+                            textarea.className = 'sr-only';
+                            document.body.appendChild(textarea);
+
+                            let selection = document.getSelection();
+                            let range = document.createRange();
+                            range.selectNode(textarea);
+                            selection.removeAllRanges();
+                            selection.addRange(range);
+
+                            const success = document.execCommand('copy');
+                            selection.removeAllRanges();
+                            document.body.removeChild(textarea);
+
+                            success ? resolve() : reject();
+                        });
+                    } else {
+                        return navigator.clipboard.writeText(text);
+                    }
                 };
 
-                images.querySelector('#image_list').innerHTML = imageList.toString().replace(/\,/g, '');
+                const buttonHadiah = slideGift.querySelector('#button_hadiah');
+                if (buttonHadiah) {
+                    buttonHadiah.addEventListener('click', (event) => {
+                        event.preventDefault();
 
-                mediumZoom('[data-zoomable]');
-            })
-        }
+                        slideGift.querySelector('.container_hadiah').classList.remove('hidden');
+                        slideGift.querySelector('.container_kado').classList.add('hidden');
+                    });
+                };
 
-        // countdown
-        const countdownElement = document.getElementsByClassName('countdown_wrapper');
-        for (let index = 0; index < countdownElement.length; index++) {
-            this.countdown(countdownElement[index]);
-        }
-    })
-}, 2000);
+                const buttonKado = slideGift.querySelector('#button_kado');
+                if (buttonKado) {
+                    buttonKado.addEventListener('click', (event) => {
+                        event.preventDefault();
+
+                        slideGift.querySelector('.container_kado').classList.remove('hidden');
+                        slideGift.querySelector('.container_hadiah').classList.add('hidden');
+                    });
+                };
+
+                const buttonCopyRekening = slideGift.querySelector('#button_salin_rekening');
+                if (buttonCopyRekening) {
+                    buttonCopyRekening.addEventListener('click', (event) => {
+                        event.preventDefault();
+                        const rekening = slideGift.querySelector('#nomor_rekening').textContent.replace(/\s/g, '').replace('-', '').trim();
+
+                        copyToClipboard(rekening).then(() => {
+                            buttonCopyRekening.innerHTML = 'Berhasil Disalin';
+                        }).catch(() => {
+                            buttonCopyRekening.remove();
+                        });
+                    })
+                }
+            };
+
+            // FAB
+            const fab = document.querySelector('.fab');
+            if (fab) {
+                const buttonFullScreen = fab.querySelector('#button_toggle_fullscreen');
+                if (buttonFullScreen) {
+                    buttonFullScreen.addEventListener('click', (event) => {
+                        event.preventDefault();
+
+                        fullScreenMode(buttonFullScreen);
+                    });
+                };
+
+                const buttonAudio = fab.querySelector('#button_toggle_audio');
+                if (buttonAudio) {
+                    buttonAudio.addEventListener('click', function (event) {
+                        event.preventDefault();
+
+                        if (musicIsPlaying) {
+                            this.querySelector('.audio_on').classList.add('hidden');
+                            this.querySelector('.audio_off').classList.remove('hidden');
+
+                            playMusic(document.getElementById('music') ? document.getElementById('music') : null, {
+                                playMusic: false,
+                            });
+                        } else {
+                            this.querySelector('.audio_on').classList.remove('hidden');
+                            this.querySelector('.audio_off').classList.add('hidden');
+
+                            playMusic(document.getElementById('music') ? document.getElementById('music') : null, {
+                                playMusic: true,
+                            });
+                        }
+                    });
+                }
+            }
+        })
+    }
+}, 2000)

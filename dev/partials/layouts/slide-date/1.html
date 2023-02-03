@@ -11,28 +11,28 @@
                 <div>{{receptionDate}} - Pukul {{receptionTime}} s/d Selesai.</div>
                 <div>{{receptionLocation}}.</div>
             </div>
-            <div class="countdown_wrapper flex w-full flex-col" data-datetime="{{receptionDateFormat1}}">
+            <div id="countdown_wrapper" class="countdown_wrapper flex w-full flex-col" data-datetime="{{receptionDateFormat1}}">
                 <div class="countdown flex gap-2 text-center">
                     <div class="animate_animated animate_fadeInUp animate_slower countdown-item day w-full rounded-lg border border-colorMain p-1 text-colorMain">
                         <div class="number text-2xl font-bold">00</div>
                         <div class="text">Hari</div>
                     </div>
-                    <div class="animate_animated animate_fadeInUp animate_slower animate__delay-005s countdown-item hour w-full rounded-lg border border-colorMain p-1 text-colorMain">
+                    <div class="animate_animated animate_fadeInUp animate_slower countdown-item hour w-full rounded-lg border border-colorMain p-1 text-colorMain [animation-delay:calc(var(--animate-duration)*.25)]">
                         <div class="number text-2xl font-bold">00</div>
                         <div class="text">Jam</div>
                     </div>
-                    <div class="animate_animated animate_fadeInUp animate_slower animate__delay-010s countdown-item minute w-full rounded-lg border border-colorMain p-1 text-colorMain">
+                    <div class="animate_animated animate_fadeInUp animate_slower countdown-item minute w-full rounded-lg border border-colorMain p-1 text-colorMain [animation-delay:calc(var(--animate-duration)*.5)]">
                         <div class="number text-2xl font-bold">00</div>
                         <div class="text">Menit</div>
                     </div>
-                    <div class="animate_animated animate_fadeInUp animate_slower animate__delay-015s countdown-item second w-full rounded-lg border border-colorMain p-1 text-colorMain">
+                    <div class="animate_animated animate_fadeInUp animate_slower countdown-item second w-full rounded-lg border border-colorMain p-1 text-colorMain [animation-delay:calc(var(--animate-duration)*.75)]">
                         <div class="number text-2xl font-bold">00</div>
                         <div class="text">Detik</div>
                     </div>
                 </div>
             </div>
 
-            <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;dates={{receptionDateFormat2}}00ID/{{receptionDateFormat2}}00ID&amp;text=Pernikahan {{nameFemaleShort}} dan {{nameMaleShort}}&amp;details=Pernikahan {{nameFemaleShort}} dan {{nameMaleShort}}&amp;location={{receptionLocation}}&amp;recur=RRULE:FREQ%3DWEEKLY;INTERVAL%3D3" target="_blank" class="animate_animated animate_fadeInUp animate_slower animate__delay-015s mt-5 rounded-full bg-colorMain py-2 px-4 text-colorBackground transition-shadow hover:shadow-lg" rel="nofollow noopener noreferer">Tambahkan Pengingat di Kalender</a>
+            <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&amp;dates={{receptionDateFormat2}}00ID/{{receptionDateFormat2}}00ID&amp;text=Pernikahan {{nameFemaleShort}} dan {{nameMaleShort}}&amp;details=Pernikahan {{nameFemaleShort}} dan {{nameMaleShort}}&amp;location={{receptionLocation}}&amp;recur=RRULE:FREQ%3DWEEKLY;INTERVAL%3D3" target="_blank" class="animate_animated animate_fadeInUp animate_slower mt-8 rounded-full bg-colorMain py-2 px-4 text-colorBackground transition-shadow line-clamp-1 hover:shadow-lg" rel="nofollow noopener noreferer">Tambahkan Pengingat di Kalender</a>
         </div>
     </div>
 
