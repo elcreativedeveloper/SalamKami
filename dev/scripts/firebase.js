@@ -81,7 +81,7 @@ Defer(() => {
                 message_name: this.input_rsvp_name.value,
                 message_contant: decodeURI(this.input_rsvp_message.value),
                 message_date: serverTimestamp(),
-                message_attend: this.input_rsvp_attend.value,
+                message_attend: this.input_rsvp_attend.value ? this.input_rsvp_attend.value : '',
             }).then(() => {
                 forms.remove()
                 document.querySelector('.alert_message.hidden').classList.remove('hidden');
