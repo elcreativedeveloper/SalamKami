@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 45,
-        "audio": "daniel_jang-all_of_me",
+        "style": 50,
+        "audio": "vitamin_string_quartet-thinking_out_loud",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Imperial Script"
+            "secondary": "Shadows Into Light Two"
         }
     },
     "slides": {
-        "cover": 2,
+        "cover": 3,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
