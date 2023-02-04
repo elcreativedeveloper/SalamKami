@@ -1,60 +1,60 @@
 {
-    "nameMale": "Faris Advaita Alhasan",
-    "nameMaleShort": "Faris",
-    "nameMaleDad": "Adzriel Fairuz",
-    "nameMaleMom": "Areta Mahveen",
+    "nameMale": "Dedi Irawan",
+    "nameMaleShort": "Dedi",
+    "nameMaleDad": "Paimo",
+    "nameMaleMom": "Harminah",
 
-    "nameFemale": "Haisha Azrina",
-    "nameFemaleShort": "Azrina",
-    "nameFemaleDad": "Farhan Alfarezi",
-    "nameFemaleMom": "Shafiyyah Sammira",
+    "nameFemale": "Siti Aisyah",
+    "nameFemaleShort": "Aisyah",
+    "nameFemaleDad": "Muswami",
+    "nameFemaleMom": "Ani Astuti",
 
-    "contractDate": "Sabtu, 01 November 2025",
+    "contractDate": "Kamis, 09 Februari 2023",
     "contractTime": "08:00 WIB",
-    "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
+    "contractLocation": "Pamenang, Kecamatan Pagelaran, Kabupaten Pringsewu, Provinsi Lampung.",
 
-    "receptionDate": "Sabtu, 01 November 2025",
-    "receptionDateFormat1": "2025-11-01",
-    "receptionDateFormat2": "20251101T0800",
+    "receptionDate": "Minggu, 12 Februari 2023",
+    "receptionDateFormat1": "2023-02-12",
+    "receptionDateFormat2": "20230212T0800",
     "receptionTime": "10:00 WIB",
-    "receptionLocation": "Alamat Lengkap Lokasi Resepsi Penikahan",
-    "receptionMaps": "-5.34700076388259, 104.95010598444547",
+    "receptionLocation": "Pamenang, Kecamatan Pagelaran, Kabupaten Pringsewu, Provinsi Lampung.",
+    "receptionMaps": "-5.353034421991833, 104.90811651087984",
 
     "themes": {
-        "style": 50,
+        "style": 34,
         "audio": "vitamin_string_quartet-thinking_out_loud",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Shadows Into Light Two"
+            "secondary": "Pinyon Script"
         }
     },
     "slides": {
-        "cover": 3,
+        "cover": 4,
         "opening": 1,
-        "loveStory": 1,
+        "loveStory": 0,
         "bride": 1,
         "date": 1,
         "maps": 1,
         "gallery": 1,
         "gift": {
             "layout": 1,
-            "bankNumber": "1234 5678 9123",
-            "bankName": "Bank",
-            "bankAccount": "Nama Penerima Hadiah"
+            "bankNumber": "0898904593",
+            "bankName": "BNI",
+            "bankAccount": "Dedi Irawan"
         },
         "rsvp": 1,
-        "rundown": 1,
+        "rundown": 0,
         "protocol": 1,
         "quotes": 1,
         "closing": 1,
-        "partners": 5
+        "partners": 1
     },
 
     "images": {
-        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_k_Cs22FCyw6hBXv1jI6b_kf6tHqodYRbc8cg_fXdsIGBMb7XdLlAbtog854Jh5uS8b7b40P40JmRhB8cvcViMIxH-vfg-2ZzO7y-2_KvEkotnWCM3wJWOR9RoH0P9RwMJPssSJoUj-nmnRUhuaLRet536NVLzTjHf_Fau4DK27Pl1AphZEflOBU/s600/BGs.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd8_vyzfs9BY3TBgHd1FAfcSeZd9o09PsdEBbQkVhVGNwiE-MzSScVNjUQ1OTY8CWbvmM78T-wcB4rq7AuBC5Jw7pJo_fiO2AYoME1sD6kW9WL7gSwdGcmo22BVsTDGF-liWsBiup0iyHj_rFcyJJYuIbOJvaGaPYHYwK1rKzsd5NMOMRDlaRclbjW/s600/BGs.jpg",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrSWeStaaU5ZQ8LhD-w2aySRyG81Wwuxmq-Rjh2OhMRlXne2tx2dQDDurdKtmQ1jDAqbyHy44YSV-Qrr7wNaRqu9eAtRwbyZjUMtYGDSwr85CyqBBNZ8ID3pJ3hUGD0PfRJFSOvkosuEfA6aznyPQvBfCsTwR_OPwuydf5oAgdmtLkECwG1QGbsveZ/s600/BGs.jpg",
-        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoAAmkcamNCfahf-0TiFx5KmZtnVHBTlvFRwQfZS-lpdnGg7jCaYDTy3SS48VHnOm5JkzD6t5OIYAoLvbu0edB29fXKrwnUg2myxlcZ5S-7jLdKyBVAInV230n_FBAgVJygitpW3buN-InmOfzzheT8KKObVKV0f1cLf-s889QeKAbHhSPeBXjRyTy/s600/IMG_9949.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiejEv-zUXsfvSt6-vAsgNhwQLL4M-GFXkK0WdBtks16ZKU6TBP8N2UXtI6h0hmHmQaUIoZVPekFP26I665F_9_nKoe8MmE7f_j9DcJZOzjEERDGNJjdoONKqQeNgXn5FJglcb8K3RFWobtXnVjtBTQIDaNstu9fjp62-LzYJmp4xmHaeC6hc7oz_ic/s600/IMG_9931.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtf8CkRdHKdSbkF2EZg91kdDe2qWeTbeBmFNSV3K5nVr5km24unau1IuYiVYKnDZ7x4koyA7pgD-H0fFCna_yrvJA1VZtMtF34e-SVS1tac9OeGw8N00TUl90dprqYgxB7aYG8hWeY-JcIKgTdx4Z-yZB3manti8Drqayt8mcPPMscxL7DfZz9jXFg/s600/IMG_9912%20%281%29.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoAAmkcamNCfahf-0TiFx5KmZtnVHBTlvFRwQfZS-lpdnGg7jCaYDTy3SS48VHnOm5JkzD6t5OIYAoLvbu0edB29fXKrwnUg2myxlcZ5S-7jLdKyBVAInV230n_FBAgVJygitpW3buN-InmOfzzheT8KKObVKV0f1cLf-s889QeKAbHhSPeBXjRyTy/s600/IMG_9949.jpg"
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDMfoJ28zYB4DDFl_2D1-1oYmibcl-QO3mkl_gkinBBKOxuhs8mKQrg__4e1AwIMMv6p1CN31asMelzRn9DSTs7tOzofkWQksPfFVB5vr2gOqr5QmW2OgGW7-wdTZGOT4WUAwaLYlP7g7tCwFhK3cp4D3GkijLMmkuTjn_l7K5gmyfYIeBSqIhDp-z/s600/IMG_2358%282%29.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj13tlnalbIbbGuvX0xDYbbdUlaT68WqYdJ5FA9xQ8UdfmEzLGYcS4Ji3KS1yJ4I4thlOy_M3vJEEd6FOk_tjXtWg7zT6lXglZOufM7Zt-fHmNw3pmbZCrMKc59iBkjSVqsgaLlNLXnLeLwDEwuJB9qKz7tVtb4ToHnWzhXgViLLPaQGb5rC-yZDakV/s600/IMG_2358%281%29%281%29.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgEIABHo_D4_4nUtWp3Z9sYKxqBvZGlG7FEvZQ_UgEI4yzGcHcSxrX7vqx0ApK2e515kKuO0v2lWGFRYi8469UwNMOgqdzAYkne2vOXyoClgW8qerHN-W437sC7jC3K6rbGfNEb1qvYKhKuymwRlfilrumErAorYuwATOZoz2ilgdXOcJG4fDZhlgir/s600/IMG_2358%282%29%281%29.jpg",
+        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRjrfTHxckAScv-cNJzO9dj7VauwRpq62AqwAdUeiKJEDSInt6fftZQnq5IU4Af8adBCie_eh1ugIvhxapERGCJ-9awTm93hfyxXFRtoWZb6v27I985g74Q-mhnJ7MVxoQZcJARyCwemSq2Bdh7cE8JtYQOeAxDGZDtdgfR2t-XcvnSNeXAhv2LwpX/s600/10R%20IMG_2353.JPG,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTO8fYSyUuLFDpIv53sbJq2h2vLIGwGWyeFn31wp0WeMjN5bf_veNl7FaGEG1HC4z7konITYq1RrlLW60lglbDj8yk8AF7E4NrTo-g4rUkYYLVyXTdRg0SzJv0nRtRvlfSex9jrtHUiDotF05pUdtB3kwXLBE0CZcmKAtqB9qY_NTMTU5uI0LftwYT/s600/IMG_2358.JPG"
     },
     
     "config": {
