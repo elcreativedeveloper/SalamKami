@@ -1,13 +1,13 @@
 {
-    "nameMale": "Faris Advaita Alhasan",
-    "nameMaleShort": "Faris",
-    "nameMaleDad": "Adzriel Fairuz",
-    "nameMaleMom": "Areta Mahveen",
+    "nameMale": "Asraf Abdillah Abqari",
+    "nameMaleShort": "Asraf",
+    "nameMaleDad": "Deni Hidayat",
+    "nameMaleMom": "Dwi Febriana",
 
-    "nameFemale": "Haisha Azrina",
-    "nameFemaleShort": "Azrina",
-    "nameFemaleDad": "Farhan Alfarezi",
-    "nameFemaleMom": "Shafiyyah Sammira",
+    "nameFemale": "Asraf Abdillah Abqari",
+    "nameFemaleShort": "Asraf",
+    "nameFemaleDad": "Deni Hidayat",
+    "nameFemaleMom": "Dwi Febriana",
 
     "contractDate": "Sabtu, 01 November 2025",
     "contractTime": "08:00 WIB",
@@ -21,15 +21,15 @@
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 40,
-        "audio": "asmaralibrasi",
+        "style": 22,
+        "audio": "hadiah_tuhan",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Dancing Script"
+            "secondary": "Fredoka One"
         }
     },
     "slides": {
-        "cover": 1,
+        "cover": 3,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
@@ -47,7 +47,7 @@
         "protocol": 1,
         "quotes": 1,
         "closing": 1,
-        "partners": 5
+        "partners": 0
     },
 
     "images": {
