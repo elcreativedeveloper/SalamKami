@@ -1,59 +1,59 @@
 {
-    "nameMale": "Faris Advaita Alhasan",
-    "nameMaleShort": "Faris",
-    "nameMaleDad": "Adzriel Fairuz",
-    "nameMaleMom": "Areta Mahveen",
+    "nameMale": "Hendra Fery, M.M",
+    "nameMaleShort": "Fery",
+    "nameMaleDad": "Sasudi (Sukhairi) (Alm)",
+    "nameMaleMom": "Yulia",
 
-    "nameFemale": "Haisha Azrina",
-    "nameFemaleShort": "Azrina",
-    "nameFemaleDad": "Farhan Alfarezi",
-    "nameFemaleMom": "Shafiyyah Sammira",
+    "nameFemale": "Shela Nanda Pasla, A.Md.P",
+    "nameFemaleShort": "Shela",
+    "nameFemaleDad": "Syahruddin",
+    "nameFemaleMom": "Alyana",
 
-    "contractDate": "Sabtu, 01 November 2025",
+    "contractDate": "Rabu, 08 Maret 2023",
     "contractTime": "08:00 WIB",
-    "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
+    "contractLocation": "Pekon Sukabanjar - Sangi, Kecamatan Bandar Negeri Semuong, Kabupaten Tanggamus, Provinsi Lampung",
 
-    "receptionDate": "Sabtu, 01 November 2025",
-    "receptionDateFormat1": "2025-11-01",
-    "receptionDateFormat2": "20251101T0800",
+    "receptionDate": "Rabu, 08 Maret 2023",
+    "receptionDateFormat1": "2023-03-08",
+    "receptionDateFormat2": "20230308T0800",
     "receptionTime": "10:00 WIB",
-    "receptionLocation": "Alamat Lengkap Lokasi Resepsi Penikahan",
+    "receptionLocation": "Pekon Sukabanjar - Sangi, Kecamatan Bandar Negeri Semuong, Kabupaten Tanggamus, Provinsi Lampung",
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 55,
-        "audio": "beautiful_in_white",
+        "style": 37,
+        "audio": "ternyata_hanya_kamu",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Alex Brush"
+            "secondary": "Bad Script"
         }
     },
     "slides": {
-        "cover": 1,
+        "cover": 2,
         "opening": 1,
-        "loveStory": 1,
+        "loveStory": 0,
         "bride": 1,
         "date": 1,
         "maps": 1,
-        "gallery": 1,
+        "gallery": 0,
         "gift": {
-            "layout": 1,
+            "layout": 0,
             "bankNumber": "1234 5678 9123",
             "bankName": "Bank",
             "bankAccount": "Nama Penerima Hadiah"
         },
         "rsvp": 1,
-        "rundown": 1,
-        "protocol": 1,
+        "rundown": 0,
+        "protocol": 0,
         "quotes": 1,
         "closing": 1,
-        "partners": 0
+        "partners": 4
     },
 
     "images": {
-        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_k_Cs22FCyw6hBXv1jI6b_kf6tHqodYRbc8cg_fXdsIGBMb7XdLlAbtog854Jh5uS8b7b40P40JmRhB8cvcViMIxH-vfg-2ZzO7y-2_KvEkotnWCM3wJWOR9RoH0P9RwMJPssSJoUj-nmnRUhuaLRet536NVLzTjHf_Fau4DK27Pl1AphZEflOBU/s600/BGs.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd8_vyzfs9BY3TBgHd1FAfcSeZd9o09PsdEBbQkVhVGNwiE-MzSScVNjUQ1OTY8CWbvmM78T-wcB4rq7AuBC5Jw7pJo_fiO2AYoME1sD6kW9WL7gSwdGcmo22BVsTDGF-liWsBiup0iyHj_rFcyJJYuIbOJvaGaPYHYwK1rKzsd5NMOMRDlaRclbjW/s600/BGs.jpg",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrSWeStaaU5ZQ8LhD-w2aySRyG81Wwuxmq-Rjh2OhMRlXne2tx2dQDDurdKtmQ1jDAqbyHy44YSV-Qrr7wNaRqu9eAtRwbyZjUMtYGDSwr85CyqBBNZ8ID3pJ3hUGD0PfRJFSOvkosuEfA6aznyPQvBfCsTwR_OPwuydf5oAgdmtLkECwG1QGbsveZ/s600/BGs.jpg",
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiceydq86v6XDyE_jv0eYU3YCwqH_A_qqBPf27C7KIg7vnFt5dyAL80mwh6Id4P8Y5eGrUmkbh3HuDIyMrnbL8w7De4YNGDQ4qGUYGaavGJ58rbw-BMwKMDp_IPgQTzHHGBeJNuginhUkNEnIDVvXfrYcVEUlpYZkQis2UBlXVlZqe0yFbIK1aB-EU6/s600/index.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3nitqV2ZWD01VxDk5U7wnGO6zSuHPMih0ZKs-MrR9sFSt1BrGtmGpKTeEat_j6ajcIdp2EQyL7WfSeBSEWXdu6NgcW7Oa4dWt_RbITc_B0txIth0aNmwxY4TUQHvhJXnVWwnEOf2mrV4l1xSFF8JcqnqdKf_9aR5uL1g_qHcL95x0q2a1LTSyeLGl/s600/portrait.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwXqgslpQtANJ8M0SeQoytmujmECw_sJKvqPzjkMEblnJpdfPbNUJo1yR30VeKnthHYGIJ4kc9VcVYG919L3478-GYt-ypHnZuD05pVK9j5v203feTi63V2OHdqMrXr0zt2g4vL5nhmhhNRvxhCm9MvtsXCiWqLaFxTxKNmbqZVSg5b-P50oMOeCI4/s600/portrait.jpg",
         "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoAAmkcamNCfahf-0TiFx5KmZtnVHBTlvFRwQfZS-lpdnGg7jCaYDTy3SS48VHnOm5JkzD6t5OIYAoLvbu0edB29fXKrwnUg2myxlcZ5S-7jLdKyBVAInV230n_FBAgVJygitpW3buN-InmOfzzheT8KKObVKV0f1cLf-s889QeKAbHhSPeBXjRyTy/s600/IMG_9949.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiejEv-zUXsfvSt6-vAsgNhwQLL4M-GFXkK0WdBtks16ZKU6TBP8N2UXtI6h0hmHmQaUIoZVPekFP26I665F_9_nKoe8MmE7f_j9DcJZOzjEERDGNJjdoONKqQeNgXn5FJglcb8K3RFWobtXnVjtBTQIDaNstu9fjp62-LzYJmp4xmHaeC6hc7oz_ic/s600/IMG_9931.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtf8CkRdHKdSbkF2EZg91kdDe2qWeTbeBmFNSV3K5nVr5km24unau1IuYiVYKnDZ7x4koyA7pgD-H0fFCna_yrvJA1VZtMtF34e-SVS1tac9OeGw8N00TUl90dprqYgxB7aYG8hWeY-JcIKgTdx4Z-yZB3manti8Drqayt8mcPPMscxL7DfZz9jXFg/s600/IMG_9912%20%281%29.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoAAmkcamNCfahf-0TiFx5KmZtnVHBTlvFRwQfZS-lpdnGg7jCaYDTy3SS48VHnOm5JkzD6t5OIYAoLvbu0edB29fXKrwnUg2myxlcZ5S-7jLdKyBVAInV230n_FBAgVJygitpW3buN-InmOfzzheT8KKObVKV0f1cLf-s889QeKAbHhSPeBXjRyTy/s600/IMG_9949.jpg"
     },
     
