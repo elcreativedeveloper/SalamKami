@@ -1,31 +1,31 @@
 {
-    "nameMale": "Hendra Fery, M.M",
-    "nameMaleShort": "Fery",
-    "nameMaleDad": "Sasudi (Sukhairi) (Alm)",
-    "nameMaleMom": "Yulia",
+    "nameMale": "Raden Panji Budiraharjo, A.P",
+    "nameMaleShort": "Panji",
+    "nameMaleDad": "Raden Panjie Gondo Subiyanto (Alm)",
+    "nameMaleMom": "RA. Siti Wulan (Alm)",
 
-    "nameFemale": "Shela Nanda Pasla, A.Md.P",
-    "nameFemaleShort": "Shela",
-    "nameFemaleDad": "Syahruddin",
-    "nameFemaleMom": "Alyana",
+    "nameFemale": "Fitri Yesi Anggraini, S.ST",
+    "nameFemaleShort": "Fitri",
+    "nameFemaleDad": "Abdul Rasak",
+    "nameFemaleMom": "Junaini",
 
-    "contractDate": "Rabu, 08 Maret 2023",
+    "contractDate": "Minggu, 14 Mei 2023",
     "contractTime": "08:00 WIB",
-    "contractLocation": "Pekon Sukabanjar - Sangi, Kecamatan Bandar Negeri Semuong, Kabupaten Tanggamus, Provinsi Lampung",
+    "contractLocation": "Desa Halangan Ratu, Kecamatan Negeri Katon, Kabupaten Pesawaran, Provinsi Lampung",
 
-    "receptionDate": "Rabu, 08 Maret 2023",
-    "receptionDateFormat1": "2023-03-08",
-    "receptionDateFormat2": "20230308T0800",
+    "receptionDate": "Minggu, 14 Mei 2023",
+    "receptionDateFormat1": "2023-06-14",
+    "receptionDateFormat2": "20230614T0800",
     "receptionTime": "10:00 WIB",
-    "receptionLocation": "Pekon Sukabanjar - Sangi, Kecamatan Bandar Negeri Semuong, Kabupaten Tanggamus, Provinsi Lampung",
+    "receptionLocation": "Desa Halangan Ratu, Kecamatan Negeri Katon, Kabupaten Pesawaran, Provinsi Lampung",
     "receptionMaps": "-5.34700076388259, 104.95010598444547",
 
     "themes": {
-        "style": 37,
+        "style": 21,
         "audio": "ternyata_hanya_kamu",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Bad Script"
+            "secondary": "Pinyon Script"
         }
     },
     "slides": {
@@ -35,19 +35,19 @@
         "bride": 1,
         "date": 1,
         "maps": 1,
-        "gallery": 0,
+        "gallery": 1,
         "gift": {
-            "layout": 0,
-            "bankNumber": "1234 5678 9123",
-            "bankName": "Bank",
-            "bankAccount": "Nama Penerima Hadiah"
+            "layout": 1,
+            "bankNumber": "6640 3692 11",
+            "bankName": "BCA",
+            "bankAccount": "Fitri Yesi Anggraini"
         },
         "rsvp": 1,
         "rundown": 0,
         "protocol": 0,
         "quotes": 1,
         "closing": 1,
-        "partners": 4
+        "partners": 1
     },
 
     "images": {
