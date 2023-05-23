@@ -1,23 +1,23 @@
 {
-    "nameMale": "Safi'i Makruf",
-    "nameMaleShort": "Safi'i",
-    "nameMaleDad": "Dumami",
-    "nameMaleMom": "Siti Fatimah",
-    "nameFemale": "Dwi Agustina S.Kom",
-    "nameFemaleShort": "Dwi",
-    "nameFemaleDad": "Kasimun",
-    "nameFemaleMom": "Bayinah",
-    "contractDate": "Senin, 26 Juni 2023",
+    "nameMale": "A. Galuh Wijaya",
+    "nameMaleShort": "Galuh",
+    "nameMaleDad": "Bambang",
+    "nameMaleMom": "Hartati",
+    "nameFemale": "Maghrifa, S.Kom",
+    "nameFemaleShort": "Rifa",
+    "nameFemaleDad": "Sutrasno",
+    "nameFemaleMom": "Tri Yanti",
+    "contractDate": "Sabtu, 01 Juli 2023",
     "contractTime": "08:00 WIB",
-    "contractLocation": "Ambarawa, RT/RW 005/001, Kabupaten Pringsewu",
-    "receptionDate": "Senin, 26 Juni 2023",
-    "receptionDateFormat1": "2023-06-26",
-    "receptionDateFormat2": "20230626T0800",
+    "contractLocation": "Kediaman mempelai wanita. Dusun Saribumi, Desa Wates Selatan, RT/RW 001/001, Kecamatan Gading Rejo, Kabupaten Pringsewu, Provinsi Lampung",
+    "receptionDate": "Sabtu, 01 Juli 2023",
+    "receptionDateFormat1": "2023-07-01",
+    "receptionDateFormat2": "20230701T0800",
     "receptionTime": "10:00 WIB",
-    "receptionLocation": "Ambarawa, RT/RW 005/001, Kabupaten Pringsewu",
-    "receptionMaps": "-5.405934493819864, 104.9583816",
+    "receptionLocation": "Kediaman mempelai wanita. Dusun Saribumi, Desa Wates Selatan, RT/RW 001/001, Kecamatan Gading Rejo, Kabupaten Pringsewu, Provinsi Lampung",
+    "receptionMaps": "-5.383850799277198, 105.01715478204291",
     "themes": {
-        "style": 54,
+        "style": 33,
         "audio": "kamu_yang_kutunggu",
         "fonts": {
             "primary": "Google Sans Text",
@@ -33,10 +33,10 @@
         "maps": 1,
         "gallery": 1,
         "gift": {
-            "layout": 0,
-            "bankNumber": "6640 3692 11",
-            "bankName": "BCA",
-            "bankAccount": "Fitri Yesi Anggraini"
+            "layout": 1,
+            "bankNumber": "5772-01-016778-53-2",
+            "bankName": "BRI",
+            "bankAccount": "Maghrifa"
         },
         "rsvp": 1,
         "rundown": 0,
@@ -46,9 +46,9 @@
         "partners": 1
     },
     "images": {
-        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiinasYselwpls7FJAnoeYYIkeiicQNfl5RZidntY1-E4CkGpci7SV3ONcIIwT72gd1oqRoIjUFpNZWePsgrAny2t3OJB6rVSPbJrCSASaJE_qfo5q6lkmVlHu-erB1_701AW4yG7DU0PUv6WzK5qxB5BcMQZx_zCj4sEmP5L7j8GFVKxrACLSewcLl/s1600/dsc08322.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZxxkQf1ktb-CO3J_CB12W5Kgkl3u2HcpERC2RDvAf5u70_6ETvyxmLAYYGlJ3XJr_kroHgDTxHjnkGN9LLVsAso1IFAoUlvuauilDf6Fo2PjVSvwWccyhW9hkozssSrQwocFJvsqrJGF3Un2mdtiUFff3wLJzEOVonCJC3G0uQrvp2QloBQNgdhQv/s600/dsc08329.jpg",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcjT7C5faq8wqImQEziU3Ndd1tBIyJL21rY_q_RciQVoVFCfs79WWI9DzbyNkrsghPMfRXm3e_lwkC2ZNNjqCPNQbNmY8YWq6f2ERtOvAdXcKN5cM3fMyKYR43Y0Mes6q2w1Cc4I05lY3_wl878UXGv4da87eRx2K2muJDK78yuGcvut6aGsul0Slz/s600/dsc08329%20-%20Copy.jpg",
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEioH3pqgGTLfMQi-wj6plYKMNZwOxwBcHBokpP3M1UdM6WsoxBFDv6DrGqvTDs0jD4C-X4dlwWwO210gwjeJ3qe_-SVfMR2Cgwhuve6cUB3wYpNapNd0h821gxSXgh9D-PgnaoaWSxiP8qAnC4Z1-PutqferfkP8xYzzjoCqZn2eN-MDseEWe3YtL03/s600/wide.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg3nitqV2ZWD01VxDk5U7wnGO6zSuHPMih0ZKs-MrR9sFSt1BrGtmGpKTeEat_j6ajcIdp2EQyL7WfSeBSEWXdu6NgcW7Oa4dWt_RbITc_B0txIth0aNmwxY4TUQHvhJXnVWwnEOf2mrV4l1xSFF8JcqnqdKf_9aR5uL1g_qHcL95x0q2a1LTSyeLGl/s600/portrait.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhwXqgslpQtANJ8M0SeQoytmujmECw_sJKvqPzjkMEblnJpdfPbNUJo1yR30VeKnthHYGIJ4kc9VcVYG919L3478-GYt-ypHnZuD05pVK9j5v203feTi63V2OHdqMrXr0zt2g4vL5nhmhhNRvxhCm9MvtsXCiWqLaFxTxKNmbqZVSg5b-P50oMOeCI4/s600/portrait.jpg",
         "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipNDasV-FFL7-WTmMrwtp9Pr10TnJbbNvwPwHJ3NTdZ-A5DZj8gdbQ5VQWYGThbht26M_fpW4ChSF6eDXuAT9C6V9MwMiG1vsbRnQTwy8biDHD5sLfEaYPmdjUoIQziBBe8Z3PvzdtXDEEzcWPJIt8l39LKgwhH7glUKPv5LlVK9oIUjh00d76hglY/s600/dsc08322.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMIpg-uAmAG5Y4Rj_Bh4D2snKT6WQP7JeNEv0V9Qt_6qF3XBuhAdDVvLhU6SKIrRvLQakJYmP716YSXR-3FuqnTwXIvgCCgUOmOB53lq7qHOAUSWTIxo9OFReS-za_Mpnkcmzc7zTXQf73cFTqhGeg5BQmcMELOX72cdVNKeFoAqZq94WxOcnuQ4A4/s600/dsc08329.jpg"
     },
     "config": {
