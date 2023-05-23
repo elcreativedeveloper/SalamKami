@@ -25,13 +25,13 @@
         }
     },
     "slides": {
-        "cover": 3,
+        "cover": 1,
         "opening": 1,
         "loveStory": 0,
         "bride": 1,
         "date": 1,
         "maps": 1,
-        "gallery": 0,
+        "gallery": 1,
         "gift": {
             "layout": 0,
             "bankNumber": "6640 3692 11",
@@ -46,10 +46,10 @@
         "partners": 1
     },
     "images": {
-        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgTzCzTX2_kWhx0ySr3En6QW1_Lg3b4bsNuwiuknzI-FfFN_Nn3MF4pMev-SgiliKovTPBVDI1I4wQgCDQQtPTI-i7DEx92S5DE5z0cOJRVZZwiwtZOjMerFE7aP5lTW5TBDFYZAVRNGdklTYd3wnhJfP9zv7M3HdqWarhZBY1fTyzIe_mzpWBUgPKs/s1600/index.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi5ACDiDI_W4A8YjzCEVbafKZ6w90poE9w6C4M_MK-9Cx5hI4_oTe6KoMKIhEVE7nXv3Nk5c6JklY173OE8DZ1eOebMURYf9JYOLTpGvAu1T5YX4_4PlURqAu5lgl1CWeV-y5jpLwX-xeT_0XSbV2q3N-4uMN-Xe81bDXAHTYVzOal2ZhoxLXUxc4_V/s1600/index.jpg",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj2KxKH6JOWO6VZ42WQdgaHF46eRrAzrxj1-C_9OCMvfT1yE1GWo3k4C3fICoevM_n11kmuYNJzG5aNx04c6gm0x3TzBLold_U__F7vlfuBdRoSvJ6KGb90Yxl2Xdmj8yFVNy46B3jqkYG6tt2Rmds14C1OcBOIANRz94punQy5ui-SXSSMNFaeSS_R/s1600/index.jpg",
-        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgPBaXPVcNAovoZEvkK9ZK6h16Q3ZmZ2bP1tmRE9tqIAbPcmrOu1vPruy2KI5ks1K2itZtrh-Zwl5eEKCXh1qwjDx0zQ0k3i2zkPV4opkwlYZ-VMl-KZOcgpo7CL9xOtni6iP2Zr_L8i_g9ZsonMRqn72zWQBGw4xGg044y86OFEgZYi5y8-UMxqfx4/s1600/index.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9vn7pQlGF7BGSzBPXKN2O4l-sDwQgViGgImLJgmthzIRu9irqgko6CN5TU4g5816qCLK4woVmhZIUaRpIwlJO8QK1Q9flpzpfkQjrJ2rq1EmmwnRh6c08izJtde_jd9Y9HgTbExsW0q3FY6JpoWwD6DMoks2BdLL8jxPDoTTRNb0VHSSItv3JoOJv/s1600/index.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiPlMd1pOEmgQHq6REoIL6i06Bgk6Dxv-064AIDAw-SSzusc512-DeWQql7mxk9fhVG_31IF0v516Cn6-P6DnBlcimuD-UVaZIA2Bi60DKnK-fqEDfyl62wx_Hxbevdf9P2oZAQDCDFmW9ryYOFc0yf1oZW4y8Y-iJiGdqSS1zENYj6RkIGUJW-QK80/s1600/index.jpg,https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEikpi2H_3GxWUDzQUtLyW5NQNXhC-nww3cxYAhM-mbaoNNgzVeIAo_Nun0sm7kg0W9XOqekpiYbtrzMoWUWJsgeVhKpoa_uuWFV_mS2LrOKpLJSOCEw8xOqYOqmmEwdGIfp-NOe7FP_4d2am2stlNjTUSUxgqo-KUYlvTeupFbqIxNVgkw8xUr1h3q4/s1600/index.jpg"
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhdk4OPCjQ3BoOo04Xt_EXbyh4nhKVfZG8-cKXroEZLwGOMsZyQfJhqOJMcQ_Sa2MFmv9cp1LM8LXym1omrJmfKBbDm5zQSU-lT9jQkbzicDUp5CRkA5gmjAMic7qQKqcvWB-IHMIU8gp07L-aQTkKFMMyH8YcYfGelKrXICNoHD-E7-rVCogrewXeN/s600/dsc08322.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZxxkQf1ktb-CO3J_CB12W5Kgkl3u2HcpERC2RDvAf5u70_6ETvyxmLAYYGlJ3XJr_kroHgDTxHjnkGN9LLVsAso1IFAoUlvuauilDf6Fo2PjVSvwWccyhW9hkozssSrQwocFJvsqrJGF3Un2mdtiUFff3wLJzEOVonCJC3G0uQrvp2QloBQNgdhQv/s600/dsc08329.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgcjT7C5faq8wqImQEziU3Ndd1tBIyJL21rY_q_RciQVoVFCfs79WWI9DzbyNkrsghPMfRXm3e_lwkC2ZNNjqCPNQbNmY8YWq6f2ERtOvAdXcKN5cM3fMyKYR43Y0Mes6q2w1Cc4I05lY3_wl878UXGv4da87eRx2K2muJDK78yuGcvut6aGsul0Slz/s600/dsc08329%20-%20Copy.jpg",
+        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipNDasV-FFL7-WTmMrwtp9Pr10TnJbbNvwPwHJ3NTdZ-A5DZj8gdbQ5VQWYGThbht26M_fpW4ChSF6eDXuAT9C6V9MwMiG1vsbRnQTwy8biDHD5sLfEaYPmdjUoIQziBBe8Z3PvzdtXDEEzcWPJIt8l39LKgwhH7glUKPv5LlVK9oIUjh00d76hglY/s600/dsc08322.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiMIpg-uAmAG5Y4Rj_Bh4D2snKT6WQP7JeNEv0V9Qt_6qF3XBuhAdDVvLhU6SKIrRvLQakJYmP716YSXR-3FuqnTwXIvgCCgUOmOB53lq7qHOAUSWTIxo9OFReS-za_Mpnkcmzc7zTXQf73cFTqhGeg5BQmcMELOX72cdVNKeFoAqZq94WxOcnuQ4A4/s600/dsc08329.jpg"
     },
     "config": {
         "script:start": "<script>",
