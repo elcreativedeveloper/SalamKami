@@ -31,7 +31,7 @@
         "bride": 1,
         "date": 1,
         "maps": 1,
-        "gallery": 1,
+        "gallery": 0,
         "gift": {
             "layout": 1,
             "bankNumber": "5772-01-016778-53-2",
