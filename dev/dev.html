@@ -62,14 +62,13 @@
                 <div class="font-fontSecondary text-3xl">{{nameFemaleShort}} & {{nameMaleShort}}</div>
             </div>
             <div class="loader mx-auto h-[42px] w-[42px]">
-                <svg class="circular" viewBox="25 25 50 50" width="42" height="42"><circle class="path" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"></circle></svg>
+                <svg class="animate-[animRotate_2s_linear_infinite]" viewBox="25 25 50 50" width="42" height="42"><circle class="animate-[animDash_1.2s_ease-in-out_infinite,animColor_3s_ease-in-out_infinite] [stroke-linecap:round] [stroke-dasharray:1,200] [stroke-dashoffset:0]" cx="50" cy="50" r="20" fill="none" stroke-width="4" stroke-miterlimit="10"></circle></svg>
             </div>
         </div>
 
         <div id="app" class="app invisible">
-            <div class="glide">
+            <div class="glide relative h-screen min-h-[-webkit-fill-available] w-full overflow-hidden">
                 <div id="glide__bullets" class="glide__bullets invisible fixed top-0 z-20 flex w-full flex-row items-center justify-center p-3 opacity-80" data-glide-el="controls[nav]"></div>
-
                 <div class="glide__track" data-glide-el="track">
                     <!-- prettier-ignore -->
                     <div class="glide__slides">
@@ -89,7 +88,6 @@
                         @@include('../dev/partials/layouts/slide-partners/{{slides.partners}}.html')
                     </div>
                 </div>
-
                 <div id="views" class="views fixed left-6 bottom-6 z-20 flex select-none flex-row items-center justify-center">
                     <svg width="24" height="24" viewBox="0 0 24 24" class="mr-1 h-4 w-4 fill-current text-colorMain"><path d="M12,9A3,3 0 0,1 15,12A3,3 0 0,1 12,15A3,3 0 0,1 9,12A3,3 0 0,1 12,9M12,4.5C17,4.5 21.27,7.61 23,12C21.27,16.39 17,19.5 12,19.5C7,19.5 2.73,16.39 1,12C2.73,7.61 7,4.5 12,4.5M3.18,12C4.83,15.36 8.24,17.5 12,17.5C15.76,17.5 19.17,15.36 20.82,12C19.17,8.64 15.76,6.5 12,6.5C8.24,6.5 4.83,8.64 3.18,12Z" /></svg>
                     <span class="view_eye">...</span>
