@@ -1,100 +1,98 @@
 // Create Element
 const createElement = (tag, options) => {
-    let element = document.createElement(tag);
-    for (let attributes in options) {
-        if (attributes == 'class') {
-            // If Has Class Attribute
-            element.classList.add.apply(element.classList, options[attributes]);
-        } else if (attributes == 'content') {
-            // If Has Contents
-            element.innerHTML = options[attributes];
+    const element = document.createElement(tag);
+
+    for (const attribute in options) {
+        if (attribute === 'class') {
+            // If it has a class attribute
+            const classes = Array.isArray(options[attribute]) ? options[attribute] : [options[attribute]];
+            element.classList.add(...classes);
+        } else if (attribute === 'content') {
+            // If it has contents
+            element.innerHTML = options[attribute];
         } else {
-            element[attributes] = options[attributes];
+            element[attribute] = options[attribute];
         }
     }
 
     return element;
-}
+};
 
 // Load Script Promise
 const loadScript = (source) => {
     return new Promise((resolve, reject) => {
-        let element = createElement('script', {
+        const scriptElement = createElement('script', {
             src: source,
             async: true,
             defer: true,
         });
-        let boolean = false;
 
-        element.onload = element.onreadystatechange = function () {
-            if (!boolean && (!this.readyState || this.readyState == 'complete')) {
-                boolean = true;
+        let isLoaded = false;
+
+        const handleScriptLoad = () => {
+            if (!isLoaded && (!scriptElement.readyState || scriptElement.readyState === 'complete')) {
+                isLoaded = true;
                 resolve();
             }
-            // console.log(this.readyState);
         };
 
-        element.onerror = function () {
-            reject(element, source);
+        const handleScriptError = () => {
+            reject(new Error(`Failed to load script: ${source}`));
         };
 
-        const elementScript = document.getElementsByTagName('script')[0];
-        elementScript.parentNode.insertBefore(element, elementScript);
+        scriptElement.onload = scriptElement.onreadystatechange = handleScriptLoad;
+        scriptElement.onerror = handleScriptError;
+
+        const firstScriptElement = document.getElementsByTagName('script')[0];
+        firstScriptElement.parentNode.insertBefore(scriptElement, firstScriptElement);
     });
-}
+};
 
-// Get URL Parameter (For Invitation Receipent)
+// Get URL Parameter (For Invitation Recipient)
 const getURLParams = (params, element) => {
     const urlParams = new URLSearchParams(params);
+    const recipientName = urlParams.get('kepada') || urlParams.get('to');
 
-    if (urlParams.get('kepada') != null || urlParams.get('to') != null) {
-        element.innerText = urlParams.get('kepada') || urlParams.get('to');
-    };
+    if (recipientName !== null) {
+        element.innerText = recipientName;
+    }
 };
 
 // Play Music
 let musicIsPlaying = false;
 const playMusic = (selector, options) => {
-    if (selector) {
-        if (options.playMusic) {
-            selector.play();
-            musicIsPlaying = true;
-        } else {
-            if (musicIsPlaying) {
-                selector.pause();
-                musicIsPlaying = false;
-            } else {
-                selector.play();
-                musicIsPlaying = true;
-            }
-        }
+    if (!selector) return;
 
-        selector.onplaying = function () {
-            musicIsPlaying = true;
-        };
-        selector.onpause = function () {
-            musicIsPlaying = false;
-        };
+    if (options.playMusic) {
+        selector.play();
+        musicIsPlaying = true;
+    } else {
+        selector.pause();
+        musicIsPlaying = false;
     }
+
+    // Event listeners to update the musicIsPlaying flag
+    selector.onplaying = () => {
+        musicIsPlaying = true;
+    };
+
+    selector.onpause = () => {
+        musicIsPlaying = false;
+    };
 };
 
 // Full Screen
-const fullScreenMode = toggleButton => {
-    const isInFullScreen = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
+const fullScreenMode = (toggleButton) => {
+    const isFullscreenEnabled = document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement;
 
-    const toggleButtonVisibility = (bool) => {
+    const toggleButtonVisibility = (isVisible) => {
         if (toggleButton) {
-            if (bool) {
-                toggleButton.querySelector(".fullscreen_off").classList.remove("hidden");
-                toggleButton.querySelector(".fullscreen_on").classList.add("hidden");
-            } else {
-                toggleButton.querySelector(".fullscreen_off").classList.add("hidden");
-                toggleButton.querySelector(".fullscreen_on").classList.remove("hidden");
-            }
+            toggleButton.querySelector(".fullscreen_off").classList.toggle("hidden", isVisible);
+            toggleButton.querySelector(".fullscreen_on").classList.toggle("hidden", !isVisible);
         }
     };
 
-    if (!isInFullScreen) {
+    if (!isFullscreenEnabled) {
         const requestFullscreen = document.documentElement.requestFullscreen || document.documentElement.mozRequestFullScreen || document.documentElement.webkitRequestFullScreen || document.documentElement.msRequestFullscreen;
 
         if (requestFullscreen) {
@@ -111,7 +109,6 @@ const fullScreenMode = toggleButton => {
     }
 };
 
-
 let isLoaded = false;
 setTimeout(() => {
     if (!isLoaded) {
@@ -127,7 +124,6 @@ setTimeout(() => {
 
         loadScript('https://cdn.jsdelivr.net/npm/@glidejs/glide').then(() => {
             const glideBullets = document.querySelector('.glide__bullets');
-
 
             const glide = new Glide('.glide', {
                 autoplay: 8000,
