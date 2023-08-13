@@ -1,38 +1,37 @@
 {
-    "nameMale": "Hartoyo Adi Saputra, S.Pd",
-    "nameMaleShort": "Adi",
-    "nameMaleDad": "Dikun (Alm)",
-    "nameMaleMom": "Dakiyem",
-    "maleChildNo": "",
+    "nameMale": "Muhamad Rofingi, S.Pd",
+    "nameMaleShort": "Rofingi",
+    "nameMaleDad": "H. Sugiono",
+    "nameMaleMom": "Hj. Bayati",
+    "maleChildNo": "Bungsu",
 
-    "nameFemale": "Hafidzatun Nafi'ah",
-    "nameFemaleShort": "Hafidzah",
-    "nameFemaleDad": "Hipni, S.Pd",
-    "nameFemaleMom": "Salmiyah",
-    "femaleChildNo": "",
+    "nameFemale": "Viviani Nurmala, S.Pd",
+    "nameFemaleShort": "Vivi",
+    "nameFemaleDad": "H. Darsono",
+    "nameFemaleMom": "Hj. Ismitin",
+    "femaleChildNo": "Bungsu",
 
-    "contractDate": "Minggu, 20 Agustus 2023",
+    "contractDate": "Senin, 21 Agustus 2023",
     "contractTime": "08:00 WIB",
-    "contractLocation": "Jl. KH Gholib, Gg. Melati, RT 001, LK IV, Pringsewu Barat, Kecamatan Pringsewu, Kabupaten Pringsewu, Provinsi Lampung",
+    "contractLocation": "Kediaman Mempelai Wanita. Desa Poncowarno, Kecamatan Kalirejo, Kabupaten Lampung Tengah, Provinsi Lampung",
 
-    "receptionDate": "Minggu, 20 Agustus 2023",
-    "receptionDateFormat1": "2024-08-20",
-    "receptionDateFormat2": "20240820T0800",
+    "receptionDate": "Senin, 26 Agustus 2023",
+    "receptionDateFormat1": "2023-08-26",
+    "receptionDateFormat2": "20230826T0800",
     "receptionTime": "10:00 WIB",
-    "receptionLocation": "Jl. KH Gholib, Gg. Melati, RT 001, LK IV, Pringsewu Barat, Kecamatan Pringsewu, Kabupaten Pringsewu, Provinsi Lampung",
-    "receptionMaps": "-5.345120056458092, 104.9728758938626",
+    "receptionLocation": "Kediaman Mempelai Pria, Desa Linggapura, Kecamatan Selagai Lingga, Kabupaten Lampung Tengah, Provinsi Lampung",
+    "receptionMaps": "-5.064527543680967, 104.76659362698169",
 
     "themes": {
-        "style": 2,
-        "audio": "asmaralibrasi",
+        "style": 11,
+        "audio": "beautiful_in_white",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Satisfy"
+            "secondary": "Great Vibes"
         }
     },
-
     "slides": {
-        "cover": 2,
+        "cover": 4,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
@@ -41,13 +40,13 @@
         "gallery": 0,
         "gift": {
             "layout": 1,
-            "bankNumber": "1234 5678 9123",
-            "bankName": "Bank",
-            "bankAccount": "Nama Penerima Hadiah"
+            "bankNumber": "226201000992534",
+            "bankName": "BRI",
+            "bankAccount": "VIVIANI NURMALA"
         },
         "rsvp": 1,
-        "rundown": 1,
-        "protocol": 1,
+        "rundown": 0,
+        "protocol": 0,
         "quotes": 1,
         "closing": 1,
         "partners": 0
@@ -55,9 +54,9 @@
 
     "images": {
         "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv0zJVT-t881w1Ofzzz1mdAQv-KBV6BbDZ_q02R6fqrBtpfExFb704fs54iUpeiZ_LWv-y-qjmHGg4Qx9ZFZhrSrp9zv__ntq8nInNiPgW_SlIR7gjGzPRghCNHve4kxhFmBaiBn8GrEnIH33xZH8nAgfA-yEy5keSQd3FRsIxj6SHKWOIU4JoucVqhII/s600/1.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivsHt-LOM-3UBpA8HRHGZIAEihUq-wSiZ8ErhhzK7hvRfnI_55BySCtYC7eTugzoB333xIPsDsAWiaS0BLmLtJYJw11XVKOheIFxbprEaJ5KLxWY08IKXpjffek4MXL2GjvUQIsYc13Y4lGZzX9Q2rMDCTlqZm-b7a6MrndaT6UTD_s1SZzRLFhZ_QtiE/s600/3.png",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7neX_OTZOCWzxDQApar1virWVxY2DQNJB8CXvn0b00iALm1VU9-oBvVo-Xiit20fh6rALobTX5-dSrnnVx0KDVGJNvzFBWH-QQcKPRgU8vUiBArecdpNIJrh5iZy6eGnK2QXzXOwI7dcW-4cJmmOaSVIdiJVpCHs13UUlwTmDWlT0vVtv1AzorIsug8I/s600/2.png",
-        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivsHt-LOM-3UBpA8HRHGZIAEihUq-wSiZ8ErhhzK7hvRfnI_55BySCtYC7eTugzoB333xIPsDsAWiaS0BLmLtJYJw11XVKOheIFxbprEaJ5KLxWY08IKXpjffek4MXL2GjvUQIsYc13Y4lGZzX9Q2rMDCTlqZm-b7a6MrndaT6UTD_s1SZzRLFhZ_QtiE/s600/3.png"
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7neX_OTZOCWzxDQApar1virWVxY2DQNJB8CXvn0b00iALm1VU9-oBvVo-Xiit20fh6rALobTX5-dSrnnVx0KDVGJNvzFBWH-QQcKPRgU8vUiBArecdpNIJrh5iZy6eGnK2QXzXOwI7dcW-4cJmmOaSVIdiJVpCHs13UUlwTmDWlT0vVtv1AzorIsug8I/s600/2.png",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivsHt-LOM-3UBpA8HRHGZIAEihUq-wSiZ8ErhhzK7hvRfnI_55BySCtYC7eTugzoB333xIPsDsAWiaS0BLmLtJYJw11XVKOheIFxbprEaJ5KLxWY08IKXpjffek4MXL2GjvUQIsYc13Y4lGZzX9Q2rMDCTlqZm-b7a6MrndaT6UTD_s1SZzRLFhZ_QtiE/s600/3.png",
+        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoAAmkcamNCfahf-0TiFx5KmZtnVHBTlvFRwQfZS-lpdnGg7jCaYDTy3SS48VHnOm5JkzD6t5OIYAoLvbu0edB29fXKrwnUg2myxlcZ5S-7jLdKyBVAInV230n_FBAgVJygitpW3buN-InmOfzzheT8KKObVKV0f1cLf-s889QeKAbHhSPeBXjRyTy/s600/IMG_9949.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiejEv-zUXsfvSt6-vAsgNhwQLL4M-GFXkK0WdBtks16ZKU6TBP8N2UXtI6h0hmHmQaUIoZVPekFP26I665F_9_nKoe8MmE7f_j9DcJZOzjEERDGNJjdoONKqQeNgXn5FJglcb8K3RFWobtXnVjtBTQIDaNstu9fjp62-LzYJmp4xmHaeC6hc7oz_ic/s600/IMG_9931.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtf8CkRdHKdSbkF2EZg91kdDe2qWeTbeBmFNSV3K5nVr5km24unau1IuYiVYKnDZ7x4koyA7pgD-H0fFCna_yrvJA1VZtMtF34e-SVS1tac9OeGw8N00TUl90dprqYgxB7aYG8hWeY-JcIKgTdx4Z-yZB3manti8Drqayt8mcPPMscxL7DfZz9jXFg/s600/IMG_9912%20%281%29.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoAAmkcamNCfahf-0TiFx5KmZtnVHBTlvFRwQfZS-lpdnGg7jCaYDTy3SS48VHnOm5JkzD6t5OIYAoLvbu0edB29fXKrwnUg2myxlcZ5S-7jLdKyBVAInV230n_FBAgVJygitpW3buN-InmOfzzheT8KKObVKV0f1cLf-s889QeKAbHhSPeBXjRyTy/s600/IMG_9949.jpg"
     },
     
     "config": {

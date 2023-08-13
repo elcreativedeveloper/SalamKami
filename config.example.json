@@ -1,13 +1,15 @@
 {
-    "nameMale": "Faris Advaita Alhasan",
-    "nameMaleShort": "Faris",
+    "nameMale": "Muhamad Rofingi, S.Pd",
+    "nameMaleShort": "Rofingi",
     "nameMaleDad": "Adzriel Fairuz",
     "nameMaleMom": "Areta Mahveen",
+    "maleChildNo": "Bungsu",
 
     "nameFemale": "Haisha Azrina",
     "nameFemaleShort": "Azrina",
     "nameFemaleDad": "Farhan Alfarezi",
     "nameFemaleMom": "Shafiyyah Sammira",
+    "femaleChildNo": "Bungsu",
 
     "contractDate": "Sabtu, 01 November 2025",
     "contractTime": "08:00 WIB",
