@@ -1,29 +1,29 @@
 {
-    "nameMale": "Muhamad Rofingi, S.Pd",
-    "nameMaleShort": "Rofingi",
-    "nameMaleDad": "H. Sugiono",
-    "nameMaleMom": "Hj. Bayati",
-    "maleChildNo": "Bungsu",
+    "nameMale": "Rio Imam Pangestu",
+    "nameMaleShort": "Rio",
+    "nameMaleDad": "Paino",
+    "nameMaleMom": "Nggul Hayati",
+    "maleChildNo": "",
 
-    "nameFemale": "Viviani Nurmala, S.Pd",
-    "nameFemaleShort": "Vivi",
-    "nameFemaleDad": "H. Darsono",
-    "nameFemaleMom": "Hj. Ismitin",
-    "femaleChildNo": "Bungsu",
+    "nameFemale": "Devi Novita",
+    "nameFemaleShort": "Devi",
+    "nameFemaleDad": "Hamidi Himawan",
+    "nameFemaleMom": "Tita Juwita",
+    "femaleChildNo": "",
 
-    "contractDate": "Senin, 21 Agustus 2023",
+    "contractDate": "Minggu, 29 Oktober 2023",
     "contractTime": "08:00 WIB",
-    "contractLocation": "Kediaman Mempelai Wanita. Desa Poncowarno, Kecamatan Kalirejo, Kabupaten Lampung Tengah, Provinsi Lampung",
+    "contractLocation": "Dusun Salia, Desa Cisukadana, Kuningan, Jawa Barat",
 
-    "receptionDate": "Senin, 26 Agustus 2023",
-    "receptionDateFormat1": "2023-08-26",
-    "receptionDateFormat2": "20230826T0800",
-    "receptionTime": "10:00 WIB",
-    "receptionLocation": "Kediaman Mempelai Pria, Desa Linggapura, Kecamatan Selagai Lingga, Kabupaten Lampung Tengah, Provinsi Lampung",
-    "receptionMaps": "-5.064527543680967, 104.76659362698169",
+    "receptionDate": "Minggu, 29 Oktober 2023",
+    "receptionDateFormat1": "2023-10-29",
+    "receptionDateFormat2": "20231029T0900",
+    "receptionTime": "09:00 WIB",
+    "receptionLocation": "Dusun Salia, Desa Cisukadana, Kuningan, Jawa Barat",
+    "receptionMaps": "-6.977238, 108.430380",
 
     "themes": {
-        "style": 11,
+        "style": 38,
         "audio": "beautiful_in_white",
         "fonts": {
             "primary": "Google Sans Text",
@@ -33,16 +33,16 @@
     "slides": {
         "cover": 4,
         "opening": 1,
-        "loveStory": 1,
+        "loveStory": 0,
         "bride": 1,
         "date": 1,
         "maps": 1,
-        "gallery": 0,
+        "gallery": 1,
         "gift": {
             "layout": 1,
-            "bankNumber": "226201000992534",
-            "bankName": "BRI",
-            "bankAccount": "VIVIANI NURMALA"
+            "bankNumber": "0030928075",
+            "bankName": "BCA",
+            "bankAccount": "Rio Imam Pangestu"
         },
         "rsvp": 1,
         "rundown": 0,
@@ -53,10 +53,10 @@
     },
 
     "images": {
-        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhv0zJVT-t881w1Ofzzz1mdAQv-KBV6BbDZ_q02R6fqrBtpfExFb704fs54iUpeiZ_LWv-y-qjmHGg4Qx9ZFZhrSrp9zv__ntq8nInNiPgW_SlIR7gjGzPRghCNHve4kxhFmBaiBn8GrEnIH33xZH8nAgfA-yEy5keSQd3FRsIxj6SHKWOIU4JoucVqhII/s600/1.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7neX_OTZOCWzxDQApar1virWVxY2DQNJB8CXvn0b00iALm1VU9-oBvVo-Xiit20fh6rALobTX5-dSrnnVx0KDVGJNvzFBWH-QQcKPRgU8vUiBArecdpNIJrh5iZy6eGnK2QXzXOwI7dcW-4cJmmOaSVIdiJVpCHs13UUlwTmDWlT0vVtv1AzorIsug8I/s600/2.png",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEivsHt-LOM-3UBpA8HRHGZIAEihUq-wSiZ8ErhhzK7hvRfnI_55BySCtYC7eTugzoB333xIPsDsAWiaS0BLmLtJYJw11XVKOheIFxbprEaJ5KLxWY08IKXpjffek4MXL2GjvUQIsYc13Y4lGZzX9Q2rMDCTlqZm-b7a6MrndaT6UTD_s1SZzRLFhZ_QtiE/s600/3.png",
-        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoAAmkcamNCfahf-0TiFx5KmZtnVHBTlvFRwQfZS-lpdnGg7jCaYDTy3SS48VHnOm5JkzD6t5OIYAoLvbu0edB29fXKrwnUg2myxlcZ5S-7jLdKyBVAInV230n_FBAgVJygitpW3buN-InmOfzzheT8KKObVKV0f1cLf-s889QeKAbHhSPeBXjRyTy/s600/IMG_9949.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiejEv-zUXsfvSt6-vAsgNhwQLL4M-GFXkK0WdBtks16ZKU6TBP8N2UXtI6h0hmHmQaUIoZVPekFP26I665F_9_nKoe8MmE7f_j9DcJZOzjEERDGNJjdoONKqQeNgXn5FJglcb8K3RFWobtXnVjtBTQIDaNstu9fjp62-LzYJmp4xmHaeC6hc7oz_ic/s600/IMG_9931.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtf8CkRdHKdSbkF2EZg91kdDe2qWeTbeBmFNSV3K5nVr5km24unau1IuYiVYKnDZ7x4koyA7pgD-H0fFCna_yrvJA1VZtMtF34e-SVS1tac9OeGw8N00TUl90dprqYgxB7aYG8hWeY-JcIKgTdx4Z-yZB3manti8Drqayt8mcPPMscxL7DfZz9jXFg/s600/IMG_9912%20%281%29.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoAAmkcamNCfahf-0TiFx5KmZtnVHBTlvFRwQfZS-lpdnGg7jCaYDTy3SS48VHnOm5JkzD6t5OIYAoLvbu0edB29fXKrwnUg2myxlcZ5S-7jLdKyBVAInV230n_FBAgVJygitpW3buN-InmOfzzheT8KKObVKV0f1cLf-s889QeKAbHhSPeBXjRyTy/s600/IMG_9949.jpg"
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiLlhh5_Q5bJNofvKfgmXfaQd_gHO9YZrFrDPxT1ckZiIrvVylo3L4hCVrsEDru6iFFCkUBpR_R-_p15lLtVKh2vFStwz_5LwjP3Jt_DGRUYiCreidiNaZNpODdwj0L0QMZw4aA53cM1bbgwkRAPSAbhrDhSy3N0S2IurT3ajB0VC9lHS_UT7KwiHTZXLL/s600/1%20-%20Copy.jpg",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju29RPnRVrbYMshYvwlI_3PnxbOS0IPG7qoLttDB9xSri5ZcVkg9iZ8TwLQrKe1dEO-l3-_ZkYdIIVhSNCgq9rZzrPu99hdDE1aKKuhqIsxwie1Dxo3ei3U6hBo_1M8zL3pPHvo0PLahQ7jxvn58XNSTEtfgH6b7-RsTXK1GsV8HQ_pS1rxgvBbgkI9OKx/s600/3%20-%20Copy%20%282%29.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgrgvpLEINOKU74VhSCdNv_PLObz3vkhBwf0OO-lySPvqdnPLDwJnLo_45qGaBidodRXOZio8ize2qT_gTiH39nDmeZdzZxCMaxqTBcIO_Z6VMD053riMbESWeRDtRPqn95i_u0OhxVu7G1i9PVpDjZFPeFytB4T_j4VrDR8bIi1P_PmuVczCMUBFszEjy/s600/3.jpg",
+        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJmWDrLbVpLx1hTpfaE2g1XzMcu2HO15A2RvEa7o9tB6xH6ACbmBL1ldjGZuDQKvoWwNFAMxzSukAbMYcUdsauRe6AbIy5A411QpLCHaLfm0P4f902QQ4AWSiasQBIvPh-y8OQgtylF4qgbhAaMHRtaE0wWgcY_Bh77o53Az3VU7W2X7H8b39Mijgz05sY/s600/1.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIY27SEH_dO9N7ha4tOJMioI77oscCNlvZCi6f7O-qDrdnRsHnqMythJaFUw2PVCf8rO_G1XP73bQChGONXrUif3-x2RtX-N8N3S2LmOopwHVyIOaZreeAywux0ZFUdBlHDTre0Q9DqYAOYKb41XDfML1Yp159mGOzEHHDjT7HMbZ6nF-_4viBMHMF1B2H/s600/2.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUhNv9I2jwAGnWbDZGFxJZDp05-ZDGQJRt6aInAaQ8EJuXaVzkcswPkS-HuweU125xXqcpgaSXyr-TPVQ0zqsZZpggtPBohcfef7bM9EGnnwcq7n4G-CMcmRIoNvYMWcFQfTp296xzjqUMrEtupBy1eyTqblQMZxsjM4FSJWf7fSQB7uXdfjkb90ZG8FYe/s600/3.jpg"
     },
     
     "config": {
