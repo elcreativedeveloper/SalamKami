@@ -1,30 +1,30 @@
 {
-    "nameMale": "Rio Imam Pangestu",
-    "nameMaleShort": "Rio",
-    "nameMaleDad": "Paino",
-    "nameMaleMom": "Nggul Hayati",
+    "nameMale": "Muhamad Hanifatul Amin",
+    "nameMaleShort": "Amin",
+    "nameMaleDad": "Muslikhun (Alm)",
+    "nameMaleMom": "Siti Daemah",
     "maleChildNo": "",
 
-    "nameFemale": "Devi Novita",
-    "nameFemaleShort": "Devi",
-    "nameFemaleDad": "Hamidi Himawan",
-    "nameFemaleMom": "Tita Juwita",
+    "nameFemale": "Muyas Saroh",
+    "nameFemaleShort": "Muyas",
+    "nameFemaleDad": "Juli (Alm)",
+    "nameFemaleMom": "Ibu Suparti",
     "femaleChildNo": "",
 
-    "contractDate": "Minggu, 29 Oktober 2023",
-    "contractTime": "08:00 WIB",
-    "contractLocation": "Dusun Salia, Desa Cisukadana, Kuningan, Jawa Barat",
+    "contractDate": "Kamis, 30 November 2023",
+    "contractTime": "09:00 WIB",
+    "contractLocation": "Alamat Lengkap",
 
-    "receptionDate": "Minggu, 29 Oktober 2023",
-    "receptionDateFormat1": "2023-10-29",
-    "receptionDateFormat2": "20231029T0900",
-    "receptionTime": "09:00 WIB",
-    "receptionLocation": "Dusun Salia, Desa Cisukadana, Kuningan, Jawa Barat",
+    "receptionDate": "Kamis, 30 November 2023",
+    "receptionDateFormat1": "2023-11-30",
+    "receptionDateFormat2": "20231130T1000",
+    "receptionTime": "10:00 WIB",
+    "receptionLocation": "Alamat Lengkap",
     "receptionMaps": "-6.977238, 108.430380",
 
     "themes": {
-        "style": 38,
-        "audio": "beautiful_in_white",
+        "style": 8,
+        "audio": "bunga_citra_lestari_cinta_sejati",
         "fonts": {
             "primary": "Google Sans Text",
             "secondary": "Great Vibes"
@@ -37,9 +37,9 @@
         "bride": 1,
         "date": 1,
         "maps": 1,
-        "gallery": 1,
+        "gallery": 0,
         "gift": {
-            "layout": 1,
+            "layout": 0,
             "bankNumber": "0030928075",
             "bankName": "BCA",
             "bankAccount": "Rio Imam Pangestu"
@@ -49,7 +49,7 @@
         "protocol": 0,
         "quotes": 1,
         "closing": 1,
-        "partners": 0
+        "partners": 3
     },
 
     "images": {
