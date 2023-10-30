@@ -1,29 +1,29 @@
 {
-    "nameMale": "Muhamad Hanifatul Amin",
-    "nameMaleShort": "Amin",
-    "nameMaleDad": "Muslikhun (Alm)",
-    "nameMaleMom": "Siti Daemah",
+    "nameMale": "Agusta Rahmat Hidayat",
+    "nameMaleShort": "Agusta",
+    "nameMaleDad": "Supriyanto",
+    "nameMaleMom": "Armiati",
     "maleChildNo": "",
 
-    "nameFemale": "Muyas Saroh",
-    "nameFemaleShort": "Muyas",
-    "nameFemaleDad": "Juli (Alm)",
-    "nameFemaleMom": "Ibu Suparti",
+    "nameFemale": "Ade Shinta Trianingrum",
+    "nameFemaleShort": "Shinta",
+    "nameFemaleDad": "Efendi",
+    "nameFemaleMom": "Bariyatun",
     "femaleChildNo": "",
 
-    "contractDate": "Kamis, 30 November 2023",
+    "contractDate": "Sabtu, 11 November 2023",
     "contractTime": "09:00 WIB",
-    "contractLocation": "Alamat Lengkap",
+    "contractLocation": "Wates I, RT/RW 002/001 Kecamatan Gading Rejo, Kabupaten Pringsewu, Provinsi Lampung",
 
-    "receptionDate": "Kamis, 30 November 2023",
-    "receptionDateFormat1": "2023-11-30",
-    "receptionDateFormat2": "20231130T1000",
-    "receptionTime": "10:00 WIB",
-    "receptionLocation": "Alamat Lengkap",
-    "receptionMaps": "-6.977238, 108.430380",
+    "receptionDate": "Sabtu, 11 November 2023",
+    "receptionDateFormat1": "2023-11-11",
+    "receptionDateFormat2": "20231111T1100",
+    "receptionTime": "11:00 WIB",
+    "receptionLocation": "Wates I, RT/RW 002/001 Kecamatan Gading Rejo, Kabupaten Pringsewu, Provinsi Lampung",
+    "receptionMaps": "-5.381817073065234, 105.0137352711636",
 
     "themes": {
-        "style": 8,
+        "style": 54,
         "audio": "bunga_citra_lestari_cinta_sejati",
         "fonts": {
             "primary": "Google Sans Text",
@@ -33,30 +33,30 @@
     "slides": {
         "cover": 3,
         "opening": 1,
-        "loveStory": 0,
+        "loveStory": 1,
         "bride": 1,
         "date": 1,
         "maps": 1,
         "gallery": 0,
         "gift": {
-            "layout": 0,
-            "bankNumber": "0030928075",
-            "bankName": "BCA",
-            "bankAccount": "Rio Imam Pangestu"
+            "layout": 1,
+            "bankNumber": "1140024058805",
+            "bankName": "Mandiri",
+            "bankAccount": "Ade Shinta Trianingrum"
         },
         "rsvp": 1,
         "rundown": 0,
         "protocol": 0,
         "quotes": 1,
         "closing": 1,
-        "partners": 3
+        "partners": 6
     },
 
     "images": {
-        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjiLlhh5_Q5bJNofvKfgmXfaQd_gHO9YZrFrDPxT1ckZiIrvVylo3L4hCVrsEDru6iFFCkUBpR_R-_p15lLtVKh2vFStwz_5LwjP3Jt_DGRUYiCreidiNaZNpODdwj0L0QMZw4aA53cM1bbgwkRAPSAbhrDhSy3N0S2IurT3ajB0VC9lHS_UT7KwiHTZXLL/s600/1%20-%20Copy.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEju29RPnRVrbYMshYvwlI_3PnxbOS0IPG7qoLttDB9xSri5ZcVkg9iZ8TwLQrKe1dEO-l3-_ZkYdIIVhSNCgq9rZzrPu99hdDE1aKKuhqIsxwie1Dxo3ei3U6hBo_1M8zL3pPHvo0PLahQ7jxvn58XNSTEtfgH6b7-RsTXK1GsV8HQ_pS1rxgvBbgkI9OKx/s600/3%20-%20Copy%20%282%29.jpg",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjgrgvpLEINOKU74VhSCdNv_PLObz3vkhBwf0OO-lySPvqdnPLDwJnLo_45qGaBidodRXOZio8ize2qT_gTiH39nDmeZdzZxCMaxqTBcIO_Z6VMD053riMbESWeRDtRPqn95i_u0OhxVu7G1i9PVpDjZFPeFytB4T_j4VrDR8bIi1P_PmuVczCMUBFszEjy/s600/3.jpg",
-        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgJmWDrLbVpLx1hTpfaE2g1XzMcu2HO15A2RvEa7o9tB6xH6ACbmBL1ldjGZuDQKvoWwNFAMxzSukAbMYcUdsauRe6AbIy5A411QpLCHaLfm0P4f902QQ4AWSiasQBIvPh-y8OQgtylF4qgbhAaMHRtaE0wWgcY_Bh77o53Az3VU7W2X7H8b39Mijgz05sY/s600/1.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIY27SEH_dO9N7ha4tOJMioI77oscCNlvZCi6f7O-qDrdnRsHnqMythJaFUw2PVCf8rO_G1XP73bQChGONXrUif3-x2RtX-N8N3S2LmOopwHVyIOaZreeAywux0ZFUdBlHDTre0Q9DqYAOYKb41XDfML1Yp159mGOzEHHDjT7HMbZ6nF-_4viBMHMF1B2H/s600/2.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhUhNv9I2jwAGnWbDZGFxJZDp05-ZDGQJRt6aInAaQ8EJuXaVzkcswPkS-HuweU125xXqcpgaSXyr-TPVQ0zqsZZpggtPBohcfef7bM9EGnnwcq7n4G-CMcmRIoNvYMWcFQfTp296xzjqUMrEtupBy1eyTqblQMZxsjM4FSJWf7fSQB7uXdfjkb90ZG8FYe/s600/3.jpg"
+        "both": "../assets/images/placeholder.png",
+        "male": "../assets/images/placeholder.png",
+        "female": "../assets/images/placeholder.png",
+        "gallery": ""
     },
     
     "config": {
