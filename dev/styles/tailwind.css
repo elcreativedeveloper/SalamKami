@@ -206,7 +206,7 @@ html {
 }
 
 .loader .path {
-    @apply animate-[animDash_1.2s_ease-in-out_infinite,animColor_3s_ease-in-out_infinite] [stroke-linecap:round] [stroke-dasharray:1,200] [stroke-dashoffset:0];
+    @apply animate-[animDash_1.2s_ease-in-out_infinite,animColor_3s_ease-in-out_infinite] [stroke-dasharray:1,200] [stroke-dashoffset:0] [stroke-linecap:round];
 }
 .loader .circular {
     @apply animate-[animRotate_2s_linear_infinite];
@@ -316,6 +316,56 @@ html {
     animation-delay: 5s;
     animation-delay: calc(var(--animate-delay) * 5);
 }
+.glide__slide.layout_love_story .timeline:nth-child(11),
+.glide__slide.layout_rundown .timeline:nth-child(11) {
+    animation-delay: 5s;
+    animation-delay: calc(var(--animate-delay) * 5.5);
+}
+.glide__slide.layout_love_story .timeline:nth-child(12),
+.glide__slide.layout_rundown .timeline:nth-child(12) {
+    animation-delay: 5s;
+    animation-delay: calc(var(--animate-delay) * 6);
+}
+.glide__slide.layout_love_story .timeline:nth-child(13),
+.glide__slide.layout_rundown .timeline:nth-child(13) {
+    animation-delay: 5s;
+    animation-delay: calc(var(--animate-delay) * 6.5);
+}
+.glide__slide.layout_love_story .timeline:nth-child(14),
+.glide__slide.layout_rundown .timeline:nth-child(14) {
+    animation-delay: 5s;
+    animation-delay: calc(var(--animate-delay) * 7);
+}
+.glide__slide.layout_love_story .timeline:nth-child(15),
+.glide__slide.layout_rundown .timeline:nth-child(15) {
+    animation-delay: 5s;
+    animation-delay: calc(var(--animate-delay) * 7.5);
+}
+.glide__slide.layout_love_story .timeline:nth-child(16),
+.glide__slide.layout_rundown .timeline:nth-child(16) {
+    animation-delay: 5s;
+    animation-delay: calc(var(--animate-delay) * 8);
+}
+.glide__slide.layout_love_story .timeline:nth-child(17),
+.glide__slide.layout_rundown .timeline:nth-child(17) {
+    animation-delay: 5s;
+    animation-delay: calc(var(--animate-delay) * 8.5);
+}
+.glide__slide.layout_love_story .timeline:nth-child(18),
+.glide__slide.layout_rundown .timeline:nth-child(18) {
+    animation-delay: 5s;
+    animation-delay: calc(var(--animate-delay) * 9);
+}
+.glide__slide.layout_love_story .timeline:nth-child(19),
+.glide__slide.layout_rundown .timeline:nth-child(19) {
+    animation-delay: 5s;
+    animation-delay: calc(var(--animate-delay) * 9.5);
+}
+.glide__slide.layout_love_story .timeline:nth-child(20),
+.glide__slide.layout_rundown .timeline:nth-child(20) {
+    animation-delay: 5s;
+    animation-delay: calc(var(--animate-delay) * 10);
+}
 .glide__slide a {
     @apply select-none;
 }
@@ -327,7 +377,7 @@ html {
 }
 
 .glide__arrow {
-    @apply absolute top-2/4 block translate-y-2/4 cursor-pointer rounded-md border border-black/50 bg-transparent py-2 px-3 uppercase leading-none text-white opacity-100 shadow-[0_0.25em_0.5em_0_rgba(0,0,0,0.1)] transition-[opacity_1.5s_ease,border_3s_ease-in-out] [text-shadow:0_0.25em_0.5em_0_rgba(0,0,0,0.1)] hover:border-white focus:outline-0;
+    @apply absolute top-2/4 block translate-y-2/4 cursor-pointer rounded-md border border-black/50 bg-transparent px-3 py-2 uppercase leading-none text-white opacity-100 shadow-[0_0.25em_0.5em_0_rgba(0,0,0,0.1)] transition-[opacity_1.5s_ease,border_3s_ease-in-out] [text-shadow:0_0.25em_0.5em_0_rgba(0,0,0,0.1)] hover:border-white focus:outline-0;
 }
 .glide__arrow--left {
     @apply left-8;
