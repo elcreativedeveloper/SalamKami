@@ -1,37 +1,37 @@
 {
-    "nameMale": "Muhamad Rofingi, S.Pd",
-    "nameMaleShort": "Rofingi",
-    "nameMaleDad": "Adzriel Fairuz",
-    "nameMaleMom": "Areta Mahveen",
-    "maleChildNo": "Bungsu",
+    "nameMale": "Andris, S.T., M.H.",
+    "nameMaleShort": "Andris",
+    "nameMaleDad": "Amiruddin (Alm)",
+    "nameMaleMom": "Nuryani",
+    "maleChildNo": "",
 
-    "nameFemale": "Haisha Azrina",
-    "nameFemaleShort": "Azrina",
-    "nameFemaleDad": "Farhan Alfarezi",
-    "nameFemaleMom": "Shafiyyah Sammira",
-    "femaleChildNo": "Bungsu",
+    "nameFemale": "Ns. R. Rara Gusti Mauliyana. S.Kep.",
+    "nameFemaleShort": "Rara",
+    "nameFemaleDad": "Anton Idward, S.Sos",
+    "nameFemaleMom": "Ratna S",
+    "femaleChildNo": "",
 
-    "contractDate": "Sabtu, 01 November 2025",
-    "contractTime": "08:00 WIB",
-    "contractLocation": "Alamat Lengkap Lokasi Akad Nikah",
+    "contractDate": "Minggu, 07 Januari 2024",
+    "contractTime": "10:00 WIB",
+    "contractLocation": "Jl. Raya Banjar Agung Udik, Kecamatan Pugung, Kabupaten Tanggamus, Provinsi Lampung",
 
-    "receptionDate": "Sabtu, 01 November 2025",
-    "receptionDateFormat1": "2025-11-01",
-    "receptionDateFormat2": "20251101T0800",
+    "receptionDate": "Minggu, 07 Januari 2024",
+    "receptionDateFormat1": "2024-01-07",
+    "receptionDateFormat2": "20240701T1000",
     "receptionTime": "10:00 WIB",
-    "receptionLocation": "Alamat Lengkap Lokasi Resepsi Penikahan",
-    "receptionMaps": "-5.34700076388259, 104.95010598444547",
+    "receptionLocation": "Jl. Raya Banjar Agung Udik, Kecamatan Pugung, Kabupaten Tanggamus, Provinsi Lampung",
+    "receptionMaps": "-5.356000301169746, 104.82461512698166",
 
     "themes": {
-        "style": 1,
-        "audio": "asmaralibrasi",
+        "style": 54,
+        "audio": "beautiful_in_white",
         "fonts": {
             "primary": "Google Sans Text",
-            "secondary": "Dancing Script"
+            "secondary": "Amatic SC"
         }
     },
     "slides": {
-        "cover": 1,
+        "cover": 4,
         "opening": 1,
         "loveStory": 1,
         "bride": 1,
@@ -40,23 +40,23 @@
         "gallery": 1,
         "gift": {
             "layout": 1,
-            "bankNumber": "1234 5678 9123",
-            "bankName": "Bank",
-            "bankAccount": "Nama Penerima Hadiah"
+            "bankNumber": "8127311222",
+            "bankName": "BNI",
+            "bankAccount": "Andris"
         },
         "rsvp": 1,
-        "rundown": 1,
-        "protocol": 1,
+        "rundown": 0,
+        "protocol": 0,
         "quotes": 1,
         "closing": 1,
         "partners": 5
     },
 
     "images": {
-        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgW_k_Cs22FCyw6hBXv1jI6b_kf6tHqodYRbc8cg_fXdsIGBMb7XdLlAbtog854Jh5uS8b7b40P40JmRhB8cvcViMIxH-vfg-2ZzO7y-2_KvEkotnWCM3wJWOR9RoH0P9RwMJPssSJoUj-nmnRUhuaLRet536NVLzTjHf_Fau4DK27Pl1AphZEflOBU/s600/BGs.jpg",
-        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgd8_vyzfs9BY3TBgHd1FAfcSeZd9o09PsdEBbQkVhVGNwiE-MzSScVNjUQ1OTY8CWbvmM78T-wcB4rq7AuBC5Jw7pJo_fiO2AYoME1sD6kW9WL7gSwdGcmo22BVsTDGF-liWsBiup0iyHj_rFcyJJYuIbOJvaGaPYHYwK1rKzsd5NMOMRDlaRclbjW/s600/BGs.jpg",
-        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjrSWeStaaU5ZQ8LhD-w2aySRyG81Wwuxmq-Rjh2OhMRlXne2tx2dQDDurdKtmQ1jDAqbyHy44YSV-Qrr7wNaRqu9eAtRwbyZjUMtYGDSwr85CyqBBNZ8ID3pJ3hUGD0PfRJFSOvkosuEfA6aznyPQvBfCsTwR_OPwuydf5oAgdmtLkECwG1QGbsveZ/s600/BGs.jpg",
-        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoAAmkcamNCfahf-0TiFx5KmZtnVHBTlvFRwQfZS-lpdnGg7jCaYDTy3SS48VHnOm5JkzD6t5OIYAoLvbu0edB29fXKrwnUg2myxlcZ5S-7jLdKyBVAInV230n_FBAgVJygitpW3buN-InmOfzzheT8KKObVKV0f1cLf-s889QeKAbHhSPeBXjRyTy/s600/IMG_9949.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiejEv-zUXsfvSt6-vAsgNhwQLL4M-GFXkK0WdBtks16ZKU6TBP8N2UXtI6h0hmHmQaUIoZVPekFP26I665F_9_nKoe8MmE7f_j9DcJZOzjEERDGNJjdoONKqQeNgXn5FJglcb8K3RFWobtXnVjtBTQIDaNstu9fjp62-LzYJmp4xmHaeC6hc7oz_ic/s600/IMG_9931.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtf8CkRdHKdSbkF2EZg91kdDe2qWeTbeBmFNSV3K5nVr5km24unau1IuYiVYKnDZ7x4koyA7pgD-H0fFCna_yrvJA1VZtMtF34e-SVS1tac9OeGw8N00TUl90dprqYgxB7aYG8hWeY-JcIKgTdx4Z-yZB3manti8Drqayt8mcPPMscxL7DfZz9jXFg/s600/IMG_9912%20%281%29.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjoAAmkcamNCfahf-0TiFx5KmZtnVHBTlvFRwQfZS-lpdnGg7jCaYDTy3SS48VHnOm5JkzD6t5OIYAoLvbu0edB29fXKrwnUg2myxlcZ5S-7jLdKyBVAInV230n_FBAgVJygitpW3buN-InmOfzzheT8KKObVKV0f1cLf-s889QeKAbHhSPeBXjRyTy/s600/IMG_9949.jpg"
+        "both": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4lHWOtZJV7OrM4cG7R5Iinx2h2Qb0gQyDbE6-FWXBuVCI6I6JOK2uM-PN4HxyQOkdv0h2CqesPAedr57HOsJke12FQvvuCj46hZac8sycsTaZjdFKaccaDpMuvbJZfVqCtoqJwHcYN55jzzeWuIeNHcjxfZablYIuGL82VLixhT-JVGS2pl2EuqpLL1nB/s600/DSE_1709%20-%20Copy.JPG",
+        "male": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjczxsvjY8OUXK2CfovSfUJ2qAUIFVwXKzrByIzxQ3GAPIwok4TL0IHQwWuIWeJa-LF5HFs802Eh2roRYhCrpZ2EcFBBtBipLL_EhKnGUUCaLuxRgCU2oOuDnvugQ3ArkLRofk-HPx2HYPjj-79m66oSIVsD8XFKkpEx9RBj8YrlZhMAkxYDEnSgbk6bHo4/s600/DSE_1667.JPG%20-%20Copy.jpg",
+        "female": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBqdQhnqM49-Qk24zobwtDokTuzIh0naHsq81ED5qoA8T7W6DoYWENhXebsTjJra4J1GGyTfWYltdS-I22d3h0PIJCV-LjaWZwSjePOunIGWwJgJA1Ug_yuBGhlLKhzjO4FfLLt8Bp8FEDq7VNMhSVtpFplQ6SFcRIJD8OwAVD1Xy1wfUkJrbnGRtPqX9j/s600/DSE_1667.JPG%20-%20Copy%20%282%29.jpg",
+        "gallery": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWcu9sOa5DCUCwsTxrj8mnrscREpULL2je0kV_thh0fXRdwqRCxixBH-dXpf8l9SnCr4EbK-dChOhzhJNXHHkHdGZDO1hOuGXsMMYBkBSIej47Sr3QaOtOzM1AZgenGH39sUal1dzQbVmwPVoUN64HRcrNZkQMgaGqFb2UrNFlm2XVopIdH7q1GljLvzSk/s600/DSC_8609.JPG, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhROVKFsiWZ8PD69DthdGO1uN0ftUIcNxjQ9Xz6W8Ei510HsIccxHO0fxxN_gv3_l9mWIdfTxw0BX4-ZZDEqWLZg0bswdklMt9UCncdRJwBgfsslB8eafEy5RgB9099wBJtbrnH5YMqk90VYDAzNJJgbykACcE7NWVR31YyOQ8ENgPAKHJlAIKHIItEH5cw/s600/DSC_8670.JPG, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEig13JQZvUzC219fOpt_vq3rWFkP0gIClqgUn5RlCLb_37OKxcI_VBUf_o-YkHj3S6wTs6BLU77QAAJJV3TQLg_sRchleUsYMcypJyLvil1TmxisyHkkxleUO5VCpLFDO_CO6ifOrcnL6PD53SBjkbIGfJKsXX8PXtC-5I38VkzNdgOL44oIe7kmhPTg6-j/s600/DSE_1626.JPG.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg7ka3uwpEkSaXAwuSzis3Esgw1r3JKPf4g7YQIf2hdhITAH05dQ3No8_bkOWvrSbDx01Nlv-UJCWpVR_YcKLyBW_lOjG75k2iTPqD7y5Kpk70MGl4zMhwtd5ji3eqMsJ3dmVmVVCNj8ARdQDGzl_P8pVD-F5GMr2kRm-nJJylzGUyoSmnbdOsGNJtgdsox/s600/DSE_1630.JPG.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhtd3-ye_BbJN4CqT0H4VpwrITRwpP-WizN2RljZe6XBUZM9U2z9RPjoBIIKGq9BThxec2QF00Ile4-4BRRGbZgnOHqr4LewK2TwqrHjL328WscLqwtxxaFhnJ6pwPrJ4ylHjG1xII1ICG_yiMA2VXksilpnsK_XXJDmn8gVOG-wVTj4bdhqC2HPO_u-pTq/s600/DSE_1648.JPG-1.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuk2-IOW5eBGcnRbVJ1k_HddlRTmezyOQEOS0JlebHxeNXr7FjvAwXMIStY-ufZj5YrbvnFauFsVCgiyy5jtlzGTGI2h2NEBbpxLsv9bUkP2NJA5mpaEP0xE4x2npg5CahxS3x_cc7WGsjCIGRdpWx-xOJQSWx1i1g62_AzLRkvaUvU4EDzBxfSyQB5n8Y/s600/DSE_1662.JPG.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjtFbQh8HQGcGOn8OIFcNDV3zJ5jxN_xvZWq8_0bh0pgg2oH3I1vJaeK_nq80QGlPMWE_uYvmkGnvqjxmlbQckBhTYycHRcN9gsDhS_Y29qCWOsNBTfs6VuovUF7jcCYMVUySDNKj6N_d7qKJqeV0-Tzagi1Tnh-1yKz8UWYHVlubxXEGjuHFhrkX_uWBao/s600/DSE_1667.JPG.jpg, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhRYtP1MY6rTwGKvyiAM9lpWXGNccfty0XaMY0HnaDRcXt2x-9zMUSeh2s1OixniXI8dXUtLE9SXonCc7eKTwWIQO3FS1X9flFrorbGAGLIaxRJcx8EKYgmip_HwlGg8J7byoR-pqyu_zoFAlCGqGyCMk7usDFWPDs8USMCnpabHTE3HWJR78GnxDo3EDaw/s600/DSE_1709.JPG, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhSMoVq0QWZLanRmhg8mwluhkskUvAAbfLv1SS09zpvfQDNW0HqKVUTHzRwJFE2vtohzMKToUT0-_uOqjNnWHC2fscxwL_WKGFtDMOOinuOwf4CUCHvnLMxww4ChV767UKahAc-llUcSYWSZiPsdYufGZlrsfzcxoIM0jMzpFPw8fBimNW7zGwbVUXtJThh/s600/DSE_3673.JPG, https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNRTs6_A0hUSbUdWJtqvrBjY4k8WM6QRZ6EKmOroee10sq63jdD5mYHLU9WSxIl6_c6QQ4J-Ilj1wn5nnm1gFGIH5KKNdHb_HzPOn3dWQAq_suUBR-gU5Efp2ywoTkHEymVo3xD7-c3tX5_CTou2b5-XuyLH3eq1NaBjz6zjwRmyTvNTQEk1GkGycnuK0Z/s600/DSE_3685.JPG"
     },
     
     "config": {
